@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.Lokala" parent="android:Theme.Material.Light.NoActionBar" />
+    <!-- Color Definitions -->
+    <color name="colorPrimary">#3F51B5</color> <!-- Warna utama toolbar -->
+    <color name="colorPrimaryDark">#303F9F</color> <!-- Warna status bar -->
+    <color name="colorAccent">#FF4081</color> <!-- Warna aksen (misalnya, tombol, dll.) -->
+
+    <!-- Theme Definition -->
+    <style name="Base.Theme.lokala" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+
+    </style>
+
+    <style name="Theme.lokala" parent="Base.Theme.lokala" />
+
 </resources>
