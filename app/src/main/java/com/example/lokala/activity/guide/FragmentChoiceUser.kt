@@ -14,10 +14,10 @@ private const val ARG_PARAM2 = "param2"
 
 /**
  * A simple [Fragment] subclass.
- * Use the [FragmentLogin.newInstance] factory method to
+ * Use the [FragmentChoiceUser.newInstance] factory method to
  * create an instance of this fragment.
  */
-class FragmentLogin : Fragment() {
+class FragmentChoiceUser : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -35,7 +35,7 @@ class FragmentLogin : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_login, container, false)
+        return inflater.inflate(R.layout.fragment_choice_user, container, false)
     }
 
 
@@ -51,7 +51,7 @@ class FragmentLogin : Fragment() {
         // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
-            FragmentLogin().apply {
+            FragmentChoiceUser().apply {
                 arguments = Bundle().apply {
                     putString(ARG_PARAM1, param1)
                     putString(ARG_PARAM2, param2)

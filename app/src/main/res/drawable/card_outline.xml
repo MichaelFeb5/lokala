@@ -3,7 +3,7 @@
     <!-- Border Shape -->
     <item android:left="8dp" android:right="8dp">
         <shape android:shape="rectangle">
-            <solid android:color="@android:color/transparent" />
+            <solid android:color="@color/card_color" />
             <stroke
                 android:width="5dp"
                 android:color="@color/black"
