@@ -15,7 +15,13 @@
         android:theme="@style/Theme.AppCompat"
         tools:targetApi="31" >
         <activity
-            android:name=".ui.detail.DetailActivity"
+            android:name=".ui.orangHilang.TambahOrangHilang"
+            android:exported="false" />
+        <activity
+            android:name=".ui.orangHilang.DetailOrangHilangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.orangHilang.DetailActivity"
             android:exported="false"
             android:label="@string/title_activity_detail"
             android:theme="@style/Theme.AppCompat" />

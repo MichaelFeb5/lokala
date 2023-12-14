@@ -1,6 +1,7 @@
 package com.example.lokala.ui.home
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,7 +12,11 @@ import com.bumptech.glide.Glide
 import com.example.lokala.R
 import com.example.lokala.data.dummy.OrangHilang
 
-class OrangHilangAdapter(private val context: Context, private val orangHilang:List<OrangHilang>): RecyclerView.Adapter<OrangHilangAdapter.ViewHolder>() {
+class OrangHilangAdapter(
+    private val context: Context,
+    private val orangHilang: List<OrangHilang>,
+) : RecyclerView.Adapter<OrangHilangAdapter.ViewHolder>() {
+
     private var onItemClickListener: OnItemClickListener? = null
 
     fun setOnItemClickListener(listener: OnItemClickListener) {
@@ -26,7 +31,8 @@ class OrangHilangAdapter(private val context: Context, private val orangHilang:L
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         Glide.with(context).load(orangHilang[position].url_foto[0]).into(holder.ivOrang)
         holder.tvNama.text = orangHilang[position].nama
-        holder.tvGender.text = "${orangHilang[position].umur} tahun, ${orangHilang[position].tinggi} cm, ${orangHilang[position].gender}"
+        holder.tvGender.text =
+            "${orangHilang[position].umur} tahun, ${orangHilang[position].tinggi} cm, ${orangHilang[position].gender}"
         holder.tvKota.text = orangHilang[position].kota
 
 
@@ -47,6 +53,8 @@ class OrangHilangAdapter(private val context: Context, private val orangHilang:L
     }
 
     interface OnItemClickListener {
-        fun onClick(ivOrang: ImageView, region: OrangHilang)
+        fun onClick(ivOrangHilang: ImageView, region: OrangHilang) {
+
+        }
     }
 }

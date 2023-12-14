@@ -2,29 +2,18 @@ package com.example.lokala.ui.home
 
 import android.content.Intent
 import android.os.Bundle
-import android.os.Handler
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.recyclerview.widget.LinearLayoutManager
+import android.widget.ImageView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
-import com.example.lokala.R
+import com.example.lokala.data.dummy.OrangHilang
 import com.example.lokala.data.dummy.dummyDataOrangHilang
 import com.example.lokala.databinding.FragmentHomeBinding
+import com.example.lokala.ui.orangHilang.DetailOrangHilangActivity
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-
-
-/**
- * A simple [Fragment] subclass.
- * Use the [HomeFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class HomeFragment : Fragment() {
-    // TODO: Rename and change types of parameters
-
     private lateinit var binding: FragmentHomeBinding
 
     override fun onCreateView(
@@ -49,5 +38,13 @@ class HomeFragment : Fragment() {
             layoutManager = StaggeredGridLayoutManager(spanCount, StaggeredGridLayoutManager.VERTICAL)
             adapter = orangHilangAdapter
         }
+
+        orangHilangAdapter.setOnItemClickListener(object : OrangHilangAdapter.OnItemClickListener {
+            override fun onClick(ivOrangHilang: ImageView, orangHilang: OrangHilang) {
+                val intent = Intent(requireContext(), DetailOrangHilangActivity::class.java)
+                intent.putExtra("EXTRA_ORANG_HILANG", orangHilang)
+                startActivity(intent)
+            }
+        })
     }
 }

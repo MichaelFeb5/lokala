@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("kotlin-parcelize")
 }
 
 android {
@@ -89,4 +90,7 @@ dependencies {
     implementation ("com.android.support:cardview-v7:21.+")
     //noinspection GradleCompatible
     implementation ("com.android.support:recyclerview-v7:21.+")
+
+    androidTestImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.1")
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.1")
 }

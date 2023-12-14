@@ -1,11 +1,15 @@
 package com.example.lokala.data.dummy
 
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
+
 data class OrangHilangDummy(
     val error: Boolean,
     val message:String,
     val data: List<OrangHilang>
 )
 
+@Parcelize
 data class OrangHilang(
     val berat_badan: String,
     val ciri_fisik: String,
@@ -19,7 +23,7 @@ data class OrangHilang(
     val tinggi: String,
     val umur: String,
     val url_foto: List<String>
-)
+) : Parcelable
 
 val dummyDataOrangHilang = OrangHilangDummy(
     error = false,
