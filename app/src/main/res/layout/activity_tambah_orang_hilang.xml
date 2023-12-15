@@ -12,6 +12,18 @@
         android:background="@color/teal_700"
         tools:context=".ui.orangHilang.TambahOrangHilangActivity">
 
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="118dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/primarycolor"
+            android:text="Submit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/status_ditemukan" />
+
         <RadioButton
             android:id="@+id/status_ditemukan"
             android:layout_width="wrap_content"
@@ -37,6 +49,18 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/iv_foto" />
 
+        <Button
+            android:id="@+id/btn_camera2"
+            android:layout_width="118dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/primarycolor"
+            android:text="Foto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.74"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_foto" />
+
         <ImageView
             android:id="@+id/iv_foto"
             android:layout_width="253dp"
@@ -44,9 +68,9 @@
             android:padding="16dp"
             android:scaleType="centerCrop"
             android:src="@drawable/ic_place_holder"
+            app:layout_constraintStart_toStartOf="@+id/et_nomor_pemerintah"
             app:layout_constraintTop_toBottomOf="@+id/tv_foto"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="82dp" />
+            tools:ignore="MissingConstraints" />
 
         <TextView
             android:id="@+id/tv_foto"

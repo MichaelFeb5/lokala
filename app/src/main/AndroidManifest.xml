@@ -21,17 +21,11 @@
             android:name=".ui.orangHilang.DetailOrangHilangActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.orangHilang.DetailActivity"
-            android:exported="false"
-            android:label="@string/title_activity_detail"
-            android:theme="@style/Theme.AppCompat" />
-        <activity
             android:name=".ui.home.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.lokala" >
         android:theme="@style/Theme.AppCompat.NoActionBar"
-        tools:targetApi="31">
+        tools:targetApi="31"/>
         <activity
 
             android:name=".ui.login.LoginActivity"
@@ -49,17 +43,6 @@
             </intent-filter>
 
         </activity>
-
-        <activity
-            android:name=".ui.home.MainActivity"
-            android:exported="false"
-            android:theme="@style/Theme.lokala">
-        </activity>
-
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
-
 
     </application>
 
