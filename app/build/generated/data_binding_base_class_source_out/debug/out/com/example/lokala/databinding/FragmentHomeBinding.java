@@ -4,6 +4,7 @@ package com.example.lokala.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -21,14 +22,18 @@ public final class FragmentHomeBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final Button btnTambah;
+
+  @NonNull
   public final RecyclerView rvOrangHilang;
 
   @NonNull
   public final TextView tvOrangHilang;
 
-  private FragmentHomeBinding(@NonNull ConstraintLayout rootView,
+  private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnTambah,
       @NonNull RecyclerView rvOrangHilang, @NonNull TextView tvOrangHilang) {
     this.rootView = rootView;
+    this.btnTambah = btnTambah;
     this.rvOrangHilang = rvOrangHilang;
     this.tvOrangHilang = tvOrangHilang;
   }
@@ -60,6 +65,12 @@ public final class FragmentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btn_tambah;
+      Button btnTambah = ViewBindings.findChildViewById(rootView, id);
+      if (btnTambah == null) {
+        break missingId;
+      }
+
       id = R.id.rv_orangHilang;
       RecyclerView rvOrangHilang = ViewBindings.findChildViewById(rootView, id);
       if (rvOrangHilang == null) {
@@ -72,7 +83,8 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomeBinding((ConstraintLayout) rootView, rvOrangHilang, tvOrangHilang);
+      return new FragmentHomeBinding((ConstraintLayout) rootView, btnTambah, rvOrangHilang,
+          tvOrangHilang);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

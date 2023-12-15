@@ -30,10 +30,20 @@
         android:testOnly="true"
         android:theme="@style/Theme.Lokala" >
         <activity
+            android:name="com.example.lokala.ui.orangHilang.TambahOrangHilangActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.lokala.ui.orangHilang.DetailOrangHilangActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.lokala.ui.home.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.lokala" />
+        <activity
             android:name="com.example.lokala.ui.login.LoginActivity"
             android:exported="false"
-            android:screenOrientation="portrait"
-            android:theme="@style/Base.Theme.lokala" />
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.example.lokala.ui.guide.GuideActivity"
             android:exported="false"
@@ -47,12 +57,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name="com.example.lokala.ui.home.MainActivity"
-            android:exported="false"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.lokala" >
         </activity>
 
         <meta-data
@@ -80,6 +84,13 @@
                 android:name="androidx.profileinstaller.ProfileInstallerInitializer"
                 android:value="androidx.startup" />
         </provider>
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
 
         <receiver
             android:name="androidx.profileinstaller.ProfileInstallReceiver"

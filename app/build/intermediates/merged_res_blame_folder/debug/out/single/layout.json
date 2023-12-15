@@ -1,38 +1,42 @@
 [
     {
-        "merged": "com.example.lokala.app-mergeDebugResources-58:/layout/activity_login.xml",
-        "source": "com.example.lokala.app-main-61:/layout/activity_login.xml"
+        "merged": "com.example.lokala.app-mergeDebugResources-70:/layout/activity_detail_orang_hilang.xml",
+        "source": "com.example.lokala.app-main-73:/layout/activity_detail_orang_hilang.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-mergeDebugResources-58:\\layout\\orang_list_item.xml",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-61:\\layout\\orang_list_item.xml"
+        "merged": "com.example.lokala.app-mergeDebugResources-70:/layout/fragment_guide.xml",
+        "source": "com.example.lokala.app-main-73:/layout/fragment_guide.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-mergeDebugResources-58:\\layout\\fragment_choice_user.xml",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-61:\\layout\\fragment_choice_user.xml"
+        "merged": "com.example.lokala.app-mergeDebugResources-70:/layout/activity_splash_screen.xml",
+        "source": "com.example.lokala.app-main-73:/layout/activity_splash_screen.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-mergeDebugResources-58:\\layout\\activity_login.xml",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-61:\\layout\\activity_login.xml"
+        "merged": "com.example.lokala.app-mergeDebugResources-70:/layout/activity_tambah_orang_hilang.xml",
+        "source": "com.example.lokala.app-main-73:/layout/activity_tambah_orang_hilang.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-mergeDebugResources-58:\\layout\\activity_splash_screen.xml",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-61:\\layout\\activity_splash_screen.xml"
+        "merged": "com.example.lokala.app-mergeDebugResources-70:/layout/fragment_home.xml",
+        "source": "com.example.lokala.app-main-73:/layout/fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-mergeDebugResources-58:\\layout\\fragment_guide.xml",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-61:\\layout\\fragment_guide.xml"
+        "merged": "com.example.lokala.app-mergeDebugResources-70:/layout/orang_list_item.xml",
+        "source": "com.example.lokala.app-main-73:/layout/orang_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-mergeDebugResources-58:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-61:\\layout\\activity_main.xml"
+        "merged": "com.example.lokala.app-mergeDebugResources-70:/layout/activity_main.xml",
+        "source": "com.example.lokala.app-main-73:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-mergeDebugResources-58:\\layout\\activity_guide.xml",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-61:\\layout\\activity_guide.xml"
+        "merged": "com.example.lokala.app-mergeDebugResources-70:/layout/activity_login.xml",
+        "source": "com.example.lokala.app-main-73:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-mergeDebugResources-58:\\layout\\fragment_home.xml",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-61:\\layout\\fragment_home.xml"
+        "merged": "com.example.lokala.app-mergeDebugResources-70:/layout/activity_guide.xml",
+        "source": "com.example.lokala.app-main-73:/layout/activity_guide.xml"
+    },
+    {
+        "merged": "com.example.lokala.app-mergeDebugResources-70:/layout/fragment_choice_user.xml",
+        "source": "com.example.lokala.app-main-73:/layout/fragment_choice_user.xml"
     }
 ]

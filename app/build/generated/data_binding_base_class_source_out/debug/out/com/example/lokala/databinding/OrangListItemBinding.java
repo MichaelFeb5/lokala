@@ -4,8 +4,8 @@ package com.example.lokala.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -18,29 +18,42 @@ import java.lang.String;
 
 public final class OrangListItemBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
-  public final FrameLayout carouselItemContainer;
+  public final LinearLayout carouselItemContainer;
+
+  @NonNull
+  public final ImageView ivArrow;
 
   @NonNull
   public final ImageView ivOrang;
 
   @NonNull
-  public final TextView tvOrang;
+  public final TextView tvGender;
 
-  private OrangListItemBinding(@NonNull FrameLayout rootView,
-      @NonNull FrameLayout carouselItemContainer, @NonNull ImageView ivOrang,
-      @NonNull TextView tvOrang) {
+  @NonNull
+  public final TextView tvKota;
+
+  @NonNull
+  public final TextView tvNama;
+
+  private OrangListItemBinding(@NonNull LinearLayout rootView,
+      @NonNull LinearLayout carouselItemContainer, @NonNull ImageView ivArrow,
+      @NonNull ImageView ivOrang, @NonNull TextView tvGender, @NonNull TextView tvKota,
+      @NonNull TextView tvNama) {
     this.rootView = rootView;
     this.carouselItemContainer = carouselItemContainer;
+    this.ivArrow = ivArrow;
     this.ivOrang = ivOrang;
-    this.tvOrang = tvOrang;
+    this.tvGender = tvGender;
+    this.tvKota = tvKota;
+    this.tvNama = tvNama;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -65,7 +78,13 @@ public final class OrangListItemBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      FrameLayout carouselItemContainer = (FrameLayout) rootView;
+      LinearLayout carouselItemContainer = (LinearLayout) rootView;
+
+      id = R.id.iv_arrow;
+      ImageView ivArrow = ViewBindings.findChildViewById(rootView, id);
+      if (ivArrow == null) {
+        break missingId;
+      }
 
       id = R.id.iv_orang;
       ImageView ivOrang = ViewBindings.findChildViewById(rootView, id);
@@ -73,14 +92,26 @@ public final class OrangListItemBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tv_orang;
-      TextView tvOrang = ViewBindings.findChildViewById(rootView, id);
-      if (tvOrang == null) {
+      id = R.id.tv_gender;
+      TextView tvGender = ViewBindings.findChildViewById(rootView, id);
+      if (tvGender == null) {
         break missingId;
       }
 
-      return new OrangListItemBinding((FrameLayout) rootView, carouselItemContainer, ivOrang,
-          tvOrang);
+      id = R.id.tv_kota;
+      TextView tvKota = ViewBindings.findChildViewById(rootView, id);
+      if (tvKota == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_nama;
+      TextView tvNama = ViewBindings.findChildViewById(rootView, id);
+      if (tvNama == null) {
+        break missingId;
+      }
+
+      return new OrangListItemBinding((LinearLayout) rootView, carouselItemContainer, ivArrow,
+          ivOrang, tvGender, tvKota, tvNama);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

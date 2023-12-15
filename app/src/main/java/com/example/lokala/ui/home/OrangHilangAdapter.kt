@@ -1,6 +1,7 @@
 package com.example.lokala.ui.home
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,7 +12,11 @@ import com.bumptech.glide.Glide
 import com.example.lokala.R
 import com.example.lokala.data.dummy.OrangHilang
 
-class OrangHilangAdapter(private val context: Context, private val cloth:List<OrangHilang>): RecyclerView.Adapter<OrangHilangAdapter.ViewHolder>() {
+class OrangHilangAdapter(
+    private val context: Context,
+    private val orangHilang: List<OrangHilang>,
+) : RecyclerView.Adapter<OrangHilangAdapter.ViewHolder>() {
+
     private var onItemClickListener: OnItemClickListener? = null
 
     fun setOnItemClickListener(listener: OnItemClickListener) {
@@ -24,24 +29,32 @@ class OrangHilangAdapter(private val context: Context, private val cloth:List<Or
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        Glide.with(context).load(cloth[position].url_foto[0]).into(holder.ivOrang)
-        holder.tvOrang.text = cloth[position].nama
+        Glide.with(context).load(orangHilang[position].url_foto[0]).into(holder.ivOrang)
+        holder.tvNama.text = orangHilang[position].nama
+        holder.tvGender.text =
+            "${orangHilang[position].umur} tahun, ${orangHilang[position].tinggi} cm, ${orangHilang[position].gender}"
+        holder.tvKota.text = orangHilang[position].kota
+
 
         holder.itemView.setOnClickListener {
-            onItemClickListener?.onClick(holder.ivOrang, cloth[position])
+            onItemClickListener?.onClick(holder.ivOrang, orangHilang[position])
         }
     }
 
     override fun getItemCount(): Int {
-        return cloth.size
+        return orangHilang.size
     }
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val ivOrang: ImageView = itemView.findViewById(R.id.iv_orang)
-        val tvOrang: TextView = itemView.findViewById(R.id.tv_orang)
+        val tvNama: TextView = itemView.findViewById(R.id.tv_nama)
+        val tvGender: TextView = itemView.findViewById(R.id.tv_gender)
+        val tvKota: TextView = itemView.findViewById(R.id.tv_kota)
     }
 
     interface OnItemClickListener {
-        fun onClick(ivOrang: ImageView, region: OrangHilang)
+        fun onClick(ivOrangHilang: ImageView, region: OrangHilang) {
+
+        }
     }
 }
