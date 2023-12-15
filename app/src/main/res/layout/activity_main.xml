@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".ui.home.MainActivity">
 
     <RelativeLayout
@@ -18,6 +19,7 @@
     <com.etebarian.meowbottomnavigation.MeowBottomNavigation
         android:id="@+id/bottomNavigation"
         app:layout_constraintBottom_toTopOf="@+id/bottom"
+        app:mbn_selectedIconColor="@color/primarycolor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_width="match_parent"

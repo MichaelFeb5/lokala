@@ -7,6 +7,9 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!--  Color Pattern  -->
+    <color name="primarycolor">#F8A90F</color>
     <color name="primary_background">#F8A90F</color>
     <color name="card_color">#FFD465</color>
     <color name="unselected_circle">#B6BDE8</color>
