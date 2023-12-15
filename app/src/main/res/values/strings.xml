@@ -21,4 +21,14 @@
     <string name="instagram">Instagram</string>
     <string name="whatsapp">Whatsapp</string>
 
+    <string-array name="title_guide_fragment">
+        <item>Mencari Orang Hilang</item>
+        <item>Tambahkan Orang Hilang</item>
+    </string-array>
+
+    <string-array name="title_card_guide">
+        <item>Temukan Orang Yang Anda Cari</item>
+        <item>Bantu Tambahkan Orang Hilang</item>
+    </string-array>
+
 </resources>

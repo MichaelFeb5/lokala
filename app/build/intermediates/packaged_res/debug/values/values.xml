@@ -18,6 +18,14 @@
         <item>@font/inter_extrabold</item>
         <item>@font/josefin_sans</item>
     </array>
+    <string-array name="title_card_guide">
+        <item>Temukan Orang Yang Anda Cari</item>
+        <item>Bantu Tambahkan Orang Hilang</item>
+    </string-array>
+    <string-array name="title_guide_fragment">
+        <item>Mencari Orang Hilang</item>
+        <item>Tambahkan Orang Hilang</item>
+    </string-array>
     <color name="black">#FF000000</color>
     <color name="button">#CBF70F</color>
     <color name="card_color">#FFD465</color>

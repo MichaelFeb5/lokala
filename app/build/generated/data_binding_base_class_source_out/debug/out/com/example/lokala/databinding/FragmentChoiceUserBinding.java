@@ -26,32 +26,41 @@ public final class FragmentChoiceUserBinding implements ViewBinding {
   public final LinearLayoutCompat bacgroundTitleChoiceUser;
 
   @NonNull
+  public final LinearLayoutCompat btnGovernment;
+
+  @NonNull
+  public final LinearLayoutCompat btnUser;
+
+  @NonNull
+  public final ImageView circle1ChoiceUser;
+
+  @NonNull
+  public final ImageView circle2ChoiceUser;
+
+  @NonNull
+  public final ImageView circle3ChoiceUser;
+
+  @NonNull
   public final LinearLayout layoutCircle;
 
   @NonNull
   public final TextView tvTitleChoice;
 
-  @NonNull
-  public final ImageView unselectedCircle1ChoiceUser;
-
-  @NonNull
-  public final ImageView unselectedCircle2ChoiceUser;
-
-  @NonNull
-  public final ImageView unselectedCircle3ChoiceUser;
-
   private FragmentChoiceUserBinding(@NonNull ConstraintLayout rootView,
-      @NonNull LinearLayoutCompat bacgroundTitleChoiceUser, @NonNull LinearLayout layoutCircle,
-      @NonNull TextView tvTitleChoice, @NonNull ImageView unselectedCircle1ChoiceUser,
-      @NonNull ImageView unselectedCircle2ChoiceUser,
-      @NonNull ImageView unselectedCircle3ChoiceUser) {
+      @NonNull LinearLayoutCompat bacgroundTitleChoiceUser,
+      @NonNull LinearLayoutCompat btnGovernment, @NonNull LinearLayoutCompat btnUser,
+      @NonNull ImageView circle1ChoiceUser, @NonNull ImageView circle2ChoiceUser,
+      @NonNull ImageView circle3ChoiceUser, @NonNull LinearLayout layoutCircle,
+      @NonNull TextView tvTitleChoice) {
     this.rootView = rootView;
     this.bacgroundTitleChoiceUser = bacgroundTitleChoiceUser;
+    this.btnGovernment = btnGovernment;
+    this.btnUser = btnUser;
+    this.circle1ChoiceUser = circle1ChoiceUser;
+    this.circle2ChoiceUser = circle2ChoiceUser;
+    this.circle3ChoiceUser = circle3ChoiceUser;
     this.layoutCircle = layoutCircle;
     this.tvTitleChoice = tvTitleChoice;
-    this.unselectedCircle1ChoiceUser = unselectedCircle1ChoiceUser;
-    this.unselectedCircle2ChoiceUser = unselectedCircle2ChoiceUser;
-    this.unselectedCircle3ChoiceUser = unselectedCircle3ChoiceUser;
   }
 
   @Override
@@ -87,6 +96,36 @@ public final class FragmentChoiceUserBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btn_government;
+      LinearLayoutCompat btnGovernment = ViewBindings.findChildViewById(rootView, id);
+      if (btnGovernment == null) {
+        break missingId;
+      }
+
+      id = R.id.btn_user;
+      LinearLayoutCompat btnUser = ViewBindings.findChildViewById(rootView, id);
+      if (btnUser == null) {
+        break missingId;
+      }
+
+      id = R.id.circle_1_choice_user;
+      ImageView circle1ChoiceUser = ViewBindings.findChildViewById(rootView, id);
+      if (circle1ChoiceUser == null) {
+        break missingId;
+      }
+
+      id = R.id.circle_2_choice_user;
+      ImageView circle2ChoiceUser = ViewBindings.findChildViewById(rootView, id);
+      if (circle2ChoiceUser == null) {
+        break missingId;
+      }
+
+      id = R.id.circle_3_choice_user;
+      ImageView circle3ChoiceUser = ViewBindings.findChildViewById(rootView, id);
+      if (circle3ChoiceUser == null) {
+        break missingId;
+      }
+
       id = R.id.layout_circle;
       LinearLayout layoutCircle = ViewBindings.findChildViewById(rootView, id);
       if (layoutCircle == null) {
@@ -99,27 +138,9 @@ public final class FragmentChoiceUserBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.unselected_circle_1_choice_user;
-      ImageView unselectedCircle1ChoiceUser = ViewBindings.findChildViewById(rootView, id);
-      if (unselectedCircle1ChoiceUser == null) {
-        break missingId;
-      }
-
-      id = R.id.unselected_circle_2_choice_user;
-      ImageView unselectedCircle2ChoiceUser = ViewBindings.findChildViewById(rootView, id);
-      if (unselectedCircle2ChoiceUser == null) {
-        break missingId;
-      }
-
-      id = R.id.unselected_circle_3_choice_user;
-      ImageView unselectedCircle3ChoiceUser = ViewBindings.findChildViewById(rootView, id);
-      if (unselectedCircle3ChoiceUser == null) {
-        break missingId;
-      }
-
       return new FragmentChoiceUserBinding((ConstraintLayout) rootView, bacgroundTitleChoiceUser,
-          layoutCircle, tvTitleChoice, unselectedCircle1ChoiceUser, unselectedCircle2ChoiceUser,
-          unselectedCircle3ChoiceUser);
+          btnGovernment, btnUser, circle1ChoiceUser, circle2ChoiceUser, circle3ChoiceUser,
+          layoutCircle, tvTitleChoice);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
