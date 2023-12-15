@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">lokala</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_detail">DetailActivity</string>
     <!-- Strings used for fragments for navigation -->
@@ -46,4 +45,23 @@
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
     <string name="deskripsi">Deskripsi</string>
+    <string name="title">Text</string>
+    <string name="landing_page_1">Landing Page 1</string>
+    <string name="circle_1">circle 1</string>
+    <string name="circle_2">circle 2</string>
+    <string name="circle_3">circle 3</string>
+    <string name="title_choice">Anda Sebagai :</string>
+    <string name="user_choice">Icon User</string>
+    <string name="user">User</string>
+    <string name="government_choice">Icon Pemerintah</string>
+    <string name="government">Pemerintah</string>
+    <string name="tv_login">Login</string>
+    <string name="ed_login">Username</string>
+    <string name="tv_password">Password</string>
+    <string name="tv_login_hub_admin"> Anda ingin menjadi admin ? Silahkan kontak kami </string>
+    <string name="contact_admin">Contact Admin</string>
+    <string name="tv_social_media">Our Social Media</string>
+    <string name="build_since">2024 Lokana</string>
+    <string name="instagram">Instagram</string>
+    <string name="whatsapp">Whatsapp</string>
 </resources>

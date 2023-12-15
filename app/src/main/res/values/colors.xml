@@ -10,4 +10,9 @@
 
     <!--  Color Pattern  -->
     <color name="primarycolor">#F8A90F</color>
+    <color name="primary_background">#F8A90F</color>
+    <color name="card_color">#FFD465</color>
+    <color name="unselected_circle">#B6BDE8</color>
+    <color name="selected_circle">#3152EF</color>
+    <color name="button">#CBF70F</color>
 </resources>
