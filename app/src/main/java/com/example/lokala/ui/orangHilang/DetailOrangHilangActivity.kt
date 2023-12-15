@@ -42,7 +42,7 @@ class DetailOrangHilangActivity : AppCompatActivity() {
             tvGenderBeratUmur.text =
                 "${orangHilang.gender}, ${orangHilang.berat_badan} Kg, ${orangHilang.umur} Tahun"
             tvSeringDitemukan.text = orangHilang.sering_ditemukan_di
-//            edLokasi2.setText(orangHilang.sering_ditemukan_di);
+            etLokasi.setText(orangHilang.sering_ditemukan_di);
             tvCiriFisik.text = orangHilang.ciri_fisik;
         }
     }
