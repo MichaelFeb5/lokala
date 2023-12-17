@@ -13,6 +13,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.lokala.R;
+import com.google.android.material.button.MaterialButton;
 import com.google.android.material.textfield.TextInputEditText;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -27,6 +28,9 @@ public final class ActivityLoginBinding implements ViewBinding {
 
   @NonNull
   public final ImageView btnContact;
+
+  @NonNull
+  public final MaterialButton btnLogin;
 
   @NonNull
   public final TextInputEditText edLogin;
@@ -48,12 +52,13 @@ public final class ActivityLoginBinding implements ViewBinding {
 
   private ActivityLoginBinding(@NonNull ConstraintLayout rootView,
       @NonNull LinearLayoutCompat bacgroundTitleLogin, @NonNull ImageView btnContact,
-      @NonNull TextInputEditText edLogin, @NonNull TextInputEditText edPassword,
-      @NonNull ImageView imageIg, @NonNull ImageView imageWa,
+      @NonNull MaterialButton btnLogin, @NonNull TextInputEditText edLogin,
+      @NonNull TextInputEditText edPassword, @NonNull ImageView imageIg, @NonNull ImageView imageWa,
       @NonNull LinearLayoutCompat socialMedia, @NonNull TextView tvLogin) {
     this.rootView = rootView;
     this.bacgroundTitleLogin = bacgroundTitleLogin;
     this.btnContact = btnContact;
+    this.btnLogin = btnLogin;
     this.edLogin = edLogin;
     this.edPassword = edPassword;
     this.imageIg = imageIg;
@@ -101,6 +106,12 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btn_login;
+      MaterialButton btnLogin = ViewBindings.findChildViewById(rootView, id);
+      if (btnLogin == null) {
+        break missingId;
+      }
+
       id = R.id.ed_login;
       TextInputEditText edLogin = ViewBindings.findChildViewById(rootView, id);
       if (edLogin == null) {
@@ -138,7 +149,7 @@ public final class ActivityLoginBinding implements ViewBinding {
       }
 
       return new ActivityLoginBinding((ConstraintLayout) rootView, bacgroundTitleLogin, btnContact,
-          edLogin, edPassword, imageIg, imageWa, socialMedia, tvLogin);
+          btnLogin, edLogin, edPassword, imageIg, imageWa, socialMedia, tvLogin);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

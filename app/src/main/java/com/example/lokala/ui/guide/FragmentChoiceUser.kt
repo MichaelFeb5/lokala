@@ -10,6 +10,7 @@ import com.example.lokala.R
 import com.example.lokala.databinding.FragmentChoiceUserBinding
 import com.example.lokala.ui.home.MainActivity
 import com.example.lokala.ui.login.LoginActivity
+import com.example.lokala.ui.user.UserActivity
 
 
 class FragmentChoiceUser : Fragment() {
@@ -34,7 +35,7 @@ class FragmentChoiceUser : Fragment() {
         with(binding) {
 
             btnUser.setOnClickListener {
-                val intent = Intent(requireContext(),MainActivity::class.java)
+                val intent = Intent(requireContext(),UserActivity::class.java)
                 startActivity(intent)
             }
 

@@ -96,4 +96,11 @@ dependencies {
 
     //viewpager
     implementation("androidx.viewpager2:viewpager2:1.0.0")
+
+    //recycleview
+    implementation ("androidx.recyclerview:recyclerview:1.3.2")
+    implementation ("androidx.recyclerview:recyclerview-selection:1.1.0")
+    implementation ("androidx.lifecycle:lifecycle-viewmodel:2.6.2")
+    implementation ("androidx.lifecycle:lifecycle-livedata:2.6.2")
+    implementation ("androidx.lifecycle:lifecycle-common-java8:2.6.2")
 }

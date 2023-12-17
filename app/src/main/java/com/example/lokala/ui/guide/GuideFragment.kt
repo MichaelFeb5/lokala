@@ -13,7 +13,7 @@ class GuideFragment : Fragment() {
 
 
     private var _binding: FragmentGuideBinding? = null
-    private val binding get()  = _binding!!
+    private val binding get() = _binding!!
     private val titleFragment: Array<String> by lazy {
         resources.getStringArray(R.array.title_guide_fragment)
     }
@@ -33,25 +33,14 @@ class GuideFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val index = arguments?.getInt(ARG_POSITION,0)
+        val index = arguments?.getInt(ARG_POSITION, 0)
 
         index?.let {
             with(binding) {
                 tvTitleGuide.text = titleFragment[it]
                 tvTitleCard.text = titleCardFragment[it]
+                selectedCircle(it)
 
-                when(it) {
-                    0 -> {
-                        circle1.setImageResource(R.drawable.selected_circle)
-                        circle2.setImageResource(R.drawable.unselected_circle)
-                        circle3.setImageResource(R.drawable.unselected_circle)
-                    }
-                    else -> {
-                        circle1.setImageResource(R.drawable.unselected_circle)
-                        circle2.setImageResource(R.drawable.selected_circle)
-                        circle3.setImageResource(R.drawable.unselected_circle)
-                    }
-                }
 
             }
         }
@@ -63,18 +52,30 @@ class GuideFragment : Fragment() {
         _binding = null
     }
 
+    private fun selectedCircle(position: Int) {
+        with(binding) {
+            when (position) {
+
+                0 -> {
+                    circle1.setImageResource(R.drawable.selected_circle)
+                    circle2.setImageResource(R.drawable.unselected_circle)
+                    circle3.setImageResource(R.drawable.unselected_circle)
+                }
+
+                else -> {
+                    circle1.setImageResource(R.drawable.unselected_circle)
+                    circle2.setImageResource(R.drawable.selected_circle)
+                    circle3.setImageResource(R.drawable.unselected_circle)
+                }
+            }
+        }
+
+    }
 
     companion object {
 
         const val ARG_POSITION = "arg_position"
 
-    }
-
-    private fun selectedCircle(position: Int) {
-        when(position) {
-
-
-        }
     }
 
 }

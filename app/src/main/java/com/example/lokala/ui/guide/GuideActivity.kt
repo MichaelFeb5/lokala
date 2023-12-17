@@ -5,6 +5,7 @@ import android.os.Bundle
 import com.example.lokala.adapter.GuideViewPagerAdapter
 import com.example.lokala.databinding.ActivityGuideBinding
 
+
 class GuideActivity : AppCompatActivity() {
 
 

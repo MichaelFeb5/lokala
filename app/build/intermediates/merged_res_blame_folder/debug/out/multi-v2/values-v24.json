@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.lokala.app-mergeDebugResources-69:/values-v24/values-v24.xml",
+            "outputFile": "com.example.lokala.app-mergeDebugResources-70:/values-v24/values-v24.xml",
             "map": [
                 {
                     "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\ac73ef10f16d85db54e5bb64e6e254a4\\transformed\\material-1.10.0\\res\\values-v24\\values-v24.xml",
