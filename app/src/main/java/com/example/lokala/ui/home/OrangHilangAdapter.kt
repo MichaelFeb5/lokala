@@ -1,20 +1,19 @@
 package com.example.lokala.ui.home
 
 import android.content.Context
-import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
 import com.example.lokala.R
 import com.example.lokala.data.dummy.OrangHilang
+import com.example.lokala.data.response.OrangHilangItem
 
 class OrangHilangAdapter(
     private val context: Context,
-    private val orangHilang: List<OrangHilang>,
+    private val orangHilang: List<OrangHilangItem>,
 ) : RecyclerView.Adapter<OrangHilangAdapter.ViewHolder>() {
 
     private var onItemClickListener: OnItemClickListener? = null
@@ -29,16 +28,16 @@ class OrangHilangAdapter(
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        Glide.with(context).load(orangHilang[position].url_foto[0]).into(holder.ivOrang)
+//        Glide.with(context).load(orangHilang[position].urlFoto[0]).into(holder.ivOrang)
         holder.tvNama.text = orangHilang[position].nama
         holder.tvGender.text =
             "${orangHilang[position].umur} tahun, ${orangHilang[position].tinggi} cm, ${orangHilang[position].gender}"
         holder.tvKota.text = orangHilang[position].kota
 
 
-        holder.itemView.setOnClickListener {
-            onItemClickListener?.onClick(holder.ivOrang, orangHilang[position])
-        }
+//        holder.itemView.setOnClickListener {
+//            onItemClickListener?.onClick(holder.ivOrang, orangHilang[position])
+//        }
     }
 
     override fun getItemCount(): Int {
