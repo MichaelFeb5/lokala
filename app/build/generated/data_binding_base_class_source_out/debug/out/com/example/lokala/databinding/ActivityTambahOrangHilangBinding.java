@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -26,6 +27,9 @@ public final class ActivityTambahOrangHilangBinding implements ViewBinding {
 
   @NonNull
   public final Button btnCamera;
+
+  @NonNull
+  public final Button btnSubmit;
 
   @NonNull
   public final EditText etCiriFisik;
@@ -52,6 +56,9 @@ public final class ActivityTambahOrangHilangBinding implements ViewBinding {
   public final RadioButton genderP;
 
   @NonNull
+  public final RadioGroup genderRadioGroup;
+
+  @NonNull
   public final Group group;
 
   @NonNull
@@ -65,6 +72,9 @@ public final class ActivityTambahOrangHilangBinding implements ViewBinding {
 
   @NonNull
   public final RadioButton statusHilang;
+
+  @NonNull
+  public final RadioGroup statusRadioGroup;
 
   @NonNull
   public final TextView tvCiriFisik;
@@ -97,11 +107,12 @@ public final class ActivityTambahOrangHilangBinding implements ViewBinding {
   public final TextView tvUmur;
 
   private ActivityTambahOrangHilangBinding(@NonNull ScrollView rootView, @NonNull Button btnCamera,
-      @NonNull EditText etCiriFisik, @NonNull EditText etNama, @NonNull EditText etNomorPemerintah,
-      @NonNull EditText etTempatSeringTerlihat, @NonNull EditText etTerakhirTerlihat,
-      @NonNull EditText etUmur, @NonNull RadioButton genderL, @NonNull RadioButton genderP,
-      @NonNull Group group, @NonNull Group group2, @NonNull ImageView ivFoto,
-      @NonNull RadioButton statusDitemukan, @NonNull RadioButton statusHilang,
+      @NonNull Button btnSubmit, @NonNull EditText etCiriFisik, @NonNull EditText etNama,
+      @NonNull EditText etNomorPemerintah, @NonNull EditText etTempatSeringTerlihat,
+      @NonNull EditText etTerakhirTerlihat, @NonNull EditText etUmur, @NonNull RadioButton genderL,
+      @NonNull RadioButton genderP, @NonNull RadioGroup genderRadioGroup, @NonNull Group group,
+      @NonNull Group group2, @NonNull ImageView ivFoto, @NonNull RadioButton statusDitemukan,
+      @NonNull RadioButton statusHilang, @NonNull RadioGroup statusRadioGroup,
       @NonNull TextView tvCiriFisik, @NonNull TextView tvFoto, @NonNull TextView tvJenisKelamin,
       @NonNull TextView tvNama, @NonNull TextView tvNomorPemerintah,
       @NonNull TextView tvSeringTerlihat, @NonNull TextView tvStatus,
@@ -109,6 +120,7 @@ public final class ActivityTambahOrangHilangBinding implements ViewBinding {
       @NonNull TextView tvUmur) {
     this.rootView = rootView;
     this.btnCamera = btnCamera;
+    this.btnSubmit = btnSubmit;
     this.etCiriFisik = etCiriFisik;
     this.etNama = etNama;
     this.etNomorPemerintah = etNomorPemerintah;
@@ -117,11 +129,13 @@ public final class ActivityTambahOrangHilangBinding implements ViewBinding {
     this.etUmur = etUmur;
     this.genderL = genderL;
     this.genderP = genderP;
+    this.genderRadioGroup = genderRadioGroup;
     this.group = group;
     this.group2 = group2;
     this.ivFoto = ivFoto;
     this.statusDitemukan = statusDitemukan;
     this.statusHilang = statusHilang;
+    this.statusRadioGroup = statusRadioGroup;
     this.tvCiriFisik = tvCiriFisik;
     this.tvFoto = tvFoto;
     this.tvJenisKelamin = tvJenisKelamin;
@@ -164,6 +178,12 @@ public final class ActivityTambahOrangHilangBinding implements ViewBinding {
       id = R.id.btn_camera;
       Button btnCamera = ViewBindings.findChildViewById(rootView, id);
       if (btnCamera == null) {
+        break missingId;
+      }
+
+      id = R.id.btn_submit;
+      Button btnSubmit = ViewBindings.findChildViewById(rootView, id);
+      if (btnSubmit == null) {
         break missingId;
       }
 
@@ -215,6 +235,12 @@ public final class ActivityTambahOrangHilangBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.genderRadioGroup;
+      RadioGroup genderRadioGroup = ViewBindings.findChildViewById(rootView, id);
+      if (genderRadioGroup == null) {
+        break missingId;
+      }
+
       id = R.id.group;
       Group group = ViewBindings.findChildViewById(rootView, id);
       if (group == null) {
@@ -242,6 +268,12 @@ public final class ActivityTambahOrangHilangBinding implements ViewBinding {
       id = R.id.status_hilang;
       RadioButton statusHilang = ViewBindings.findChildViewById(rootView, id);
       if (statusHilang == null) {
+        break missingId;
+      }
+
+      id = R.id.statusRadioGroup;
+      RadioGroup statusRadioGroup = ViewBindings.findChildViewById(rootView, id);
+      if (statusRadioGroup == null) {
         break missingId;
       }
 
@@ -305,11 +337,12 @@ public final class ActivityTambahOrangHilangBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityTambahOrangHilangBinding((ScrollView) rootView, btnCamera, etCiriFisik,
-          etNama, etNomorPemerintah, etTempatSeringTerlihat, etTerakhirTerlihat, etUmur, genderL,
-          genderP, group, group2, ivFoto, statusDitemukan, statusHilang, tvCiriFisik, tvFoto,
-          tvJenisKelamin, tvNama, tvNomorPemerintah, tvSeringTerlihat, tvStatus,
-          tvTambahOrangHilang, tvTerkahirTerlihat, tvUmur);
+      return new ActivityTambahOrangHilangBinding((ScrollView) rootView, btnCamera, btnSubmit,
+          etCiriFisik, etNama, etNomorPemerintah, etTempatSeringTerlihat, etTerakhirTerlihat,
+          etUmur, genderL, genderP, genderRadioGroup, group, group2, ivFoto, statusDitemukan,
+          statusHilang, statusRadioGroup, tvCiriFisik, tvFoto, tvJenisKelamin, tvNama,
+          tvNomorPemerintah, tvSeringTerlihat, tvStatus, tvTambahOrangHilang, tvTerkahirTerlihat,
+          tvUmur);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

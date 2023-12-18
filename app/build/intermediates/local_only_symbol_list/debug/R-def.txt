@@ -67,6 +67,7 @@ id btn_hapus
 id btn_login
 id btn_search_foto
 id btn_search_user
+id btn_submit
 id btn_tambah
 id btn_user
 id carousel_item_container
@@ -97,6 +98,7 @@ id et_terakhir_terlihat
 id et_umur
 id genderL
 id genderP
+id genderRadioGroup
 id gender_choice
 id group
 id group2
@@ -119,6 +121,7 @@ id rv_orangHilang
 id rv_user_orang_hilang
 id social_media
 id splash_screen_image
+id statusRadioGroup
 id status_ditemukan
 id status_hilang
 id tv_ciri_fisik

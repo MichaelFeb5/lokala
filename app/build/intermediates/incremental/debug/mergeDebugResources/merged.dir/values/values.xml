@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools" xmlns:ns2="urn:oasis:names:tc:xliff:document:1.2">
+    <array name="cast_expanded_controller_default_control_buttons"><item>@id/cast_button_type_closed_caption</item>
+<item>@id/cast_button_type_skip_previous</item>
+<item>@id/cast_button_type_skip_next</item>
+<item>@id/cast_button_type_mute_toggle</item>
+</array>
+    <array name="cast_mini_controller_default_control_buttons"><item>@id/cast_button_type_empty</item>
+<item>@id/cast_button_type_empty</item>
+<item>@id/cast_button_type_play_pause_toggle</item>
+</array>
     <string-array name="choice_gender">
         <item>Man</item>
         <item>Woman</item>
@@ -65,6 +74,7 @@
     <attr format="reference" name="bottomSheetDragHandleStyle"/>
     <attr format="reference" name="bottomSheetStyle"/>
     <attr format="reference" name="cardViewStyle"/>
+    <attr format="reference" name="castExpandedControllerToolbarStyle"/>
     <attr format="boolean" name="chainUseRtl"/>
     <attr format="reference" name="checkedIcon"/>
     <attr format="color" name="checkedIconTint"/>
@@ -459,6 +469,22 @@
     <attr format="reference" name="materialTimePickerStyle"/>
     <attr format="reference" name="materialTimePickerTheme"/>
     <attr format="reference" name="materialTimePickerTitleStyle"/>
+    <attr format="reference" name="mediaRouteAudioTrackDrawable"/>
+    <attr format="reference" name="mediaRouteBodyTextAppearance"/>
+    <attr format="reference" name="mediaRouteButtonStyle"/>
+    <attr format="reference" name="mediaRouteCloseDrawable"/>
+    <attr format="reference" name="mediaRouteControlPanelThemeOverlay"/>
+    <attr format="reference" name="mediaRouteDefaultIconDrawable"/>
+    <attr format="color" name="mediaRouteDividerColor"/>
+    <attr format="reference" name="mediaRouteHeaderTextAppearance"/>
+    <attr format="reference" name="mediaRoutePauseDrawable"/>
+    <attr format="reference" name="mediaRoutePlayDrawable"/>
+    <attr format="reference" name="mediaRouteSpeakerGroupIconDrawable"/>
+    <attr format="reference" name="mediaRouteSpeakerIconDrawable"/>
+    <attr format="reference" name="mediaRouteStopDrawable"/>
+    <attr format="reference" name="mediaRouteTheme"/>
+    <attr format="reference" name="mediaRouteTvIconDrawable"/>
+    <attr format="reference" name="mediaRouteWifiIconDrawable"/>
     <attr format="dimension" name="minTouchTargetSize"/>
     <attr format="integer" name="motionDurationExtraLong1"/>
     <attr format="integer" name="motionDurationExtraLong2"/>
@@ -663,6 +689,7 @@
     </attr>
     <bool name="abc_action_bar_embed_tabs">true</bool>
     <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="is_tablet">false</bool>
     <bool name="mtrl_btn_textappearance_all_caps">true</bool>
     <color name="abc_decor_view_status_guard">#ff000000</color>
     <color name="abc_decor_view_status_guard_light">#ffffffff</color>
@@ -694,9 +721,38 @@
     <color name="cardview_light_background">#FFFFFFFF</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
+    <color name="cast_expanded_controller_ad_break_marker_color">#FEC92F</color>
+    <color name="cast_expanded_controller_ad_container_white_stripe_color">#1AFFFFFF</color>
+    <color name="cast_expanded_controller_ad_in_progress_text_color">#FFFFFF</color>
+    <color name="cast_expanded_controller_ad_label_background_color">#FEC92F</color>
+    <color name="cast_expanded_controller_ad_label_text_color">#FFFFFF</color>
+    <color name="cast_expanded_controller_background_color">#000000</color>
+    <color name="cast_expanded_controller_live_indicator_color">#D0021B</color>
+    <color name="cast_expanded_controller_loading_indicator_color">#FFFFFFFF</color>
+    <color name="cast_expanded_controller_progress_text_color">#E5FFFFFF</color>
+    <color name="cast_expanded_controller_seek_bar_progress_background_tint_color">#46FFFFFF</color>
+    <color name="cast_expanded_controller_text_color">#FFFFFF</color>
+    <color name="cast_intro_overlay_background_color">#CC000000</color>
+    <color name="cast_intro_overlay_button_background_color">#BB33B5E5</color>
+    <color name="cast_libraries_material_featurehighlight_outer_highlight_default_color">#2196F3</color>
+    <color name="cast_libraries_material_featurehighlight_text_body_color">#FFFFFFFF</color>
+    <color name="cast_libraries_material_featurehighlight_text_header_color">#FFFFFFFF</color>
+    <color name="cast_mini_controller_loading_indicator_color">#000000</color>
+    <color name="cast_seekbar_progress_thumb_color">#D0021B</color>
+    <color name="cast_seekbar_secondary_progress_color">#A6FFFFFF</color>
+    <color name="cast_seekbar_tooltip_background_color">#e6616161</color>
+    <color name="cast_seekbar_unseekable_progress_color">#4DFFFFFF</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
+    <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
+    <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
+    <color name="common_google_signin_btn_text_dark_pressed">@android:color/white</color>
+    <color name="common_google_signin_btn_text_light_default">#90000000</color>
+    <color name="common_google_signin_btn_text_light_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_light_focused">#90000000</color>
+    <color name="common_google_signin_btn_text_light_pressed">#DE000000</color>
     <color name="design_bottom_navigation_shadow_color">#14000000</color>
     <color name="design_dark_default_color_background">#121212</color>
     <color name="design_dark_default_color_error">#CF6679</color>
@@ -972,6 +1028,23 @@
     <color name="material_personalized_color_text_primary_inverse_disable_only">#FFFFFF</color>
     <color name="material_personalized_color_text_secondary_and_tertiary_inverse">#FFFFFF</color>
     <color name="material_personalized_color_text_secondary_and_tertiary_inverse_disabled">#FFFFFF</color>
+    <color name="mr_cast_meta_black_scrim">#99000000</color>
+    <color name="mr_cast_meta_default_background">#25272B</color>
+    <color name="mr_cast_meta_default_text_color">#FFFFFF</color>
+    <color name="mr_cast_progressbar_background_dark">#5F6368</color>
+    <color name="mr_cast_progressbar_background_light">#CBCCCD</color>
+    <color name="mr_cast_progressbar_progress_and_thumb_dark">#5195EA</color>
+    <color name="mr_cast_progressbar_progress_and_thumb_light">#4285F4</color>
+    <color name="mr_cast_route_divider_dark">#803C4043</color>
+    <color name="mr_cast_route_divider_light">#1425272B</color>
+    <color name="mr_dynamic_dialog_background_dark">#000000</color>
+    <color name="mr_dynamic_dialog_background_light">#FFFFFF</color>
+    <color name="mr_dynamic_dialog_header_text_color_dark">#BDC1C6</color>
+    <color name="mr_dynamic_dialog_header_text_color_light">#80868B</color>
+    <color name="mr_dynamic_dialog_icon_dark">#F8F9FA</color>
+    <color name="mr_dynamic_dialog_icon_light">#202124</color>
+    <color name="mr_dynamic_dialog_route_text_color_dark">#FFFFFF</color>
+    <color name="mr_dynamic_dialog_route_text_color_light">#25272B</color>
     <color name="mtrl_btn_text_color_disabled">#61000000</color>
     <color name="mtrl_btn_transparent_bg_color">#00ffffff</color>
     <color name="mtrl_scrim_color">#52000000</color>
@@ -982,6 +1055,7 @@
     <color name="mtrl_textinput_hovered_box_stroke_color">#DE000000</color>
     <color name="notification_action_color_filter">#ffffffff</color>
     <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <color name="notification_material_background_media_default_color">#ff424242</color>
     <color name="primary_background">#F8A90F</color>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
@@ -1098,6 +1172,42 @@
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
+    <dimen name="cast_expanded_controller_ad_background_layout_height">350dp</dimen>
+    <dimen name="cast_expanded_controller_ad_background_layout_width">-1px</dimen>
+    <dimen name="cast_expanded_controller_ad_container_layout_height">370dp</dimen>
+    <dimen name="cast_expanded_controller_ad_label_layout_height">20dp</dimen>
+    <dimen name="cast_expanded_controller_ad_layout_height">350dp</dimen>
+    <dimen name="cast_expanded_controller_ad_layout_width">420dp</dimen>
+    <dimen name="cast_expanded_controller_control_button_margin">24dp</dimen>
+    <dimen name="cast_expanded_controller_control_toolbar_min_height">56dp</dimen>
+    <dimen name="cast_expanded_controller_margin_between_seek_bar_and_control_buttons">12dp</dimen>
+    <dimen name="cast_expanded_controller_margin_between_status_text_and_seek_bar">24dp</dimen>
+    <item format="float" name="cast_expanded_controller_seekbar_disabled_alpha" type="dimen">0.4</item>
+    <dimen name="cast_intro_overlay_button_margin_bottom">50dp</dimen>
+    <dimen name="cast_intro_overlay_focus_radius">35dp</dimen>
+    <dimen name="cast_intro_overlay_title_margin_top">100dp</dimen>
+    <dimen name="cast_libraries_material_featurehighlight_center_horizontal_offset">20dp</dimen>
+    <dimen name="cast_libraries_material_featurehighlight_center_threshold">88dp</dimen>
+    <dimen name="cast_libraries_material_featurehighlight_inner_margin">20dp</dimen>
+    <dimen name="cast_libraries_material_featurehighlight_inner_radius">40dp</dimen>
+    <dimen name="cast_libraries_material_featurehighlight_outer_padding">40dp</dimen>
+    <dimen name="cast_libraries_material_featurehighlight_text_body_size">16sp</dimen>
+    <dimen name="cast_libraries_material_featurehighlight_text_header_size">20sp</dimen>
+    <dimen name="cast_libraries_material_featurehighlight_text_horizontal_margin">40dp</dimen>
+    <dimen name="cast_libraries_material_featurehighlight_text_horizontal_offset">20dp</dimen>
+    <dimen name="cast_libraries_material_featurehighlight_text_max_width">320dp</dimen>
+    <dimen name="cast_libraries_material_featurehighlight_text_vertical_space">16dp</dimen>
+    <dimen name="cast_mini_controller_control_button_margin">16dp</dimen>
+    <dimen name="cast_mini_controller_icon_height">64dp</dimen>
+    <dimen name="cast_mini_controller_icon_width">64dp</dimen>
+    <dimen name="cast_notification_image_size">64dp</dimen>
+    <dimen name="cast_seek_bar_ad_break_minimum_width">3dp</dimen>
+    <dimen name="cast_seek_bar_minimum_height">20dp</dimen>
+    <dimen name="cast_seek_bar_minimum_width">20dp</dimen>
+    <dimen name="cast_seek_bar_progress_height">4dp</dimen>
+    <dimen name="cast_seek_bar_thumb_size">12dp</dimen>
+    <dimen name="cast_tracks_chooser_dialog_no_message_text_size">18sp</dimen>
+    <dimen name="cast_tracks_chooser_dialog_row_text_size">18sp</dimen>
     <dimen name="clock_face_margin_start">64dp</dimen>
     <dimen name="compat_button_inset_horizontal_material">4dp</dimen>
     <dimen name="compat_button_inset_vertical_material">6dp</dimen>
@@ -1588,6 +1698,26 @@
     <dimen name="material_time_picker_minimum_screen_height">560dp</dimen>
     <dimen name="material_time_picker_minimum_screen_width">340dp</dimen>
     <dimen name="material_timepicker_dialog_buttons_margin_top">24dp</dimen>
+    <dimen name="mediarouter_chooser_list_item_padding_bottom">12dp</dimen>
+    <dimen name="mediarouter_chooser_list_item_padding_end">24dp</dimen>
+    <dimen name="mediarouter_chooser_list_item_padding_start">24dp</dimen>
+    <dimen name="mediarouter_chooser_list_item_padding_top">12dp</dimen>
+    <dimen name="mr_cast_group_volume_seekbar_height">4dp</dimen>
+    <dimen name="mr_cast_meta_art_size">36dp</dimen>
+    <dimen name="mr_cast_meta_subtitle_text_size">13sp</dimen>
+    <dimen name="mr_cast_route_volume_seekbar_height">2dp</dimen>
+    <dimen name="mr_cast_seekbar_thumb_size">8dp</dimen>
+    <dimen name="mr_controller_volume_group_list_item_height">68dp</dimen>
+    <dimen name="mr_controller_volume_group_list_item_icon_size">24dp</dimen>
+    <dimen name="mr_controller_volume_group_list_max_height">288dp</dimen>
+    <dimen name="mr_controller_volume_group_list_padding_top">16dp</dimen>
+    <dimen name="mr_controller_wifi_icon_size">24dp</dimen>
+    <dimen name="mr_dialog_fixed_width_major">320dp</dimen>
+    <dimen name="mr_dialog_fixed_width_minor">320dp</dimen>
+    <dimen name="mr_dynamic_dialog_header_text_size">11sp</dimen>
+    <dimen name="mr_dynamic_dialog_route_text_size">12sp</dimen>
+    <dimen name="mr_dynamic_dialog_row_height">48dp</dimen>
+    <dimen name="mr_dynamic_volume_group_list_item_height">80dp</dimen>
     <dimen name="mtrl_alert_dialog_background_inset_bottom">80dp</dimen>
     <dimen name="mtrl_alert_dialog_background_inset_end">24dp</dimen>
     <dimen name="mtrl_alert_dialog_background_inset_start">24dp</dimen>
@@ -1850,17 +1980,26 @@
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
-    <item name="androidx_compose_ui_view_composition_context" type="id"/>
     <item name="androidx_window_activity_scope" type="id"/>
-    <item name="compose_view_saveable_id_tag" type="id"/>
-    <item name="consume_window_insets_tag" type="id"/>
+    <item name="cast_button_type_closed_caption" type="id"/>
+    <item name="cast_button_type_custom" type="id"/>
+    <item name="cast_button_type_empty" type="id"/>
+    <item name="cast_button_type_forward_30_seconds" type="id"/>
+    <item name="cast_button_type_mute_toggle" type="id"/>
+    <item name="cast_button_type_play_pause_toggle" type="id"/>
+    <item name="cast_button_type_rewind_30_seconds" type="id"/>
+    <item name="cast_button_type_skip_next" type="id"/>
+    <item name="cast_button_type_skip_previous" type="id"/>
+    <item name="cast_featurehighlight_help_text_body_view" type="id"/>
+    <item name="cast_featurehighlight_help_text_header_view" type="id"/>
+    <item name="cast_featurehighlight_view" type="id"/>
+    <item name="cast_notification_id" type="id"/>
+    <item name="dataBinding" type="id"/>
     <item name="fragment_container_view_tag" type="id"/>
     <item name="ghost_view" type="id"/>
     <item name="ghost_view_holder" type="id"/>
     <item name="glide_custom_view_target_tag" type="id"/>
-    <item name="hide_in_inspector_tag" type="id"/>
     <item name="home" type="id"/>
-    <item name="inspection_slot_table_set" type="id"/>
     <item name="is_pooling_container_tag" type="id"/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
     <item name="line1" type="id"/>
@@ -1868,6 +2007,7 @@
     <item name="material_clock_face" type="id"/>
     <item name="material_clock_level" type="id"/>
     <item name="material_value_index" type="id"/>
+    <item name="media_controller_compat_view_tag" type="id"/>
     <item name="motion_base" type="id"/>
     <item name="mtrl_anchor_parent" type="id"/>
     <item name="mtrl_card_checked_layer_id" type="id"/>
@@ -1934,16 +2074,17 @@
     <id name="view_tree_saved_state_registry_owner"/>
     <id name="view_tree_view_model_store_owner"/>
     <item name="visible_removing_fragment_view_tag" type="id"/>
-    <item name="wrapped_composition_tag" type="id"/>
     <integer name="abc_config_activityDefaultDur">220</integer>
     <integer name="abc_config_activityShortDur">150</integer>
     <integer name="app_bar_elevation_anim_duration">150</integer>
     <integer name="bottom_sheet_slide_duration">150</integer>
     <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="cast_libraries_material_featurehighlight_pulse_base_alpha">138</integer>
     <integer name="config_navAnimTime">150</integer>
     <integer name="config_tooltipAnimTime">150</integer>
     <integer name="design_snackbar_text_max_lines">2</integer>
     <integer name="design_tab_indicator_anim_duration_ms">300</integer>
+    <integer name="google_play_services_version">12451000</integer>
     <integer name="hide_password_duration">320</integer>
     <integer name="m3_badge_max_number">999</integer>
     <integer name="m3_btn_anim_delay_ms">100</integer>
@@ -1981,6 +2122,11 @@
     <integer name="material_motion_duration_short_1">75</integer>
     <integer name="material_motion_duration_short_2">150</integer>
     <integer name="material_motion_path" translatable="false">0</integer>
+    <integer name="mr_cast_volume_slider_layout_animation_duration_ms">400</integer>
+    <integer name="mr_controller_volume_group_list_animation_duration_ms">400</integer>
+    <integer name="mr_controller_volume_group_list_fade_in_duration_ms">400</integer>
+    <integer name="mr_controller_volume_group_list_fade_out_duration_ms">200</integer>
+    <integer name="mr_update_routes_delay_ms">300</integer>
     <integer name="mtrl_badge_max_character_count">4</integer>
     <integer name="mtrl_btn_anim_delay_ms">100</integer>
     <integer name="mtrl_btn_anim_duration_ms">100</integer>
@@ -2057,6 +2203,51 @@
     <string name="camera">Camera</string>
     <string name="cari_orang">CARI ORANG</string>
     <string name="cari_orang_hilang">Cari Orang Hilang</string>
+    <string name="cast_ad_label">Ad</string>
+    <string name="cast_casting_to_device">Casting to %1$s</string>
+    <string name="cast_closed_captions">Closed captions</string>
+    <string name="cast_closed_captions_unavailable">Closed captions unavailable</string>
+    <string name="cast_connecting_to_device">Connecting to <ns2:g id="name">%1$s</ns2:g></string>
+    <string name="cast_disconnect">Disconnect</string>
+    <string name="cast_dynamic_group_name_format" translation_description="Name for a dynamic group. It consists of the leader device name and the total count minus one. For example, if there are 3 devices in the group, the name of the group may be Living room TV + 2 [CHAR_LIMIT=NONE]"><ns2:g example="Living room TV" id="dynamic_group_leader_device_name">%1$s</ns2:g> + <ns2:g example="2" id="dynamic_group_devices_count">%2$d</ns2:g></string>
+    <string name="cast_expanded_controller_ad_image_description">Image displayed while the cast receiver is playing an ad"</string>
+    <string name="cast_expanded_controller_ad_in_progress">Ad in progress…</string>
+    <string name="cast_expanded_controller_background_image">Album art</string>
+    <string name="cast_expanded_controller_live_head_description">Current position is at the head of the live stream</string>
+    <string name="cast_expanded_controller_live_stream_indicator">Live stream</string>
+    <string name="cast_expanded_controller_loading">Loading…</string>
+    <string name="cast_expanded_controller_skip_ad_label">Skip Ad</string>
+    <string name="cast_expanded_controller_skip_ad_text">You can skip ad in %1$d…</string>
+    <string name="cast_forward">Forward</string>
+    <string name="cast_forward_10">Forward ten seconds</string>
+    <string name="cast_forward_30">Forward thirty seconds</string>
+    <string name="cast_intro_overlay_button_text">@android:string/ok</string>
+    <string name="cast_invalid_stream_duration_text" translatable="false">--:--</string>
+    <string name="cast_invalid_stream_position_text" translatable="false">--:--</string>
+    <string name="cast_live_label">LIVE</string>
+    <string name="cast_mute">Mute</string>
+    <string name="cast_notification_connected_message">Connected to <ns2:g id="name">%1$s</ns2:g></string>
+    <string name="cast_notification_connecting_message">Connecting to <ns2:g id="name">%1$s</ns2:g></string>
+    <string name="cast_notification_default_channel_name">Cast</string>
+    <string name="cast_notification_disconnect">Disconnect</string>
+    <string name="cast_pause">Pause</string>
+    <string name="cast_play">Play</string>
+    <string name="cast_rewind">Rewind</string>
+    <string name="cast_rewind_10">Rewind ten seconds</string>
+    <string name="cast_rewind_30">Rewind thirty seconds</string>
+    <string name="cast_seek_bar">Playback seek control</string>
+    <string name="cast_skip_next">Skip to next item</string>
+    <string name="cast_skip_prev">Skip to previous item</string>
+    <string name="cast_stop">Stop</string>
+    <string name="cast_stop_live_stream">Stop live stream</string>
+    <string name="cast_tracks_chooser_dialog_audio">Audio</string>
+    <string name="cast_tracks_chooser_dialog_cancel">Cancel</string>
+    <string name="cast_tracks_chooser_dialog_closed_captions">Closed Captions</string>
+    <string name="cast_tracks_chooser_dialog_default_track_name">Track <ns2:g example="2" id="position">%1$d</ns2:g></string>
+    <string name="cast_tracks_chooser_dialog_none">None</string>
+    <string name="cast_tracks_chooser_dialog_ok">OK</string>
+    <string name="cast_tracks_chooser_dialog_subtitles">Subtitles</string>
+    <string name="cast_unmute">Unmute</string>
     <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
     <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
     <string name="character_counter_pattern" translatable="false">%1$d/%2$d</string>
@@ -2066,25 +2257,36 @@
     <string name="circle_4">circle 4</string>
     <string name="circle_5">circle 5</string>
     <string name="clear_text_end_icon_content_description">Clear text</string>
-    <string name="close_drawer">"Close navigation menu"</string>
-    <string name="close_sheet">"Close sheet"</string>
-    <string name="collapsed">Collapsed</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run without Google Play services, which are missing from your device.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue"><ns2:g id="app_name">%1$s</ns2:g> is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run without Google Play services, which are not supported by your device.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run unless you update Google Play services.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run without Google Play services, which are currently updating.</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="contact_admin">Contact Admin</string>
     <string name="data_tidak_ditemukan">Data Tidak Ditemukan</string>
-    <string name="default_error_message">"Invalid input"</string>
-    <string name="default_popup_window_title" ns1:ignore="ExtraTranslation">"Pop-Up Window"</string>
+    <string name="define_roundedimageview"/>
     <string name="deskripsi">Deskripsi</string>
     <string name="dest_title">destination title</string>
-    <string name="dialog">"Dialog"</string>
     <string name="ditemukan">Ditemukan</string>
-    <string name="dropdown_menu">"Dropdown menu"</string>
     <string name="ed_login">Username</string>
     <string name="edit_nama_orang">Search</string>
     <string description="Screen reader announcement for when a checkbox is on error. [CHAR LIMIT=NONE]" name="error_a11y_label">
     Error: invalid
   </string>
     <string name="error_icon_content_description">Error</string>
-    <string name="expanded">Expanded</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior" translatable="false">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
@@ -2098,9 +2300,8 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string name="hilang">Hilang</string>
+    <string name="ic_media_route_learn_more_accessibility">Learn how to cast</string>
     <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>
-    <string name="in_progress">In progress</string>
-    <string name="indeterminate">Partially checked</string>
     <string name="instagram">Instagram</string>
     <string name="isi_example_pencarian_orang">Mohon Perhatikan Foto Pencarian Orang Hilang dengan Detail Pencarian Orang Hilang</string>
     <string name="isi_petunjuk">Foto wajah menghadap ke depan serta
@@ -2108,6 +2309,15 @@ wajah harus terlihat jelas tidak blur
 sesuai contoh </string>
     <string name="item_view_role_description">Tab</string>
     <string name="landing_page_1">Landing Page 1</string>
+    <string name="library_roundedimageview_author">Vince Mi</string>
+    <string name="library_roundedimageview_authorWebsite">https://github.com/vinc3m1</string>
+    <string name="library_roundedimageview_isOpenSource">true</string>
+    <string name="library_roundedimageview_libraryDescription">A fast ImageView (and Drawable) that supports rounded corners (and ovals or circles) based on the original example from Romain Guy.</string>
+    <string name="library_roundedimageview_libraryName">RoundedImageView</string>
+    <string name="library_roundedimageview_libraryVersion">1.3.0</string>
+    <string name="library_roundedimageview_libraryWebsite">https://github.com/vinc3m1/RoundedImageView</string>
+    <string name="library_roundedimageview_licenseId">apache_2_0</string>
+    <string name="library_roundedimageview_repositoryLink">https://github.com/vinc3m1/RoundedImageView.git</string>
     <string name="location">location</string>
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
@@ -2184,6 +2394,41 @@ sesuai contoh </string>
     <string description="Title for the dialog with a time picker. [CHAR_LIMIT=32]" name="material_timepicker_select_time">Select time</string>
     <string name="material_timepicker_text_input_mode_description">Switch to text input mode for the time input.</string>
     <string name="mathcing">Matching Photo</string>
+    <string name="media_notification_channel_name">Cast</string>
+    <string name="mr_button_content_description">Cast</string>
+    <string name="mr_cast_button_connected">Cast. Connected</string>
+    <string name="mr_cast_button_connecting">Cast. Connecting</string>
+    <string name="mr_cast_button_disconnected">Cast. Disconnected</string>
+    <string name="mr_cast_dialog_title_view_placeholder">No info available</string>
+    <string name="mr_chooser_looking_for_devices">Looking for devices...</string>
+    <string name="mr_chooser_searching">Finding devices</string>
+    <string name="mr_chooser_title">Cast to</string>
+    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">Learn more</a></string>
+    <string name="mr_chooser_wifi_warning_description_car">Make sure the other device is on the same Wi-Fi network as this car</string>
+    <string name="mr_chooser_wifi_warning_description_phone">Make sure the other device is on the same Wi-Fi network as this phone</string>
+    <string name="mr_chooser_wifi_warning_description_tablet">Make sure the other device is on the same Wi-Fi network as this tablet</string>
+    <string name="mr_chooser_wifi_warning_description_tv">Make sure the other device is on the same Wi-Fi network as this tv</string>
+    <string name="mr_chooser_wifi_warning_description_unknown">Make sure the other device is on the same Wi-Fi network as this device</string>
+    <string name="mr_chooser_wifi_warning_description_watch">Make sure the other device is on the same Wi-Fi network as this watch</string>
+    <string name="mr_chooser_zero_routes_found_title">No devices available</string>
+    <string name="mr_controller_album_art">Album art</string>
+    <string name="mr_controller_casting_screen">Casting screen</string>
+    <string name="mr_controller_close_description">Close</string>
+    <string name="mr_controller_collapse_group">Collapse</string>
+    <string name="mr_controller_disconnect">Disconnect</string>
+    <string name="mr_controller_expand_group">Expand</string>
+    <string name="mr_controller_no_info_available">No info available</string>
+    <string name="mr_controller_no_media_selected">No media selected</string>
+    <string name="mr_controller_pause">Pause</string>
+    <string name="mr_controller_play">Play</string>
+    <string name="mr_controller_stop">Stop</string>
+    <string name="mr_controller_stop_casting">Stop casting</string>
+    <string name="mr_controller_volume_slider">Volume slider</string>
+    <string name="mr_dialog_default_group_name">Group</string>
+    <string name="mr_dialog_groupable_header">Add a device</string>
+    <string name="mr_dialog_transferable_header">Play on a group</string>
+    <string name="mr_system_route_name">System</string>
+    <string name="mr_user_route_category_name">Devices</string>
     <string description="Content description for new notification (no number count) [CHAR_LIMIT=NONE]" name="mtrl_badge_numberless_content_description">New notification</string>
     <string name="mtrl_checkbox_button_icon_path_checked" translatable="false">M14,18.2 11.4,15.6 10,17 14,21 22,13 20.6,11.6z</string>
     <string name="mtrl_checkbox_button_icon_path_group_name" translatable="false">icon</string>
@@ -2256,12 +2501,8 @@ sesuai contoh </string>
     <string name="nama_orang">Nama Orang</string>
     <string name="nav_app_bar_navigate_up_description">Navigate up</string>
     <string name="nav_app_bar_open_drawer_description">Open navigation drawer</string>
-    <string name="navigation_menu">"Navigation menu"</string>
     <string name="next">Next</string>
-    <string name="not_selected">Not selected</string>
     <string name="note">Note :</string>
-    <string name="off">Off</string>
-    <string name="on">On</string>
     <string name="password_toggle_content_description">Show password</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
@@ -2269,8 +2510,6 @@ sesuai contoh </string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="petunjuk">Petunjuk :</string>
     <string name="previous">Previous</string>
-    <string name="range_end">"Range end"</string>
-    <string name="range_start">"Range start"</string>
     <string name="search">Search</string>
     <string name="search_menu_title">Search</string>
     <string name="searchbar_scrolling_view_behavior" translatable="false">
@@ -2279,14 +2518,10 @@ sesuai contoh </string>
     <string description="Content description for the X button to clear text [CHAR_LIMIT=NONE]" name="searchview_clear_text_content_description">Clear text</string>
     <string description="Content description for the navigation button to return to the previous screen [CHAR_LIMIT=NONE]" name="searchview_navigation_content_description">Back</string>
     <string name="second_fragment_label">Second Fragment</string>
-    <string name="selected">Selected</string>
     <string description="Title of the side sheet&apos;s accessibility pane that is spoken by TalkBack when the side sheet appears on screen. [CHAR_LIMIT=NONE]" name="side_sheet_accessibility_pane_title">Side Sheet</string>
     <string name="side_sheet_behavior" translatable="false">com.google.android.material.sidesheet.SideSheetBehavior</string>
     <string name="status">Status</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="switch_role">Switch</string>
-    <string name="tab">Tab</string>
-    <string name="template_percent"><ns2:g id="percentage">%1$d</ns2:g> percent.</string>
     <string name="title">Text</string>
     <string name="title_activity_detail">DetailActivity</string>
     <string name="title_choice">Anda Sebagai :</string>
@@ -5710,16 +5945,70 @@ sesuai contoh </string>
     <style name="CardView.Light">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
     </style>
-    <style name="DialogWindowTheme">
-        <item name="android:windowClipToOutline">false</item>
-    </style>
-    <style name="FloatingDialogTheme">
-        <item name="android:windowIsFloating">false</item>
-    </style>
-    <style name="FloatingDialogWindowTheme">
-        <item name="android:windowClipToOutline">false</item>
-        <item name="android:dialogTheme">@style/FloatingDialogTheme</item>
-    </style>
+    <style name="CastExpandedController">
+<item name="castControlButtons">@array/cast_expanded_controller_default_control_buttons</item>
+<item name="castButtonColor">@null</item>
+<item name="castSeekBarProgressDrawable">@drawable/cast_expanded_controller_seekbar_track</item>
+<item name="castSeekBarThumbDrawable">@drawable/cast_expanded_controller_seekbar_thumb</item>
+<item name="castSeekBarProgressAndThumbColor">@color/cast_seekbar_progress_thumb_color</item>
+<item name="castSeekBarSecondaryProgressColor">@color/cast_seekbar_secondary_progress_color</item>
+<item name="castSeekBarUnseekableProgressColor">@color/cast_seekbar_unseekable_progress_color</item>
+<item name="castSeekBarTooltipBackgroundColor">@color/cast_seekbar_tooltip_background_color</item>
+<item name="castExpandedControllerLoadingIndicatorColor">@color/cast_expanded_controller_loading_indicator_color</item>
+<item name="castPlayButtonDrawable">@drawable/cast_ic_expanded_controller_play</item>
+<item name="castPauseButtonDrawable">@drawable/cast_ic_expanded_controller_pause</item>
+<item name="castStopButtonDrawable">@drawable/cast_ic_expanded_controller_pause</item>
+<item name="castSkipPreviousButtonDrawable">@drawable/cast_ic_expanded_controller_skip_previous</item>
+<item name="castSkipNextButtonDrawable">@drawable/cast_ic_expanded_controller_skip_next</item>
+<item name="castRewind30ButtonDrawable">@drawable/cast_ic_expanded_controller_rewind30</item>
+<item name="castForward30ButtonDrawable">@drawable/cast_ic_expanded_controller_forward30</item>
+<item name="castMuteToggleButtonDrawable">@drawable/cast_ic_expanded_controller_mute</item>
+<item name="castClosedCaptionsButtonDrawable">@drawable/cast_ic_expanded_controller_closed_caption</item>
+<item name="castAdBreakMarkerColor">@color/cast_expanded_controller_ad_break_marker_color</item>
+<item name="castAdLabelColor">@color/cast_expanded_controller_ad_label_background_color</item>
+<item name="castAdLabelTextColor">@color/cast_expanded_controller_ad_label_text_color</item>
+<item name="castAdInProgressTextColor">@color/cast_expanded_controller_ad_in_progress_text_color</item>
+<item name="castAdLabelTextAppearance">@style/TextAppearance.CastExpandedController.AdLabel</item>
+<item name="castAdInProgressLabelTextAppearance">@style/TextAppearance.CastExpandedController.AdInProgressLabel</item>
+<item name="castLiveIndicatorColor">@color/cast_expanded_controller_live_indicator_color</item>
+<item name="castAdInProgressText">@string/cast_expanded_controller_ad_in_progress</item>
+<item name="castDefaultAdPosterUrl">@null</item>
+</style>
+    <style name="CastIntroOverlay">
+<item name="castBackgroundColor">@color/cast_intro_overlay_background_color</item>
+<item name="castButtonBackgroundColor">@color/cast_intro_overlay_button_background_color</item>
+<item name="castButtonText">@string/cast_intro_overlay_button_text</item>
+<item name="castButtonTextAppearance">@style/TextAppearance.CastIntroOverlay.Button</item>
+<item name="castFocusRadius">@dimen/cast_intro_overlay_focus_radius</item>
+<item name="castTitleTextAppearance">@style/TextAppearance.CastIntroOverlay.Title</item>
+</style>
+    <style name="CastMiniController">
+<item name="castShowImageThumbnail">true</item>
+<item name="castTitleTextAppearance">@style/TextAppearance.CastMiniController.Title</item>
+<item name="castSubtitleTextAppearance">@style/TextAppearance.CastMiniController.Subtitle</item>
+<item name="castControlButtons">@array/cast_mini_controller_default_control_buttons</item>
+<item name="castBackground">?android:attr/colorBackground</item>
+<item name="castProgressBarColor">@color/cast_seekbar_progress_thumb_color</item>
+<item name="castMiniControllerLoadingIndicatorColor">@color/cast_mini_controller_loading_indicator_color</item>
+<item name="castButtonColor">@null</item>
+<item name="castPlayButtonDrawable">@drawable/cast_ic_mini_controller_play</item>
+<item name="castPauseButtonDrawable">@drawable/cast_ic_mini_controller_pause</item>
+<item name="castStopButtonDrawable">@drawable/cast_ic_mini_controller_pause</item>
+<item name="castLargePlayButtonDrawable">@drawable/cast_ic_mini_controller_play_large</item>
+<item name="castLargePauseButtonDrawable">@drawable/cast_ic_mini_controller_pause_large</item>
+<item name="castLargeStopButtonDrawable">@drawable/cast_ic_mini_controller_pause_large</item>
+<item name="castSkipPreviousButtonDrawable">@drawable/cast_ic_mini_controller_skip_prev</item>
+<item name="castSkipNextButtonDrawable">@drawable/cast_ic_mini_controller_skip_next</item>
+<item name="castRewind30ButtonDrawable">@drawable/cast_ic_mini_controller_rewind30</item>
+<item name="castForward30ButtonDrawable">@drawable/cast_ic_mini_controller_forward30</item>
+<item name="castMuteToggleButtonDrawable">@drawable/cast_ic_mini_controller_mute</item>
+<item name="castClosedCaptionsButtonDrawable">@drawable/cast_ic_mini_controller_closed_caption</item>
+</style>
+    <style name="CustomCastTheme">
+<item name="castIntroOverlayStyle">@style/CastIntroOverlay</item>
+<item name="castMiniControllerStyle">@style/CastMiniController</item>
+<item name="castExpandedControllerStyle">@style/CastExpandedController</item>
+</style>
     <style name="MaterialAlertDialog.Material3" parent="MaterialAlertDialog.MaterialComponents">
     <item name="backgroundTint">@macro/m3_comp_dialog_container_color</item>
     <item name="enforceMaterialTheme">true</item>
@@ -6233,17 +6522,36 @@ sesuai contoh </string>
     <style name="TextAppearance.AppCompat.Widget.PopupMenu.Small" parent="Base.TextAppearance.AppCompat.Widget.PopupMenu.Small"/>
     <style name="TextAppearance.AppCompat.Widget.Switch" parent="Base.TextAppearance.AppCompat.Widget.Switch"/>
     <style name="TextAppearance.AppCompat.Widget.TextView.SpinnerItem" parent="Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem"/>
+    <style name="TextAppearance.CastExpandedController.AdInProgressLabel" parent="android:style/TextAppearance.Small">
+</style>
+    <style name="TextAppearance.CastExpandedController.AdLabel" parent="android:style/TextAppearance.Small">
+</style>
+    <style name="TextAppearance.CastIntroOverlay.Button" parent="android:style/TextAppearance">
+<item name="android:textColor">#FFFFFF</item>
+</style>
+    <style name="TextAppearance.CastIntroOverlay.Title" parent="android:style/TextAppearance.Large">
+<item name="android:textColor">#FFFFFF</item>
+</style>
+    <style name="TextAppearance.CastMiniController.Subtitle" parent="android:style/TextAppearance.Small">
+</style>
+    <style name="TextAppearance.CastMiniController.Title" parent="android:style/TextAppearance.Medium">
+</style>
     <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.StatusBar.EventContent"/>
     <style name="TextAppearance.Compat.Notification.Info">
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">?android:attr/textColorSecondary</item>
     </style>
+    <style name="TextAppearance.Compat.Notification.Info.Media"/>
     <style name="TextAppearance.Compat.Notification.Line2" parent="TextAppearance.Compat.Notification.Info"/>
+    <style name="TextAppearance.Compat.Notification.Line2.Media" parent="TextAppearance.Compat.Notification.Info.Media"/>
+    <style name="TextAppearance.Compat.Notification.Media"/>
     <style name="TextAppearance.Compat.Notification.Time">
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">?android:attr/textColorSecondary</item>
     </style>
+    <style name="TextAppearance.Compat.Notification.Time.Media"/>
     <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
+    <style name="TextAppearance.Compat.Notification.Title.Media"/>
     <style name="TextAppearance.Design.CollapsingToolbar.Expanded" parent="TextAppearance.AppCompat.Display1">
     <item name="android:textColor">?android:attr/textColorPrimary</item>
   </style>
@@ -6517,6 +6825,32 @@ sesuai contoh </string>
     <style name="TextAppearance.MaterialComponents.Tooltip" parent="TextAppearance.MaterialComponents.Body2">
     <item name="android:textColor">?attr/colorOnPrimary</item>
   </style>
+    <style name="TextAppearance.MediaRouter.Dynamic.Body" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/mr_dynamic_dialog_route_text_size</item>
+        <item name="android:textColor">@color/mr_dynamic_dialog_route_text_color_dark</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="TextAppearance.MediaRouter.Dynamic.Body.Light">
+        <item name="android:textColor">@color/mr_dynamic_dialog_route_text_color_light</item>
+    </style>
+    <style name="TextAppearance.MediaRouter.Dynamic.Header" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:textSize">@dimen/mr_dynamic_dialog_header_text_size</item>
+        <item name="android:textColor">@color/mr_dynamic_dialog_header_text_color_dark</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="TextAppearance.MediaRouter.Dynamic.Header.Light">
+        <item name="android:textColor">@color/mr_dynamic_dialog_header_text_color_light</item>
+    </style>
+    <style name="TextAppearance.MediaRouter.Dynamic.Metadata.PrimaryText" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:textColor">@color/mr_cast_meta_default_text_color</item>
+    </style>
+    <style name="TextAppearance.MediaRouter.Dynamic.Metadata.SecondaryText" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/mr_cast_meta_subtitle_text_size</item>
+    </style>
+    <style name="TextAppearance.MediaRouter.PrimaryText" parent="TextAppearance.AppCompat.Subhead"/>
+    <style name="TextAppearance.MediaRouter.SecondaryText" parent="TextAppearance.AppCompat.Body1"/>
+    <style name="TextAppearance.MediaRouter.Title" parent="TextAppearance.AppCompat.Title"/>
     <style name="TextAppearance.Widget.AppCompat.ExpandedMenu.Item" parent="Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item">
     </style>
     <style name="TextAppearance.Widget.AppCompat.Toolbar.Subtitle" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
@@ -6712,6 +7046,52 @@ sesuai contoh </string>
     <item name="windowActionBar">false</item>
     <item name="windowNoTitle">true</item>
   </style>
+    <style name="Theme.MediaRouter" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="windowNoTitle">true</item>
+        <item name="mediaRouteButtonStyle">@style/Widget.MediaRouter.MediaRouteButton</item>
+        <item name="mediaRouteHeaderTextAppearance">@style/TextAppearance.MediaRouter.Dynamic.Header</item>
+        <item name="mediaRouteBodyTextAppearance">@style/TextAppearance.MediaRouter.Dynamic.Body</item>
+
+        <item name="mediaRouteCloseDrawable">@drawable/mr_dialog_close_dark</item>
+        <item name="mediaRoutePlayDrawable">@drawable/mr_media_play_dark</item>
+        <item name="mediaRoutePauseDrawable">@drawable/mr_media_pause_dark</item>
+        <item name="mediaRouteStopDrawable">@drawable/mr_media_stop_dark</item>
+        <item name="mediaRouteAudioTrackDrawable">@drawable/mr_vol_type_audiotrack_dark</item>
+        <item name="mediaRouteWifiIconDrawable">@drawable/mr_wifi_icon_dark</item>
+        <item name="mediaRouteDefaultIconDrawable">@drawable/ic_mr_button_disconnected_dark</item>
+        <item name="mediaRouteTvIconDrawable">@drawable/ic_vol_type_tv_dark</item>
+        <item name="mediaRouteSpeakerIconDrawable">@drawable/ic_vol_type_speaker_dark</item>
+        <item name="mediaRouteSpeakerGroupIconDrawable">@drawable/ic_vol_type_speaker_group_dark</item>
+        <item name="mediaRouteDividerColor">@color/mr_cast_route_divider_dark</item>
+
+        <item name="mediaRouteControlPanelThemeOverlay">@null</item>
+    </style>
+    <style name="Theme.MediaRouter.Light" parent="ThemeOverlay.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="mediaRouteButtonStyle">@style/Widget.MediaRouter.Light.MediaRouteButton</item>
+        <item name="mediaRouteHeaderTextAppearance">@style/TextAppearance.MediaRouter.Dynamic.Header.Light</item>
+        <item name="mediaRouteBodyTextAppearance">@style/TextAppearance.MediaRouter.Dynamic.Body.Light</item>
+
+        <item name="mediaRouteCloseDrawable">@drawable/mr_dialog_close_light</item>
+        <item name="mediaRoutePlayDrawable">@drawable/mr_media_play_light</item>
+        <item name="mediaRoutePauseDrawable">@drawable/mr_media_pause_light</item>
+        <item name="mediaRouteStopDrawable">@drawable/mr_media_stop_light</item>
+        <item name="mediaRouteAudioTrackDrawable">@drawable/mr_vol_type_audiotrack_light</item>
+        <item name="mediaRouteWifiIconDrawable">@drawable/mr_wifi_icon_light</item>
+        <item name="mediaRouteDefaultIconDrawable">@drawable/ic_mr_button_grey</item>
+        <item name="mediaRouteTvIconDrawable">@drawable/ic_vol_type_tv_light</item>
+        <item name="mediaRouteSpeakerIconDrawable">@drawable/ic_vol_type_speaker_light</item>
+        <item name="mediaRouteSpeakerGroupIconDrawable">@drawable/ic_vol_type_speaker_group_light</item>
+        <item name="mediaRouteDividerColor">@color/mr_cast_route_divider_light</item>
+
+        <item name="mediaRouteControlPanelThemeOverlay">@null</item>
+    </style>
+    <style name="Theme.MediaRouter.Light.DarkControlPanel">
+        <item name="mediaRouteControlPanelThemeOverlay">@style/ThemeOverlay.MediaRouter.Dark</item>
+    </style>
+    <style name="Theme.MediaRouter.LightControlPanel">
+        <item name="mediaRouteControlPanelThemeOverlay">@style/ThemeOverlay.MediaRouter.Light</item>
+    </style>
     <style name="Theme.lokala" parent="Base.Theme.lokala"/>
     <style name="ThemeOverlay.AppCompat" parent="Base.ThemeOverlay.AppCompat"/>
     <style name="ThemeOverlay.AppCompat.ActionBar" parent="Base.ThemeOverlay.AppCompat.ActionBar"/>
@@ -7265,6 +7645,20 @@ sesuai contoh </string>
     <item name="colorControlNormal">@color/material_on_surface_emphasis_medium</item>
     <item name="actionMenuTextColor">@color/material_on_surface_emphasis_medium</item>
   </style>
+    <style name="ThemeOverlay.MediaRouter.Dark" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="mediaRoutePlayDrawable">@drawable/mr_media_play_dark</item>
+        <item name="mediaRoutePauseDrawable">@drawable/mr_media_pause_dark</item>
+        <item name="mediaRouteStopDrawable">@drawable/mr_media_stop_dark</item>
+        <item name="mediaRouteAudioTrackDrawable">@drawable/mr_vol_type_audiotrack_dark</item>
+        <item name="mediaRouteDividerColor">@color/mr_cast_route_divider_dark</item>
+    </style>
+    <style name="ThemeOverlay.MediaRouter.Light" parent="ThemeOverlay.AppCompat.Light">
+        <item name="mediaRoutePlayDrawable">@drawable/mr_media_play_light</item>
+        <item name="mediaRoutePauseDrawable">@drawable/mr_media_pause_light</item>
+        <item name="mediaRouteStopDrawable">@drawable/mr_media_stop_light</item>
+        <item name="mediaRouteAudioTrackDrawable">@drawable/mr_vol_type_audiotrack_light</item>
+        <item name="mediaRouteDividerColor">@color/mr_cast_route_divider_light</item>
+    </style>
     <style name="Widget.AppCompat.ActionBar" parent="Base.Widget.AppCompat.ActionBar">
     </style>
     <style name="Widget.AppCompat.ActionBar.Solid" parent="Base.Widget.AppCompat.ActionBar.Solid">
@@ -9337,17 +9731,25 @@ sesuai contoh </string>
     <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Tooltip</item>
     <item name="shapeAppearance">@style/ShapeAppearance.MaterialComponents.Tooltip</item>
   </style>
+    <style name="Widget.MediaRouter.Light.MediaRouteButton" parent="Widget.AppCompat.Light.ActionButton">
+        <item name="externalRouteEnabledDrawable">@drawable/mr_button_light</item>
+        <item name="externalRouteEnabledDrawableStatic">@drawable/mr_button_light_static</item>
+    </style>
+    <style name="Widget.MediaRouter.MediaRouteButton" parent="Widget.AppCompat.ActionButton">
+        <item name="externalRouteEnabledDrawable">@drawable/mr_button_dark</item>
+        <item name="externalRouteEnabledDrawableStatic">@drawable/mr_button_dark_static</item>
+    </style>
     <style name="Widget.Support.CoordinatorLayout" parent="android:Widget">
         <item name="statusBarBackground">#000000</item>
     </style>
     <declare-styleable name="ActionBar">
         
         <attr name="navigationMode">
-            
+            <!-- Normal static title text -->
             <enum name="normal" value="0"/>
-            
+            <!-- The action bar will use a selection list for navigation. -->
             <enum name="listMode" value="1"/>
-            
+            <!-- The action bar will use a series of horizontal tabs for navigation. -->
             <enum name="tabMode" value="2"/>
         </attr>
         
@@ -9532,32 +9934,45 @@ sesuai contoh </string>
   </declare-styleable>
     <declare-styleable name="AppBarLayout_Layout">
     <attr name="layout_scrollFlags">
-      
+      <!-- Disable scrolling on the view. This flag should not be combined with any of the other
+           scroll flags. -->
       <flag name="noScroll" value="0x0"/>
 
-      
+      <!-- The view will be scroll in direct relation to scroll events. This flag needs to be
+           set for any of the other flags to take effect. If any sibling views
+           before this one do not have this flag, then this value has no effect. -->
       <flag name="scroll" value="0x1"/>
 
-      
+      <!-- When exiting (scrolling off screen) the view will be scrolled until it is
+           'collapsed'. The collapsed height is defined by the view's minimum height. -->
       <flag name="exitUntilCollapsed" value="0x2"/>
 
-      
+      <!-- When entering (scrolling on screen) the view will scroll on any downwards
+           scroll event, regardless of whether the scrolling view is also scrolling. This
+           is commonly referred to as the 'quick return' pattern. -->
       <flag name="enterAlways" value="0x4"/>
 
-      
+      <!-- An additional flag for 'enterAlways' which modifies the returning view to
+           only initially scroll back to it's collapsed height. Once the scrolling view has
+           reached the end of it's scroll range, the remainder of this view will be scrolled
+           into view. -->
       <flag name="enterAlwaysCollapsed" value="0x8"/>
 
-      
+      <!-- Upon a scroll ending, if the view is only partially visible then it will be
+           snapped and scrolled to it's closest edge. -->
       <flag name="snap" value="0x10"/>
 
-      
+      <!-- An additional flag to be used with 'snap'. If set, the view will be snapped to its
+           top and bottom margins, as opposed to the edges of the view itself. -->
       <flag name="snapMargins" value="0x20"/>
     </attr>
 
     <attr format="enum" name="layout_scrollEffect">
-      
+      <!-- No effect will be applied to this child when its parent
+           AppBarLayout's offset changes.-->
       <enum name="none" value="0"/>
-      
+      <!-- This view will be compressed (masked and parallaxed) when it reaches
+           the top of the screen and continues to scroll out of view.-->
       <enum name="compress" value="1"/>
     </attr>
 
@@ -9577,17 +9992,22 @@ sesuai contoh </string>
 
         
         <attr name="tintMode">
-            
+            <!-- The tint is drawn on top of the drawable.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
-            
+            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
             <enum name="src_in" value="5"/>
-            
+            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
             <enum name="src_atop" value="9"/>
-            
+            <!-- Multiplies the color and alpha channels of the drawable with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
             <enum name="multiply" value="14"/>
-            
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
             <enum name="screen" value="15"/>
-            
+            <!-- Combines the tint and icon color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
             <enum name="add" value="16"/>
         </attr>
     </declare-styleable>
@@ -9599,17 +10019,22 @@ sesuai contoh </string>
         <attr format="color" name="tickMarkTint"/>
         
         <attr name="tickMarkTintMode">
-            
+            <!-- The tint is drawn on top of the drawable.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
-            
+            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
             <enum name="src_in" value="5"/>
-            
+            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
             <enum name="src_atop" value="9"/>
-            
+            <!-- Multiplies the color and alpha channels of the drawable with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
             <enum name="multiply" value="14"/>
-            
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
             <enum name="screen" value="15"/>
-            
+            <!-- Combines the tint and drawable color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
             <enum name="add" value="16"/>
         </attr>
     </declare-styleable>
@@ -9630,9 +10055,10 @@ sesuai contoh </string>
         <attr name="android:textAppearance"/>
         
         <attr format="enum" name="autoSizeTextType">
-            
+            <!-- No auto-sizing (default). -->
             <enum name="none" value="0"/>
-            
+            <!-- Uniform horizontal and vertical text size scaling to fit within the
+            container. -->
             <enum name="uniform" value="1"/>
         </attr>
         
@@ -9664,17 +10090,22 @@ sesuai contoh </string>
         <attr format="color" name="drawableTint"/>
         
         <attr name="drawableTintMode">
-            
+            <!-- The tint is drawn on top of the drawable.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
-            
+            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
             <enum name="src_in" value="5"/>
-            
+            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
             <enum name="src_atop" value="9"/>
-            
+            <!-- Multiplies the color and alpha channels of the drawable with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
             <enum name="multiply" value="14"/>
-            
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
             <enum name="screen" value="15"/>
-            
+            <!-- Combines the tint and drawable color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
             <enum name="add" value="16"/>
         </attr>
         
@@ -10067,13 +10498,13 @@ sesuai contoh </string>
     <attr format="string" name="badgeText"/>
     <attr format="integer" name="number"/>
     <attr name="badgeGravity">
-      
+      <!-- Gravity.TOP | Gravity.END -->
       <enum name="TOP_END" value="8388661"/>
-      
+      <!-- Gravity.TOP | Gravity.START -->
       <enum name="TOP_START" value="8388659"/>
-      
+      <!-- Gravity.BOTTOM | Gravity.END -->
       <enum name="BOTTOM_END" value="8388693"/>
-      
+      <!-- Gravity.BOTTOM | Gravity.START -->
       <enum name="BOTTOM_START" value="8388691"/>
     </attr>
     
@@ -10089,9 +10520,11 @@ sesuai contoh </string>
 
     
     <attr name="offsetAlignmentMode">
-      
+      <!-- The offsets begin at the edge of the anchor. -->
       <enum name="edge" value="0"/>
-      
+      <!-- Follows the legacy offset alignment behavior. The horizontal offset begins at a variable
+           permanent inset from the edge of the anchor, and the vertical offset begins at the center
+           of the badge aligned with the edge of the anchor. -->
       <enum name="legacy" value="1"/>
     </attr>
 
@@ -10121,20 +10554,32 @@ sesuai contoh </string>
     <attr name="trackColor"/>
     
     <attr name="showAnimationBehavior">
-      
+      <!-- No animation used; appears immediately. -->
       <enum name="none" value="0"/>
-      
+      <!--
+        Expands from the bottom edge to the top edge for the linear type;
+        expands from the inner edge to the outer edge for the circular type.
+      -->
       <enum name="outward" value="1"/>
-      
+      <!--
+        Expands from the top edge to the bottom edge for the linear type;
+        expands from the outer edge to the inner edge for the circular type.
+      -->
       <enum name="inward" value="2"/>
     </attr>
     
     <attr name="hideAnimationBehavior">
-      
+      <!-- No animation used; disappears immediately. -->
       <enum name="none" value="0"/>
-      
+      <!--
+        Collapses from the bottom edge to the top edge for the linear type;
+        collapses from the inner edge to the outer edge for the circular type.
+      -->
       <enum name="outward" value="1"/>
-      
+      <!--
+        Collapses from the top edge to the bottom edge for the linear type;
+        collapses from the outer edge to the inner edge for the circular type.
+      -->
       <enum name="inward" value="2"/>
     </attr>
     
@@ -10151,23 +10596,23 @@ sesuai contoh </string>
     <attr name="elevation"/>
     
     <attr name="fabAlignmentMode">
-      
+      <!-- Mode that aligns the fab to the center. -->
       <enum name="center" value="0"/>
-      
+      <!-- Mode that aligns the fab to the end. -->
       <enum name="end" value="1"/>
     </attr>
     
     <attr name="fabAnchorMode">
-      
+      <!-- Mode that anchors the fab embedded inside the BottomAppBar. -->
       <enum name="embed" value="0"/>
-      
+      <!-- Mode that anchors the fab to be cradled within the top edge of the BottomAppBar. -->
       <enum name="cradle" value="1"/>
     </attr>
     
     <attr name="fabAnimationMode">
-      
+      <!-- Mode that scales the fab down to a point, moves it, then scales the fab back to its normal size. -->
       <enum name="scale" value="0"/>
-      
+      <!-- Mode that slides the fab from one alignment mode to the next. -->
       <enum name="slide" value="1"/>
     </attr>
     
@@ -10192,9 +10637,10 @@ sesuai contoh </string>
     <attr name="paddingRightSystemWindowInsets"/>
     
     <attr name="menuAlignmentMode">
-      
+      <!-- Mode that aligns the menu automatically to avoid the FAB. Menu will be aligned at the end
+           when the FAB is center aligned, and start when the FAB is end aligned. -->
       <enum name="auto" value="0"/>
-      
+      <!-- Mode that aligns the menu to the start. -->
       <enum name="start" value="1"/>
     </attr>
   </declare-styleable>
@@ -10213,7 +10659,7 @@ sesuai contoh </string>
     <declare-styleable name="BottomSheetBehavior_Layout">
     
     <attr format="dimension" name="behavior_peekHeight">
-      
+      <!-- Peek at the 16:9 ratio keyline of its parent -->
       <enum name="auto" value="-1"/>
     </attr>
     
@@ -10238,17 +10684,19 @@ sesuai contoh </string>
     <attr name="backgroundTint"/>
     
     <attr name="behavior_saveFlags">
-      
+      <!-- This flag will preserve the peekHeight on configuration change. -->
       <flag name="peekHeight" value="0x1"/>
-      
+      <!-- This flag will preserve the fitToContents boolean value on configuration change. -->
       <flag name="fitToContents" value="0x2"/>
-      
+      <!-- This flag will preserve the hideable boolean value on configuration change. -->
       <flag name="hideable" value="0x4"/>
-      
+      <!-- This flag will preserve the skipCollapsed boolean value on configuration change. -->
       <flag name="skipCollapsed" value="0x8"/>
-      
+      <!-- This flag will preserve the all the aforementioned values on configuration change. -->
       <flag name="all" value="-1"/>
-      
+      <!-- This flag will not preserve the aforementioned values on configuration change. The only
+           value preserved will be the positional state, e.g. collapsed, hidden, expanded, etc.
+           This is the default behavior. -->
       <flag name="none" value="0"/>
     </attr>
     
@@ -10322,6 +10770,115 @@ sesuai contoh </string>
             <enum name="gone" value="8"/>
         </attr>
     </declare-styleable>
+    <declare-styleable name="CastExpandedController">
+<attr name="castButtonColor"/>
+
+<attr name="castControlButtons"/>
+
+<attr format="reference" name="castSeekBarProgressDrawable"/>
+
+<attr format="reference" name="castSeekBarThumbDrawable"/>
+
+<attr format="color" name="castSeekBarProgressAndThumbColor"/>
+
+<attr format="color" name="castSeekBarSecondaryProgressColor"/>
+
+<attr format="color" name="castSeekBarUnseekableProgressColor"/>
+
+<attr format="color" name="castSeekBarTooltipBackgroundColor"/>
+
+<attr format="color" name="castExpandedControllerLoadingIndicatorColor"/>
+
+<attr name="castPlayButtonDrawable"/>
+
+<attr name="castPauseButtonDrawable"/>
+
+<attr name="castStopButtonDrawable"/>
+
+<attr name="castSkipPreviousButtonDrawable"/>
+
+<attr name="castSkipNextButtonDrawable"/>
+
+<attr name="castRewind30ButtonDrawable"/>
+
+<attr name="castForward30ButtonDrawable"/>
+
+<attr name="castMuteToggleButtonDrawable"/>
+
+<attr name="castClosedCaptionsButtonDrawable"/>
+
+<attr format="color" name="castAdBreakMarkerColor"/>
+
+<attr format="color" name="castAdLabelColor"/>
+
+<attr format="color" name="castAdLabelTextColor"/>
+
+<attr format="reference" name="castAdLabelTextAppearance"/>
+
+<attr format="color" name="castAdInProgressTextColor"/>
+
+<attr format="reference" name="castAdInProgressLabelTextAppearance"/>
+
+<attr format="color" name="castLiveIndicatorColor"/>
+
+<attr format="reference|string" name="castAdInProgressText"/>
+
+<attr format="reference|string" name="castDefaultAdPosterUrl"/>
+</declare-styleable>
+    <declare-styleable name="CastIntroOverlay">
+<attr format="color|reference" name="castBackgroundColor"/>
+
+<attr format="color|reference" name="castButtonBackgroundColor"/>
+
+<attr format="reference" name="castButtonTextAppearance"/>
+
+<attr format="reference|string" name="castButtonText"/>
+
+<attr format="reference" name="castTitleTextAppearance"/>
+
+<attr format="dimension|reference" name="castFocusRadius"/>
+</declare-styleable>
+    <declare-styleable name="CastMiniController">
+<attr format="boolean" name="castShowImageThumbnail"/>
+
+<attr name="castTitleTextAppearance"/>
+
+<attr format="reference" name="castSubtitleTextAppearance"/>
+
+<attr format="reference" name="castControlButtons"/>
+
+<attr format="color|reference" name="castBackground"/>
+
+<attr format="color" name="castProgressBarColor"/>
+
+<attr format="color" name="castMiniControllerLoadingIndicatorColor"/>
+
+<attr format="color|reference" name="castButtonColor"/>
+
+<attr format="reference" name="castPlayButtonDrawable"/>
+
+<attr format="reference" name="castPauseButtonDrawable"/>
+
+<attr format="reference" name="castStopButtonDrawable"/>
+
+<attr format="reference" name="castLargePlayButtonDrawable"/>
+
+<attr format="reference" name="castLargePauseButtonDrawable"/>
+
+<attr format="reference" name="castLargeStopButtonDrawable"/>
+
+<attr format="reference" name="castSkipPreviousButtonDrawable"/>
+
+<attr format="reference" name="castSkipNextButtonDrawable"/>
+
+<attr format="reference" name="castRewind30ButtonDrawable"/>
+
+<attr format="reference" name="castForward30ButtonDrawable"/>
+
+<attr format="reference" name="castMuteToggleButtonDrawable"/>
+
+<attr format="reference" name="castClosedCaptionsButtonDrawable"/>
+</declare-styleable>
     <declare-styleable name="CellImageView">
         <attr format="boolean" name="meow_imageview_useColor"/>
         <attr format="boolean" name="meow_imageview_isBitmap"/>
@@ -10342,17 +10899,22 @@ sesuai contoh </string>
 
         
         <attr name="checkMarkTintMode">
-            
+            <!-- The tint is drawn on top of the drawable.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
-            
+            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
             <enum name="src_in" value="5"/>
-            
+            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
             <enum name="src_atop" value="9"/>
-            
+            <!-- Multiplies the color and alpha channels of the drawable with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
             <enum name="multiply" value="14"/>
-            
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
             <enum name="screen" value="15"/>
-            
+            <!-- Combines the tint and icon color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
             <enum name="add" value="16"/>
         </attr>
     </declare-styleable>
@@ -10485,6 +11047,12 @@ sesuai contoh </string>
     <attr format="reference" name="checkedChip"/>
 
   </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr format="dimension" name="civ_border_width"/>
+        <attr format="color" name="civ_border_color"/>
+        <attr format="boolean" name="civ_border_overlay"/>
+        <attr format="color" name="civ_circle_background_color"/>
+    </declare-styleable>
     <declare-styleable name="CircularProgressIndicator">
     
     <attr format="dimension" name="indicatorSize"/>
@@ -10492,9 +11060,17 @@ sesuai contoh </string>
     <attr format="dimension" name="indicatorInset"/>
     
     <attr name="indicatorDirectionCircular">
-      
+      <!--
+        In the indeterminate mode, the spinner will spin clockwise; in the
+        determinate mode, the indicator will progress from the top (12 o'clock)
+        clockwise.
+      -->
       <enum name="clockwise" value="0"/>
-      
+      <!--
+        In the indeterminate mode, the spinner will spin counter-clockwise; in
+        the determinate mode, the indicator will progress from the top (12
+        o'clock) counter-clockwise.
+      -->
       <enum name="counterclockwise" value="1"/>
     </attr>
   </declare-styleable>
@@ -10551,49 +11127,49 @@ sesuai contoh </string>
 
     
     <attr name="collapsedTitleGravity">
-      
+      <!-- Push title to the top of its container, not changing its size. -->
       <flag name="top" value="0x30"/>
-      
+      <!-- Push title to the bottom of its container, not changing its size. -->
       <flag name="bottom" value="0x50"/>
-      
+      <!-- Push title to the left of its container, not changing its size. -->
       <flag name="left" value="0x03"/>
-      
+      <!-- Push title to the right of its container, not changing its size. -->
       <flag name="right" value="0x05"/>
-      
+      <!-- Place title in the vertical center of its container, not changing its size. -->
       <flag name="center_vertical" value="0x10"/>
-      
+      <!-- Grow the vertical size of the title if needed so it completely fills its container. -->
       <flag name="fill_vertical" value="0x70"/>
-      
+      <!-- Place title in the horizontal center of its container, not changing its size. -->
       <flag name="center_horizontal" value="0x01"/>
-      
+      <!-- Place the title in the center of its container in both the vertical and horizontal axis, not changing its size. -->
       <flag name="center" value="0x11"/>
-      
+      <!-- Push title to the beginning of its container, not changing its size. -->
       <flag name="start" value="0x00800003"/>
-      
+      <!-- Push title to the end of its container, not changing its size. -->
       <flag name="end" value="0x00800005"/>
     </attr>
 
     
     <attr name="expandedTitleGravity">
-      
+      <!-- Push title to the top of its container, not changing its size. -->
       <flag name="top" value="0x30"/>
-      
+      <!-- Push title to the bottom of its container, not changing its size. -->
       <flag name="bottom" value="0x50"/>
-      
+      <!-- Push title to the left of its container, not changing its size. -->
       <flag name="left" value="0x03"/>
-      
+      <!-- Push title to the right of its container, not changing its size. -->
       <flag name="right" value="0x05"/>
-      
+      <!-- Place title in the vertical center of its container, not changing its size. -->
       <flag name="center_vertical" value="0x10"/>
-      
+      <!-- Grow the vertical size of the title if needed so it completely fills its container. -->
       <flag name="fill_vertical" value="0x70"/>
-      
+      <!-- Place title in the horizontal center of its container, not changing its size. -->
       <flag name="center_horizontal" value="0x01"/>
-      
+      <!-- Place the title in the center of its container in both the vertical and horizontal axis, not changing its size. -->
       <flag name="center" value="0x11"/>
-      
+      <!-- Push title to the beginning of its container, not changing its size. -->
       <flag name="start" value="0x00800003"/>
-      
+      <!-- Push title to the end of its container, not changing its size. -->
       <flag name="end" value="0x00800005"/>
     </attr>
 
@@ -10603,9 +11179,9 @@ sesuai contoh </string>
     <attr name="title"/>
     
     <attr name="titleCollapseMode">
-      
+      <!-- The expanded title will continuously scale and translate to its final collapsed position. -->
       <enum name="scale" value="0"/>
-      
+      <!-- The expanded title will fade out and translate, and the collapsed title will fade in. -->
       <enum name="fade" value="1"/>
     </attr>
     
@@ -10620,11 +11196,12 @@ sesuai contoh </string>
   </declare-styleable>
     <declare-styleable name="CollapsingToolbarLayout_Layout">
     <attr name="layout_collapseMode">
-      
+      <!-- The view will act as normal with no collapsing behavior. -->
       <enum name="none" value="0"/>
-      
+      <!-- The view will pin in place. -->
       <enum name="pin" value="1"/>
-      
+      <!-- The view will scroll in a parallax fashion. See the
+           layout_collapseParallaxMultiplier attribute to change the multiplier. -->
       <enum name="parallax" value="2"/>
     </attr>
 
@@ -10650,17 +11227,22 @@ sesuai contoh </string>
 
         
         <attr name="buttonTintMode">
-            
+            <!-- The tint is drawn on top of the drawable.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
-            
+            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
             <enum name="src_in" value="5"/>
-            
+            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
             <enum name="src_atop" value="9"/>
-            
+            <!-- Multiplies the color and alpha channels of the drawable with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
             <enum name="multiply" value="14"/>
-            
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
             <enum name="screen" value="15"/>
-            
+            <!-- Combines the tint and icon color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
             <enum name="add" value="16"/>
         </attr>
     </declare-styleable>
@@ -11278,70 +11860,76 @@ sesuai contoh </string>
 
         
         <attr name="layout_anchorGravity">
-            
+            <!-- Push object to the top of its container, not changing its size. -->
             <flag name="top" value="0x30"/>
-            
+            <!-- Push object to the bottom of its container, not changing its size. -->
             <flag name="bottom" value="0x50"/>
-            
+            <!-- Push object to the left of its container, not changing its size. -->
             <flag name="left" value="0x03"/>
-            
+            <!-- Push object to the right of its container, not changing its size. -->
             <flag name="right" value="0x05"/>
-            
+            <!-- Place object in the vertical center of its container, not changing its size. -->
             <flag name="center_vertical" value="0x10"/>
-            
+            <!-- Grow the vertical size of the object if needed so it completely fills its container. -->
             <flag name="fill_vertical" value="0x70"/>
-            
+            <!-- Place object in the horizontal center of its container, not changing its size. -->
             <flag name="center_horizontal" value="0x01"/>
-            
+            <!-- Grow the horizontal size of the object if needed so it completely fills its container. -->
             <flag name="fill_horizontal" value="0x07"/>
-            
+            <!-- Place the object in the center of its container in both the vertical and horizontal axis, not changing its size. -->
             <flag name="center" value="0x11"/>
-            
+            <!-- Grow the horizontal and vertical size of the object if needed so it completely fills its container. -->
             <flag name="fill" value="0x77"/>
-            
+            <!-- Additional option that can be set to have the top and/or bottom edges of
+                 the child clipped to its container's bounds.
+                 The clip will be based on the vertical gravity: a top gravity will clip the bottom
+                 edge, a bottom gravity will clip the top edge, and neither will clip both edges. -->
             <flag name="clip_vertical" value="0x80"/>
-            
+            <!-- Additional option that can be set to have the left and/or right edges of
+                 the child clipped to its container's bounds.
+                 The clip will be based on the horizontal gravity: a left gravity will clip the right
+                 edge, a right gravity will clip the left edge, and neither will clip both edges. -->
             <flag name="clip_horizontal" value="0x08"/>
-            
+            <!-- Push object to the beginning of its container, not changing its size. -->
             <flag name="start" value="0x00800003"/>
-            
+            <!-- Push object to the end of its container, not changing its size. -->
             <flag name="end" value="0x00800005"/>
         </attr>
 
         
         <attr format="enum" name="layout_insetEdge">
-            
+            <!-- Don't inset. -->
             <enum name="none" value="0x0"/>
-            
+            <!-- Inset the top edge. -->
             <enum name="top" value="0x30"/>
-            
+            <!-- Inset the bottom edge. -->
             <enum name="bottom" value="0x50"/>
-            
+            <!-- Inset the left edge. -->
             <enum name="left" value="0x03"/>
-            
+            <!-- Inset the right edge. -->
             <enum name="right" value="0x05"/>
-            
+            <!-- Inset the start edge. -->
             <enum name="start" value="0x00800003"/>
-            
+            <!-- Inset the end edge. -->
             <enum name="end" value="0x00800005"/>
         </attr>
         
         <attr name="layout_dodgeInsetEdges">
-            
+            <!-- Don't dodge any edges -->
             <flag name="none" value="0x0"/>
-            
+            <!-- Dodge the top inset edge. -->
             <flag name="top" value="0x30"/>
-            
+            <!-- Dodge the bottom inset edge. -->
             <flag name="bottom" value="0x50"/>
-            
+            <!-- Dodge the left inset edge. -->
             <flag name="left" value="0x03"/>
-            
+            <!-- Dodge the right inset edge. -->
             <flag name="right" value="0x05"/>
-            
+            <!-- Dodge the start inset edge. -->
             <flag name="start" value="0x00800003"/>
-            
+            <!-- Dodge the end inset edge. -->
             <flag name="end" value="0x00800005"/>
-            
+            <!-- Dodge all the inset edges. -->
             <flag name="all" value="0x77"/>
         </attr>
     </declare-styleable>
@@ -11358,6 +11946,13 @@ sesuai contoh </string>
         <attr format="boolean" name="customBoolean"/>
         <attr format="reference" name="customReference"/>
     </declare-styleable>
+    <declare-styleable name="CustomCastTheme">
+<attr format="reference" name="castIntroOverlayStyle"/>
+
+<attr format="reference" name="castMiniControllerStyle"/>
+
+<attr format="reference" name="castExpandedControllerStyle"/>
+</declare-styleable>
     <declare-styleable name="DialogFragmentNavigator">
         <attr name="android:name"/>
     </declare-styleable>
@@ -11388,11 +11983,11 @@ sesuai contoh </string>
     <attr name="elevation"/>
     
     <attr name="extendStrategy">
-      
+      <!-- Strategy to extend FAB back to the width it shrunk from. -->
       <enum name="auto" value="0"/>
-      
+      <!-- Strategy to extend FAB to wrap content. -->
       <enum name="wrap_content" value="1"/>
-      
+      <!-- Strategy to extend FAB to match parent. -->
       <enum name="match_parent" value="2"/>
     </attr>
     
@@ -11424,11 +12019,11 @@ sesuai contoh </string>
 
     
     <attr name="fabSize">
-      
+      <!-- A size which will change based on the window size. -->
       <enum name="auto" value="-1"/>
-      
+      <!-- The normal sized button. -->
       <enum name="normal" value="0"/>
-      
+      <!-- The mini sized button. -->
       <enum name="mini" value="1"/>
     </attr>
     
@@ -11477,14 +12072,23 @@ sesuai contoh </string>
         <attr format="reference" name="fontProviderCerts"/>
         
         <attr name="fontProviderFetchStrategy">
-            
+            <!-- The blocking font fetch works as follows.
+              First, check the local cache, then if the requested font is not cached, request the
+              font from the provider and wait until it is finished.  You can change the length of
+              the timeout by modifying fontProviderFetchTimeout.  If the timeout happens, the
+              default typeface will be used instead. -->
             <enum name="blocking" value="0"/>
-            
+            <!-- The async font fetch works as follows.
+              First, check the local cache, then if the requeted font is not cached, trigger a
+              request the font and continue with layout inflation. Once the font fetch succeeds, the
+              target text view will be refreshed with the downloaded font data. The
+              fontProviderFetchTimeout will be ignored if async loading is specified. -->
             <enum name="async" value="1"/>
         </attr>
         
         <attr format="integer" name="fontProviderFetchTimeout">
-            
+            <!-- A special value for the timeout. In this case, the blocking font fetching will not
+              timeout and wait until a reply is received from the font provider. -->
             <enum name="forever" value="-1"/>
         </attr>
         
@@ -11842,20 +12446,32 @@ sesuai contoh </string>
     <declare-styleable name="LinearProgressIndicator">
     
     <attr name="indeterminateAnimationType">
-      
+      <!--
+        The track will be filled with three adjacent segments in iterative different colors.
+        This type is only available when there are three or more indicator
+        colors.
+      -->
       <enum name="contiguous" value="0"/>
-      
+      <!--
+        There will be two disjoint segments in the same color per cycle. The color iterates between cycles.
+      -->
       <enum name="disjoint" value="1"/>
     </attr>
     
     <attr name="indicatorDirectionLinear">
-      
+      <!-- Animated from the left end to the right end of the track. -->
       <enum name="leftToRight" value="0"/>
-      
+      <!-- Animated from the right end to the left end of the track. -->
       <enum name="rightToLeft" value="1"/>
-      
+      <!--
+        Animated from the start position to the end position of the track.
+        This will be same as the leftToRight for API before 17.
+      -->
       <enum name="startToEnd" value="2"/>
-      
+      <!--
+        Animated from the end position to the start position of the track.
+        This will be same as the rightToLeft for API before 17.
+      -->
       <enum name="endToStart" value="3"/>
     </attr>
   </declare-styleable>
@@ -11865,6 +12481,82 @@ sesuai contoh </string>
         
         <attr name="android:dropDownHorizontalOffset"/>
     </declare-styleable>
+    <declare-styleable name="LoadingImageView"><attr name="imageAspectRatioAdjust">
+<enum name="none" value="0"/>
+
+<enum name="adjust_width" value="1"/>
+
+<enum name="adjust_height" value="2"/>
+
+</attr>
+
+<attr format="float" name="imageAspectRatio"/>
+
+<attr format="boolean" name="circleCrop"/>
+</declare-styleable>
+    <declare-styleable name="MapAttrs"><attr name="mapType">
+<enum name="none" value="0"/>
+
+<enum name="normal" value="1"/>
+
+<enum name="satellite" value="2"/>
+
+<enum name="terrain" value="3"/>
+
+<enum name="hybrid" value="4"/>
+
+</attr>
+
+<attr format="float" name="cameraBearing"/>
+
+<attr format="float" name="cameraTargetLat"/>
+
+<attr format="float" name="cameraTargetLng"/>
+
+<attr format="float" name="cameraTilt"/>
+
+<attr format="float" name="cameraZoom"/>
+
+<attr format="boolean" name="liteMode"/>
+
+<attr format="boolean" name="uiCompass"/>
+
+<attr format="boolean" name="uiRotateGestures"/>
+
+<attr format="boolean" name="uiScrollGestures"/>
+
+<attr format="boolean" name="uiScrollGesturesDuringRotateOrZoom"/>
+
+<attr format="boolean" name="uiTiltGestures"/>
+
+<attr format="boolean" name="uiZoomControls"/>
+
+<attr format="boolean" name="uiZoomGestures"/>
+
+<attr format="boolean" name="useViewLifecycle"/>
+
+<attr format="boolean" name="zOrderOnTop"/>
+
+<attr format="boolean" name="uiMapToolbar"/>
+
+<attr format="boolean" name="ambientEnabled"/>
+
+<attr format="float" name="cameraMinZoomPreference"/>
+
+<attr format="float" name="cameraMaxZoomPreference"/>
+
+<attr format="float" name="latLngBoundsSouthWestLatitude"/>
+
+<attr format="float" name="latLngBoundsSouthWestLongitude"/>
+
+<attr format="float" name="latLngBoundsNorthEastLatitude"/>
+
+<attr format="float" name="latLngBoundsNorthEastLongitude"/>
+
+<attr format="color" name="backgroundColor"/>
+
+<attr format="string" name="mapId"/>
+</declare-styleable>
     <declare-styleable name="MaterialAlertDialog">
     <attr name="backgroundTint"/>
     <attr format="dimension" name="backgroundInsetStart"/>
@@ -11916,17 +12608,20 @@ sesuai contoh </string>
     <attr format="dimension" name="iconPadding"/>
     
     <attr name="iconGravity">
-      
+      <!-- Push icon to the start of the button. -->
       <flag name="start" value="0x1"/>
-      
+      <!-- Push the icon to the start of the text keeping a distance equal to
+           {@code iconPadding} from the text. -->
       <flag name="textStart" value="0x2"/>
-      
+      <!-- Push icon to the end of the button. -->
       <flag name="end" value="0x3"/>
-      
+      <!-- Push the icon to the end of the text keeping a distance equal to
+           {@code iconPadding} from the text. -->
       <flag name="textEnd" value="0x4"/>
-      
+      <!-- Push the icon to the top of the button. -->
       <flag name="top" value="0x10"/>
-      
+      <!-- Push the icon to the top of the text keeping a distance equal to
+           {@code iconPadding} from the text. -->
       <flag name="textTop" value="0x20"/>
     </attr>
     
@@ -11999,13 +12694,13 @@ sesuai contoh </string>
     <attr format="dimension" name="checkedIconMargin"/>
     
     <attr name="checkedIconGravity">
-      
+      <!-- Gravity.TOP | Gravity.END -->
       <enum name="TOP_END" value="8388661"/>
-      
+      <!-- Gravity.TOP | Gravity.START -->
       <enum name="TOP_START" value="8388659"/>
-      
+      <!-- Gravity.BOTTOM | Gravity.END -->
       <enum name="BOTTOM_END" value="8388693"/>
-      
+      <!-- Gravity.BOTTOM | Gravity.START -->
       <enum name="BOTTOM_START" value="8388691"/>
     </attr>
     
@@ -12035,17 +12730,22 @@ sesuai contoh </string>
     <attr format="reference|color" name="buttonIconTint"/>
     
     <attr name="buttonIconTintMode">
-      
+      <!-- The tint is drawn on top of the drawable.
+           [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
       <enum name="src_over" value="3"/>
-      
+      <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+           color channels are thrown out. [Sa * Da, Sc * Da] -->
       <enum name="src_in" value="5"/>
-      
+      <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+           channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
       <enum name="src_atop" value="9"/>
-      
+      <!-- Multiplies the color and alpha channels of the drawable with those of
+           the tint. [Sa * Da, Sc * Dc] -->
       <enum name="multiply" value="14"/>
-      
+      <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
       <enum name="screen" value="15"/>
-      
+      <!-- Combines the tint and drawable color and alpha channels, clamping the
+           result to valid color values. Saturate(S + D) -->
       <enum name="add" value="16"/>
     </attr>
     
@@ -12056,11 +12756,11 @@ sesuai contoh </string>
     <attr format="string" name="errorAccessibilityLabel"/>
     
     <attr name="checkedState">
-      
+      <!-- The unchecked state of the checkbox. -->
       <enum name="unchecked" value="0"/>
-      
+      <!-- The checked state of the checkbox. -->
       <enum name="checked" value="1"/>
-      
+      <!-- The indeterminate state of the checkbox. -->
       <enum name="indeterminate" value="2"/>
     </attr>
   </declare-styleable>
@@ -12101,17 +12801,22 @@ sesuai contoh </string>
     <attr format="color" name="thumbIconTint"/>
     
     <attr name="thumbIconTintMode">
-      
+      <!-- The tint is drawn on top of the drawable.
+           [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
       <enum name="src_over" value="3"/>
-      
+      <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+           color channels are thrown out. [Sa * Da, Sc * Da] -->
       <enum name="src_in" value="5"/>
-      
+      <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+           channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
       <enum name="src_atop" value="9"/>
-      
+      <!-- Multiplies the color and alpha channels of the drawable with those of
+           the tint. [Sa * Da, Sc * Dc] -->
       <enum name="multiply" value="14"/>
-      
+      <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
       <enum name="screen" value="15"/>
-      
+      <!-- Combines the tint and drawable color and alpha channels, clamping the
+           result to valid color values. Saturate(S + D) -->
       <enum name="add" value="16"/>
     </attr>
     
@@ -12122,17 +12827,22 @@ sesuai contoh </string>
     <attr format="color" name="trackDecorationTint"/>
     
     <attr name="trackDecorationTintMode">
-      
+      <!-- The tint is drawn on top of the drawable.
+           [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
       <enum name="src_over" value="3"/>
-      
+      <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+           color channels are thrown out. [Sa * Da, Sc * Da] -->
       <enum name="src_in" value="5"/>
-      
+      <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+           channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
       <enum name="src_atop" value="9"/>
-      
+      <!-- Multiplies the color and alpha channels of the drawable with those of
+           the tint. [Sa * Da, Sc * Dc] -->
       <enum name="multiply" value="14"/>
-      
+      <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
       <enum name="screen" value="15"/>
-      
+      <!-- Combines the tint and drawable color and alpha channels, clamping the
+           result to valid color values. Saturate(S + D) -->
       <enum name="add" value="16"/>
     </attr>
   </declare-styleable>
@@ -12164,24 +12874,41 @@ sesuai contoh </string>
     <attr format="boolean" name="logoAdjustViewBounds"/>
     
     <attr name="logoScaleType">
-      
+      <!-- Scale using the image matrix when drawing. See
+           {@link android.widget.ImageView#setImageMatrix(Matrix)}. -->
       <enum name="matrix" value="0"/>
-      
+      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#FILL}. -->
       <enum name="fitXY" value="1"/>
-      
+      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#START}. -->
       <enum name="fitStart" value="2"/>
-      
+      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#CENTER}. -->
       <enum name="fitCenter" value="3"/>
-      
+      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#END}. -->
       <enum name="fitEnd" value="4"/>
-      
+      <!-- Center the image in the view, but perform no scaling. -->
       <enum name="center" value="5"/>
-      
+      <!-- Scale the image uniformly (maintain the image's aspect ratio) so both dimensions
+           (width and height) of the image will be equal to or larger than the corresponding
+           dimension of the view (minus padding). The image is then centered in the view. -->
       <enum name="centerCrop" value="6"/>
-      
+      <!-- Scale the image uniformly (maintain the image's aspect ratio) so that both
+           dimensions (width and height) of the image will be equal to or less than the
+           corresponding dimension of the view (minus padding). The image is then centered in
+           the view. -->
       <enum name="centerInside" value="7"/>
     </attr>
   </declare-styleable>
+    <declare-styleable name="MediaRouteButton">
+        
+        <attr format="reference" name="externalRouteEnabledDrawable"/>
+        
+        <attr format="reference" name="externalRouteEnabledDrawableStatic"/>
+        
+        <attr format="color" name="mediaRouteButtonTint"/>
+
+        <attr name="android:minWidth"/>
+        <attr name="android:minHeight"/>
+    </declare-styleable>
     <declare-styleable name="MenuGroup">
 
         
@@ -12266,15 +12993,24 @@ sesuai contoh </string>
 
         
         <attr name="showAsAction">
-            
+            <!-- Never show this item in an action bar, show it in the overflow menu instead.
+                 Mutually exclusive with "ifRoom" and "always". -->
             <flag name="never" value="0"/>
-            
+            <!-- Show this item in an action bar if there is room for it as determined
+                 by the system. Favor this option over "always" where possible.
+                 Mutually exclusive with "never" and "always". -->
             <flag name="ifRoom" value="1"/>
-            
+            <!-- Always show this item in an actionbar, even if it would override
+                 the system's limits of how much stuff to put there. This may make
+                 your action bar look bad on some screens. In most cases you should
+                 use "ifRoom" instead. Mutually exclusive with "ifRoom" and "never". -->
             <flag name="always" value="2"/>
-            
+            <!-- When this item is shown as an action in the action bar, show a text
+                 label with it even if it has an icon representation. -->
             <flag name="withText" value="4"/>
-            
+            <!-- This item's action view collapses to a normal menu
+                 item. When expanded, the action view takes over a
+                 larger segment of its container. -->
             <flag name="collapseActionView" value="8"/>
         </attr>
 
@@ -12298,17 +13034,22 @@ sesuai contoh </string>
 
         
         <attr name="iconTintMode">
-            
+            <!-- The tint is drawn on top of the icon.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
-            
+            <!-- The tint is masked by the alpha channel of the icon. The icon’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
             <enum name="src_in" value="5"/>
-            
+            <!-- The tint is drawn above the icon, but with the icon’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
             <enum name="src_atop" value="9"/>
-            
+            <!-- Multiplies the color and alpha channels of the icon with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
             <enum name="multiply" value="14"/>
-            
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
             <enum name="screen" value="15"/>
-            
+            <!-- Combines the tint and icon color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
             <enum name="add" value="16"/>
         </attr>
 
@@ -12498,13 +13239,14 @@ sesuai contoh </string>
     <attr name="menu"/>
     
     <attr name="labelVisibilityMode">
-      
+      <!-- Label behaves as "labeled" when there are 3 items or less, or "selected" when there are
+           4 items or more. -->
       <enum name="auto" value="-1"/>
-      
+      <!-- Label is shown on the selected navigation item. -->
       <enum name="selected" value="0"/>
-      
+      <!-- Label is shown on all navigation items. -->
       <enum name="labeled" value="1"/>
-      
+      <!-- Label is not shown on any navigation items. -->
       <enum name="unlabeled" value="2"/>
     </attr>
     
@@ -12544,14 +13286,14 @@ sesuai contoh </string>
     <attr name="headerLayout"/>
    
     <attr name="menuGravity">
-      
-      
+      <!-- Navigation rail destinations will be aligned as a group at the top. This is the default behavior. -->
+      <!-- Gravity.TOP | Gravity.CENTER_HORIZONTAL-->
       <enum name="top" value="49"/>
-      
-      
+      <!-- Navigation rail destinations will be aligned as a group at the center. -->
+      <!-- Gravity.CENTER -->
       <enum name="center" value="17"/>
-      
-      
+      <!-- Navigation rail destinations will be aligned as a group at the bottom. -->
+      <!-- Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL -->
       <enum name="bottom" value="81"/>
     </attr>
     
@@ -12747,6 +13489,19 @@ sesuai contoh </string>
         <attr format="reference" name="fastScrollHorizontalThumbDrawable"/>
         <attr format="reference" name="fastScrollHorizontalTrackDrawable"/>
     </declare-styleable>
+    <declare-styleable name="RoundedImageView"><attr format="dimension" name="riv_corner_radius"/><attr format="dimension" name="riv_corner_radius_top_left"/><attr format="dimension" name="riv_corner_radius_top_right"/><attr format="dimension" name="riv_corner_radius_bottom_left"/><attr format="dimension" name="riv_corner_radius_bottom_right"/><attr format="dimension" name="riv_border_width"/><attr format="color" name="riv_border_color"/><attr format="boolean" name="riv_mutate_background"/><attr format="boolean" name="riv_oval"/><attr name="android:scaleType"/><attr name="riv_tile_mode">
+      <enum name="clamp" value="0"/>
+      <enum name="repeat" value="1"/>
+      <enum name="mirror" value="2"/>
+    </attr><attr name="riv_tile_mode_x">
+      <enum name="clamp" value="0"/>
+      <enum name="repeat" value="1"/>
+      <enum name="mirror" value="2"/>
+    </attr><attr name="riv_tile_mode_y">
+      <enum name="clamp" value="0"/>
+      <enum name="repeat" value="1"/>
+      <enum name="mirror" value="2"/>
+    </attr></declare-styleable>
     <declare-styleable name="ScrimInsetsFrameLayout">
     <attr format="color|reference" name="insetForeground"/>
   </declare-styleable>
@@ -12857,6 +13612,25 @@ sesuai contoh </string>
     <attr format="reference" name="coplanarSiblingViewId"/>
 
   </declare-styleable>
+    <declare-styleable name="SignInButton"><attr format="reference" name="buttonSize">
+<enum name="standard" value="0"/>
+
+<enum name="wide" value="1"/>
+
+<enum name="icon_only" value="2"/>
+
+</attr>
+<attr format="reference" name="colorScheme">
+<enum name="dark" value="0"/>
+
+<enum name="light" value="1"/>
+
+<enum name="auto" value="2"/>
+
+</attr>
+
+<attr format="reference|string" name="scopeUris"/>
+</declare-styleable>
     <declare-styleable name="Slider">
     <attr name="android:value"/>
     <attr name="android:valueFrom"/>
@@ -12870,13 +13644,13 @@ sesuai contoh </string>
     <attr format="dimension" name="haloRadius"/>
     
     <attr name="labelBehavior">
-      
+      <!-- Mode that draws the label floating above the bounds of this view. -->
       <enum name="floating" value="0"/>
-      
+      <!-- Mode that draws the label within the bounds of the view. -->
       <enum name="withinBounds" value="1"/>
-      
+      <!-- Mode that prevents the label from being drawn. -->
       <enum name="gone" value="2"/>
-      
+      <!-- Mode that always draws the label. -->
       <enum name="visible" value="3"/>
     </attr>
     
@@ -12928,9 +13702,9 @@ sesuai contoh </string>
     <attr format="dimension" name="maxActionInlineWidth"/>
     
     <attr format="enum" name="animationMode">
-      
+      <!-- Mode that corresponds to the slide in and out animations. -->
       <enum name="slide" value="0"/>
-      
+      <!-- Mode that corresponds to the fade in and out animations. -->
       <enum name="fade" value="1"/>
     </attr>
     
@@ -13020,17 +13794,22 @@ sesuai contoh </string>
         <attr format="color" name="thumbTint"/>
         
         <attr name="thumbTintMode">
-            
+            <!-- The tint is drawn on top of the drawable.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
-            
+            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
             <enum name="src_in" value="5"/>
-            
+            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
             <enum name="src_atop" value="9"/>
-            
+            <!-- Multiplies the color and alpha channels of the drawable with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
             <enum name="multiply" value="14"/>
-            
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
             <enum name="screen" value="15"/>
-            
+            <!-- Combines the tint and drawable color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
             <enum name="add" value="16"/>
         </attr>
         
@@ -13039,17 +13818,22 @@ sesuai contoh </string>
         <attr format="color" name="trackTint"/>
         
         <attr name="trackTintMode">
-            
+            <!-- The tint is drawn on top of the drawable.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
-            
+            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
             <enum name="src_in" value="5"/>
-            
+            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
             <enum name="src_atop" value="9"/>
-            
+            <!-- Multiplies the color and alpha channels of the drawable with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
             <enum name="multiply" value="14"/>
-            
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
             <enum name="screen" value="15"/>
-            
+            <!-- Combines the tint and drawable color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
             <enum name="add" value="16"/>
         </attr>
         
@@ -13094,13 +13878,13 @@ sesuai contoh </string>
     <attr format="reference" name="tabIndicator"/>
     
     <attr name="tabIndicatorGravity">
-      
+      <!-- Align indicator to the bottom of this tab layout. -->
       <enum name="bottom" value="0"/>
-      
+      <!-- Align indicator along the center of this tab layout. -->
       <enum name="center" value="1"/>
-      
+      <!-- Align indicator to the top of this tab layout. -->
       <enum name="top" value="2"/>
-      
+      <!-- Stretch indicator to match the height and width of a tab item in this layout. -->
       <enum name="stretch" value="3"/>
     </attr>
     
@@ -13109,11 +13893,17 @@ sesuai contoh </string>
     <attr format="boolean" name="tabIndicatorFullWidth"/>
     
     <attr name="tabIndicatorAnimationMode">
-      
+      <!-- Animate the selection indicator's left and right bounds in step with
+           each other. -->
       <enum name="linear" value="0"/>
-      
+      <!-- Animate the selection indicator's left and right bounds out of step
+           with each other, decelerating the front and accelerating the back.
+           This causes the indicator to look like it stretches between destinations
+           an then shrinks back down to fit the size of it's target tab. -->
       <enum name="elastic" value="1"/>
-      
+      <!-- Animate the selection indicator by sequentially fading it out from
+           its current destination and then fading it in at its new
+           destination. -->
       <enum name="fade" value="2"/>
     </attr>
     
@@ -13260,15 +14050,19 @@ sesuai contoh </string>
     <attr format="reference" name="errorIconTint"/>
     
     <attr name="errorIconTintMode">
-      
+      <!-- The tint is drawn on top of the drawable.
+           [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
       <enum name="src_over" value="3"/>
-      
+      <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+           color channels are thrown out. [Sa * Da, Sc * Da] -->
       <enum name="src_in" value="5"/>
-      
+      <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+           channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
       <enum name="src_atop" value="9"/>
-      
+      <!-- Multiplies the color and alpha channels of the drawable with those of
+           the tint. [Sa * Da, Sc * Dc] -->
       <enum name="multiply" value="14"/>
-      
+      <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
       <enum name="screen" value="15"/>
     </attr>
 
@@ -13320,47 +14114,56 @@ sesuai contoh </string>
     <attr format="color" name="startIconTint"/>
     
     <attr name="startIconTintMode">
-      
+      <!-- The tint is drawn on top of the drawable.
+           [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
       <enum name="src_over" value="3"/>
-      
+      <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+           color channels are thrown out. [Sa * Da, Sc * Da] -->
       <enum name="src_in" value="5"/>
-      
+      <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+           channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
       <enum name="src_atop" value="9"/>
-      
+      <!-- Multiplies the color and alpha channels of the drawable with those of
+           the tint. [Sa * Da, Sc * Dc] -->
       <enum name="multiply" value="14"/>
-      
+      <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
       <enum name="screen" value="15"/>
     </attr>
     
     <attr format="dimension" name="startIconMinSize"/>
     
     <attr name="startIconScaleType">
-      
+      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#FILL}. -->
       <enum name="fitXY" value="0"/>
-      
+      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#START}. -->
       <enum name="fitStart" value="1"/>
-      
+      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#CENTER}. -->
       <enum name="fitCenter" value="2"/>
-      
+      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#END}. -->
       <enum name="fitEnd" value="3"/>
-      
+      <!-- Center the image in the view, but perform no scaling. -->
       <enum name="center" value="4"/>
-      
+      <!-- Scale the image uniformly (maintain the image's aspect ratio) so both dimensions
+           (width and height) of the image will be equal to or larger than the corresponding
+           dimension of the view (minus padding). The image is then centered in the view. -->
       <enum name="centerCrop" value="5"/>
-      
+      <!-- Scale the image uniformly (maintain the image's aspect ratio) so that both
+           dimensions (width and height) of the image will be equal to or less than the
+           corresponding dimension of the view (minus padding). The image is then centered in
+           the view. -->
       <enum name="centerInside" value="6"/>
     </attr>
     
     <attr name="endIconMode">
-      
+      <!-- The view will display a custom icon specified by the user. -->
       <enum name="custom" value="-1"/>
-      
+      <!-- No end icon. -->
       <enum name="none" value="0"/>
-      
+      <!-- The view will display a toggle when the EditText has a password. -->
       <enum name="password_toggle" value="1"/>
-      
+      <!-- The view will display a clear text button while the EditText contains input. -->
       <enum name="clear_text" value="2"/>
-      
+      <!-- The view will display a toggle that displays/hides a dropdown menu. -->
       <enum name="dropdown_menu" value="3"/>
     </attr>
     
@@ -13373,44 +14176,53 @@ sesuai contoh </string>
     <attr format="color" name="endIconTint"/>
     
     <attr name="endIconTintMode">
-      
+      <!-- The tint is drawn on top of the drawable.
+           [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
       <enum name="src_over" value="3"/>
-      
+      <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+           color channels are thrown out. [Sa * Da, Sc * Da] -->
       <enum name="src_in" value="5"/>
-      
+      <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+           channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
       <enum name="src_atop" value="9"/>
-      
+      <!-- Multiplies the color and alpha channels of the drawable with those of
+           the tint. [Sa * Da, Sc * Dc] -->
       <enum name="multiply" value="14"/>
-      
+      <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
       <enum name="screen" value="15"/>
     </attr>
     
     <attr format="dimension" name="endIconMinSize"/>
     
     <attr name="endIconScaleType">
-      
+      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#FILL}. -->
       <enum name="fitXY" value="0"/>
-      
+      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#START}. -->
       <enum name="fitStart" value="1"/>
-      
+      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#CENTER}. -->
       <enum name="fitCenter" value="2"/>
-      
+      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#END}. -->
       <enum name="fitEnd" value="3"/>
-      
+      <!-- Center the image in the view, but perform no scaling. -->
       <enum name="center" value="4"/>
-      
+      <!-- Scale the image uniformly (maintain the image's aspect ratio) so both dimensions
+           (width and height) of the image will be equal to or larger than the corresponding
+           dimension of the view (minus padding). The image is then centered in the view. -->
       <enum name="centerCrop" value="5"/>
-      
+      <!-- Scale the image uniformly (maintain the image's aspect ratio) so that both
+           dimensions (width and height) of the image will be equal to or less than the
+           corresponding dimension of the view (minus padding). The image is then centered in
+           the view. -->
       <enum name="centerInside" value="6"/>
     </attr>
 
     
     <attr name="boxBackgroundMode">
-      
+      <!-- Specifies that there should be no box set on the text input area. -->
       <enum name="none" value="0"/>
-      
+      <!-- Filled box mode for the text input box. -->
       <enum name="filled" value="1"/>
-      
+      <!-- Outline box mode for the text input box. -->
       <enum name="outline" value="2"/>
     </attr>
     
@@ -13449,15 +14261,19 @@ sesuai contoh </string>
     <attr format="color" name="passwordToggleTint"/>
     
     <attr name="passwordToggleTintMode">
-      
+      <!-- The tint is drawn on top of the drawable.
+           [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
       <enum name="src_over" value="3"/>
-      
+      <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+           color channels are thrown out. [Sa * Da, Sc * Da] -->
       <enum name="src_in" value="5"/>
-      
+      <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+           channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
       <enum name="src_atop" value="9"/>
-      
+      <!-- Multiplies the color and alpha channels of the drawable with those of
+           the tint. [Sa * Da, Sc * Dc] -->
       <enum name="multiply" value="14"/>
-      
+      <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
       <enum name="screen" value="15"/>
     </attr>
   </declare-styleable>
@@ -13495,11 +14311,11 @@ sesuai contoh </string>
         <attr name="contentInsetEndWithActions"/>
         <attr format="dimension" name="maxButtonHeight"/>
         <attr name="buttonGravity">
-            
+            <!-- Place object in the vertical center of its container, not changing its size. -->
             <flag name="center_vertical" value="0x10"/>
-            
+            <!-- Push object to the top of its container, not changing its size. -->
             <flag name="top" value="0x30"/>
-            
+            <!-- Push object to the bottom of its container, not changing its size. -->
             <flag name="bottom" value="0x50"/>
         </attr>
         
@@ -13632,17 +14448,22 @@ sesuai contoh </string>
 
         
         <attr name="backgroundTintMode">
-            
+            <!-- The tint is drawn on top of the drawable.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
-            
+            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
             <enum name="src_in" value="5"/>
-            
+            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
             <enum name="src_atop" value="9"/>
-            
+            <!-- Multiplies the color and alpha channels of the drawable with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
             <enum name="multiply" value="14"/>
-            
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
             <enum name="screen" value="15"/>
-            
+            <!-- Combines the tint and icon color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
             <enum name="add" value="16"/>
         </attr>
     </declare-styleable>

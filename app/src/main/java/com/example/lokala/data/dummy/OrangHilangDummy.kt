@@ -9,6 +9,12 @@ data class OrangHilangDummy(
     val data: List<OrangHilang>
 )
 
+data class OrangHilangs(
+    val error: Boolean,
+    val message:String,
+    val data: List<OrangHilang>
+)
+
 @Parcelize
 data class OrangHilang(
     val berat_badan: String,
