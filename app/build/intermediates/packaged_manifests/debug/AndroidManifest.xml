@@ -46,23 +46,24 @@
         android:theme="@style/Theme.Lokala" >
         <activity
             android:name="com.example.lokala.ui.foto.FotoActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.example.lokala.ui.user.UserActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.lokala.ui.orangHilang.TambahOrangHilangActivity"
+            android:name="com.example.lokala.ui.orangHilang.tambah.TambahOrangHilangActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.lokala.ui.orangHilang.DetailOrangHilangActivity"
+            android:name="com.example.lokala.ui.orangHilang.detail.DetailOrangHilangActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.example.lokala.ui.home.MainActivity"
             android:exported="true"
-            android:label="@string/app_name" />
+            android:theme="@style/Theme.lokala" />
         <activity
             android:name="com.example.lokala.ui.login.LoginActivity"
             android:exported="false"

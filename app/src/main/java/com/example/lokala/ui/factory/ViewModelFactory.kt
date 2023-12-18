@@ -6,7 +6,8 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.lokala.data.di.Injection
 import com.example.lokala.data.repository.OrangHilangRepository
 import com.example.lokala.ui.home.HomeViewModel
-import com.example.lokala.ui.orangHilang.TambahOrangHilangViewModel
+import com.example.lokala.ui.orangHilang.detail.DetailOrangHilangViewModel
+import com.example.lokala.ui.orangHilang.tambah.TambahOrangHilangViewModel
 
 class ViewModelFactory(
     private val orangHilangRepository: OrangHilangRepository
@@ -20,6 +21,9 @@ class ViewModelFactory(
         }
         if (modelClass.isAssignableFrom(TambahOrangHilangViewModel::class.java)) {
             return TambahOrangHilangViewModel(orangHilangRepository) as T
+        }
+        if (modelClass.isAssignableFrom(DetailOrangHilangViewModel::class.java)) {
+            return DetailOrangHilangViewModel(orangHilangRepository) as T
         }
         throw IllegalArgumentException("Unknown ViewModel class: " + modelClass.name)
     }

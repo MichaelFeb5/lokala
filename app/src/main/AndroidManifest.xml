@@ -25,13 +25,16 @@
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.orangHilang.TambahOrangHilangActivity"
+
+            android:name=".ui.orangHilang.tambah.TambahOrangHilangActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
+
         <activity
-            android:name=".ui.orangHilang.DetailOrangHilangActivity"
+            android:name=".ui.orangHilang.detail.DetailOrangHilangActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
+
 
         <activity
             android:name=".ui.home.MainActivity"
