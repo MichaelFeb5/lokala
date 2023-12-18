@@ -13,9 +13,10 @@ import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.example.lokala.data.response.OrangHilangItem
 import com.example.lokala.databinding.FragmentHomeBinding
+import com.example.lokala.ui.adapter.OrangHilangAdapter
 import com.example.lokala.ui.factory.ViewModelFactory
-import com.example.lokala.ui.orangHilang.DetailOrangHilangActivity
-import com.example.lokala.ui.orangHilang.TambahOrangHilangActivity
+import com.example.lokala.ui.orangHilang.detail.DetailOrangHilangActivity
+import com.example.lokala.ui.orangHilang.tambah.TambahOrangHilangActivity
 
 class HomeFragment : Fragment() {
     private lateinit var binding: FragmentHomeBinding

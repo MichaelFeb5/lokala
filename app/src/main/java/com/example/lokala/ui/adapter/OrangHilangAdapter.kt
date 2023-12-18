@@ -1,4 +1,4 @@
-package com.example.lokala.ui.home
+package com.example.lokala.ui.adapter
 
 import android.content.Context
 import android.view.LayoutInflater

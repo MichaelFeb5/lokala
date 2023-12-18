@@ -65,3 +65,11 @@ data class addPeopleResponse(
     @SerializedName("status")
     val status: String
 )
+
+data class deleteResponse(
+    @SerializedName("message")
+    val message: String,
+
+    @SerializedName("status")
+    val status: String
+)

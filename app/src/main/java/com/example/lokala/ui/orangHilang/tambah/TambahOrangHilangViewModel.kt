@@ -1,4 +1,4 @@
-package com.example.lokala.ui.orangHilang
+package com.example.lokala.ui.orangHilang.tambah
 
 import androidx.lifecycle.ViewModel
 import com.example.lokala.data.repository.OrangHilangRepository
@@ -8,6 +8,7 @@ class TambahOrangHilangViewModel(private val orangHilangRepository: OrangHilangR
     ViewModel() {
     fun addPeople(
         fotos: MultipartBody.Part,
+        fotos2: MultipartBody.Part,
         nama: String,
         umur: Int,
         tinggi: Int,
@@ -20,6 +21,7 @@ class TambahOrangHilangViewModel(private val orangHilangRepository: OrangHilangR
         isFound: Boolean
     ) = orangHilangRepository.addPeople(
         fotos,
+        fotos2,
         nama,
         umur,
         tinggi,

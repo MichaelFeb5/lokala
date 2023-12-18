@@ -17,10 +17,10 @@
         android:theme="@style/Theme.AppCompat"
         tools:targetApi="31" >
         <activity
-            android:name=".ui.orangHilang.TambahOrangHilangActivity"
+            android:name=".ui.orangHilang.tambah.TambahOrangHilangActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.orangHilang.DetailOrangHilangActivity"
+            android:name=".ui.orangHilang.detail.DetailOrangHilangActivity"
             android:exported="false" />
         <activity
             android:name=".ui.home.MainActivity"

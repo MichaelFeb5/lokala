@@ -6,6 +6,7 @@ import androidx.lifecycle.liveData
 import com.dicoding.picodiploma.insagram.data.retrofit.ApiService
 import com.example.lokala.data.response.OrangHilangResponse
 import com.example.lokala.data.response.addPeopleResponse
+import com.example.lokala.data.response.deleteResponse
 import com.google.gson.Gson
 import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import okhttp3.MultipartBody
@@ -42,8 +43,23 @@ class OrangHilangRepository(
         }
     }
 
+    fun deteleOrangHilang(id : String) = liveData {
+        emit(ResultState.Loading)
+        try {
+            Log.d("id", id)
+            val response = apiService.deletePeople(id)
+            Log.d("API_RESPONSE2", Gson().toJson(response.toString()))
+            emit(ResultState.Success(response))
+        } catch (e: HttpException) {
+            val errorBody = e.response()?.errorBody()?.string()
+            val errorResponse = Gson().fromJson(errorBody, deleteResponse::class.java)
+            emit(ResultState.Error(errorResponse.message))
+        }
+    }
+
     fun addPeople(
         fotos: MultipartBody.Part,
+        fotos2: MultipartBody.Part,
         nama: String,
         umur: Int,
         tinggi: Int,
@@ -76,6 +92,7 @@ class OrangHilangRepository(
             try {
                 val successResponse = apiService.addPeople(
                     fotos,
+                    fotos2,
                     namaRequestBody,
                     umurRequestBody,
                     tinggiRequestBody,

@@ -6,8 +6,8 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.lokala.data.di.Injection
 import com.example.lokala.data.repository.OrangHilangRepository
 import com.example.lokala.ui.home.HomeViewModel
-import com.example.lokala.ui.orangHilang.DetailOrangHilangViewModel
-import com.example.lokala.ui.orangHilang.TambahOrangHilangViewModel
+import com.example.lokala.ui.orangHilang.detail.DetailOrangHilangViewModel
+import com.example.lokala.ui.orangHilang.tambah.TambahOrangHilangViewModel
 
 class ViewModelFactory(
     private val orangHilangRepository: OrangHilangRepository
