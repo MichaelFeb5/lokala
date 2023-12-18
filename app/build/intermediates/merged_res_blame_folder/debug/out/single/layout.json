@@ -56,8 +56,8 @@
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-74:\\layout\\activity_tambah_orang_hilang.xml"
     },
     {
-        "merged": "com.example.lokala.app-mergeDebugResources-71:/layout/activity_foto.xml",
-        "source": "com.example.lokala.app-main-74:/layout/activity_foto.xml"
+        "merged": "com.example.lokala.app-mergeDebugResources-71:/layout/fragment_search_user.xml",
+        "source": "com.example.lokala.app-main-74:/layout/fragment_search_user.xml"
     },
     {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-mergeDebugResources-71:\\layout\\activity_guide.xml",

@@ -32,6 +32,7 @@
         <item>Tambahkan Orang Hilang</item>
     </string-array>
     <color name="black">#FF000000</color>
+    <color name="boxStrokeColor">@color/primarycolor</color>
     <color name="button">#CBF70F</color>
     <color name="card_color">#FFD465</color>
     <color name="colorAccent">#FF4081</color>

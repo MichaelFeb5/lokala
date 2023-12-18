@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:2:1-61:12
-INJECTED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:2:1-61:12
-INJECTED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:2:1-61:12
-INJECTED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:2:1-61:12
+ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:2:1-64:12
 MERGED from [androidx.databinding:viewbinding:8.0.2] C:\Users\lenovo\.gradle\caches\transforms-3\cdb3cce9de30a9202286da13f12a57a0\transformed\jetified-viewbinding-8.0.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.7.5] C:\Users\lenovo\.gradle\caches\transforms-3\0a421b362f9a8e3fb19b77e46941b6b1\transformed\navigation-common-2.7.5\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.7.5] C:\Users\lenovo\.gradle\caches\transforms-3\af06ac414c11615d19f382f5bca6a789\transformed\navigation-common-ktx-2.7.5\AndroidManifest.xml:2:1-7:12
@@ -90,22 +90,22 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\lenovo\.gradle\c
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\e6fe08ab0c915fc7255853bfebe651af\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\ca507eadcce11a54af3c79b1416569ae\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\5f395a421a4d0f4392e56e3348be2ad6\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:2:1-61:12
-INJECTED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:2:1-61:12
-INJECTED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:2:1-64:12
 	package
 		INJECTED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml
-		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:2:1-61:12
+		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:2:1-64:12
 		INJECTED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml
-		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:2:1-61:12
+		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:2:1-64:12
 		INJECTED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml
-		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:2:1-61:12
+		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:2:1-64:12
 		INJECTED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:2:11-69
@@ -114,7 +114,7 @@ ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\ma
 	android:name
 		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:7:5-59:19
+ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:7:5-62:19
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\lenovo\.gradle\caches\transforms-3\ac73ef10f16d85db54e5bb64e6e254a4\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\lenovo\.gradle\caches\transforms-3\ac73ef10f16d85db54e5bb64e6e254a4\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\lenovo\.gradle\caches\transforms-3\df86c074ed03c67619ec37725ad7f589\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -158,85 +158,85 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\le
 	android:dataExtractionRules
 		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:9:9-65
 activity#com.example.lokala.ui.foto.FotoActivity
-ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:17:9-19:40
+ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:17:9-20:40
+	android:screenOrientation
+		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:19:13-49
 	android:exported
-		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:19:13-37
+		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:20:13-37
 	android:name
 		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:18:13-49
 activity#com.example.lokala.ui.user.UserActivity
-ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:20:9-23:52
+ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:21:9-24:52
 	android:screenOrientation
-		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:23:13-49
+		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:24:13-49
 	android:exported
-		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:22:13-37
+		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:23:13-37
 	android:name
-		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:21:13-49
+		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:22:13-49
 activity#com.example.lokala.ui.orangHilang.TambahOrangHilangActivity
-ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:24:9-27:52
+ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:25:9-28:52
 	android:screenOrientation
-		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:27:13-49
+		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:28:13-49
 	android:exported
-		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:26:13-37
+		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:25:13-69
+		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:26:13-69
 activity#com.example.lokala.ui.orangHilang.DetailOrangHilangActivity
-ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:28:9-31:52
+ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:29:9-32:52
 	android:screenOrientation
-		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:31:13-49
+		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:32:13-49
 	android:exported
-		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:30:13-37
+		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:29:13-69
+		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:30:13-69
 activity#com.example.lokala.ui.home.MainActivity
-ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:32:9-36:51
-	android:label
-		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:35:13-45
+ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:33:9-36:51
 	android:exported
-		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:34:13-36
+		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:35:13-36
 	android:theme
 		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:36:13-48
 	android:name
-		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:33:13-49
+		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:34:13-49
 activity#com.example.lokala.ui.login.LoginActivity
-ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:37:9-40:52
+ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:38:9-41:52
 	android:screenOrientation
-		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:40:13-49
+		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:41:13-49
 	android:exported
-		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:39:13-37
+		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:40:13-37
 	android:name
-		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:38:13-51
+		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:39:13-51
 activity#com.example.lokala.ui.guide.GuideActivity
-ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:41:9-44:52
+ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:43:9-46:52
 	android:screenOrientation
-		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:44:13-49
+		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:46:13-49
 	android:exported
-		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:43:13-37
+		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:45:13-37
 	android:name
-		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:42:13-51
+		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:44:13-51
 activity#com.example.lokala.ui.splash_screen.SplashScreen
-ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:45:9-54:20
+ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:48:9-57:20
 	android:screenOrientation
-		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:48:13-49
+		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:51:13-49
 	android:exported
-		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:47:13-36
+		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:50:13-36
 	android:name
-		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:46:13-58
+		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:49:13-58
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:49:13-53:29
+ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:52:13-56:29
 action#android.intent.action.MAIN
-ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:50:17-69
+ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:53:17-69
 	android:name
-		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:50:25-66
+		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:53:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:52:17-77
+ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:55:17-77
 	android:name
-		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:52:27-74
+		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:55:27-74
 meta-data#preloaded_fonts
-ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:56:9-58:57
+ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:59:9-61:57
 	android:resource
-		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:58:13-54
+		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:61:13-54
 	android:name
-		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:57:13-43
+		ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:60:13-43
 uses-sdk
 INJECTED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml

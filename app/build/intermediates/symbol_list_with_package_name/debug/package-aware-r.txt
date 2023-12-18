@@ -1424,6 +1424,7 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
+color boxStrokeColor
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -3077,6 +3078,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_place_holder
 drawable ic_search_black_24
+drawable lokana_white_3
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3299,11 +3301,16 @@ id checkbox
 id checked
 id chronometer
 id circle_1
+id circle_1_banner
 id circle_1_choice_user
 id circle_2
+id circle_2_banner
 id circle_2_choice_user
 id circle_3
+id circle_3_banner
 id circle_3_choice_user
+id circle_4_banner
+id circle_5_banner
 id circle_center
 id clear_text
 id clip_horizontal
@@ -3442,6 +3449,7 @@ id im_user
 id image
 id imageButton4
 id imageView
+id image_banner
 id image_guide
 id image_ig
 id image_wa

@@ -1,5 +1,6 @@
 package com.example.lokala.ui.splash_screen
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -7,9 +8,11 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import com.bumptech.glide.Glide
+import com.example.lokala.R
 import com.example.lokala.databinding.ActivitySplashScreenBinding
 import com.example.lokala.ui.guide.GuideActivity
 
+@SuppressLint("CustomSplashScreen")
 class SplashScreen : AppCompatActivity() {
 
     private lateinit var binding: ActivitySplashScreenBinding
@@ -21,7 +24,7 @@ class SplashScreen : AppCompatActivity() {
         handlerSplashScreen(this)
 
         Glide.with(this)
-            .load("https://drive.google.com/file/d/1yBnFTMfHehN6CINsHetwPfZzfT-zWASV/view?usp=sharing")
+            .load(R.drawable.lokana_white_3)
             .into(binding.splashScreenImage)
 
     }

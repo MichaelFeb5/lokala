@@ -8,6 +8,7 @@ array preloaded_fonts
 array title_card_guide
 array title_guide_fragment
 color black
+color boxStrokeColor
 color button
 color card_color
 color colorAccent
@@ -41,6 +42,7 @@ drawable container_foto
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_place_holder
+drawable lokana_white_3
 drawable rounded_bottom_corner
 drawable rounded_up_corner
 drawable selected_circle
@@ -71,11 +73,16 @@ id btn_tambah
 id btn_user
 id carousel_item_container
 id circle_1
+id circle_1_banner
 id circle_1_choice_user
 id circle_2
+id circle_2_banner
 id circle_2_choice_user
 id circle_3
+id circle_3_banner
 id circle_3_choice_user
+id circle_4_banner
+id circle_5_banner
 id container
 id container_example_view
 id container_form_foto
@@ -104,6 +111,7 @@ id im_example_foto
 id im_user
 id imageButton4
 id imageView
+id image_banner
 id image_guide
 id image_ig
 id image_wa
