@@ -1,6 +1,8 @@
 package com.example.lokala.data.response
 
+import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
+import kotlinx.parcelize.Parcelize
 
 data class OrangHilangResponse(
     @SerializedName("data")
@@ -13,7 +15,11 @@ data class OrangHilangResponse(
     val status: String
 )
 
+@Parcelize
 data class OrangHilangItem(
+    @SerializedName("id_people")
+    val id_people: String,
+
     @SerializedName("berat_badan")
     val beratBadan: Int, // It could be Int or String based on the JSON
 
@@ -49,7 +55,7 @@ data class OrangHilangItem(
 
     @SerializedName("url_foto")
     val urlFoto: List<String> // It could be String or List<String> based on the JSON
-)
+): Parcelable
 
 
 data class addPeopleResponse(

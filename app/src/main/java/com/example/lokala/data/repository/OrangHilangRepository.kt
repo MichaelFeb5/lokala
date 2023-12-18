@@ -29,6 +29,19 @@ class OrangHilangRepository(
         }
     }
 
+    fun getOrangHilangById(id : String) = liveData {
+        emit(ResultState.Loading)
+        try {
+            val orangHilang = apiService.getPeopleById(id)
+            Log.d("API_RESPONSE", Gson().toJson(orangHilang.data.toString()))
+            emit(ResultState.Success(orangHilang))
+        } catch (e: HttpException) {
+            val errorBody = e.response()?.errorBody()?.string()
+            val errorResponse = Gson().fromJson(errorBody, OrangHilangResponse::class.java)
+            emit(ResultState.Error(errorResponse.message))
+        }
+    }
+
     fun addPeople(
         fotos: MultipartBody.Part,
         nama: String,

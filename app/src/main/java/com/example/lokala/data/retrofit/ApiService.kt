@@ -9,6 +9,7 @@ import retrofit2.http.Headers
 import retrofit2.http.Multipart
 import retrofit2.http.POST
 import retrofit2.http.Part
+import retrofit2.http.Query
 
 interface ApiService {
     @GET("getpeople")
@@ -30,4 +31,7 @@ interface ApiService {
         @Part("gender") gender: RequestBody,
         @Part("isFound") isFound: RequestBody
     ): addPeopleResponse
+
+    @GET("getpeople")
+    suspend fun getPeopleById(@Query("id_people") idPeople: String): OrangHilangResponse
 }
