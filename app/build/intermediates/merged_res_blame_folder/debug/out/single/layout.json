@@ -44,12 +44,12 @@
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\layout\\fragment_home_user.xml"
     },
     {
-        "merged": "com.example.lokala.app-mergeDebugResources-70:/layout/fragment_guide.xml",
-        "source": "com.example.lokala.app-main-73:/layout/fragment_guide.xml"
-    },
-    {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-mergeDebugResources-70:\\layout\\activity_user.xml",
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\layout\\activity_user.xml"
+    },
+    {
+        "merged": "com.example.lokala.app-mergeDebugResources-70:/layout/activity_tambah_orang_hilang.xml",
+        "source": "com.example.lokala.app-main-73:/layout/activity_tambah_orang_hilang.xml"
     },
     {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-mergeDebugResources-70:\\layout\\activity_main.xml",

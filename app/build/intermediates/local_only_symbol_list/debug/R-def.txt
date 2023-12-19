@@ -17,6 +17,7 @@ color colorAccent
 color colorPrimary
 color colorPrimaryDark
 color green
+color ic_launcher_background
 color primary_background
 color primarycolor
 color purple_200
