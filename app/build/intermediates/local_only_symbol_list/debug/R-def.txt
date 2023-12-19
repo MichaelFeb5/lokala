@@ -1,9 +1,11 @@
 R_DEF: Internal format may change without notice
 local
+array banner_image
 array choice_gender
 array com_google_android_gms_fonts_certs
 array com_google_android_gms_fonts_certs_dev
 array com_google_android_gms_fonts_certs_prod
+array image_landing_page
 array preloaded_fonts
 array title_card_guide
 array title_guide_fragment
@@ -15,6 +17,7 @@ color colorAccent
 color colorPrimary
 color colorPrimaryDark
 color green
+color ic_launcher_background
 color primary_background
 color primarycolor
 color purple_200
@@ -41,6 +44,8 @@ drawable container_example_foto
 drawable container_foto
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_logo_1
+drawable ic_logo_2
 drawable ic_place_holder
 drawable lokana_white_3
 drawable rounded_bottom_corner
@@ -54,7 +59,7 @@ id bacground_title_choice_user
 id bacground_title_guide
 id bacground_title_login
 id background_photo
-id banner
+id banner_view_pager
 id bottom
 id bottomNavigation
 id bottom_navigation
@@ -198,6 +203,7 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
 string back
+string banner
 string btn_find
 string build_since
 string camera

@@ -9,7 +9,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/teal_700"
+        android:background="@color/white"
         tools:context=".ui.orangHilang.tambah.TambahOrangHilangActivity">
 
         <Button
