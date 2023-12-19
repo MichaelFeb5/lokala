@@ -8,6 +8,7 @@
     <color name="colorPrimary">#3F51B5</color> <!-- Warna utama toolbar -->
     <color name="colorPrimaryDark">#303F9F</color> <!-- Warna status bar -->
     <color name="colorAccent">#FF4081</color> <!-- Warna aksen (misalnya, tombol, dll.) -->
+    <color name="boxStrokeColor">@color/primarycolor</color>
 
     <!-- Theme Definition -->
     <style name="Base.Theme.lokala" parent="Theme.Material3.DayNight.NoActionBar">

@@ -6,55 +6,76 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.lokala.R
+import com.example.lokala.databinding.FragmentGuideBinding
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
 
-/**
- * A simple [Fragment] subclass.
- * Use the [GuideFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class GuideFragment : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
-        }
+
+    private var _binding: FragmentGuideBinding? = null
+    private val binding get() = _binding!!
+    private val titleFragment: Array<String> by lazy {
+        resources.getStringArray(R.array.title_guide_fragment)
+    }
+    private val titleCardFragment: Array<String> by lazy {
+        resources.getStringArray(R.array.title_card_guide)
     }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_guide, container, false)
+        _binding = FragmentGuideBinding.inflate(inflater, container, false)
+        return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        val index = arguments?.getInt(ARG_POSITION, 0)
+
+        index?.let {
+            with(binding) {
+                tvTitleGuide.text = titleFragment[it]
+                tvTitleCard.text = titleCardFragment[it]
+                selectedCircle(it)
+
+
+            }
+        }
+
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
+
+    private fun selectedCircle(position: Int) {
+        with(binding) {
+            when (position) {
+
+                0 -> {
+                    circle1.setImageResource(R.drawable.selected_circle)
+                    circle2.setImageResource(R.drawable.unselected_circle)
+                    circle3.setImageResource(R.drawable.unselected_circle)
+                }
+
+                else -> {
+                    circle1.setImageResource(R.drawable.unselected_circle)
+                    circle2.setImageResource(R.drawable.selected_circle)
+                    circle3.setImageResource(R.drawable.unselected_circle)
+                }
+            }
+        }
+
     }
 
     companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment GuideFragment.
-         */
-        // TODO: Rename and change types and number of parameters
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            GuideFragment().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
-                }
-            }
+
+        const val ARG_POSITION = "arg_position"
+
     }
+
 }

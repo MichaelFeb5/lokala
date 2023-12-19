@@ -1,61 +1,73 @@
 com.example.lokala.app-jetified-lifecycle-viewmodel-ktx-2.6.2-0 C:\Users\lenovo\.gradle\caches\transforms-3\01e58a803122d8138c25d0081e6615ba\transformed\jetified-lifecycle-viewmodel-ktx-2.6.2\res
 com.example.lokala.app-core-runtime-2.2.0-1 C:\Users\lenovo\.gradle\caches\transforms-3\02f3d581680541223550150c194b2fd7\transformed\core-runtime-2.2.0\res
-com.example.lokala.app-jetified-runtime-saveable-1.4.0-2 C:\Users\lenovo\.gradle\caches\transforms-3\0483a1e6ac844020ef688b4fc49acdd8\transformed\jetified-runtime-saveable-1.4.0\res
-com.example.lokala.app-jetified-activity-compose-1.8.1-3 C:\Users\lenovo\.gradle\caches\transforms-3\09239a3595418f2941ed6741e4d9412f\transformed\jetified-activity-compose-1.8.1\res
-com.example.lokala.app-jetified-ui-text-1.4.0-4 C:\Users\lenovo\.gradle\caches\transforms-3\0a9441e9c5f2c91cb430831519d074fe\transformed\jetified-ui-text-1.4.0\res
-com.example.lokala.app-jetified-lifecycle-viewmodel-savedstate-2.6.2-5 C:\Users\lenovo\.gradle\caches\transforms-3\117c0a2e52ad3e3265df3fe2f1794329\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\res
-com.example.lokala.app-jetified-material3-1.0.0-6 C:\Users\lenovo\.gradle\caches\transforms-3\14205fcac00d74ba9468e38ea702c7ad\transformed\jetified-material3-1.0.0\res
-com.example.lokala.app-jetified-startup-runtime-1.1.1-7 C:\Users\lenovo\.gradle\caches\transforms-3\1479e9f32d4e8ff74a12e20fea1cd308\transformed\jetified-startup-runtime-1.1.1\res
+com.example.lokala.app-navigation-common-2.7.5-2 C:\Users\lenovo\.gradle\caches\transforms-3\0a421b362f9a8e3fb19b77e46941b6b1\transformed\navigation-common-2.7.5\res
+com.example.lokala.app-jetified-play-services-base-18.1.0-3 C:\Users\lenovo\.gradle\caches\transforms-3\0c12dd30a8820219c9e7639402553971\transformed\jetified-play-services-base-18.1.0\res
+com.example.lokala.app-jetified-lifecycle-viewmodel-savedstate-2.6.2-4 C:\Users\lenovo\.gradle\caches\transforms-3\117c0a2e52ad3e3265df3fe2f1794329\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\res
+com.example.lokala.app-jetified-startup-runtime-1.1.1-5 C:\Users\lenovo\.gradle\caches\transforms-3\1479e9f32d4e8ff74a12e20fea1cd308\transformed\jetified-startup-runtime-1.1.1\res
+com.example.lokala.app-sqlite-framework-2.4.0-6 C:\Users\lenovo\.gradle\caches\transforms-3\16ef86c41e7e8ad771f3592c7700c41c\transformed\sqlite-framework-2.4.0\res
+com.example.lokala.app-jetified-play-services-cast-framework-21.4.0-7 C:\Users\lenovo\.gradle\caches\transforms-3\17340512c496ffa6ce9177178b07a54b\transformed\jetified-play-services-cast-framework-21.4.0\res
 com.example.lokala.app-drawerlayout-1.1.1-8 C:\Users\lenovo\.gradle\caches\transforms-3\1e6967ed6bb481e3cf6d08b1e2b50e6f\transformed\drawerlayout-1.1.1\res
 com.example.lokala.app-lifecycle-runtime-2.6.2-9 C:\Users\lenovo\.gradle\caches\transforms-3\1ef029efc444793411b3a04ccfed50db\transformed\lifecycle-runtime-2.6.2\res
-com.example.lokala.app-jetified-material-1.4.0-10 C:\Users\lenovo\.gradle\caches\transforms-3\28ae32993292ad67a00ec33cd74b6a08\transformed\jetified-material-1.4.0\res
-com.example.lokala.app-jetified-emoji2-1.3.0-11 C:\Users\lenovo\.gradle\caches\transforms-3\2ce2c175cec978481c3066603d92999f\transformed\jetified-emoji2-1.3.0\res
-com.example.lokala.app-transition-1.2.0-12 C:\Users\lenovo\.gradle\caches\transforms-3\2dd04642a359a0db231efebc4f4396b2\transformed\transition-1.2.0\res
-com.example.lokala.app-jetified-runtime-1.4.0-13 C:\Users\lenovo\.gradle\caches\transforms-3\3f6e273c4405a2c7e162d0ca81a346c3\transformed\jetified-runtime-1.4.0\res
-com.example.lokala.app-jetified-ui-tooling-1.4.0-14 C:\Users\lenovo\.gradle\caches\transforms-3\4ab3f42254a5821d71aa5827bf6a3e74\transformed\jetified-ui-tooling-1.4.0\res
-com.example.lokala.app-jetified-ui-test-manifest-1.4.0-15 C:\Users\lenovo\.gradle\caches\transforms-3\4d5c0fe56e556802bd5d7bcc92a65991\transformed\jetified-ui-test-manifest-1.4.0\res
-com.example.lokala.app-jetified-ui-1.4.0-16 C:\Users\lenovo\.gradle\caches\transforms-3\4f85237cec9191ae830c58a2acc2a86e\transformed\jetified-ui-1.4.0\res
-com.example.lokala.app-jetified-core-ktx-1.12.0-17 C:\Users\lenovo\.gradle\caches\transforms-3\527e10c574a3f78eb9b9983035af1302\transformed\jetified-core-ktx-1.12.0\res
+com.example.lokala.app-slidingpanelayout-1.2.0-10 C:\Users\lenovo\.gradle\caches\transforms-3\1ef241c7ee84adb45664489aff288583\transformed\slidingpanelayout-1.2.0\res
+com.example.lokala.app-jetified-lifecycle-livedata-ktx-2.6.2-11 C:\Users\lenovo\.gradle\caches\transforms-3\1f8d86386a96f2c7e618c220116a4c8a\transformed\jetified-lifecycle-livedata-ktx-2.6.2\res
+com.example.lokala.app-jetified-datastore-preferences-1.0.0-12 C:\Users\lenovo\.gradle\caches\transforms-3\32fb66907a879abb701fb6e57d09e9f6\transformed\jetified-datastore-preferences-1.0.0\res
+com.example.lokala.app-recyclerview-1.3.2-13 C:\Users\lenovo\.gradle\caches\transforms-3\3fff9a985aec13b6ca3bfa4c5f684014\transformed\recyclerview-1.3.2\res
+com.example.lokala.app-fragment-1.6.2-14 C:\Users\lenovo\.gradle\caches\transforms-3\48e96266b199a36f63afc2b712726235\transformed\fragment-1.6.2\res
+com.example.lokala.app-databinding-runtime-8.2.0-15 C:\Users\lenovo\.gradle\caches\transforms-3\4c567f9508f1249506d65193312bd0d4\transformed\databinding-runtime-8.2.0\res
+com.example.lokala.app-jetified-core-ktx-1.12.0-16 C:\Users\lenovo\.gradle\caches\transforms-3\527e10c574a3f78eb9b9983035af1302\transformed\jetified-core-ktx-1.12.0\res
+com.example.lokala.app-navigation-ui-2.7.5-17 C:\Users\lenovo\.gradle\caches\transforms-3\52c75227038662ee045bc776af3b2ece\transformed\navigation-ui-2.7.5\res
 com.example.lokala.app-cardview-1.0.0-18 C:\Users\lenovo\.gradle\caches\transforms-3\57f151d1c994b224d4c7bb608ecd0ec2\transformed\cardview-1.0.0\res
-com.example.lokala.app-jetified-ui-util-1.4.0-19 C:\Users\lenovo\.gradle\caches\transforms-3\588f3a01028393cfc5ee1e34b9c984a4\transformed\jetified-ui-util-1.4.0\res
-com.example.lokala.app-jetified-ui-unit-1.4.0-20 C:\Users\lenovo\.gradle\caches\transforms-3\5e2e71ae1734972b656df361b09c6eae\transformed\jetified-ui-unit-1.4.0\res
-com.example.lokala.app-jetified-annotation-experimental-1.3.0-21 C:\Users\lenovo\.gradle\caches\transforms-3\5f395a421a4d0f4392e56e3348be2ad6\transformed\jetified-annotation-experimental-1.3.0\res
+com.example.lokala.app-recyclerview-selection-1.1.0-19 C:\Users\lenovo\.gradle\caches\transforms-3\5ed5807795d67251c5599e8fe0b1fb63\transformed\recyclerview-selection-1.1.0\res
+com.example.lokala.app-jetified-annotation-experimental-1.3.0-20 C:\Users\lenovo\.gradle\caches\transforms-3\5f395a421a4d0f4392e56e3348be2ad6\transformed\jetified-annotation-experimental-1.3.0\res
+com.example.lokala.app-jetified-paging-runtime-ktx-3.2.1-21 C:\Users\lenovo\.gradle\caches\transforms-3\61e073a659d907d72a01b460d625a760\transformed\jetified-paging-runtime-ktx-3.2.1\res
 com.example.lokala.app-jetified-savedstate-ktx-1.2.1-22 C:\Users\lenovo\.gradle\caches\transforms-3\6868d9b0e3ad5c205ea2906cbb2fc3d8\transformed\jetified-savedstate-ktx-1.2.1\res
-com.example.lokala.app-jetified-foundation-1.4.0-23 C:\Users\lenovo\.gradle\caches\transforms-3\6b2b5250f50dbb76253a5e01c303e629\transformed\jetified-foundation-1.4.0\res
+com.example.lokala.app-jetified-play-services-cast-21.4.0-23 C:\Users\lenovo\.gradle\caches\transforms-3\6910b074af9f58a9d17f8ee1adb565ba\transformed\jetified-play-services-cast-21.4.0\res
 com.example.lokala.app-core-1.12.0-24 C:\Users\lenovo\.gradle\caches\transforms-3\6c31e9c2f1a388e266a61f299052f06f\transformed\core-1.12.0\res
-com.example.lokala.app-coordinatorlayout-1.1.0-25 C:\Users\lenovo\.gradle\caches\transforms-3\7ea1dbdb797d9eccbdbd14a826651139\transformed\coordinatorlayout-1.1.0\res
-com.example.lokala.app-lifecycle-livedata-core-2.6.2-26 C:\Users\lenovo\.gradle\caches\transforms-3\88db8aacf2227cc995b5eb6f4e87a624\transformed\lifecycle-livedata-core-2.6.2\res
-com.example.lokala.app-jetified-savedstate-1.2.1-27 C:\Users\lenovo\.gradle\caches\transforms-3\8c7db5d5e8bfea130ec3698d78208b81\transformed\jetified-savedstate-1.2.1\res
-com.example.lokala.app-jetified-meow-bottom-navigation-1.2.0-28 C:\Users\lenovo\.gradle\caches\transforms-3\8e0fe11ce9cb677a6337aa066b03e200\transformed\jetified-meow-bottom-navigation-1.2.0\res
-com.example.lokala.app-recyclerview-1.1.0-29 C:\Users\lenovo\.gradle\caches\transforms-3\9ec748c65ff9ea738d73bcfaed2bf128\transformed\recyclerview-1.1.0\res
-com.example.lokala.app-jetified-customview-poolingcontainer-1.0.0-30 C:\Users\lenovo\.gradle\caches\transforms-3\9f1f4355f3c8f2b94012a7c200aff692\transformed\jetified-customview-poolingcontainer-1.0.0\res
-com.example.lokala.app-jetified-ui-tooling-preview-1.4.0-31 C:\Users\lenovo\.gradle\caches\transforms-3\a3b429b36da1fbb33ae61d74a8724065\transformed\jetified-ui-tooling-preview-1.4.0\res
-com.example.lokala.app-jetified-emoji2-views-helper-1.3.0-32 C:\Users\lenovo\.gradle\caches\transforms-3\a4749dc65dda357b2482b9dfcb598412\transformed\jetified-emoji2-views-helper-1.3.0\res
-com.example.lokala.app-material-1.10.0-33 C:\Users\lenovo\.gradle\caches\transforms-3\ac73ef10f16d85db54e5bb64e6e254a4\transformed\material-1.10.0\res
-com.example.lokala.app-jetified-lifecycle-process-2.6.2-34 C:\Users\lenovo\.gradle\caches\transforms-3\aea825cf829a9167cfd672a1c9bf0e5b\transformed\jetified-lifecycle-process-2.6.2\res
-com.example.lokala.app-lifecycle-viewmodel-2.6.2-35 C:\Users\lenovo\.gradle\caches\transforms-3\b24671610ebd14d5236a569f19f0ad5b\transformed\lifecycle-viewmodel-2.6.2\res
-com.example.lokala.app-jetified-activity-1.8.1-36 C:\Users\lenovo\.gradle\caches\transforms-3\b4eb4334c573c23a98a4f974a64ebc02\transformed\jetified-activity-1.8.1\res
-com.example.lokala.app-jetified-animation-1.4.0-37 C:\Users\lenovo\.gradle\caches\transforms-3\b5d1c76d8089a0e96169a4b8d6c05f77\transformed\jetified-animation-1.4.0\res
-com.example.lokala.app-jetified-ui-graphics-1.4.0-38 C:\Users\lenovo\.gradle\caches\transforms-3\bef613f4b026889563ac14428f028d10\transformed\jetified-ui-graphics-1.4.0\res
-com.example.lokala.app-jetified-activity-ktx-1.8.1-39 C:\Users\lenovo\.gradle\caches\transforms-3\c20ceebeba6aed0e8748c26deab77049\transformed\jetified-activity-ktx-1.8.1\res
-com.example.lokala.app-jetified-glide-4.16.0-40 C:\Users\lenovo\.gradle\caches\transforms-3\c5aa8cd2d1bcc9948c382444bb918780\transformed\jetified-glide-4.16.0\res
-com.example.lokala.app-jetified-animation-core-1.4.0-41 C:\Users\lenovo\.gradle\caches\transforms-3\c9740497efad4cf595f47fa0eacfb643\transformed\jetified-animation-core-1.4.0\res
-com.example.lokala.app-fragment-1.3.6-42 C:\Users\lenovo\.gradle\caches\transforms-3\c9d744f481eabf66efbcad556b14f3d6\transformed\fragment-1.3.6\res
-com.example.lokala.app-jetified-foundation-layout-1.4.0-43 C:\Users\lenovo\.gradle\caches\transforms-3\cf96a40815c249fde02191b9552390fd\transformed\jetified-foundation-layout-1.4.0\res
-com.example.lokala.app-jetified-ui-geometry-1.4.0-44 C:\Users\lenovo\.gradle\caches\transforms-3\d07fcc2eb7dfd1275ea2f70448e642ae\transformed\jetified-ui-geometry-1.4.0\res
-com.example.lokala.app-jetified-lifecycle-runtime-ktx-2.6.2-45 C:\Users\lenovo\.gradle\caches\transforms-3\d965dd74681942bb2a0bd3a2acb02397\transformed\jetified-lifecycle-runtime-ktx-2.6.2\res
-com.example.lokala.app-jetified-material-ripple-1.4.0-46 C:\Users\lenovo\.gradle\caches\transforms-3\dc60530579efdc1495a4b5947e23628d\transformed\jetified-material-ripple-1.4.0\res
-com.example.lokala.app-lifecycle-livedata-2.6.2-47 C:\Users\lenovo\.gradle\caches\transforms-3\dc75b4de54ae1189d2ce64e70a1ced7b\transformed\lifecycle-livedata-2.6.2\res
-com.example.lokala.app-jetified-viewpager2-1.0.0-48 C:\Users\lenovo\.gradle\caches\transforms-3\df3e5d8cb2918982771f33604d75ec63\transformed\jetified-viewpager2-1.0.0\res
-com.example.lokala.app-constraintlayout-2.1.4-49 C:\Users\lenovo\.gradle\caches\transforms-3\df86c074ed03c67619ec37725ad7f589\transformed\constraintlayout-2.1.4\res
-com.example.lokala.app-appcompat-1.6.1-50 C:\Users\lenovo\.gradle\caches\transforms-3\e244c29526abb99354bfad068729a02a\transformed\appcompat-1.6.1\res
-com.example.lokala.app-jetified-ui-tooling-data-1.4.0-51 C:\Users\lenovo\.gradle\caches\transforms-3\e5a024280a48f7aeca6020cfe285bd6e\transformed\jetified-ui-tooling-data-1.4.0\res
-com.example.lokala.app-jetified-profileinstaller-1.3.0-52 C:\Users\lenovo\.gradle\caches\transforms-3\e615fa2470d5a080ec327b16094cbd95\transformed\jetified-profileinstaller-1.3.0\res
-com.example.lokala.app-jetified-material-icons-core-1.4.0-53 C:\Users\lenovo\.gradle\caches\transforms-3\eb611f6755c9671e54922ce520ebf326\transformed\jetified-material-icons-core-1.4.0\res
-com.example.lokala.app-jetified-appcompat-resources-1.6.1-54 C:\Users\lenovo\.gradle\caches\transforms-3\f5a6e282311208c2e13aa3b0d05b35b1\transformed\jetified-appcompat-resources-1.6.1\res
-com.example.lokala.app-resValues-55 D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\build\generated\res\resValues\debug
-com.example.lokala.app-packageDebugResources-56 D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.lokala.app-packageDebugResources-57 D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.lokala.app-merged_res-58 D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\build\intermediates\merged_res\debug
-com.example.lokala.app-debug-59 D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\debug\res
-com.example.lokala.app-main-60 D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\res
+com.example.lokala.app-mediarouter-1.6.0-beta01-25 C:\Users\lenovo\.gradle\caches\transforms-3\736ed0f83e3ef33163d4e5368bb6587c\transformed\mediarouter-1.6.0-beta01\res
+com.example.lokala.app-jetified-datastore-1.0.0-26 C:\Users\lenovo\.gradle\caches\transforms-3\7b42bbf75ce57178782254602d6c8161\transformed\jetified-datastore-1.0.0\res
+com.example.lokala.app-coordinatorlayout-1.1.0-27 C:\Users\lenovo\.gradle\caches\transforms-3\7ea1dbdb797d9eccbdbd14a826651139\transformed\coordinatorlayout-1.1.0\res
+com.example.lokala.app-jetified-room-ktx-2.6.1-28 C:\Users\lenovo\.gradle\caches\transforms-3\8004448d0d3f9660c750cfb5ab8a0176\transformed\jetified-room-ktx-2.6.1\res
+com.example.lokala.app-jetified-room-paging-2.6.1-29 C:\Users\lenovo\.gradle\caches\transforms-3\803c31cc3d1e1d025cfd4a085b9e8fec\transformed\jetified-room-paging-2.6.1\res
+com.example.lokala.app-room-runtime-2.6.1-30 C:\Users\lenovo\.gradle\caches\transforms-3\83698ff00ae8fade1be565a73b457584\transformed\room-runtime-2.6.1\res
+com.example.lokala.app-sqlite-2.4.0-31 C:\Users\lenovo\.gradle\caches\transforms-3\87cbe046dd17517550073377ec6ae0b2\transformed\sqlite-2.4.0\res
+com.example.lokala.app-lifecycle-livedata-core-2.6.2-32 C:\Users\lenovo\.gradle\caches\transforms-3\88db8aacf2227cc995b5eb6f4e87a624\transformed\lifecycle-livedata-core-2.6.2\res
+com.example.lokala.app-navigation-runtime-ktx-2.7.5-33 C:\Users\lenovo\.gradle\caches\transforms-3\892c335639c431718f5ed49424f4a0db\transformed\navigation-runtime-ktx-2.7.5\res
+com.example.lokala.app-transition-1.4.1-34 C:\Users\lenovo\.gradle\caches\transforms-3\8a3537f69ee5f11ff219e4103d7a17c1\transformed\transition-1.4.1\res
+com.example.lokala.app-jetified-fragment-ktx-1.6.2-35 C:\Users\lenovo\.gradle\caches\transforms-3\8a4191dc961b68c64e03ae12a2ca0790\transformed\jetified-fragment-ktx-1.6.2\res
+com.example.lokala.app-jetified-savedstate-1.2.1-36 C:\Users\lenovo\.gradle\caches\transforms-3\8c7db5d5e8bfea130ec3698d78208b81\transformed\jetified-savedstate-1.2.1\res
+com.example.lokala.app-jetified-meow-bottom-navigation-1.2.0-37 C:\Users\lenovo\.gradle\caches\transforms-3\8e0fe11ce9cb677a6337aa066b03e200\transformed\jetified-meow-bottom-navigation-1.2.0\res
+com.example.lokala.app-jetified-activity-1.8.0-38 C:\Users\lenovo\.gradle\caches\transforms-3\9299faabd031e0b7451611bafc924844\transformed\jetified-activity-1.8.0\res
+com.example.lokala.app-jetified-play-services-basement-18.1.0-39 C:\Users\lenovo\.gradle\caches\transforms-3\934f5c8a2a0a2fe7837e145461bca0c3\transformed\jetified-play-services-basement-18.1.0\res
+com.example.lokala.app-jetified-customview-poolingcontainer-1.0.0-40 C:\Users\lenovo\.gradle\caches\transforms-3\9f1f4355f3c8f2b94012a7c200aff692\transformed\jetified-customview-poolingcontainer-1.0.0\res
+com.example.lokala.app-jetified-activity-ktx-1.8.0-41 C:\Users\lenovo\.gradle\caches\transforms-3\a07159ad86f8db38d44aa6ef11a64122\transformed\jetified-activity-ktx-1.8.0\res
+com.example.lokala.app-material-1.10.0-42 C:\Users\lenovo\.gradle\caches\transforms-3\ac73ef10f16d85db54e5bb64e6e254a4\transformed\material-1.10.0\res
+com.example.lokala.app-navigation-fragment-2.7.5-43 C:\Users\lenovo\.gradle\caches\transforms-3\ae78ae61132ef7e75ed99a6f153e14e2\transformed\navigation-fragment-2.7.5\res
+com.example.lokala.app-jetified-lifecycle-process-2.6.2-44 C:\Users\lenovo\.gradle\caches\transforms-3\aea825cf829a9167cfd672a1c9bf0e5b\transformed\jetified-lifecycle-process-2.6.2\res
+com.example.lokala.app-navigation-common-ktx-2.7.5-45 C:\Users\lenovo\.gradle\caches\transforms-3\af06ac414c11615d19f382f5bca6a789\transformed\navigation-common-ktx-2.7.5\res
+com.example.lokala.app-navigation-fragment-ktx-2.7.5-46 C:\Users\lenovo\.gradle\caches\transforms-3\b09e74544eaaa9ed75ba7db69ee61c0a\transformed\navigation-fragment-ktx-2.7.5\res
+com.example.lokala.app-lifecycle-viewmodel-2.6.2-47 C:\Users\lenovo\.gradle\caches\transforms-3\b24671610ebd14d5236a569f19f0ad5b\transformed\lifecycle-viewmodel-2.6.2\res
+com.example.lokala.app-media-1.6.0-48 C:\Users\lenovo\.gradle\caches\transforms-3\b33d8945f1bdad6838c296426a45c645\transformed\media-1.6.0\res
+com.example.lokala.app-jetified-circleimageview-3.1.0-49 C:\Users\lenovo\.gradle\caches\transforms-3\b4a683e39e140f9f1cc4eb8ef726dfa6\transformed\jetified-circleimageview-3.1.0\res
+com.example.lokala.app-jetified-viewpager2-1.1.0-beta02-50 C:\Users\lenovo\.gradle\caches\transforms-3\b8877da599a65fbaa33e37769ded34c1\transformed\jetified-viewpager2-1.1.0-beta02\res
+com.example.lokala.app-jetified-lifecycle-livedata-core-ktx-2.6.2-51 C:\Users\lenovo\.gradle\caches\transforms-3\bacf893a877dcb3f083c940d5d49c9eb\transformed\jetified-lifecycle-livedata-core-ktx-2.6.2\res
+com.example.lokala.app-jetified-emoji2-1.2.0-52 C:\Users\lenovo\.gradle\caches\transforms-3\bd2cc84bbecc7f6d64f56c6ab0b77f9b\transformed\jetified-emoji2-1.2.0\res
+com.example.lokala.app-jetified-window-1.0.0-53 C:\Users\lenovo\.gradle\caches\transforms-3\c146bb252460d27d3747be2d2ddd9bba\transformed\jetified-window-1.0.0\res
+com.example.lokala.app-jetified-glide-4.16.0-54 C:\Users\lenovo\.gradle\caches\transforms-3\c5aa8cd2d1bcc9948c382444bb918780\transformed\jetified-glide-4.16.0\res
+com.example.lokala.app-jetified-emoji2-views-helper-1.2.0-55 C:\Users\lenovo\.gradle\caches\transforms-3\cb4d27667b07c3ba1bc8d2124560e951\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.example.lokala.app-navigation-runtime-2.7.5-56 C:\Users\lenovo\.gradle\caches\transforms-3\cd342f519e5401183064c88ef24b90f3\transformed\navigation-runtime-2.7.5\res
+com.example.lokala.app-jetified-lifecycle-runtime-ktx-2.6.2-57 C:\Users\lenovo\.gradle\caches\transforms-3\d965dd74681942bb2a0bd3a2acb02397\transformed\jetified-lifecycle-runtime-ktx-2.6.2\res
+com.example.lokala.app-lifecycle-livedata-2.6.2-58 C:\Users\lenovo\.gradle\caches\transforms-3\dc75b4de54ae1189d2ce64e70a1ced7b\transformed\lifecycle-livedata-2.6.2\res
+com.example.lokala.app-constraintlayout-2.1.4-59 C:\Users\lenovo\.gradle\caches\transforms-3\df86c074ed03c67619ec37725ad7f589\transformed\constraintlayout-2.1.4\res
+com.example.lokala.app-jetified-roundedimageview-2.3.0-60 C:\Users\lenovo\.gradle\caches\transforms-3\e1a6ac7a8d979de63652fb3d0e936e9b\transformed\jetified-roundedimageview-2.3.0\res
+com.example.lokala.app-appcompat-1.6.1-61 C:\Users\lenovo\.gradle\caches\transforms-3\e244c29526abb99354bfad068729a02a\transformed\appcompat-1.6.1\res
+com.example.lokala.app-jetified-profileinstaller-1.3.0-62 C:\Users\lenovo\.gradle\caches\transforms-3\e615fa2470d5a080ec327b16094cbd95\transformed\jetified-profileinstaller-1.3.0\res
+com.example.lokala.app-navigation-ui-ktx-2.7.5-63 C:\Users\lenovo\.gradle\caches\transforms-3\e912177a95916191adc3c26b6e990df1\transformed\navigation-ui-ktx-2.7.5\res
+com.example.lokala.app-jetified-appcompat-resources-1.6.1-64 C:\Users\lenovo\.gradle\caches\transforms-3\f5a6e282311208c2e13aa3b0d05b35b1\transformed\jetified-appcompat-resources-1.6.1\res
+com.example.lokala.app-jetified-play-services-maps-18.2.0-65 C:\Users\lenovo\.gradle\caches\transforms-3\fa89d55a4696c82d22dbeb3481287419\transformed\jetified-play-services-maps-18.2.0\res
+com.example.lokala.app-paging-runtime-3.2.1-66 C:\Users\lenovo\.gradle\caches\transforms-3\fc3006d461b8d77a4525531c90984ae3\transformed\paging-runtime-3.2.1\res
+com.example.lokala.app-resValues-67 D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\build\generated\res\resValues\debug
+com.example.lokala.app-packageDebugResources-68 D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.lokala.app-packageDebugResources-69 D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.lokala.app-merged_res-70 D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\build\intermediates\merged_res\debug
+com.example.lokala.app-debug-71 D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\debug\res
+com.example.lokala.app-main-72 D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\res

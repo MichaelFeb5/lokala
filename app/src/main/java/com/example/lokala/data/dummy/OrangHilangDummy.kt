@@ -103,7 +103,7 @@ val dummyDataOrangHilang = OrangHilangDummy(
                 "gs://seek-out/stored_image/Thor_Odinson/KLtGmBPrHZdjtZOtuvFv.jpg"
             ),
             gender = "laki-laki",
-            isFound = false,
+            isFound = true,
             kota = "Banjarbaru",
             nama = "Thor Odinson",
             nomor_dihubungi = "083159236448",

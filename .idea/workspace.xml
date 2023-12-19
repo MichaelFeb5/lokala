@@ -5,7 +5,47 @@
       <config />
     </shared>
     <layouts>
+      <layout url="file://$USER_HOME$/.gradle/caches/transforms-3/e244c29526abb99354bfad068729a02a/transformed/appcompat-1.6.1/res/layout/support_simple_spinner_dropdown_item.xml">
+        <config>
+          <theme>@style/Theme.Lokala</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_detail_orang_hilang.xml">
+        <config>
+          <theme>@style/Theme.Lokala</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_foto.xml">
+        <config>
+          <theme>@style/Theme.Lokala</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_guide.xml">
+        <config>
+          <theme>@style/Theme.AppCompat</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+        <config>
+          <theme>@style/Theme.Lokala</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/Theme.lokala</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml">
+        <config>
+          <theme>@style/Theme.AppCompat</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_user.xml">
+        <config>
+          <theme>@style/Theme.Lokala</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_banner.xml">
         <config>
           <theme>@style/Theme.Lokala</theme>
         </config>
@@ -20,19 +60,68 @@
           <theme>@style/Theme.Lokala</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml">
+        <config>
+          <theme>@style/Theme.AppCompat</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_home_user.xml">
+        <config>
+          <theme>@style/Theme.Lokala</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_search_user.xml">
+        <config>
+          <theme>@style/Theme.Lokala</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/orang_list_item.xml">
+        <config>
+          <theme>@style/Theme.AppCompat</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/user_orang_list_item.xml">
+        <config>
+          <theme>@style/Theme.Lokala</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/menu/menu_search_orang.xml">
+        <config>
+          <theme>@style/Theme.Lokala</theme>
+        </config>
+      </layout>
     </layouts>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="4b7ef6e3-5507-4242-97c9-c2e1daf2b723" name="Changes" comment="" />
+=======
     <list default="true" id="4b7ef6e3-5507-4242-97c9-c2e1daf2b723" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lokala/data/repository/OrangHilangRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lokala/data/response/OrangHilangResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lokala/data/retrofit/ApiConfig.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lokala/data/retrofit/ApiService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lokala/data/utils/ResultState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lokala/ui/factory/ViewModelFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lokala/ui/home/HomeViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lokala/ui/orangHilang/TambahOrangHilangViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lokala/data/dummy/OrangHilangDummy.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lokala/data/dummy/OrangHilangDummy.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lokala/ui/home/HomeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lokala/ui/home/HomeFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lokala/ui/home/OrangHilangAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lokala/ui/home/OrangHilangAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lokala/ui/orangHilang/TambahOrangHilangActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lokala/ui/orangHilang/TambahOrangHilangActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tambah_orang_hilang.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_tambah_orang_hilang.xml" afterDir="false" />
+=======
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_guide.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_guide.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+>>>>>>> dev_helmi
     </list>
+>>>>>>> dev
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +130,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\lenovo\.android\avd\Pixel_3_XL_API_34.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[adb-RR8T705WGZZ-f6JmdT._adb-tls-connect._tcp]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -88,6 +177,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="layoutResourceFile" />
+        <option value="Kotlin Class" />
         <option value="resourceFile" />
       </list>
     </option>
@@ -99,7 +190,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2ZDt9Kh6qAM63B1PzY8Wrq52IXs" />
   <component name="ProjectViewState">
@@ -113,10 +204,13 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;android-custom-viewC:/Users/lenovo/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.6.1/ace9a78b961165396147e8691faa18c1b0e48e20/appcompat-1.6.1-sources.jar!/androidx/appcompat/widget/LinearLayoutCompat.java_SELECTED&quot;: &quot;LinearLayoutCompat&quot;,
     &quot;android-custom-viewC:/Users/lenovo/.gradle/caches/modules-2/files-2.1/androidx.cardview/cardview/1.0.0/c9f3ce7ca74ad2c978230f4094ba6804c5166f9c/cardview-1.0.0-sources.jar!/androidx/cardview/widget/CardView.java_SELECTED&quot;: &quot;CardView&quot;,
+    &quot;android-custom-viewC:/Users/lenovo/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.3.2/7bc0f04ccbe0159dc303408af769dc1bbb80d584/recyclerview-1.3.2-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_SELECTED&quot;: &quot;RecyclerView&quot;,
+    &quot;android-custom-viewC:/Users/lenovo/.gradle/caches/modules-2/files-2.1/com.etebarian/meow-bottom-navigation/1.2.0/902648d1ca045a82dae2eaa21043c14de3084cad/meow-bottom-navigation-1.2.0-sources.jar!/com/etebarian/meowbottomnavigation/MeowBottomNavigation.kt_SELECTED&quot;: &quot;MeowBottomNavigation&quot;,
     &quot;android-custom-viewC:/Users/lenovo/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.10.0/93873f2a41da69e38213dbe9ed91a0402a903c88/material-1.10.0-sources.jar!/com/google/android/material/textfield/TextInputLayout.java_SELECTED&quot;: &quot;TextInputLayout&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/2. Dll/PROGRAM/ANDROID MOBILE DEVELOPMENT/AAD SIMULATION/TASK/CourseScheduleApp&quot;
+    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/2. Dll/PROGRAM/ANDROID MOBILE DEVELOPMENT/lokana.zip&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -124,7 +218,14 @@
       <recent name="com.example.lokala.activity.guide" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.example.lokala.ui.user.seacrh" />
       <recent name="com.example.lokala.activity.splash_screen" />
+    </key>
+    <key name="android.template.1153754058">
+      <recent name="com.example.lokala.ui.user" />
+    </key>
+    <key name="android.template.536517889">
+      <recent name="com.example.lokala.ui.foto" />
     </key>
     <key name="android.template.2140184906">
       <recent name="com.example.lokala.activity.login" />

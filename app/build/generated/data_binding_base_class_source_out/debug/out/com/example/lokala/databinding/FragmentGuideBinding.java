@@ -26,36 +26,40 @@ public final class FragmentGuideBinding implements ViewBinding {
   public final LinearLayoutCompat bacgroundTitleGuide;
 
   @NonNull
-  public final ImageView imageGuide1;
+  public final ImageView circle1;
+
+  @NonNull
+  public final ImageView circle2;
+
+  @NonNull
+  public final ImageView circle3;
+
+  @NonNull
+  public final ImageView imageGuide;
 
   @NonNull
   public final LinearLayout layoutCircle;
 
   @NonNull
+  public final TextView tvTitleCard;
+
+  @NonNull
   public final TextView tvTitleGuide;
 
-  @NonNull
-  public final ImageView unselectedCircle1;
-
-  @NonNull
-  public final ImageView unselectedCircle2;
-
-  @NonNull
-  public final ImageView unselectedCircle3;
-
   private FragmentGuideBinding(@NonNull ConstraintLayout rootView,
-      @NonNull LinearLayoutCompat bacgroundTitleGuide, @NonNull ImageView imageGuide1,
-      @NonNull LinearLayout layoutCircle, @NonNull TextView tvTitleGuide,
-      @NonNull ImageView unselectedCircle1, @NonNull ImageView unselectedCircle2,
-      @NonNull ImageView unselectedCircle3) {
+      @NonNull LinearLayoutCompat bacgroundTitleGuide, @NonNull ImageView circle1,
+      @NonNull ImageView circle2, @NonNull ImageView circle3, @NonNull ImageView imageGuide,
+      @NonNull LinearLayout layoutCircle, @NonNull TextView tvTitleCard,
+      @NonNull TextView tvTitleGuide) {
     this.rootView = rootView;
     this.bacgroundTitleGuide = bacgroundTitleGuide;
-    this.imageGuide1 = imageGuide1;
+    this.circle1 = circle1;
+    this.circle2 = circle2;
+    this.circle3 = circle3;
+    this.imageGuide = imageGuide;
     this.layoutCircle = layoutCircle;
+    this.tvTitleCard = tvTitleCard;
     this.tvTitleGuide = tvTitleGuide;
-    this.unselectedCircle1 = unselectedCircle1;
-    this.unselectedCircle2 = unselectedCircle2;
-    this.unselectedCircle3 = unselectedCircle3;
   }
 
   @Override
@@ -91,9 +95,27 @@ public final class FragmentGuideBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.image_guide1;
-      ImageView imageGuide1 = ViewBindings.findChildViewById(rootView, id);
-      if (imageGuide1 == null) {
+      id = R.id.circle_1;
+      ImageView circle1 = ViewBindings.findChildViewById(rootView, id);
+      if (circle1 == null) {
+        break missingId;
+      }
+
+      id = R.id.circle_2;
+      ImageView circle2 = ViewBindings.findChildViewById(rootView, id);
+      if (circle2 == null) {
+        break missingId;
+      }
+
+      id = R.id.circle_3;
+      ImageView circle3 = ViewBindings.findChildViewById(rootView, id);
+      if (circle3 == null) {
+        break missingId;
+      }
+
+      id = R.id.image_guide;
+      ImageView imageGuide = ViewBindings.findChildViewById(rootView, id);
+      if (imageGuide == null) {
         break missingId;
       }
 
@@ -103,32 +125,20 @@ public final class FragmentGuideBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tv_title_card;
+      TextView tvTitleCard = ViewBindings.findChildViewById(rootView, id);
+      if (tvTitleCard == null) {
+        break missingId;
+      }
+
       id = R.id.tv_title_guide;
       TextView tvTitleGuide = ViewBindings.findChildViewById(rootView, id);
       if (tvTitleGuide == null) {
         break missingId;
       }
 
-      id = R.id.unselected_circle_1;
-      ImageView unselectedCircle1 = ViewBindings.findChildViewById(rootView, id);
-      if (unselectedCircle1 == null) {
-        break missingId;
-      }
-
-      id = R.id.unselected_circle_2;
-      ImageView unselectedCircle2 = ViewBindings.findChildViewById(rootView, id);
-      if (unselectedCircle2 == null) {
-        break missingId;
-      }
-
-      id = R.id.unselected_circle_3;
-      ImageView unselectedCircle3 = ViewBindings.findChildViewById(rootView, id);
-      if (unselectedCircle3 == null) {
-        break missingId;
-      }
-
-      return new FragmentGuideBinding((ConstraintLayout) rootView, bacgroundTitleGuide, imageGuide1,
-          layoutCircle, tvTitleGuide, unselectedCircle1, unselectedCircle2, unselectedCircle3);
+      return new FragmentGuideBinding((ConstraintLayout) rootView, bacgroundTitleGuide, circle1,
+          circle2, circle3, imageGuide, layoutCircle, tvTitleCard, tvTitleGuide);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

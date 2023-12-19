@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        tools:context=".ui.orangHilang.tambah.TambahOrangHilangActivity">
+
+        <Button
+            android:id="@+id/btn_camera"
+            android:layout_width="118dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/primarycolor"
+            android:text="Foto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.74"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_foto" />
+
+        <ImageView
+            android:id="@+id/iv_foto"
+            android:layout_width="253dp"
+            android:layout_height="176dp"
+            android:padding="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_place_holder"
+            app:layout_constraintStart_toStartOf="@+id/et_nomor_pemerintah"
+            app:layout_constraintTop_toBottomOf="@+id/tv_foto"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/tv_foto"
+            style="@style/TextAppearance.Material3.BodyLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:paddingStart="3dp"
+            android:text="Foto"
+            android:textColor="@color/primarycolor"
+            android:textFontWeight="900"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/iv_foto"
+            app:layout_constraintTop_toBottomOf="@+id/et_nomor_pemerintah" />
+
+        <EditText
+            android:id="@+id/et_berat_badan"
+            style="@style/TextAppearance.Material3.BodyMedium"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:hint="Tinggi Badan"
+            android:inputType="number"
+            android:textCursorDrawable="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/tv_berat_badan"
+            app:layout_constraintTop_toBottomOf="@+id/tv_tinggi_badan" />
+
+        <TextView
+            android:id="@+id/tv_tinggi_badan"
+            style="@style/TextAppearance.Material3.BodyLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:paddingStart="3dp"
+            android:text="Tinggi Badan"
+            android:textColor="@color/primarycolor"
+            android:textFontWeight="900"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/et_berat_badan"
+            app:layout_constraintTop_toBottomOf="@+id/et_tinggi_badan" />
+
+        <EditText
+            android:id="@+id/et_tinggi_badan"
+            style="@style/TextAppearance.Material3.BodyMedium"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Berat Badan"
+            android:inputType="number"
+            android:textCursorDrawable="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/tv_berat_badan"
+            app:layout_constraintTop_toBottomOf="@+id/tv_berat_badan" />
+
+        <TextView
+            android:id="@+id/tv_berat_badan"
+            style="@style/TextAppearance.Material3.BodyLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:paddingStart="3dp"
+            android:text="Berat Badan"
+            android:textColor="@color/primarycolor"
+            android:textFontWeight="900"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/et_umur"
+            app:layout_constraintTop_toBottomOf="@+id/et_umur" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="118dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/primarycolor"
+            android:text="Submit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/statusRadioGroup" />
+
+        <ImageView
+            android:id="@+id/iv_foto2"
+            android:layout_width="253dp"
+            android:layout_height="176dp"
+            android:layout_marginTop="244dp"
+            android:padding="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_place_holder"
+            app:layout_constraintStart_toStartOf="@+id/et_nomor_pemerintah"
+            app:layout_constraintTop_toBottomOf="@+id/tv_foto"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn_camera2"
+            android:layout_width="118dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="260dp"
+            android:backgroundTint="@color/primarycolor"
+            android:text="Foto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.733"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_foto" />
+
+        <TextView
+            android:id="@+id/tv_foto2"
+            style="@style/TextAppearance.Material3.BodyLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="256dp"
+            android:paddingStart="3dp"
+            android:text="Foto 2"
+            android:textColor="@color/primarycolor"
+            android:textFontWeight="900"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/iv_foto"
+            app:layout_constraintTop_toBottomOf="@+id/et_nomor_pemerintah" />
+
+        <TextView
+            android:id="@+id/tv_nomor_pemerintah"
+            style="@style/TextAppearance.Material3.BodyLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="3dp"
+            android:text="Nomor Pemerintah"
+            android:textColor="@color/primarycolor"
+            android:textFontWeight="900"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/et_nomor_pemerintah"
+            app:layout_constraintTop_toBottomOf="@+id/et_tempat_sering_terlihat" />
+
+        <EditText
+            android:id="@+id/et_nomor_pemerintah"
+            style="@style/TextAppearance.Material3.BodyMedium"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Nomor Pemerintah"
+            android:inputType="number"
+            android:textCursorDrawable="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_nomor_pemerintah" />
+
+        <TextView
+            android:id="@+id/tv_sering_terlihat"
+            style="@style/TextAppearance.Material3.BodyLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:paddingStart="3dp"
+            android:text="Tempat Sering Terlihat"
+            android:textColor="@color/primarycolor"
+            android:textFontWeight="900"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/et_tempat_sering_terlihat"
+            app:layout_constraintTop_toBottomOf="@+id/et_kota" />
+
+        <EditText
+        android:id="@+id/et_tempat_sering_terlihat"
+        style="@style/TextAppearance.Material3.BodyMedium"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Tempat Sering Terlihat"
+        android:inputType="text"
+        android:textCursorDrawable="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_sering_terlihat" />
+
+        <TextView
+            android:id="@+id/tv_jenis_kelamin"
+            style="@style/TextAppearance.Material3.BodyLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:paddingStart="3dp"
+            android:text="Jenis Kelamin"
+            android:textColor="@color/primarycolor"
+            android:textFontWeight="900"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/et_ciri_fisik"
+            app:layout_constraintTop_toBottomOf="@+id/et_ciri_fisik" />
+
+        <TextView
+            android:id="@+id/tv_status"
+            style="@style/TextAppearance.Material3.BodyLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:paddingStart="3dp"
+            android:text="Status"
+            android:textColor="@color/primarycolor"
+            android:textFontWeight="900"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.228"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_camera2" />
+
+        <EditText
+            android:id="@+id/et_kota"
+            style="@style/TextAppearance.Material3.BodyMedium"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Kota"
+            android:inputType="text"
+            android:textCursorDrawable="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_kota" />
+
+    <TextView
+        android:id="@+id/tv_kota"
+        style="@style/TextAppearance.Material3.BodyLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingStart="3dp"
+        android:text="Kota"
+        android:textColor="@color/primarycolor"
+        android:textFontWeight="900"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/et_kota"
+        app:layout_constraintTop_toBottomOf="@+id/genderRadioGroup" />
+
+        <EditText
+            android:id="@+id/et_nama"
+            style="@style/TextAppearance.Material3.BodyMedium"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-11dp"
+            android:hint="Nama"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:textCursorDrawable="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_nama" />
+
+        <TextView
+            android:id="@+id/tv_nama"
+            style="@style/TextAppearance.Material3.BodyLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:paddingStart="3dp"
+            android:text="Nama"
+            android:textColor="@color/primarycolor"
+            android:textFontWeight="900"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/et_nama"
+            app:layout_constraintTop_toBottomOf="@+id/tv_tambah_orang_hilang" />
+
+        <TextView
+        android:id="@+id/tv_umur"
+        style="@style/TextAppearance.Material3.BodyLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:paddingStart="3dp"
+        android:text="Umur"
+        android:textColor="@color/primarycolor"
+        android:textFontWeight="900"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/et_umur"
+        app:layout_constraintTop_toBottomOf="@+id/et_nama" />
+
+    <EditText
+        android:id="@+id/et_umur"
+        style="@style/TextAppearance.Material3.BodyMedium"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-11dp"
+        android:hint="Umur"
+        android:inputType="number"
+        android:textCursorDrawable="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_umur" />
+
+    <TextView
+        android:id="@+id/tv_tambah_orang_hilang"
+        style="@style/TextAppearance.MaterialComponents.Headline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:elevation="20dp"
+        android:paddingHorizontal="10dp"
+        android:shadowColor="@color/black"
+        android:shadowDy="5"
+        android:shadowDx="2"
+        android:shadowRadius="7"
+        android:text="Tambah Orang Hilang"
+        android:textColor="@color/primarycolor"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/et_ciri_fisik"
+            android:layout_width="251dp"
+            android:layout_height="91dp"
+            android:layout_marginTop="4dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Ciri Fisik"
+            android:inputType="textMultiLine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_ciri_fisik" />
+
+        <TextView
+            android:id="@+id/tv_ciri_fisik"
+            style="@style/TextAppearance.Material3.BodyMedium"
+            android:layout_width="91dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="12dp"
+            android:text="Ciri Fisik"
+            android:textColor="@color/primarycolor"
+            android:textFontWeight="900"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.253"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_berat_badan" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:constraint_referenced_ids="tv_nama,et_nama,tv_umur,et_umur" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/group2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:constraint_referenced_ids="tv_nama,et_nama,tv_umur,et_umur" />
+
+
+        <RadioGroup
+            android:id="@+id/genderRadioGroup"
+            android:layout_width="247dp"
+            android:layout_height="31dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_jenis_kelamin">
+
+            <RadioButton
+                android:id="@+id/genderL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Laki-Laki"
+                android:textColor="@color/primarycolor"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.247"
+
+                tools:ignore="MissingConstraints" />
+
+            <RadioButton
+                android:id="@+id/genderP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perempuan"
+                android:textColor="@color/primarycolor"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.739"
+                tools:ignore="MissingConstraints" />
+        </RadioGroup>
+
+
+        <RadioGroup
+            android:id="@+id/statusRadioGroup"
+            android:layout_width="256dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/tv_status"
+            app:layout_constraintTop_toBottomOf="@+id/tv_status">
+
+            <RadioButton
+                android:id="@+id/status_ditemukan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ditemukan"
+                android:textColor="@color/primarycolor"
+                tools:ignore="MissingConstraints" />
+
+            <RadioButton
+                android:id="@+id/status_hilang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hilang"
+                android:textColor="@color/primarycolor"
+                tools:ignore="MissingConstraints" />
+        </RadioGroup>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

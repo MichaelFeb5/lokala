@@ -45,22 +45,74 @@
     <string msgid="6107532579223922871" name="call_notification_incoming_text">"Уваходны выклік"</string>
     <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Бягучы выклік"</string>
     <string msgid="59049573811482460" name="call_notification_screening_text">"Фільтраванне ўваходнага выкліку"</string>
+    <string name="cast_ad_label">Рэклама</string>
+    <string name="cast_casting_to_device">Трансляцыя на %1$s</string>
+    <string name="cast_closed_captions">Субцітры</string>
+    <string name="cast_closed_captions_unavailable">Субцітры недаступныя</string>
+    <string name="cast_connecting_to_device">Падключэнне да прылады %1$s</string>
+    <string name="cast_disconnect">Адключыць</string>
+    <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
+    <string name="cast_expanded_controller_ad_image_description">Відарыс, які адлюстроўваецца ў той час, калі на прыёмніку Cast прайграецца рэклама</string>
+    <string name="cast_expanded_controller_ad_in_progress">Паказваецца рэклама…</string>
+    <string name="cast_expanded_controller_background_image">Вокладка альбома</string>
+    <string name="cast_expanded_controller_live_head_description">Жывая трансляцыя пачынаецца</string>
+    <string name="cast_expanded_controller_live_stream_indicator">Жывая трансляцыя</string>
+    <string name="cast_expanded_controller_loading">Загрузка…</string>
+    <string name="cast_expanded_controller_skip_ad_label">Прапусціць рэкламу</string>
+    <string name="cast_expanded_controller_skip_ad_text">Рэкламу можна прапусціць праз %1$d…</string>
+    <string name="cast_forward">Наперад</string>
+    <string name="cast_forward_10">Дзесяць секунд наперад</string>
+    <string name="cast_forward_30">Трыццаць секунд наперад</string>
+    <string name="cast_intro_overlay_button_text">@android:string/ok</string>
+    <string name="cast_live_label">У ЖЫВЫМ ЭФІРЫ</string>
+    <string name="cast_mute">Адключыць гук</string>
+    <string name="cast_notification_connected_message">Падключэнне да %1$s выканана</string>
+    <string name="cast_notification_connecting_message">Падключэнне да %1$s</string>
+    <string name="cast_notification_default_channel_name">Cast</string>
+    <string name="cast_notification_disconnect">Адключыць</string>
+    <string name="cast_pause">Паўза</string>
+    <string name="cast_play">Прайграць</string>
+    <string name="cast_rewind">Перамотка назад</string>
+    <string name="cast_rewind_10">Перамотка на дзесяць секунд назад</string>
+    <string name="cast_rewind_30">Перамотка на трыццаць секунд назад</string>
+    <string name="cast_seek_bar">Элемент прайгравання</string>
+    <string name="cast_skip_next">Пераход да наступнага элемента</string>
+    <string name="cast_skip_prev">Пераход да папярэдняга элемента</string>
+    <string name="cast_stop">Спыніць</string>
+    <string name="cast_stop_live_stream">Спыніць перадачу плынню ў рэальным часе</string>
+    <string name="cast_tracks_chooser_dialog_audio">Аўдыя</string>
+    <string name="cast_tracks_chooser_dialog_cancel">Скасаваць</string>
+    <string name="cast_tracks_chooser_dialog_closed_captions">Субцітры</string>
+    <string name="cast_tracks_chooser_dialog_default_track_name">Трэк %1$d</string>
+    <string name="cast_tracks_chooser_dialog_none">Няма</string>
+    <string name="cast_tracks_chooser_dialog_ok">ОК</string>
+    <string name="cast_tracks_chooser_dialog_subtitles">Субцітры</string>
+    <string name="cast_unmute">Уключыць гук</string>
     <string name="character_counter_content_description">Уведзена сімвалаў: %1$d з %2$d</string>
     <string name="character_counter_overflowed_content_description">Абмежаванне колькасці сімвалаў перавышана: %1$d з %2$d</string>
     <string name="clear_text_end_icon_content_description">Ачысціць тэкст</string>
-    <string msgid="406453423630273620" name="close_drawer">"Закрыць меню навігацыі"</string>
-    <string msgid="7573152094250666567" name="close_sheet">"Закрыць аркуш"</string>
-    <string msgid="5389587048670450460" name="collapsed">"Згорнута"</string>
-    <string msgid="8038256446254964252" name="default_error_message">"Памылка ўводу"</string>
-    <string msgid="6312721426453364202" name="default_popup_window_title">"Усплывальнае акно"</string>
-    <string msgid="4057925834421392736" name="dialog">"Дыялогавае акно"</string>
-    <string msgid="1890207353314751437" name="dropdown_menu">"Выпадное меню"</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Уключыць</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s не будзе працаваць, пакуль вы не ўключыце службы Google Play.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Уключыць службы Google Play</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Усталяваць</string>
+    <string name="common_google_play_services_install_text">%1$s не будзе працаваць без службаў Google Play, якія адсутнічаюць на вашай прыладзе.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Атрымаць службы Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Даступнасць сэрвісаў Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Памылка службаў Google Play</string>
+    <string name="common_google_play_services_unknown_issue">У праграмы %1$s узніклі праблемы са службамі Google Play. Паўтарыце спробу.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s не будзе працаваць без службаў Google Play, якія не падтрымліваюцца вашай прыладай.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Абнавіць</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s не будзе працаваць, пакуль вы не абновіце службы Google Play.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Абнаўленне службаў Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s не будзе працаваць без службаў Google Play, якія ў цяперашні час абнаўляюцца.</string>
+    <string name="common_google_play_services_wear_update_text">Патрабуецца новая версія служб Google Play. Яна абновіцца аўтаматычна ў бліжэйшы час.</string>
+    <string name="common_open_on_phone">Адкрыць на тэлефоне</string>
+    <string name="common_signin_button_text">Увайсцi</string>
+    <string name="common_signin_button_text_long">Увайсці праз Google</string>
     <string name="error_icon_content_description">Памылка</string>
-    <string msgid="5974471714631304645" name="expanded">"Разгорнута"</string>
     <string name="exposed_dropdown_menu_content_description">Паказаць выпадное меню</string>
+    <string msgid="9119039724000326934" name="ic_media_route_learn_more_accessibility">"Як пачаць трансляцыю"</string>
     <string name="icon_content_description">Значок дыялогавага акна</string>
-    <string msgid="6827826412747255547" name="in_progress">"У працэсе"</string>
-    <string msgid="7933458017204019916" name="indeterminate">"Выбрана часткова"</string>
     <string name="item_view_role_description">Укладка</string>
     <string name="material_clock_toggle_content_description">Выберыце AM (да паўдня) або PM (пасля паўдня)</string>
     <string name="material_hour_24h_suffix">%1$s гадз</string>
@@ -75,6 +127,41 @@
     <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">Выберыце час</string>
     <string name="material_timepicker_text_input_mode_description">Пераключыцца на рэжым тэксту пры ўводзе часу.</string>
+    <string name="media_notification_channel_name">Трансляцыя</string>
+    <string msgid="2939063992730535343" name="mr_button_content_description">"Трансліраваць"</string>
+    <string msgid="6073720094880410356" name="mr_cast_button_connected">"Трансліраваць. Падключана"</string>
+    <string msgid="6629927151350192407" name="mr_cast_button_connecting">"Трансліраваць. Ідзе падключэнне"</string>
+    <string msgid="8071109333469380363" name="mr_cast_button_disconnected">"Трансліраваць. Адключана"</string>
+    <string msgid="2175930138959078155" name="mr_cast_dialog_title_view_placeholder">"Інфармацыя адсутнічае"</string>
+    <string msgid="4257319068277776035" name="mr_chooser_looking_for_devices">"Ідзе пошук прылад…"</string>
+    <string msgid="6114250663023140921" name="mr_chooser_searching">"Пошук прылад"</string>
+    <string msgid="1419936397646839840" name="mr_chooser_title">"Трансліраваць на прыладу"</string>
+    <string msgid="3799500840179081429" name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">"Даведацца больш"</a></string>
+    <string msgid="2998902945608081567" name="mr_chooser_wifi_warning_description_car">"Упэўніцеся, што другая прылада падключана да той жа сеткі Wi-Fi, што і аўтамабіль"</string>
+    <string msgid="2555886884770958244" name="mr_chooser_wifi_warning_description_phone">"Упэўніцеся, што другая прылада падключана да той жа сеткі Wi-Fi, што і тэлефон"</string>
+    <string msgid="6038748488793588164" name="mr_chooser_wifi_warning_description_tablet">"Упэўніцеся, што другая прылада падключана да той жа сеткі Wi-Fi, што і планшэт"</string>
+    <string msgid="5845921667085074878" name="mr_chooser_wifi_warning_description_tv">"Упэўніцеся, што другая прылада падключана да той жа сеткі Wi-Fi, што і тэлевізар"</string>
+    <string msgid="3459891599800041449" name="mr_chooser_wifi_warning_description_unknown">"Упэўніцеся, што другая прылада падключана да той жа сеткі Wi-Fi, што і гэта"</string>
+    <string msgid="5255021372884233706" name="mr_chooser_wifi_warning_description_watch">"Упэўніцеся, што другая прылада падключана да той жа сеткі Wi-Fi, што і гадзіннік"</string>
+    <string msgid="5213435473397442608" name="mr_chooser_zero_routes_found_title">"Няма даступных прылад"</string>
+    <string msgid="3330502667672708728" name="mr_controller_album_art">"Вокладка альбома"</string>
+    <string msgid="9171231064758955152" name="mr_controller_casting_screen">"Трансліруецца змесціва экрана"</string>
+    <string msgid="5684434439232634509" name="mr_controller_close_description">"Закрыць"</string>
+    <string msgid="2585048604188129749" name="mr_controller_collapse_group">"Згарнуць"</string>
+    <string msgid="7812275474138309497" name="mr_controller_disconnect">"Адлучыць"</string>
+    <string msgid="4521419834052044261" name="mr_controller_expand_group">"Разгарнуць"</string>
+    <string msgid="855271725131981086" name="mr_controller_no_info_available">"Інфармацыя адсутнічае"</string>
+    <string msgid="5495452265246139458" name="mr_controller_no_media_selected">"Мультымедыя не выбрана"</string>
+    <string msgid="747801650871398383" name="mr_controller_pause">"Прыпыніць"</string>
+    <string msgid="1253345086594430054" name="mr_controller_play">"Прайграць"</string>
+    <string msgid="5497722768305745508" name="mr_controller_stop">"Спыніць"</string>
+    <string msgid="804210341192624074" name="mr_controller_stop_casting">"Спыніць трансляцыю"</string>
+    <string msgid="2955862765169128170" name="mr_controller_volume_slider">"Рэгулятар гучнасці"</string>
+    <string msgid="4115858704575247342" name="mr_dialog_default_group_name">"Група"</string>
+    <string msgid="4307018456678388936" name="mr_dialog_groupable_header">"Дадаць прыладу"</string>
+    <string msgid="6068257520605505468" name="mr_dialog_transferable_header">"Прайграць на групе прылад"</string>
+    <string msgid="7449553026175453403" name="mr_system_route_name">"Сістэма"</string>
+    <string msgid="4088331695424166162" name="mr_user_route_category_name">"Прылады"</string>
     <string name="mtrl_badge_numberless_content_description">Новае апавяшчэнне</string>
     <string name="mtrl_chip_close_icon_content_description">Выдаліць %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Колькасць новых апавяшчэнняў перавысіла %1$d</string>
@@ -117,17 +204,9 @@
     <string name="mtrl_picker_toggle_to_year_selection">Націсніце, каб пераключыцца на агляд года</string>
     <string name="mtrl_timepicker_cancel">Скасаваць</string>
     <string name="mtrl_timepicker_confirm">ОК</string>
-    <string msgid="542007171693138492" name="navigation_menu">"Меню навігацыі"</string>
-    <string msgid="6610465462668679431" name="not_selected">"Не выбрана"</string>
-    <string msgid="875452955155264703" name="off">"Выключана"</string>
-    <string msgid="8655164131929253426" name="on">"Уключана"</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Перайсці ўверх"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Адкрыць высоўнае меню навігацыі"</string>
     <string name="password_toggle_content_description">Паказаць пароль</string>
-    <string msgid="5941395253238309765" name="range_end">"Канец пераліку"</string>
-    <string msgid="7097486360902471446" name="range_start">"Пачатак пераліку"</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Пошук"</string>
-    <string msgid="6043586758067023" name="selected">"Выбрана"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
-    <string msgid="2561197295334830845" name="switch_role">"Пераключальнік"</string>
-    <string msgid="1672349317127674378" name="tab">"Укладка"</string>
-    <string msgid="5946805113151406391" name="template_percent">"Працэнтаў: <ns1:g id="PERCENTAGE">%1$d</ns1:g>."</string>
 </resources>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">lokala</string>
+    <string name="app_name">LOKANA</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_detail">DetailActivity</string>
     <!-- Strings used for fragments for navigation -->
@@ -50,12 +50,15 @@
     <string name="circle_1">circle 1</string>
     <string name="circle_2">circle 2</string>
     <string name="circle_3">circle 3</string>
+    <string name="circle_4">circle 4</string>
+    <string name="circle_5">circle 5</string>
     <string name="title_choice">Anda Sebagai :</string>
     <string name="user_choice">Icon User</string>
     <string name="user">User</string>
     <string name="government_choice">Icon Pemerintah</string>
     <string name="government">Pemerintah</string>
     <string name="tv_login">Login</string>
+    <string name="btn_find">Find</string>
     <string name="ed_login">Username</string>
     <string name="tv_password">Password</string>
     <string name="tv_login_hub_admin"> Anda ingin menjadi admin ? Silahkan kontak kami </string>
@@ -64,4 +67,46 @@
     <string name="build_since">2024 Lokana</string>
     <string name="instagram">Instagram</string>
     <string name="whatsapp">Whatsapp</string>
+    <string name="welcome">Selamat Datang</string>
+    <string name="mathcing">Matching Photo</string>
+    <string name="petunjuk">Petunjuk :</string>
+    <string name="isi_petunjuk">Foto wajah menghadap ke depan serta
+wajah harus terlihat jelas tidak blur
+sesuai contoh </string>
+    <string name="back">Back</string>
+    <string name="cari_orang_hilang">Cari Orang Hilang</string>
+    <string name="nama_orang">Nama Orang</string>
+    <string name="search">Search</string>
+    <string name="edit_nama_orang">Search</string>
+    <string name="gender">Gender</string>
+    <string name="location">location</string>
+    <string name="hasil">Hasil</string>
+    <string name="data_tidak_ditemukan">Data Tidak Ditemukan</string>
+    <string name="foto_orang">foto orang</string>
+    <string name="status">Status</string>
+    <string name="ditemukan">Ditemukan</string>
+    <string name="hilang">Hilang</string>
+    <string name="nama">Nama</string>
+    <string name="cari_orang">CARI ORANG</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="note">Note :</string>
+    <string name="isi_example_pencarian_orang">Mohon Perhatikan Foto Pencarian Orang Hilang dengan Detail Pencarian Orang Hilang</string>
+
+    <string-array name="choice_gender">
+        <item>Man</item>
+        <item>Woman</item>
+    </string-array>
+
+    <string-array name="title_guide_fragment">
+        <item>Mencari Orang Hilang</item>
+        <item>Tambahkan Orang Hilang</item>
+    </string-array>
+
+    <string-array name="title_card_guide">
+        <item>Temukan Orang Yang Anda Cari</item>
+        <item>Bantu Tambahkan Orang Hilang</item>
+    </string-array>
+
+
 </resources>

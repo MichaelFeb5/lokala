@@ -1,34 +1,66 @@
 [
     {
-        "merged": "com.example.lokala.app-mergeDebugResources-58:/layout/activity_login.xml",
-        "source": "com.example.lokala.app-main-61:/layout/activity_login.xml"
+        "merged": "com.example.lokala.app-mergeDebugResources-70:/layout/activity_user.xml",
+        "source": "com.example.lokala.app-main-73:/layout/activity_user.xml"
     },
     {
-        "merged": "com.example.lokala.app-mergeDebugResources-58:/layout/fragment_guide.xml",
-        "source": "com.example.lokala.app-main-61:/layout/fragment_guide.xml"
+        "merged": "com.example.lokala.app-mergeDebugResources-70:/layout/activity_detail_orang_hilang.xml",
+        "source": "com.example.lokala.app-main-73:/layout/activity_detail_orang_hilang.xml"
     },
     {
-        "merged": "com.example.lokala.app-mergeDebugResources-58:/layout/activity_splash_screen.xml",
-        "source": "com.example.lokala.app-main-61:/layout/activity_splash_screen.xml"
+        "merged": "com.example.lokala.app-mergeDebugResources-70:/layout/activity_splash_screen.xml",
+        "source": "com.example.lokala.app-main-73:/layout/activity_splash_screen.xml"
     },
     {
-        "merged": "com.example.lokala.app-mergeDebugResources-58:/layout/activity_main.xml",
-        "source": "com.example.lokala.app-main-61:/layout/activity_main.xml"
+        "merged": "com.example.lokala.app-mergeDebugResources-70:/layout/fragment_home.xml",
+        "source": "com.example.lokala.app-main-73:/layout/fragment_home.xml"
     },
     {
-        "merged": "com.example.lokala.app-mergeDebugResources-58:/layout/fragment_home.xml",
-        "source": "com.example.lokala.app-main-61:/layout/fragment_home.xml"
+        "merged": "com.example.lokala.app-mergeDebugResources-70:/layout/user_orang_list_item.xml",
+        "source": "com.example.lokala.app-main-73:/layout/user_orang_list_item.xml"
     },
     {
-        "merged": "com.example.lokala.app-mergeDebugResources-58:/layout/orang_list_item.xml",
-        "source": "com.example.lokala.app-main-61:/layout/orang_list_item.xml"
+        "merged": "com.example.lokala.app-mergeDebugResources-70:/layout/fragment_home_user.xml",
+        "source": "com.example.lokala.app-main-73:/layout/fragment_home_user.xml"
     },
     {
-        "merged": "com.example.lokala.app-mergeDebugResources-58:/layout/activity_guide.xml",
-        "source": "com.example.lokala.app-main-61:/layout/activity_guide.xml"
+        "merged": "com.example.lokala.app-mergeDebugResources-70:/layout/orang_list_item.xml",
+        "source": "com.example.lokala.app-main-73:/layout/orang_list_item.xml"
     },
     {
-        "merged": "com.example.lokala.app-mergeDebugResources-58:/layout/fragment_choice_user.xml",
-        "source": "com.example.lokala.app-main-61:/layout/fragment_choice_user.xml"
+        "merged": "com.example.lokala.app-mergeDebugResources-70:/layout/activity_main.xml",
+        "source": "com.example.lokala.app-main-73:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.lokala.app-mergeDebugResources-70:/layout/fragment_banner.xml",
+        "source": "com.example.lokala.app-main-73:/layout/fragment_banner.xml"
+    },
+    {
+        "merged": "com.example.lokala.app-mergeDebugResources-70:/layout/activity_login.xml",
+        "source": "com.example.lokala.app-main-73:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.lokala.app-mergeDebugResources-70:/layout/activity_guide.xml",
+        "source": "com.example.lokala.app-main-73:/layout/activity_guide.xml"
+    },
+    {
+        "merged": "com.example.lokala.app-mergeDebugResources-70:/layout/fragment_choice_user.xml",
+        "source": "com.example.lokala.app-main-73:/layout/fragment_choice_user.xml"
+    },
+    {
+        "merged": "com.example.lokala.app-mergeDebugResources-70:/layout/activity_foto.xml",
+        "source": "com.example.lokala.app-main-73:/layout/activity_foto.xml"
+    },
+    {
+        "merged": "com.example.lokala.app-mergeDebugResources-70:/layout/fragment_search_user.xml",
+        "source": "com.example.lokala.app-main-73:/layout/fragment_search_user.xml"
+    },
+    {
+        "merged": "com.example.lokala.app-mergeDebugResources-70:/layout/fragment_guide.xml",
+        "source": "com.example.lokala.app-main-73:/layout/fragment_guide.xml"
+    },
+    {
+        "merged": "com.example.lokala.app-mergeDebugResources-70:/layout/activity_tambah_orang_hilang.xml",
+        "source": "com.example.lokala.app-main-73:/layout/activity_tambah_orang_hilang.xml"
     }
 ]

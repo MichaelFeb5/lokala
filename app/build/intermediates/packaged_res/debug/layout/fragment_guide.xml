@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.guide.GuideFragment">
+    tools:context=".ui.guide.GuideFragment"
+    android:background="@color/white"
+    >
 
 
     <androidx.appcompat.widget.LinearLayoutCompat
@@ -32,7 +34,7 @@
             android:textSize="34sp" />
 
         <ImageView
-            android:id="@+id/image_guide1"
+            android:id="@+id/image_guide"
             android:layout_width="202dp"
             android:layout_height="226dp"
             android:layout_gravity="center"
@@ -49,6 +51,7 @@
             android:padding="20dp">
 
             <TextView
+                android:id="@+id/tv_title_card"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="5dp"
@@ -74,21 +77,21 @@
         app:layout_constraintTop_toBottomOf="@+id/bacground_title_guide">
 
         <ImageView
-            android:id="@+id/unselected_circle_1"
+            android:id="@+id/circle_1"
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:layout_margin="10dp"
             android:contentDescription="@string/circle_1" />
 
         <ImageView
-            android:id="@+id/unselected_circle_2"
+            android:id="@+id/circle_2"
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:layout_margin="10dp"
             android:contentDescription="@string/circle_2" />
 
         <ImageView
-            android:id="@+id/unselected_circle_3"
+            android:id="@+id/circle_3"
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:layout_margin="10dp"

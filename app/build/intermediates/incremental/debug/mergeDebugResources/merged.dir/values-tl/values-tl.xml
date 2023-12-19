@@ -43,22 +43,74 @@
     <string msgid="6107532579223922871" name="call_notification_incoming_text">"Papasok na tawag"</string>
     <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Kasalukuyang tawag"</string>
     <string msgid="59049573811482460" name="call_notification_screening_text">"Nagsi-screen ng papasok na tawag"</string>
+    <string name="cast_ad_label">Ad</string>
+    <string name="cast_casting_to_device">Nagka-cast sa %1$s</string>
+    <string name="cast_closed_captions">Mga closed caption</string>
+    <string name="cast_closed_captions_unavailable">Hindi available ang mga closed caption</string>
+    <string name="cast_connecting_to_device">Kumokonekta sa %1$s</string>
+    <string name="cast_disconnect">Idiskonekta</string>
+    <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
+    <string name="cast_expanded_controller_ad_image_description">Ipinapakitang larawan habang nagpe-play ng ad ang cast receiver</string>
+    <string name="cast_expanded_controller_ad_in_progress">Nasa proseso ang paggawa ng ad...</string>
+    <string name="cast_expanded_controller_background_image">Album art</string>
+    <string name="cast_expanded_controller_live_head_description">Ang kasalukuyang posisyon ay nasa simula ng live stream</string>
+    <string name="cast_expanded_controller_live_stream_indicator">Live stream</string>
+    <string name="cast_expanded_controller_loading">Naglo-load…</string>
+    <string name="cast_expanded_controller_skip_ad_label">Laktawan ang Ad</string>
+    <string name="cast_expanded_controller_skip_ad_text">Malalaktawan mo ang ad sa loob ng %1$d…</string>
+    <string name="cast_forward">I-forward</string>
+    <string name="cast_forward_10">I-forward nang sampung segundo</string>
+    <string name="cast_forward_30">I-forward nang tatlumpung segundo</string>
+    <string name="cast_intro_overlay_button_text">@android:string/ok</string>
+    <string name="cast_live_label">LIVE</string>
+    <string name="cast_mute">I-mute</string>
+    <string name="cast_notification_connected_message">Nakakonekta sa %1$s</string>
+    <string name="cast_notification_connecting_message">Kumokonekta sa %1$s</string>
+    <string name="cast_notification_default_channel_name">Cast</string>
+    <string name="cast_notification_disconnect">Idiskonekta</string>
+    <string name="cast_pause">I-pause</string>
+    <string name="cast_play">I-play</string>
+    <string name="cast_rewind">I-rewind</string>
+    <string name="cast_rewind_10">I-rewind nang sampung segundo</string>
+    <string name="cast_rewind_30">I-rewind nang tatlumpung segundo</string>
+    <string name="cast_seek_bar">Kontrol sa paghahanap sa pag-playback</string>
+    <string name="cast_skip_next">Lumaktaw sa susunod na item</string>
+    <string name="cast_skip_prev">Lumaktaw sa nakaraang item</string>
+    <string name="cast_stop">Ihinto</string>
+    <string name="cast_stop_live_stream">Ihinto ang live stream</string>
+    <string name="cast_tracks_chooser_dialog_audio">Audio</string>
+    <string name="cast_tracks_chooser_dialog_cancel">Kanselahin</string>
+    <string name="cast_tracks_chooser_dialog_closed_captions">Mga Nakasarang Caption</string>
+    <string name="cast_tracks_chooser_dialog_default_track_name">Track %1$d</string>
+    <string name="cast_tracks_chooser_dialog_none">Wala</string>
+    <string name="cast_tracks_chooser_dialog_ok">OK</string>
+    <string name="cast_tracks_chooser_dialog_subtitles">Mga Subtitle</string>
+    <string name="cast_unmute">I-unmute</string>
     <string name="character_counter_content_description">Mga character na nailagay %1$d sa %2$d</string>
     <string name="character_counter_overflowed_content_description">Lumampas sa limitasyon sa bilang ng character %1$d sa %2$d</string>
     <string name="clear_text_end_icon_content_description">I-clear ang text</string>
-    <string msgid="406453423630273620" name="close_drawer">"Isara ang menu ng navigation"</string>
-    <string msgid="7573152094250666567" name="close_sheet">"Isara ang sheet"</string>
-    <string msgid="5389587048670450460" name="collapsed">"Naka-collapse"</string>
-    <string msgid="8038256446254964252" name="default_error_message">"Invalid na input"</string>
-    <string msgid="6312721426453364202" name="default_popup_window_title">"Window ng Pop-Up"</string>
-    <string msgid="4057925834421392736" name="dialog">"Dialog"</string>
-    <string msgid="1890207353314751437" name="dropdown_menu">"Drop-down na menu"</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">I-enable</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">Hindi gagana ang %1$s maliban kung ie-enable mo ang mga serbisyo ng Google Play.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">I-enable ang mga serbisyo ng Google Play</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">I-install</string>
+    <string name="common_google_play_services_install_text">Hindi gagana ang %1$s nang wala ang mga serbisyo ng Google Play na wala sa iyong device.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Kunin ang mga serbisyo ng Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Availability ng serbisyo ng Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Error sa Mga Serbisyo ng Google Play</string>
+    <string name="common_google_play_services_unknown_issue">Nagkakaproblema ang %1$s sa mga serbisyo ng Google Play. Pakisubukan ulit.</string>
+    <string name="common_google_play_services_unsupported_text">Hindi gagana ang %1$s nang wala ang mga serbisyo ng Google Play, na hindi nasusuportahan ng iyong device.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">I-update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">Hindi gagana ang %1$s maliban kung i-a-update mo ang mga serbisyo ng Google Play.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">I-update ang mga serbisyo ng Google Play</string>
+    <string name="common_google_play_services_updating_text">Hindi gagana ang %1$s nang wala ang mga serbisyo ng Google Play na kasalukuyang ina-update.</string>
+    <string name="common_google_play_services_wear_update_text">Kailangan ang bagong bersyon ng mga serbisyo ng Google Play. Mag-a-update itong mag-isa sa ilang sandali.</string>
+    <string name="common_open_on_phone">Buksan sa telepono</string>
+    <string name="common_signin_button_text">Mag-sign in</string>
+    <string name="common_signin_button_text_long">Mag-sign in sa Google</string>
     <string name="error_icon_content_description">Error</string>
-    <string msgid="5974471714631304645" name="expanded">"Naka-expand"</string>
     <string name="exposed_dropdown_menu_content_description">Ipakita ang dropdown na menu</string>
+    <string msgid="9119039724000326934" name="ic_media_route_learn_more_accessibility">"Matutunan kung paano mag-cast"</string>
     <string name="icon_content_description">Icon ng Dialog</string>
-    <string msgid="6827826412747255547" name="in_progress">"Isinasagawa"</string>
-    <string msgid="7933458017204019916" name="indeterminate">"Bahagyang may check"</string>
     <string name="item_view_role_description">Tab</string>
     <string name="material_clock_toggle_content_description">Piliin ang AM o PM</string>
     <string name="material_hour_24h_suffix">%1$s (na) oras</string>
@@ -73,6 +125,41 @@
     <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">Pumili ng oras</string>
     <string name="material_timepicker_text_input_mode_description">Lumipat sa pamamaraan ng pag-input ng text para sa input na oras.</string>
+    <string name="media_notification_channel_name">Cast</string>
+    <string msgid="2939063992730535343" name="mr_button_content_description">"Cast"</string>
+    <string msgid="6073720094880410356" name="mr_cast_button_connected">"Cast. Nakakonekta"</string>
+    <string msgid="6629927151350192407" name="mr_cast_button_connecting">"Cast. Kumokonekta"</string>
+    <string msgid="8071109333469380363" name="mr_cast_button_disconnected">"Cast. Nadiskonekta"</string>
+    <string msgid="2175930138959078155" name="mr_cast_dialog_title_view_placeholder">"Walang available na impormasyon"</string>
+    <string msgid="4257319068277776035" name="mr_chooser_looking_for_devices">"Naghahanap ng mga device..."</string>
+    <string msgid="6114250663023140921" name="mr_chooser_searching">"Naghahanap ng mga device"</string>
+    <string msgid="1419936397646839840" name="mr_chooser_title">"I-cast sa"</string>
+    <string msgid="3799500840179081429" name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">"Matuto pa"</a></string>
+    <string msgid="2998902945608081567" name="mr_chooser_wifi_warning_description_car">"Tiyaking nasa iisang Wi-Fi network ang ibang device at ang kotseng ito"</string>
+    <string msgid="2555886884770958244" name="mr_chooser_wifi_warning_description_phone">"Tiyaking nasa iisang Wi-Fi network ang ibang device at ang teleponong ito"</string>
+    <string msgid="6038748488793588164" name="mr_chooser_wifi_warning_description_tablet">"Tiyaking nasa iisang Wi-Fi network ang ibang device at ang tablet na ito"</string>
+    <string msgid="5845921667085074878" name="mr_chooser_wifi_warning_description_tv">"Tiyaking nasa iisang Wi-Fi network ang ibang device at ang TV na ito"</string>
+    <string msgid="3459891599800041449" name="mr_chooser_wifi_warning_description_unknown">"Tiyaking nasa iisang Wi-Fi network ang ibang device at ang device na ito"</string>
+    <string msgid="5255021372884233706" name="mr_chooser_wifi_warning_description_watch">"Tiyaking nasa iisang Wi-Fi network ang ibang device at ang relong ito"</string>
+    <string msgid="5213435473397442608" name="mr_chooser_zero_routes_found_title">"Walang available na device"</string>
+    <string msgid="3330502667672708728" name="mr_controller_album_art">"Album art"</string>
+    <string msgid="9171231064758955152" name="mr_controller_casting_screen">"Ikina-cast ang screen"</string>
+    <string msgid="5684434439232634509" name="mr_controller_close_description">"Isara"</string>
+    <string msgid="2585048604188129749" name="mr_controller_collapse_group">"I-collapse"</string>
+    <string msgid="7812275474138309497" name="mr_controller_disconnect">"Idiskonekta"</string>
+    <string msgid="4521419834052044261" name="mr_controller_expand_group">"I-expand"</string>
+    <string msgid="855271725131981086" name="mr_controller_no_info_available">"Walang available na impormasyon"</string>
+    <string msgid="5495452265246139458" name="mr_controller_no_media_selected">"Walang napiling media"</string>
+    <string msgid="747801650871398383" name="mr_controller_pause">"I-pause"</string>
+    <string msgid="1253345086594430054" name="mr_controller_play">"I-play"</string>
+    <string msgid="5497722768305745508" name="mr_controller_stop">"Ihinto"</string>
+    <string msgid="804210341192624074" name="mr_controller_stop_casting">"Ihinto ang pag-cast"</string>
+    <string msgid="2955862765169128170" name="mr_controller_volume_slider">"Slider ng volume"</string>
+    <string msgid="4115858704575247342" name="mr_dialog_default_group_name">"Grupo"</string>
+    <string msgid="4307018456678388936" name="mr_dialog_groupable_header">"Magdagdag ng device"</string>
+    <string msgid="6068257520605505468" name="mr_dialog_transferable_header">"I-play sa isang pangkat"</string>
+    <string msgid="7449553026175453403" name="mr_system_route_name">"System"</string>
+    <string msgid="4088331695424166162" name="mr_user_route_category_name">"Mga Device"</string>
     <string name="mtrl_badge_numberless_content_description">Bagong notification</string>
     <string name="mtrl_chip_close_icon_content_description">Alisin ang %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Mahigit %1$d (na) bagong notification</string>
@@ -115,17 +202,9 @@
     <string name="mtrl_picker_toggle_to_year_selection">I-tap para lumipat sa view ng taon</string>
     <string name="mtrl_timepicker_cancel">Kanselahin</string>
     <string name="mtrl_timepicker_confirm">OK</string>
-    <string msgid="542007171693138492" name="navigation_menu">"Menu ng navigation"</string>
-    <string msgid="6610465462668679431" name="not_selected">"Hindi napili"</string>
-    <string msgid="875452955155264703" name="off">"Naka-off"</string>
-    <string msgid="8655164131929253426" name="on">"Naka-on"</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Mag-navigate pataas"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Buksan ang navigation drawer"</string>
     <string name="password_toggle_content_description">Ipakita ang password</string>
-    <string msgid="5941395253238309765" name="range_end">"Katapusan ng range"</string>
-    <string msgid="7097486360902471446" name="range_start">"Simula ng range"</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Maghanap"</string>
-    <string msgid="6043586758067023" name="selected">"Napili"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
-    <string msgid="2561197295334830845" name="switch_role">"Lumipat"</string>
-    <string msgid="1672349317127674378" name="tab">"Tab"</string>
-    <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> (na) porsyento."</string>
 </resources>
