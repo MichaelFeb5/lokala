@@ -10,6 +10,7 @@ import retrofit2.http.GET
 import retrofit2.http.Headers
 import retrofit2.http.Multipart
 import retrofit2.http.POST
+import retrofit2.http.PUT
 import retrofit2.http.Part
 import retrofit2.http.Path
 import retrofit2.http.Query
@@ -22,6 +23,25 @@ interface ApiService {
     @POST("addpeople")
     @Headers("Accept: application/json")
     suspend fun addPeople(
+        @Part foto: MultipartBody.Part,
+        @Part foto2: MultipartBody.Part,
+        @Part("nama") nama: RequestBody,
+        @Part("umur") umur: RequestBody,
+        @Part("tinggi") tinggi: RequestBody,
+        @Part("berat_badan") berat_badan: RequestBody,
+        @Part("ciri_fisik") ciri_fisik: RequestBody,
+        @Part("nomor_dihubungi") nomor_dihubungi: RequestBody,
+        @Part("sering_ditemukan_di") sering_ditemukan_di: RequestBody,
+        @Part("kota") kota: RequestBody,
+        @Part("gender") gender: RequestBody,
+        @Part("isFound") isFound: RequestBody
+    ): addPeopleResponse
+
+    @Multipart
+    @PUT("editpeople/{id}")
+    @Headers("Accept: application/json")
+    suspend fun editPeople(
+        @Path("id") id: String,
         @Part foto: MultipartBody.Part,
         @Part foto2: MultipartBody.Part,
         @Part("nama") nama: RequestBody,
