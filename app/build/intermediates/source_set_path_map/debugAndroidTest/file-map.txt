@@ -1,0 +1,6 @@
+com.example.lokala.test.app-jetified-core-1.5.0-0 C:\Users\lenovo\.gradle\caches\transforms-3\5408e12fd666ec87146d268d2606e5d3\transformed\jetified-core-1.5.0\res
+com.example.lokala.test.app-jetified-annotation-experimental-1.3.0-1 C:\Users\lenovo\.gradle\caches\transforms-3\5f395a421a4d0f4392e56e3348be2ad6\transformed\jetified-annotation-experimental-1.3.0\res
+com.example.lokala.test.app-androidTest-2 D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\build\generated\res\resValues\androidTest\debug
+com.example.lokala.test.app-mergeDebugAndroidTestResources-3 D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.lokala.test.app-mergeDebugAndroidTestResources-4 D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.lokala.test.app-merged_res-5 D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\build\intermediates\merged_res\debugAndroidTest
