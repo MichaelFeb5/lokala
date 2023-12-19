@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.bumptech.glide.Glide
 import com.example.lokala.R
 import com.example.lokala.databinding.FragmentGuideBinding
 
@@ -19,6 +20,9 @@ class GuideFragment : Fragment() {
     }
     private val titleCardFragment: Array<String> by lazy {
         resources.getStringArray(R.array.title_card_guide)
+    }
+    private val imageLandingPage by lazy {
+        resources.obtainTypedArray(R.array.image_landing_page)
     }
 
     override fun onCreateView(
@@ -41,7 +45,10 @@ class GuideFragment : Fragment() {
                 tvTitleCard.text = titleCardFragment[it]
                 selectedCircle(it)
 
-
+                Glide.with(requireContext())
+                    .load(imageLandingPage.getResourceId(it,0))
+                    .into(imageGuide)
+                
             }
         }
 

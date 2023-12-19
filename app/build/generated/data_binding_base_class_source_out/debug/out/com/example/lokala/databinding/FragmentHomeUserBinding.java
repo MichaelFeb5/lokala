@@ -25,7 +25,7 @@ public final class FragmentHomeUserBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ViewPager2 banner;
+  public final ViewPager2 bannerViewPager;
 
   @NonNull
   public final MaterialButton btnFind;
@@ -42,12 +42,12 @@ public final class FragmentHomeUserBinding implements ViewBinding {
   @NonNull
   public final TextView tvTitleUserHome;
 
-  private FragmentHomeUserBinding(@NonNull ConstraintLayout rootView, @NonNull ViewPager2 banner,
-      @NonNull MaterialButton btnFind, @NonNull CardView containerExampleView,
-      @NonNull LinearLayout containerPhoto, @NonNull ImageView imExampleFoto,
-      @NonNull TextView tvTitleUserHome) {
+  private FragmentHomeUserBinding(@NonNull ConstraintLayout rootView,
+      @NonNull ViewPager2 bannerViewPager, @NonNull MaterialButton btnFind,
+      @NonNull CardView containerExampleView, @NonNull LinearLayout containerPhoto,
+      @NonNull ImageView imExampleFoto, @NonNull TextView tvTitleUserHome) {
     this.rootView = rootView;
-    this.banner = banner;
+    this.bannerViewPager = bannerViewPager;
     this.btnFind = btnFind;
     this.containerExampleView = containerExampleView;
     this.containerPhoto = containerPhoto;
@@ -82,9 +82,9 @@ public final class FragmentHomeUserBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.banner;
-      ViewPager2 banner = ViewBindings.findChildViewById(rootView, id);
-      if (banner == null) {
+      id = R.id.banner_view_pager;
+      ViewPager2 bannerViewPager = ViewBindings.findChildViewById(rootView, id);
+      if (bannerViewPager == null) {
         break missingId;
       }
 
@@ -118,7 +118,7 @@ public final class FragmentHomeUserBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomeUserBinding((ConstraintLayout) rootView, banner, btnFind,
+      return new FragmentHomeUserBinding((ConstraintLayout) rootView, bannerViewPager, btnFind,
           containerExampleView, containerPhoto, imExampleFoto, tvTitleUserHome);
     }
     String missingId = rootView.getResources().getResourceName(id);

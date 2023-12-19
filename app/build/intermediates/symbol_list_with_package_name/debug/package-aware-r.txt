@@ -85,12 +85,14 @@ animator nav_default_enter_anim
 animator nav_default_exit_anim
 animator nav_default_pop_enter_anim
 animator nav_default_pop_exit_anim
+array banner_image
 array cast_expanded_controller_default_control_buttons
 array cast_mini_controller_default_control_buttons
 array choice_gender
 array com_google_android_gms_fonts_certs
 array com_google_android_gms_fonts_certs_dev
 array com_google_android_gms_fonts_certs_prod
+array image_landing_page
 array preloaded_fonts
 array title_card_guide
 array title_guide_fragment
@@ -1639,6 +1641,7 @@ color foreground_material_light
 color green
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -3401,6 +3404,8 @@ drawable ic_group_expand_15
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_logo_1
+drawable ic_logo_2
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
@@ -3817,7 +3822,7 @@ id bacground_title_login
 id background_image_view
 id background_photo
 id background_place_holder_image_view
-id banner
+id banner_view_pager
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -4769,6 +4774,7 @@ string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
 string back
+string banner
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
 string bottomsheet_action_expand
