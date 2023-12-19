@@ -15,7 +15,7 @@ class BannerViewPagerAdapter(fragment: Fragment): FragmentStateAdapter(fragment)
        val fragment = BannerFragment()
 
         fragment.arguments = Bundle().apply {
-            putInt(BannerFragment.ARG_POSITION, position+1)
+            putInt(BannerFragment.ARG_POSITION, position)
         }
         return fragment
 

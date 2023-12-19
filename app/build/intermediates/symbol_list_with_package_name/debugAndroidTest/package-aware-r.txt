@@ -1,3 +1,0 @@
-com.example.lokala.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme

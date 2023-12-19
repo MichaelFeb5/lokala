@@ -14,7 +14,7 @@ class BannerFragment : Fragment() {
 
 
     private var _binding: FragmentBannerBinding? = null
-    private val binding = _binding!!
+    private val binding get() = _binding!!
     private val bannerGovernment by lazy {
         resources.getStringArray(R.array.banner_image)
     }
@@ -31,10 +31,10 @@ class BannerFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val index = arguments?.getInt(ARG_POSITION, 0)
+        val index = requireArguments().getInt(ARG_POSITION, 0)
 
         Glide.with(requireContext())
-            .load(bannerGovernment[index!!])
+            .load(bannerGovernment[index])
             .into(binding.imageBanner)
 
         selectedCircle(index)

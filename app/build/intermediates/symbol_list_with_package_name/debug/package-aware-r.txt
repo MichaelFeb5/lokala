@@ -3818,7 +3818,6 @@ id bacground_title_login
 id background_image_view
 id background_photo
 id background_place_holder_image_view
-id banner
 id banner_view_pager
 id barrier
 id baseline

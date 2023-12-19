@@ -55,7 +55,6 @@ id bacground_title_choice_user
 id bacground_title_guide
 id bacground_title_login
 id background_photo
-id banner
 id banner_view_pager
 id bottom
 id bottomNavigation
