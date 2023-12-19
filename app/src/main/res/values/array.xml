@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="image_landing_page">
+        <item>@drawable/ic_logo_1</item>
+        <item>@drawable/ic_logo_2</item>
+    </integer-array>
+</resources>

@@ -91,6 +91,7 @@ int array choice_gender 0x7f030003
 int array com_google_android_gms_fonts_certs 0x7f030004
 int array com_google_android_gms_fonts_certs_dev 0x7f030005
 int array com_google_android_gms_fonts_certs_prod 0x7f030006
+int array image_landing_page 0x7f03000a
 int array preloaded_fonts 0x7f030007
 int array title_card_guide 0x7f030008
 int array title_guide_fragment 0x7f030009
@@ -3401,6 +3402,8 @@ int drawable ic_group_expand_15 0x7f08010e
 int drawable ic_keyboard_black_24dp 0x7f08010f
 int drawable ic_launcher_background 0x7f080110
 int drawable ic_launcher_foreground 0x7f080111
+int drawable ic_logo_1 0x7f080246
+int drawable ic_logo_2 0x7f080247
 int drawable ic_m3_chip_check 0x7f080112
 int drawable ic_m3_chip_checked_circle 0x7f080113
 int drawable ic_m3_chip_close 0x7f080114
