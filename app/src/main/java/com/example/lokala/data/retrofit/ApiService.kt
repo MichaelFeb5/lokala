@@ -19,6 +19,23 @@ interface ApiService {
     @GET("getpeople")
     suspend fun getPeople(): OrangHilangResponse
 
+    @GET("getpeople")
+    suspend fun getPeopleById(
+        @Query("id_people") id: String
+    ): OrangHilangResponse
+
+    @GET("getpeople")
+    suspend fun getPeopleByName(
+        @Query("nama") nama: String
+    ): OrangHilangResponse
+
+    @Multipart
+    @POST("findpeople")
+    @Headers("Accept: application/json")
+    suspend fun findPeople(
+        @Part foto: MultipartBody.Part,
+    ): OrangHilangResponse
+
     @Multipart
     @POST("addpeople")
     @Headers("Accept: application/json")
@@ -55,9 +72,6 @@ interface ApiService {
         @Part("gender") gender: RequestBody,
         @Part("isFound") isFound: RequestBody
     ): addPeopleResponse
-
-    @GET("getpeople")
-    suspend fun getPeopleById(@Query("id_people") idPeople: String): OrangHilangResponse
 
     @DELETE("deletepeople/{id}")
     suspend fun deletePeople(@Path("id") id: String): deleteResponse

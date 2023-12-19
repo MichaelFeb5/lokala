@@ -9,12 +9,12 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.lokala.R
-import com.example.lokala.data.dummy.OrangHilang
+import com.example.lokala.data.response.OrangHilangItem
 import com.example.lokala.databinding.UserOrangListItemBinding
 
 
 class UserOrangHilangAdapter :
-    ListAdapter<OrangHilang, UserOrangHilangAdapter.MyViewHolder>(DIFF_CALLBACK) {
+    ListAdapter<OrangHilangItem, UserOrangHilangAdapter.MyViewHolder>(DIFF_CALLBACK) {
 
     private lateinit var onItemClickCalback: OnItemClickCalback
 
@@ -26,11 +26,11 @@ class UserOrangHilangAdapter :
     class MyViewHolder(val binding: UserOrangListItemBinding) :
         RecyclerView.ViewHolder(binding.root) {
 
-        fun bind(item: OrangHilang) {
+        fun bind(item: OrangHilangItem) {
 
             with(binding) {
                 Glide.with(binding.root.context)
-                    .load(item.url_foto[0])
+                    .load(item.urlFoto[0])
                     .into(imUser)
 
                 tvGender.text = item.gender
@@ -75,12 +75,12 @@ class UserOrangHilangAdapter :
     }
 
     companion object {
-        val DIFF_CALLBACK = object : DiffUtil.ItemCallback<OrangHilang>() {
-            override fun areItemsTheSame(oldItem: OrangHilang, newItem: OrangHilang): Boolean {
+        val DIFF_CALLBACK = object : DiffUtil.ItemCallback<OrangHilangItem>() {
+            override fun areItemsTheSame(oldItem: OrangHilangItem, newItem: OrangHilangItem): Boolean {
                 return oldItem == newItem
             }
 
-            override fun areContentsTheSame(oldItem: OrangHilang, newItem: OrangHilang): Boolean {
+            override fun areContentsTheSame(oldItem: OrangHilangItem, newItem: OrangHilangItem): Boolean {
                 return oldItem == newItem
             }
 
@@ -90,7 +90,7 @@ class UserOrangHilangAdapter :
 
     interface OnItemClickCalback {
 
-        fun onItemClicked(item: OrangHilang)
+        fun onItemClicked(item: OrangHilangItem)
 
     }
 
