@@ -33,7 +33,7 @@
             android:layout_marginBottom="10dp"
             android:fontFamily="@font/josefin_sans"
             android:text="@string/cari_orang_hilang"
-            android:textColor="@color/black"
+            android:textColor="@color/primarycolor"
             android:textSize="32sp"
             android:textStyle="bold" />
 
@@ -48,7 +48,7 @@
         android:fontFamily="@font/inter_extrabold"
         android:text="@string/cari_orang"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/primarycolor"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -82,7 +82,7 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <ImageView
-                    android:id="@+id/im_example_foto"
+                    android:id="@+id/iv_foto_cari"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:contentDescription="@string/mathcing"
@@ -97,9 +97,9 @@
                 android:layout_marginStart="24dp"
                 android:elevation="10dp"
                 android:text="@string/camera"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="12sp"
-                app:backgroundTint="@color/button"
+                app:backgroundTint="#00BCD4"
                 app:cornerRadius="8dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -113,9 +113,9 @@
                 android:layout_marginStart="24dp"
                 android:elevation="10dp"
                 android:text="@string/gallery"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="12sp"
-                app:backgroundTint="@color/button"
+                app:backgroundTint="#00BCD4"
                 app:cornerRadius="8dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

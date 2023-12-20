@@ -4072,6 +4072,7 @@ id iv
 id iv_arrow
 id iv_foto
 id iv_foto2
+id iv_foto_cari
 id iv_orang
 id iv_orangHilang
 id jumpToEnd
@@ -4278,6 +4279,8 @@ id position
 id postLayout
 id pressed
 id progressBar
+id progressBar2
+id progressBar3
 id progress_circular
 id progress_horizontal
 id radio

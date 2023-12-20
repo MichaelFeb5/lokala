@@ -9,14 +9,14 @@
 
     <TextView
         android:id="@+id/tv_title_user_home"
-        android:layout_width="251dp"
-        android:layout_height="86dp"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="22dp"
+        android:layout_width="256dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/inter_extrabold"
         android:lines="2"
         android:text="@string/welcome"
         android:textColor="@color/black"
+        android:layout_marginStart="20dp"
         android:textSize="34sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -65,7 +65,7 @@
                     android:fontFamily="@font/inter_extrabold"
                     android:text="@string/mathcing"
                     android:textAlignment="center"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="14sp" />
 
                 <LinearLayout
@@ -90,9 +90,9 @@
                 android:layout_marginTop="10dp"
                 android:elevation="10dp"
                 android:text="@string/btn_find"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="12sp"
-                app:backgroundTint="@color/button"
+                app:backgroundTint="#00BCD4"
                 app:cornerRadius="8dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@id/container_photo"
@@ -121,7 +121,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/inter_extrabold"
             android:text="@string/petunjuk"
-            android:textColor="@color/black"
+            android:textColor="@color/primarycolor"
             android:layout_marginTop="5dp"
             android:textSize="14sp" />
 

@@ -28,7 +28,7 @@
             android:layout_marginTop="60dp"
             android:fontFamily="@font/inter_extrabold"
             android:text="@string/tv_login"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="30sp"
             android:textStyle="bold"
 
@@ -42,6 +42,7 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/ed_login"
+                style="@style/TextAppearance.Material3.BodyMedium"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/ed_login"
@@ -60,6 +61,8 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/ed_password"
+                style="@style/TextAppearance.Material3.BodyMedium"
+
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/tv_password"
@@ -77,8 +80,8 @@
             android:layout_marginTop="10dp"
             android:elevation="10dp"
             android:text="@string/tv_login"
-            android:textColor="@color/black"
-            app:backgroundTint="@color/button"
+            android:textColor="@color/primarycolor"
+            app:backgroundTint="#FBFBFB"
             app:cornerRadius="8dp" />
 
         <TextView
@@ -89,7 +92,7 @@
             android:fontFamily="@font/josefin_sans"
             android:text="@string/tv_login_hub_admin"
             android:textAlignment="center"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="30sp"
             android:textStyle="bold" />
 

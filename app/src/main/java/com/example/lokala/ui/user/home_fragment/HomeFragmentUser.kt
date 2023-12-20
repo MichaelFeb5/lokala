@@ -17,8 +17,6 @@ class HomeFragmentUser : Fragment() {
     private var _binding: FragmentHomeUserBinding? = null
     val binding get() = _binding!!
 
-
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -41,15 +39,9 @@ class HomeFragmentUser : Fragment() {
             }
 
             val adapter = BannerViewPagerAdapter(this@HomeFragmentUser)
-            bannerViewPager.adapter= adapter
+            bannerViewPager.adapter = adapter
 
         }
-
-
-
-
-
-
     }
 
     override fun onDestroyView() {
