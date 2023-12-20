@@ -1,4 +1,4 @@
-package com.example.lokala.ui.orangHilang.tambah
+package com.example.lokala.ui.pemerintah.orangHilang.tambah
 
 import androidx.lifecycle.ViewModel
 import com.example.lokala.data.repository.OrangHilangRepository

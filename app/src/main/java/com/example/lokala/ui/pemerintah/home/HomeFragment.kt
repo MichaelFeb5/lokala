@@ -1,4 +1,4 @@
-package com.example.lokala.ui.home
+package com.example.lokala.ui.pemerintah.home
 
 import ResultState
 import android.content.Intent
@@ -15,8 +15,8 @@ import com.example.lokala.data.response.OrangHilangItem
 import com.example.lokala.databinding.FragmentHomeBinding
 import com.example.lokala.ui.adapter.OrangHilangAdapter
 import com.example.lokala.ui.factory.ViewModelFactory
-import com.example.lokala.ui.orangHilang.detail.DetailOrangHilangActivity
-import com.example.lokala.ui.orangHilang.tambah.TambahOrangHilangActivity
+import com.example.lokala.ui.pemerintah.orangHilang.detail.DetailOrangHilangActivity
+import com.example.lokala.ui.pemerintah.orangHilang.tambah.TambahOrangHilangActivity
 
 class HomeFragment : Fragment() {
     private lateinit var binding: FragmentHomeBinding

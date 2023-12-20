@@ -26,14 +26,16 @@ interface ApiService {
 
     @GET("getpeople")
     suspend fun getPeopleByName(
-        @Query("nama") nama: String
+        @Query("nama") nama: String,
+        @Query("kota") kota: String,
+        @Query("gender") gender: String
     ): OrangHilangResponse
 
     @Multipart
     @POST("findpeople")
     @Headers("Accept: application/json")
     suspend fun findPeople(
-        @Part foto: MultipartBody.Part,
+        @Part uploaded_img: MultipartBody.Part,
     ): OrangHilangResponse
 
     @Multipart

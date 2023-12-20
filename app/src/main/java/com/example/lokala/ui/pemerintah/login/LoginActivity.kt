@@ -1,10 +1,10 @@
-package com.example.lokala.ui.login
+package com.example.lokala.ui.pemerintah.login
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.lokala.databinding.ActivityLoginBinding
-import com.example.lokala.ui.home.MainActivity
+import com.example.lokala.ui.pemerintah.home.MainActivity
 
 class LoginActivity : AppCompatActivity() {
 
@@ -15,7 +15,7 @@ class LoginActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnLogin.setOnClickListener{
-            val intent = Intent(this,MainActivity::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
     }

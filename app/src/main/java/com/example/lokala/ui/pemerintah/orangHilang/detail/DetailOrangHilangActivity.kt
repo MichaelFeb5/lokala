@@ -1,4 +1,4 @@
-package com.example.lokala.ui.orangHilang.detail
+package com.example.lokala.ui.pemerintah.orangHilang.detail
 
 import ResultState
 import android.content.Intent
@@ -13,7 +13,7 @@ import com.bumptech.glide.Glide
 import com.example.lokala.data.response.OrangHilangItem
 import com.example.lokala.databinding.ActivityDetailOrangHilangBinding
 import com.example.lokala.ui.factory.ViewModelFactory
-import com.example.lokala.ui.orangHilang.tambah.TambahOrangHilangActivity
+import com.example.lokala.ui.pemerintah.orangHilang.tambah.TambahOrangHilangActivity
 
 class DetailOrangHilangActivity : AppCompatActivity() {
 

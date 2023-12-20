@@ -35,7 +35,7 @@ class OrangHilangRepository(
         try {
             val orangHilang = apiService.findPeople(fotos)
             Log.d("API_RESPONSE", Gson().toJson(orangHilang.data.toString()))
-            emit(ResultState.Success(orangHilang.data.toString()))
+            emit(ResultState.Success(orangHilang))
         } catch (e: HttpException) {
             val errorBody = e.response()?.errorBody()?.string()
             val errorResponse = Gson().fromJson(errorBody, OrangHilangResponse::class.java)
@@ -56,10 +56,10 @@ class OrangHilangRepository(
         }
     }
 
-    fun getOrangHilangByName(nama : String) = liveData {
+    fun getOrangHilangByName(nama : String, kota : String, gender : String) = liveData {
         emit(ResultState.Loading)
         try {
-            val orangHilang = apiService.getPeopleByName(nama)
+            val orangHilang = apiService.getPeopleByName(nama,kota,gender)
             Log.d("API_RESPONSE", Gson().toJson(orangHilang.data.toString()))
             emit(ResultState.Success(orangHilang))
         } catch (e: HttpException) {

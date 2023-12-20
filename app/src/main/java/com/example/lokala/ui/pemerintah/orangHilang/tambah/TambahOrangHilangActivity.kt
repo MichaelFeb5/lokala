@@ -1,4 +1,4 @@
-package com.example.lokala.ui.orangHilang.tambah
+package com.example.lokala.ui.pemerintah.orangHilang.tambah
 
 import ResultState
 import android.net.Uri

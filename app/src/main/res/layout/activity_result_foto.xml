@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/primarycolor"
-    tools:context=".ui.foto.ResultFotoActivity">
+    android:background="@color/white"
+    tools:context=".ui.user.foto.ResultFotoActivity">
 
 
     <TextView
@@ -17,7 +17,7 @@
         android:fontFamily="@font/inter_extrabold"
         android:text="@string/status_pencarian_orang"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/primarycolor"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -81,7 +81,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/inter_extrabold"
             android:text="@string/hasil"
-            android:textColor="@color/black"
+            android:textColor="@color/primarycolor"
             android:textSize="20sp" />
 
         <TextView
@@ -90,7 +90,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/josefin_sans"
-            android:textColor="@color/black"
+            android:textColor="@color/primarycolor"
             android:text="People Found : xxx"
             android:textSize="12sp"
             android:textStyle="bold" />
@@ -114,12 +114,12 @@
             android:id="@+id/rv_result_user_orang_hilang"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginBottom="10dp"
-            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/tv_result_data_tidak_ditemukan"
@@ -129,7 +129,7 @@
             android:lines="2"
             android:text="@string/data_tidak_ditemukan"
             android:textAlignment="center"
-            android:textColor="@color/black"
+            android:textColor="@color/primarycolor"
             android:textSize="30sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -139,6 +139,21 @@
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/btn_kembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="11dp"
+        android:backgroundTint="@color/primarycolor"
+        android:text="Kembali"
+        app:layout_constraintBottom_toTopOf="@+id/container_rv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.852"
+        app:layout_constraintStart_toEndOf="@+id/tv_text_hasil"
+        app:layout_constraintTop_toBottomOf="@+id/container_form_foto_hasil"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
