@@ -3820,6 +3820,7 @@ int id bacground_title_guide 0x7f0a0064
 int id bacground_title_login 0x7f0a0065
 int id background_image_view 0x7f0a0066
 int id background_photo 0x7f0a0067
+int id background_photo_hasil 0x7f0a0304
 int id background_place_holder_image_view 0x7f0a0068
 int id banner_view_pager 0x7f0a0069
 int id barrier 0x7f0a006a
@@ -3916,6 +3917,7 @@ int id container_all 0x7f0a00c4
 int id container_current 0x7f0a00c5
 int id container_example_view 0x7f0a00c6
 int id container_form_foto 0x7f0a00c7
+int id container_form_foto_hasil 0x7f0a0305
 int id container_menu 0x7f0a00c8
 int id container_menu_foto 0x7f0a00c9
 int id container_photo 0x7f0a00ca
@@ -4047,6 +4049,7 @@ int id ifRoom 0x7f0a0147
 int id ignore 0x7f0a0148
 int id ignoreRequest 0x7f0a0149
 int id im_example_foto 0x7f0a014a
+int id im_example_foto_hasil 0x7f0a0306
 int id im_user 0x7f0a014b
 int id image 0x7f0a014c
 int id imageButton4 0x7f0a014d
@@ -4290,6 +4293,7 @@ int id rounded 0x7f0a023a
 int id row_index_key 0x7f0a023b
 int id rtl 0x7f0a023c
 int id rv_orangHilang 0x7f0a023d
+int id rv_result_user_orang_hilang 0x7f0a0307
 int id rv_user_orang_hilang 0x7f0a023e
 int id satellite 0x7f0a023f
 int id save_non_transition_alpha 0x7f0a0240
@@ -4439,12 +4443,14 @@ int id tv_nama_orang 0x7f0a02cf
 int id tv_nomor_pemerintah 0x7f0a02d0
 int id tv_orangHilang 0x7f0a02d1
 int id tv_people_hasil 0x7f0a02d2
+int id tv_result_data_tidak_ditemukan 0x7f0a0308
 int id tv_result_status 0x7f0a02d3
 int id tv_sering_ditemukan 0x7f0a02d4
 int id tv_sering_terlihat 0x7f0a02d5
 int id tv_status 0x7f0a02d6
 int id tv_status_Lokasi 0x7f0a02d7
 int id tv_status_gender 0x7f0a02d8
+int id tv_status_hasil 0x7f0a0309
 int id tv_status_nama 0x7f0a02d9
 int id tv_tambah_orang_hilang 0x7f0a02da
 int id tv_text_ciri_fisik 0x7f0a02db
@@ -4617,6 +4623,7 @@ int layout activity_foto 0x7f0d001d
 int layout activity_guide 0x7f0d001e
 int layout activity_login 0x7f0d001f
 int layout activity_main 0x7f0d0020
+int layout activity_result_foto 0x7f0d009a
 int layout activity_splash_screen 0x7f0d0021
 int layout activity_tambah_orang_hilang 0x7f0d0022
 int layout activity_user 0x7f0d0023
@@ -5064,6 +5071,7 @@ int string side_sheet_accessibility_pane_title 0x7f12013e
 int string side_sheet_behavior 0x7f12013f
 int string status 0x7f120140
 int string status_bar_notification_info_overflow 0x7f120141
+int string status_pencarian_orang 0x7f12014d
 int string title 0x7f120142
 int string title_activity_detail 0x7f120143
 int string title_choice 0x7f120144

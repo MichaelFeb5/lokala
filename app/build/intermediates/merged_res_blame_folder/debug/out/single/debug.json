@@ -8,14 +8,6 @@
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\layout\\orang_list_item.xml"
     },
     {
-        "merged": "com.example.lokala.app-merged_res-71:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.lokala.app-main-73:/mipmap-xhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.lokala.app-merged_res-71:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.lokala.app-main-73:/mipmap-xxxhdpi/ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-merged_res-71:\\drawable_rounded_up_corner.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\drawable\\rounded_up_corner.xml"
     },
@@ -28,12 +20,12 @@
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-merged_res-71:\\drawable_unselected_circle.xml.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\drawable\\unselected_circle.xml"
-    },
-    {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-merged_res-71:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-merged_res-71:\\drawable_unselected_circle.xml.flat",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\drawable\\unselected_circle.xml"
     },
     {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-merged_res-71:\\drawable_container_foto.xml.flat",
@@ -56,6 +48,10 @@
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\layout\\activity_login.xml"
     },
     {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-merged_res-71:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-merged_res-71:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\xml\\backup_rules.xml"
     },
@@ -68,6 +64,10 @@
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\layout\\fragment_search_user.xml"
     },
     {
+        "merged": "com.example.lokala.app-merged_res-71:/layout_activity_result_foto.xml.flat",
+        "source": "com.example.lokala.app-main-73:/layout/activity_result_foto.xml"
+    },
+    {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-merged_res-71:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
@@ -78,10 +78,6 @@
     {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-merged_res-71:\\drawable_baseline_home_24.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\drawable\\baseline_home_24.xml"
-    },
-    {
-        "merged": "com.example.lokala.app-merged_res-71:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.lokala.app-main-73:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-merged_res-71:\\layout_user_orang_list_item.xml.flat",
@@ -100,10 +96,6 @@
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\drawable\\baseline_delete_24.xml"
     },
     {
-        "merged": "com.example.lokala.app-merged_res-71:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.lokala.app-main-73:/drawable/ic_launcher_foreground.xml"
-    },
-    {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-merged_res-71:\\drawable_ic_logo_1.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\drawable\\ic_logo_1.xml"
     },
@@ -118,14 +110,6 @@
     {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-merged_res-71:\\layout_fragment_home_user.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\layout\\fragment_home_user.xml"
-    },
-    {
-        "merged": "com.example.lokala.app-merged_res-71:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.lokala.app-main-73:/mipmap-mdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.lokala.app-merged_res-71:/layout_activity_tambah_orang_hilang.xml.flat",
-        "source": "com.example.lokala.app-main-73:/layout/activity_tambah_orang_hilang.xml"
     },
     {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-merged_res-71:\\drawable_selected_circle.xml.flat",
@@ -156,6 +140,10 @@
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\drawable\\lokana_white_3.xml"
     },
     {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-merged_res-71:\\layout_activity_result_foto.xml.flat",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\layout\\activity_result_foto.xml"
+    },
+    {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-merged_res-71:\\font_inter_extrabold.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\font\\inter_extrabold.xml"
     },
@@ -164,16 +152,8 @@
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\drawable\\container_card_note_foto.xml"
     },
     {
-        "merged": "com.example.lokala.app-merged_res-71:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.lokala.app-main-73:/mipmap-anydpi-v26/ic_launcher.xml"
-    },
-    {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-merged_res-71:\\layout_activity_splash_screen.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\layout\\activity_splash_screen.xml"
-    },
-    {
-        "merged": "com.example.lokala.app-merged_res-71:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.lokala.app-main-73:/mipmap-hdpi/ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-merged_res-71:\\mipmap-anydpi_ic_launcher_round.xml.flat",
@@ -184,20 +164,12 @@
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "com.example.lokala.app-merged_res-71:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.lokala.app-main-73:/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-merged_res-71:\\drawable_baseline_arrow_forward_ios_24.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\drawable\\baseline_arrow_forward_ios_24.xml"
     },
     {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-merged_res-71:\\layout_activity_tambah_orang_hilang.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\layout\\activity_tambah_orang_hilang.xml"
-    },
-    {
-        "merged": "com.example.lokala.app-merged_res-71:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.lokala.app-main-73:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-merged_res-71:\\layout_activity_user.xml.flat",
@@ -232,14 +204,6 @@
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\layout\\activity_guide.xml"
     },
     {
-        "merged": "com.example.lokala.app-merged_res-71:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.lokala.app-main-73:/mipmap-xxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.lokala.app-merged_res-71:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.lokala.app-main-73:/mipmap-mdpi/ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-merged_res-71:\\drawable_baseline_search_24.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\drawable\\baseline_search_24.xml"
     },
@@ -264,16 +228,12 @@
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.lokala.app-merged_res-71:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.lokala.app-main-73:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-merged_res-71:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-merged_res-71:\\font_poppins_extralight.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\font\\poppins_extralight.xml"
-    },
-    {
-        "merged": "com.example.lokala.app-merged_res-71:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.lokala.app-main-73:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-merged_res-71:\\mipmap-xxxhdpi_ic_launcher.webp.flat",

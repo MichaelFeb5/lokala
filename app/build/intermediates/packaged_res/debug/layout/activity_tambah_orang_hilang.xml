@@ -303,6 +303,7 @@
             android:paddingStart="3dp"
             android:text="Nama"
             android:textColor="@color/primarycolor"
+            app:layout_goneMarginTop="15dp"
             android:textFontWeight="900"
             android:textSize="20sp"
             android:textStyle="bold"
@@ -344,6 +345,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:layout_marginBottom="15dp"
         android:elevation="20dp"
         android:paddingHorizontal="10dp"
         android:shadowColor="@color/black"
@@ -356,6 +358,8 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/tv_nama"
         tools:ignore="MissingConstraints" />
 
         <EditText

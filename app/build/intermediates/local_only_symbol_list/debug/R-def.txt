@@ -59,6 +59,7 @@ id bacground_title_choice_user
 id bacground_title_guide
 id bacground_title_login
 id background_photo
+id background_photo_hasil
 id banner_view_pager
 id bottom
 id bottomNavigation
@@ -93,6 +94,7 @@ id circle_5_banner
 id container
 id container_example_view
 id container_form_foto
+id container_form_foto_hasil
 id container_menu
 id container_menu_foto
 id container_photo
@@ -118,6 +120,7 @@ id gender_choice
 id group
 id group2
 id im_example_foto
+id im_example_foto_hasil
 id im_user
 id imageButton4
 id imageView
@@ -136,6 +139,7 @@ id layout_gender_choice
 id layout_location
 id progressBar
 id rv_orangHilang
+id rv_result_user_orang_hilang
 id rv_user_orang_hilang
 id social_media
 id splash_screen_image
@@ -159,12 +163,14 @@ id tv_nama_orang
 id tv_nomor_pemerintah
 id tv_orangHilang
 id tv_people_hasil
+id tv_result_data_tidak_ditemukan
 id tv_result_status
 id tv_sering_ditemukan
 id tv_sering_terlihat
 id tv_status
 id tv_status_Lokasi
 id tv_status_gender
+id tv_status_hasil
 id tv_status_nama
 id tv_tambah_orang_hilang
 id tv_text_ciri_fisik
@@ -187,6 +193,7 @@ layout activity_foto
 layout activity_guide
 layout activity_login
 layout activity_main
+layout activity_result_foto
 layout activity_splash_screen
 layout activity_tambah_orang_hilang
 layout activity_user
@@ -245,6 +252,7 @@ string previous
 string search
 string second_fragment_label
 string status
+string status_pencarian_orang
 string title
 string title_activity_detail
 string title_choice

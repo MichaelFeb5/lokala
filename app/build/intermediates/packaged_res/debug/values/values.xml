@@ -143,6 +143,7 @@ sesuai contoh </string>
     <string name="search">Search</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="status">Status</string>
+    <string name="status_pencarian_orang">Status Pencarian Orang</string>
     <string name="title">Text</string>
     <string name="title_activity_detail">DetailActivity</string>
     <string name="title_choice">Anda Sebagai :</string>
