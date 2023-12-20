@@ -30,10 +30,36 @@ class OrangHilangRepository(
         }
     }
 
+    fun findPeople(fotos: MultipartBody.Part,) = liveData {
+        emit(ResultState.Loading)
+        try {
+            val orangHilang = apiService.findPeople(fotos)
+            Log.d("API_RESPONSE", Gson().toJson(orangHilang.data.toString()))
+            emit(ResultState.Success(orangHilang.data.toString()))
+        } catch (e: HttpException) {
+            val errorBody = e.response()?.errorBody()?.string()
+            val errorResponse = Gson().fromJson(errorBody, OrangHilangResponse::class.java)
+            emit(ResultState.Error(errorResponse.message))
+        }
+    }
+
     fun getOrangHilangById(id : String) = liveData {
         emit(ResultState.Loading)
         try {
             val orangHilang = apiService.getPeopleById(id)
+            Log.d("API_RESPONSE", Gson().toJson(orangHilang.data.toString()))
+            emit(ResultState.Success(orangHilang))
+        } catch (e: HttpException) {
+            val errorBody = e.response()?.errorBody()?.string()
+            val errorResponse = Gson().fromJson(errorBody, OrangHilangResponse::class.java)
+            emit(ResultState.Error(errorResponse.message))
+        }
+    }
+
+    fun getOrangHilangByName(nama : String) = liveData {
+        emit(ResultState.Loading)
+        try {
+            val orangHilang = apiService.getPeopleByName(nama)
             Log.d("API_RESPONSE", Gson().toJson(orangHilang.data.toString()))
             emit(ResultState.Success(orangHilang))
         } catch (e: HttpException) {

@@ -131,6 +131,7 @@ id image_wa
 id iv_arrow
 id iv_foto
 id iv_foto2
+id iv_foto_cari
 id iv_orang
 id iv_orangHilang
 id layout_circle
@@ -138,6 +139,8 @@ id layout_ed_name
 id layout_gender_choice
 id layout_location
 id progressBar
+id progressBar2
+id progressBar3
 id rv_orangHilang
 id rv_result_user_orang_hilang
 id rv_user_orang_hilang

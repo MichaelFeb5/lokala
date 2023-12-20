@@ -7,7 +7,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.bumptech.glide.Glide
-import com.example.lokala.adapter.BannerViewPagerAdapter
 import com.example.lokala.databinding.FragmentHomeUserBinding
 import com.example.lokala.ui.foto.FotoActivity
 
@@ -16,8 +15,6 @@ class HomeFragmentUser : Fragment() {
 
     private var _binding: FragmentHomeUserBinding? = null
     val binding get() = _binding!!
-
-
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -40,16 +37,7 @@ class HomeFragmentUser : Fragment() {
                 startActivity(intent)
             }
 
-            val adapter = BannerViewPagerAdapter(this@HomeFragmentUser)
-            bannerViewPager.adapter= adapter
-
         }
-
-
-
-
-
-
     }
 
     override fun onDestroyView() {
