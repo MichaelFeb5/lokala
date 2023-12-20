@@ -45,7 +45,7 @@ public final class ActivityFotoBinding implements ViewBinding {
   public final LinearLayout containerMenuFoto;
 
   @NonNull
-  public final ImageView imExampleFoto;
+  public final ImageView ivFotoCari;
 
   @NonNull
   public final TextView tvTextExampleMenu;
@@ -60,7 +60,7 @@ public final class ActivityFotoBinding implements ViewBinding {
       @NonNull LinearLayout backgroundPhoto, @NonNull ImageView btnBack,
       @NonNull MaterialButton btnCamera, @NonNull MaterialButton btnGalery,
       @NonNull MaterialButton btnSearchFoto, @NonNull CardView containerFormFoto,
-      @NonNull LinearLayout containerMenuFoto, @NonNull ImageView imExampleFoto,
+      @NonNull LinearLayout containerMenuFoto, @NonNull ImageView ivFotoCari,
       @NonNull TextView tvTextExampleMenu, @NonNull TextView tvTitleCariFoto,
       @NonNull TextView tvTitleNoteFoto) {
     this.rootView = rootView;
@@ -71,7 +71,7 @@ public final class ActivityFotoBinding implements ViewBinding {
     this.btnSearchFoto = btnSearchFoto;
     this.containerFormFoto = containerFormFoto;
     this.containerMenuFoto = containerMenuFoto;
-    this.imExampleFoto = imExampleFoto;
+    this.ivFotoCari = ivFotoCari;
     this.tvTextExampleMenu = tvTextExampleMenu;
     this.tvTitleCariFoto = tvTitleCariFoto;
     this.tvTitleNoteFoto = tvTitleNoteFoto;
@@ -146,9 +146,9 @@ public final class ActivityFotoBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.im_example_foto;
-      ImageView imExampleFoto = ViewBindings.findChildViewById(rootView, id);
-      if (imExampleFoto == null) {
+      id = R.id.iv_foto_cari;
+      ImageView ivFotoCari = ViewBindings.findChildViewById(rootView, id);
+      if (ivFotoCari == null) {
         break missingId;
       }
 
@@ -171,7 +171,7 @@ public final class ActivityFotoBinding implements ViewBinding {
       }
 
       return new ActivityFotoBinding((ConstraintLayout) rootView, backgroundPhoto, btnBack,
-          btnCamera, btnGalery, btnSearchFoto, containerFormFoto, containerMenuFoto, imExampleFoto,
+          btnCamera, btnGalery, btnSearchFoto, containerFormFoto, containerMenuFoto, ivFotoCari,
           tvTextExampleMenu, tvTitleCariFoto, tvTitleNoteFoto);
     }
     String missingId = rootView.getResources().getResourceName(id);

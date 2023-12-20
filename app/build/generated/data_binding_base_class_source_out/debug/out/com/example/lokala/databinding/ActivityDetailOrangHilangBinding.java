@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -42,6 +43,9 @@ public final class ActivityDetailOrangHilangBinding implements ViewBinding {
   public final ImageView ivOrangHilang;
 
   @NonNull
+  public final ProgressBar progressBar2;
+
+  @NonNull
   public final TextView tvCiriFisik;
 
   @NonNull
@@ -68,8 +72,8 @@ public final class ActivityDetailOrangHilangBinding implements ViewBinding {
   private ActivityDetailOrangHilangBinding(@NonNull ConstraintLayout rootView,
       @NonNull Button btnEdit, @NonNull Button btnHapus, @NonNull EditText etLokasi,
       @NonNull ImageButton imageButton4, @NonNull ImageView imageView,
-      @NonNull ImageView ivOrangHilang, @NonNull TextView tvCiriFisik,
-      @NonNull TextView tvGenderBeratUmur, @NonNull TextView tvNama,
+      @NonNull ImageView ivOrangHilang, @NonNull ProgressBar progressBar2,
+      @NonNull TextView tvCiriFisik, @NonNull TextView tvGenderBeratUmur, @NonNull TextView tvNama,
       @NonNull TextView tvSeringDitemukan, @NonNull TextView tvStatus,
       @NonNull TextView tvTextCiriFisik, @NonNull TextView tvTextLokasiTerakhir,
       @NonNull TextView tvTextSeringDitemukan) {
@@ -80,6 +84,7 @@ public final class ActivityDetailOrangHilangBinding implements ViewBinding {
     this.imageButton4 = imageButton4;
     this.imageView = imageView;
     this.ivOrangHilang = ivOrangHilang;
+    this.progressBar2 = progressBar2;
     this.tvCiriFisik = tvCiriFisik;
     this.tvGenderBeratUmur = tvGenderBeratUmur;
     this.tvNama = tvNama;
@@ -153,6 +158,12 @@ public final class ActivityDetailOrangHilangBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.progressBar2;
+      ProgressBar progressBar2 = ViewBindings.findChildViewById(rootView, id);
+      if (progressBar2 == null) {
+        break missingId;
+      }
+
       id = R.id.tv_ciri_fisik;
       TextView tvCiriFisik = ViewBindings.findChildViewById(rootView, id);
       if (tvCiriFisik == null) {
@@ -202,9 +213,9 @@ public final class ActivityDetailOrangHilangBinding implements ViewBinding {
       }
 
       return new ActivityDetailOrangHilangBinding((ConstraintLayout) rootView, btnEdit, btnHapus,
-          etLokasi, imageButton4, imageView, ivOrangHilang, tvCiriFisik, tvGenderBeratUmur, tvNama,
-          tvSeringDitemukan, tvStatus, tvTextCiriFisik, tvTextLokasiTerakhir,
-          tvTextSeringDitemukan);
+          etLokasi, imageButton4, imageView, ivOrangHilang, progressBar2, tvCiriFisik,
+          tvGenderBeratUmur, tvNama, tvSeringDitemukan, tvStatus, tvTextCiriFisik,
+          tvTextLokasiTerakhir, tvTextSeringDitemukan);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

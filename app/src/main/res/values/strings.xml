@@ -93,6 +93,7 @@ sesuai contoh </string>
     <string name="note">Note :</string>
     <string name="isi_example_pencarian_orang">Mohon Perhatikan Foto Pencarian Orang Hilang dengan Detail Pencarian Orang Hilang</string>
     <string name="banner">banner</string>
+    <string name="status_pencarian_orang">Status Pencarian Orang</string>
 
     <string-array name="choice_gender">
         <item>Man</item>

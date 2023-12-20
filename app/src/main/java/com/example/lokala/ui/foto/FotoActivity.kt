@@ -1,15 +1,15 @@
 package com.example.lokala.ui.foto
 
+
+import android.content.Intent
 import android.content.Context
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.widget.Toast
 import androidx.activity.result.PickVisualMediaRequest
 import androidx.activity.result.contract.ActivityResultContracts
 import com.dicoding.picodiploma.storify.data.utils.getImageUri
-import com.example.lokala.R
 import com.example.lokala.databinding.ActivityFotoBinding
 
 class FotoActivity : AppCompatActivity() {
@@ -24,6 +24,7 @@ class FotoActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         with(binding) {
+
             btnCamera.setOnClickListener {
                 currentImageUri = getImageUri(this@FotoActivity)
                 launcherIntentCamera.launch(currentImageUri)
@@ -34,7 +35,8 @@ class FotoActivity : AppCompatActivity() {
             }
 
             btnSearchFoto.setOnClickListener {
-
+                val intent = Intent(this@FotoActivity,ResultFotoActivity::class.java)
+                startActivity(intent)
             }
         }
     }
@@ -66,7 +68,7 @@ class FotoActivity : AppCompatActivity() {
         }
     }
 
-    fun showToast(context: Context, message: String) {
+    private fun showToast(context: Context, message: String) {
         Toast.makeText(context, message, Toast.LENGTH_SHORT).show()
     }
 }

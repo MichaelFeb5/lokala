@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.AutoCompleteTextView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -57,6 +58,9 @@ public final class FragmentSearchUserBinding implements ViewBinding {
   public final TextInputLayout layoutLocation;
 
   @NonNull
+  public final ProgressBar progressBar3;
+
+  @NonNull
   public final RecyclerView rvUserOrangHilang;
 
   @NonNull
@@ -79,9 +83,9 @@ public final class FragmentSearchUserBinding implements ViewBinding {
       @NonNull ConstraintLayout containerRv, @NonNull TextInputEditText edSrcLocation,
       @NonNull TextInputEditText edSrcName, @NonNull AutoCompleteTextView genderChoice,
       @NonNull TextInputLayout layoutEdName, @NonNull TextInputLayout layoutGenderChoice,
-      @NonNull TextInputLayout layoutLocation, @NonNull RecyclerView rvUserOrangHilang,
-      @NonNull TextView tvDataTidakDitemukan, @NonNull TextView tvHasil,
-      @NonNull TextView tvNamaOrang, @NonNull TextView tvPeopleHasil,
+      @NonNull TextInputLayout layoutLocation, @NonNull ProgressBar progressBar3,
+      @NonNull RecyclerView rvUserOrangHilang, @NonNull TextView tvDataTidakDitemukan,
+      @NonNull TextView tvHasil, @NonNull TextView tvNamaOrang, @NonNull TextView tvPeopleHasil,
       @NonNull LinearLayout tvTextHasil) {
     this.rootView = rootView;
     this.btnBack = btnBack;
@@ -94,6 +98,7 @@ public final class FragmentSearchUserBinding implements ViewBinding {
     this.layoutEdName = layoutEdName;
     this.layoutGenderChoice = layoutGenderChoice;
     this.layoutLocation = layoutLocation;
+    this.progressBar3 = progressBar3;
     this.rvUserOrangHilang = rvUserOrangHilang;
     this.tvDataTidakDitemukan = tvDataTidakDitemukan;
     this.tvHasil = tvHasil;
@@ -189,6 +194,12 @@ public final class FragmentSearchUserBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.progressBar3;
+      ProgressBar progressBar3 = ViewBindings.findChildViewById(rootView, id);
+      if (progressBar3 == null) {
+        break missingId;
+      }
+
       id = R.id.rv_user_orang_hilang;
       RecyclerView rvUserOrangHilang = ViewBindings.findChildViewById(rootView, id);
       if (rvUserOrangHilang == null) {
@@ -227,8 +238,8 @@ public final class FragmentSearchUserBinding implements ViewBinding {
 
       return new FragmentSearchUserBinding((ConstraintLayout) rootView, btnBack, btnSearchUser,
           containerMenu, containerRv, edSrcLocation, edSrcName, genderChoice, layoutEdName,
-          layoutGenderChoice, layoutLocation, rvUserOrangHilang, tvDataTidakDitemukan, tvHasil,
-          tvNamaOrang, tvPeopleHasil, tvTextHasil);
+          layoutGenderChoice, layoutLocation, progressBar3, rvUserOrangHilang, tvDataTidakDitemukan,
+          tvHasil, tvNamaOrang, tvPeopleHasil, tvTextHasil);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

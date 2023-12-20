@@ -3821,6 +3821,7 @@ id bacground_title_guide
 id bacground_title_login
 id background_image_view
 id background_photo
+id background_photo_hasil
 id background_place_holder_image_view
 id banner_view_pager
 id barrier
@@ -3917,6 +3918,7 @@ id container_all
 id container_current
 id container_example_view
 id container_form_foto
+id container_form_foto_hasil
 id container_menu
 id container_menu_foto
 id container_photo
@@ -4048,6 +4050,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id im_example_foto
+id im_example_foto_hasil
 id im_user
 id image
 id imageButton4
@@ -4069,6 +4072,7 @@ id iv
 id iv_arrow
 id iv_foto
 id iv_foto2
+id iv_foto_cari
 id iv_orang
 id iv_orangHilang
 id jumpToEnd
@@ -4275,6 +4279,8 @@ id position
 id postLayout
 id pressed
 id progressBar
+id progressBar2
+id progressBar3
 id progress_circular
 id progress_horizontal
 id radio
@@ -4291,6 +4297,7 @@ id rounded
 id row_index_key
 id rtl
 id rv_orangHilang
+id rv_result_user_orang_hilang
 id rv_user_orang_hilang
 id satellite
 id save_non_transition_alpha
@@ -4440,12 +4447,14 @@ id tv_nama_orang
 id tv_nomor_pemerintah
 id tv_orangHilang
 id tv_people_hasil
+id tv_result_data_tidak_ditemukan
 id tv_result_status
 id tv_sering_ditemukan
 id tv_sering_terlihat
 id tv_status
 id tv_status_Lokasi
 id tv_status_gender
+id tv_status_hasil
 id tv_status_nama
 id tv_tambah_orang_hilang
 id tv_text_ciri_fisik
@@ -4618,6 +4627,7 @@ layout activity_foto
 layout activity_guide
 layout activity_login
 layout activity_main
+layout activity_result_foto
 layout activity_splash_screen
 layout activity_tambah_orang_hilang
 layout activity_user
@@ -5065,6 +5075,7 @@ string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status
 string status_bar_notification_info_overflow
+string status_pencarian_orang
 string title
 string title_activity_detail
 string title_choice

@@ -45,6 +45,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Lokala" >
         <activity
+            android:name="com.example.lokala.ui.foto.ResultFotoActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.lokala.ui.foto.FotoActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
@@ -55,7 +58,8 @@
         <activity
             android:name="com.example.lokala.ui.orangHilang.tambah.TambahOrangHilangActivity"
             android:exported="false"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Lokala" />
         <activity
             android:name="com.example.lokala.ui.orangHilang.detail.DetailOrangHilangActivity"
             android:exported="false"
