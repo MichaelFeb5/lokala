@@ -16,6 +16,9 @@
         android:theme="@style/Theme.Lokala"
         tools:targetApi="31">
         <activity
+            android:name=".ui.user.detail_user.DetailUserActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.foto.ResultFotoActivity"
             android:exported="false" />
         <activity

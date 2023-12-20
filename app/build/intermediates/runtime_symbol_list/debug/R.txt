@@ -3345,6 +3345,7 @@ int drawable common_google_signin_btn_text_light_focused 0x7f0800d3
 int drawable common_google_signin_btn_text_light_normal 0x7f0800d4
 int drawable common_google_signin_btn_text_light_normal_background 0x7f0800d5
 int drawable container_card_note_foto 0x7f0800d6
+int drawable container_data_user 0x7f080247
 int drawable container_example_foto 0x7f0800d7
 int drawable container_foto 0x7f0800d8
 int drawable design_fab_background 0x7f0800d9
@@ -3893,9 +3894,11 @@ int id chronometer 0x7f0a00ad
 int id circle_1 0x7f0a00ae
 int id circle_1_banner 0x7f0a00af
 int id circle_1_choice_user 0x7f0a00b0
+int id circle_1_foto 0x7f0a031f
 int id circle_2 0x7f0a00b1
 int id circle_2_banner 0x7f0a00b2
 int id circle_2_choice_user 0x7f0a00b3
+int id circle_2_foto 0x7f0a0320
 int id circle_3 0x7f0a00b4
 int id circle_3_banner 0x7f0a00b5
 int id circle_3_choice_user 0x7f0a00b6
@@ -3915,14 +3918,21 @@ int id constraint 0x7f0a00c3
 int id container 0x7f0a00c4
 int id container_all 0x7f0a00c5
 int id container_current 0x7f0a00c6
+int id container_data_umur 0x7f0a030d
 int id container_example_view 0x7f0a00c7
 int id container_form_foto 0x7f0a00c8
 int id container_form_foto_hasil 0x7f0a00c9
+int id container_form_user 0x7f0a030e
+int id container_foto_user 0x7f0a030f
+int id container_lokasi_terakhir 0x7f0a0310
 int id container_menu 0x7f0a00ca
 int id container_menu_foto 0x7f0a00cb
 int id container_photo 0x7f0a00cc
 int id container_rv 0x7f0a00cd
+int id container_status 0x7f0a0311
 int id container_user 0x7f0a00ce
+int id container_user_Sering_ditemukan 0x7f0a0312
+int id container_user_ciri_fisik 0x7f0a0313
 int id content 0x7f0a00cf
 int id contentPanel 0x7f0a00d0
 int id contiguous 0x7f0a00d1
@@ -4033,6 +4043,7 @@ int id group2 0x7f0a0139
 int id group_divider 0x7f0a013a
 int id grouping 0x7f0a013b
 int id groups 0x7f0a013c
+int id guidelineHorizontal 0x7f0a0314
 int id header_title 0x7f0a013d
 int id hide_ime_id 0x7f0a013e
 int id hideable 0x7f0a013f
@@ -4050,6 +4061,7 @@ int id ignore 0x7f0a014a
 int id ignoreRequest 0x7f0a014b
 int id im_example_foto 0x7f0a014c
 int id im_example_foto_hasil 0x7f0a014d
+int id im_foto_user 0x7f0a0321
 int id im_user 0x7f0a014e
 int id image 0x7f0a014f
 int id imageButton4 0x7f0a0150
@@ -4429,6 +4441,7 @@ int id transition_scene_layoutid_cache 0x7f0a02c5
 int id transition_transform 0x7f0a02c6
 int id triangle 0x7f0a02c7
 int id tv_berat_badan 0x7f0a02c8
+int id tv_call_center 0x7f0a0315
 int id tv_ciri_fisik 0x7f0a02c9
 int id tv_count 0x7f0a02ca
 int id tv_data_tidak_ditemukan 0x7f0a02cb
@@ -4441,8 +4454,11 @@ int id tv_jenis_kelamin 0x7f0a02d1
 int id tv_kota 0x7f0a02d2
 int id tv_location 0x7f0a02d3
 int id tv_login 0x7f0a02d4
+int id tv_lokasi_terakhir 0x7f0a0316
+int id tv_lokasi_user 0x7f0a0317
 int id tv_nama 0x7f0a02d5
 int id tv_nama_orang 0x7f0a02d6
+int id tv_nama_user 0x7f0a0318
 int id tv_nomor_pemerintah 0x7f0a02d7
 int id tv_orangHilang 0x7f0a02d8
 int id tv_people_hasil 0x7f0a02d9
@@ -4465,11 +4481,18 @@ int id tv_tinggi_badan 0x7f0a02e9
 int id tv_title_card 0x7f0a02ea
 int id tv_title_cari_foto 0x7f0a02eb
 int id tv_title_choice 0x7f0a02ec
+int id tv_title_ciri_fisik 0x7f0a0319
 int id tv_title_guide 0x7f0a02ed
 int id tv_title_note_foto 0x7f0a02ee
 int id tv_title_user_home 0x7f0a02ef
 int id tv_umur 0x7f0a02f0
+int id tv_user_berat 0x7f0a031a
+int id tv_user_ciri_fisik 0x7f0a031b
+int id tv_user_gender 0x7f0a031c
 int id tv_user_name 0x7f0a02f1
+int id tv_user_sering_ditemukan 0x7f0a031d
+int id tv_user_status 0x7f0a0322
+int id tv_user_usia 0x7f0a031e
 int id unchecked 0x7f0a02f2
 int id uniform 0x7f0a02f3
 int id unlabeled 0x7f0a02f4
@@ -4622,6 +4645,7 @@ int layout abc_search_view 0x7f0d0019
 int layout abc_select_dialog_material 0x7f0d001a
 int layout abc_tooltip 0x7f0d001b
 int layout activity_detail_orang_hilang 0x7f0d001c
+int layout activity_detail_user 0x7f0d009b
 int layout activity_foto 0x7f0d001d
 int layout activity_guide 0x7f0d001e
 int layout activity_login 0x7f0d001f
@@ -4654,6 +4678,7 @@ int layout design_text_input_end_icon 0x7f0d0039
 int layout design_text_input_start_icon 0x7f0d003a
 int layout fragment_banner 0x7f0d003b
 int layout fragment_choice_user 0x7f0d003c
+int layout fragment_foto_user 0x7f0d009c
 int layout fragment_guide 0x7f0d003d
 int layout fragment_home 0x7f0d003e
 int layout fragment_home_user 0x7f0d003f
@@ -4784,6 +4809,7 @@ int string app_name 0x7f12001c
 int string appbar_scrolling_view_behavior 0x7f12001d
 int string back 0x7f12001e
 int string banner 0x7f12001f
+int string berat 0x7f12014e
 int string bottom_sheet_behavior 0x7f120020
 int string bottomsheet_action_collapse 0x7f120021
 int string bottomsheet_action_expand 0x7f120022
@@ -4855,6 +4881,7 @@ int string circle_2 0x7f120063
 int string circle_3 0x7f120064
 int string circle_4 0x7f120065
 int string circle_5 0x7f120066
+int string ciri_fisik 0x7f12014f
 int string clear_text_end_icon_content_description 0x7f120067
 int string common_google_play_services_enable_button 0x7f120068
 int string common_google_play_services_enable_text 0x7f120069
@@ -4889,6 +4916,7 @@ int string fab_transformation_scrim_behavior 0x7f120085
 int string fab_transformation_sheet_behavior 0x7f120086
 int string first_fragment_label 0x7f120087
 int string foto_orang 0x7f120088
+int string foto_profil 0x7f120155
 int string gallery 0x7f120089
 int string gender 0x7f12008a
 int string government 0x7f12008b
@@ -4899,10 +4927,12 @@ int string hide_bottom_view_on_scroll_behavior 0x7f12008f
 int string hilang 0x7f120090
 int string ic_media_route_learn_more_accessibility 0x7f120091
 int string icon_content_description 0x7f120092
+int string icon_map 0x7f120150
 int string instagram 0x7f120093
 int string isi_example_pencarian_orang 0x7f120094
 int string isi_petunjuk 0x7f120095
 int string item_view_role_description 0x7f120096
+int string jika_mencari_orang_ini_hubungi 0x7f120151
 int string landing_page_1 0x7f120097
 int string library_roundedimageview_author 0x7f120098
 int string library_roundedimageview_authorWebsite 0x7f120099
@@ -4914,6 +4944,7 @@ int string library_roundedimageview_libraryWebsite 0x7f12009e
 int string library_roundedimageview_licenseId 0x7f12009f
 int string library_roundedimageview_repositoryLink 0x7f1200a0
 int string location 0x7f1200a1
+int string lokasi_terakhir 0x7f120152
 int string lorem_ipsum 0x7f1200a2
 int string m3_exceed_max_badge_text_suffix 0x7f1200a3
 int string m3_ref_typeface_brand_medium 0x7f1200a4
@@ -5070,6 +5101,7 @@ int string searchbar_scrolling_view_behavior 0x7f12013a
 int string searchview_clear_text_content_description 0x7f12013b
 int string searchview_navigation_content_description 0x7f12013c
 int string second_fragment_label 0x7f12013d
+int string sering_ditemukan 0x7f120153
 int string side_sheet_accessibility_pane_title 0x7f12013e
 int string side_sheet_behavior 0x7f12013f
 int string status 0x7f120140
@@ -5084,6 +5116,7 @@ int string tv_password 0x7f120148
 int string tv_social_media 0x7f120149
 int string user 0x7f12014a
 int string user_choice 0x7f12014b
+int string usia 0x7f120154
 int string welcome 0x7f12014c
 int string whatsapp 0x7f12014d
 int style AlertDialog_AppCompat 0x7f130000

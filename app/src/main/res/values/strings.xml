@@ -94,6 +94,14 @@ sesuai contoh </string>
     <string name="isi_example_pencarian_orang">Mohon Perhatikan Foto Pencarian Orang Hilang dengan Detail Pencarian Orang Hilang</string>
     <string name="banner">banner</string>
     <string name="status_pencarian_orang">Status Pencarian Orang</string>
+    <string name="berat">berat</string>
+    <string name="usia">Usia</string>
+    <string name="ciri_fisik">Ciri Fisik</string>
+    <string name="icon_map">icon map</string>
+    <string name="lokasi_terakhir">Lokasi Terakhir</string>
+    <string name="sering_ditemukan">Sering Ditemukan</string>
+    <string name="jika_mencari_orang_ini_hubungi">Jika Mencari Orang Ini Hubungi</string>
+    <string name="foto_profil">foto profil</string>
 
     <string-array name="choice_gender">
         <item>Man</item>

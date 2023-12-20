@@ -45,6 +45,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Lokala" >
         <activity
+            android:name="com.example.lokala.ui.user.detail_user.DetailUserActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.lokala.ui.foto.ResultFotoActivity"
             android:exported="false" />
         <activity

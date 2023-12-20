@@ -1,6 +1,7 @@
 package com.example.lokala.ui.user.seacrh
 
 import ResultState
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -14,6 +15,7 @@ import com.example.lokala.adapter.UserOrangHilangAdapter
 import com.example.lokala.data.response.OrangHilangItem
 import com.example.lokala.databinding.FragmentSearchUserBinding
 import com.example.lokala.ui.factory.ViewModelFactory
+import com.example.lokala.ui.user.detail_user.DetailUserActivity
 
 
 class SearchUserFragment : Fragment() {
@@ -93,8 +95,10 @@ class SearchUserFragment : Fragment() {
 
             adapter.setOnItemClickCallback(object : UserOrangHilangAdapter.OnItemClickCalback {
                 override fun onItemClicked(item: OrangHilangItem) {
-                    //detail activity
-                    Toast.makeText(requireContext(), item.nama, Toast.LENGTH_LONG).show()
+
+                    val intent = Intent(requireContext(), DetailUserActivity::class.java)
+                    intent.putExtra(DetailUserActivity.ARG_ORANG_HILANG, item)
+                    startActivity(intent)
                 }
             })
         }
