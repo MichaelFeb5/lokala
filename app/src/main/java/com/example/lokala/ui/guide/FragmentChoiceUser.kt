@@ -8,8 +8,8 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.lokala.R
 import com.example.lokala.databinding.FragmentChoiceUserBinding
-import com.example.lokala.ui.home.MainActivity
-import com.example.lokala.ui.login.LoginActivity
+import com.example.lokala.ui.pemerintah.home.MainActivity
+import com.example.lokala.ui.pemerintah.login.LoginActivity
 import com.example.lokala.ui.user.UserActivity
 
 
@@ -40,7 +40,7 @@ class FragmentChoiceUser : Fragment() {
             }
 
             btnGovernment.setOnClickListener {
-                val intent = Intent(requireContext(),LoginActivity::class.java)
+                val intent = Intent(requireContext(), LoginActivity::class.java)
                 startActivity(intent)
             }
 

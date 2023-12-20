@@ -1,4 +1,4 @@
-package com.example.lokala.ui.foto
+package com.example.lokala.ui.user.foto
 
 import androidx.lifecycle.ViewModel
 import com.example.lokala.data.repository.OrangHilangRepository

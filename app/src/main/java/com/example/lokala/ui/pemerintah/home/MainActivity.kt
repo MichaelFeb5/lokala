@@ -1,4 +1,4 @@
-package com.example.lokala.ui.home
+package com.example.lokala.ui.pemerintah.home
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

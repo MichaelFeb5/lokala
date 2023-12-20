@@ -6,9 +6,9 @@ import androidx.fragment.app.Fragment
 import com.etebarian.meowbottomnavigation.MeowBottomNavigation
 import com.example.lokala.R
 import com.example.lokala.databinding.ActivityUserBinding
-import com.example.lokala.ui.home.HomeFragment
+import com.example.lokala.ui.pemerintah.home.HomeFragment
 import com.example.lokala.ui.user.home_fragment.HomeFragmentUser
-import com.example.lokala.ui.user.seacrh.SearchUserFragment
+import com.example.lokala.ui.user.search.SearchUserFragment
 
 
 class UserActivity : AppCompatActivity() {

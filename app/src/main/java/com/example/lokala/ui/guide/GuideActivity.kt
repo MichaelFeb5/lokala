@@ -2,7 +2,7 @@ package com.example.lokala.ui.guide
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.lokala.adapter.GuideViewPagerAdapter
+import com.example.lokala.ui.adapter.GuideViewPagerAdapter
 import com.example.lokala.databinding.ActivityGuideBinding
 
 

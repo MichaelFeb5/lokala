@@ -1,4 +1,4 @@
-package com.example.lokala.adapter
+package com.example.lokala.ui.adapter
 
 
 import android.view.LayoutInflater

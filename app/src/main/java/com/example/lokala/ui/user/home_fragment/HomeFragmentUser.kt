@@ -7,9 +7,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.bumptech.glide.Glide
-import com.example.lokala.adapter.BannerViewPagerAdapter
+import com.example.lokala.ui.adapter.BannerViewPagerAdapter
 import com.example.lokala.databinding.FragmentHomeUserBinding
-import com.example.lokala.ui.foto.FotoActivity
+import com.example.lokala.ui.user.foto.FotoActivity
 
 
 class HomeFragmentUser : Fragment() {
@@ -34,7 +34,7 @@ class HomeFragmentUser : Fragment() {
                 .into(imExampleFoto)
 
             btnFind.setOnClickListener {
-                val intent = Intent(requireContext(),FotoActivity::class.java)
+                val intent = Intent(requireContext(), FotoActivity::class.java)
                 startActivity(intent)
             }
 

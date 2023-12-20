@@ -1,6 +1,7 @@
-package com.example.lokala.ui.user.seacrh
+package com.example.lokala.ui.user.search
 
 import ResultState
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -10,10 +11,13 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import com.example.lokala.R
-import com.example.lokala.adapter.UserOrangHilangAdapter
+import com.example.lokala.ui.adapter.UserOrangHilangAdapter
 import com.example.lokala.data.response.OrangHilangItem
 import com.example.lokala.databinding.FragmentSearchUserBinding
 import com.example.lokala.ui.factory.ViewModelFactory
+import com.example.lokala.ui.fragment_utils.LoadingDialogFragment
+import com.example.lokala.ui.pemerintah.orangHilang.detail.DetailOrangHilangActivity
+import com.example.lokala.ui.user.detail.UserDetailOrangHilangActivity
 
 
 class SearchUserFragment : Fragment() {
@@ -43,20 +47,35 @@ class SearchUserFragment : Fragment() {
         showDataKosong(true)
         genderOption()
         setViewModelFactory()
+        val loadingDialog = LoadingDialogFragment()
+
 
         binding.btnSearchUser.setOnClickListener {
-            val nama = binding.edSrcName.text.toString()
-            viewModel.getOrangHilangByName(nama).observe(viewLifecycleOwner) { result ->
+
+            val nama = binding.edSrcName.text.toString().trim()
+            val kota = binding.edSrcLocation.text.toString().trim()
+            val gender = binding.genderChoice.text.toString().trim()
+
+            // Memeriksa apakah nama, kota, atau gender kosong
+            val isNamaEmpty = nama.isEmpty()
+            val isKotaEmpty = kota.isEmpty()
+            val isGenderEmpty = gender.isEmpty()
+
+            // Menyesuaikan nilai-nilai yang kosong
+            val adjustedNama = if (isNamaEmpty) "" else nama
+            val adjustedKota = if (isKotaEmpty) "" else kota
+            val adjustedGender = if (isGenderEmpty) "" else gender
+
+            viewModel.getOrangHilangByName(adjustedNama,adjustedKota,adjustedGender).observe(viewLifecycleOwner) { result ->
                 when (result) {
                     is ResultState.Loading -> {
                         // Handle loading state if needed
                         showDataKosong(false)
-                        showLoading(true)
+                        loadingDialog.show(childFragmentManager, "loading")
                     }
 
                     is ResultState.Success -> {
-                        // Handle success state
-                        showLoading(false)
+                        loadingDialog.dismiss()
                         binding.tvPeopleHasil.setText(
                              "Orang Ditemukan : ${result.data.data.size} Orang"
                         )
@@ -94,7 +113,9 @@ class SearchUserFragment : Fragment() {
             adapter.setOnItemClickCallback(object : UserOrangHilangAdapter.OnItemClickCalback {
                 override fun onItemClicked(item: OrangHilangItem) {
                     //detail activity
-                    Toast.makeText(requireContext(), item.nama, Toast.LENGTH_LONG).show()
+                    val intent = Intent(requireContext(), UserDetailOrangHilangActivity::class.java)
+                    intent.putExtra("EXTRA_ORANG_HILANG", item)
+                    startActivity(intent)
                 }
             })
         }

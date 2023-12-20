@@ -1,4 +1,4 @@
-package com.example.lokala.ui.orangHilang.detail
+package com.example.lokala.ui.pemerintah.orangHilang.detail
 
 import ResultState
 import androidx.lifecycle.LiveData
