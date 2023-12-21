@@ -5,25 +5,26 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.Group;
+import androidx.cardview.widget.CardView;
+import androidx.core.widget.NestedScrollView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.lokala.R;
+import com.google.android.material.textfield.TextInputEditText;
+import com.google.android.material.textfield.TextInputLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivityTambahOrangHilangBinding implements ViewBinding {
   @NonNull
-  private final ScrollView rootView;
+  private final NestedScrollView rootView;
 
   @NonNull
   public final Button btnCamera;
@@ -35,28 +36,55 @@ public final class ActivityTambahOrangHilangBinding implements ViewBinding {
   public final Button btnSubmit;
 
   @NonNull
-  public final EditText etBeratBadan;
+  public final TextInputLayout containerBerat;
 
   @NonNull
-  public final EditText etCiriFisik;
+  public final TextInputLayout containerCiriFisik;
 
   @NonNull
-  public final EditText etKota;
+  public final CardView containerFormTambahLayout;
 
   @NonNull
-  public final EditText etNama;
+  public final TextInputLayout containerKota;
 
   @NonNull
-  public final EditText etNomorPemerintah;
+  public final TextInputLayout containerNama;
 
   @NonNull
-  public final EditText etTempatSeringTerlihat;
+  public final TextInputLayout containerNomerPemerintah;
 
   @NonNull
-  public final EditText etTinggiBadan;
+  public final TextInputLayout containerTempatSeringTerlihat;
 
   @NonNull
-  public final EditText etUmur;
+  public final TextInputLayout containerTinggi;
+
+  @NonNull
+  public final TextInputLayout containerUsia;
+
+  @NonNull
+  public final TextInputEditText etBeratBadan;
+
+  @NonNull
+  public final TextInputEditText etCiriFisik;
+
+  @NonNull
+  public final TextInputEditText etKota;
+
+  @NonNull
+  public final TextInputEditText etNama;
+
+  @NonNull
+  public final TextInputEditText etNomorPemerintah;
+
+  @NonNull
+  public final TextInputEditText etTempatSeringTerlihat;
+
+  @NonNull
+  public final TextInputEditText etTinggiBadan;
+
+  @NonNull
+  public final TextInputEditText etUmur;
 
   @NonNull
   public final RadioButton genderL;
@@ -66,12 +94,6 @@ public final class ActivityTambahOrangHilangBinding implements ViewBinding {
 
   @NonNull
   public final RadioGroup genderRadioGroup;
-
-  @NonNull
-  public final Group group;
-
-  @NonNull
-  public final Group group2;
 
   @NonNull
   public final ImageView ivFoto;
@@ -110,10 +132,7 @@ public final class ActivityTambahOrangHilangBinding implements ViewBinding {
   public final TextView tvNama;
 
   @NonNull
-  public final TextView tvNomorPemerintah;
-
-  @NonNull
-  public final TextView tvSeringTerlihat;
+  public final TextView tvNomerPemerintah;
 
   @NonNull
   public final TextView tvStatus;
@@ -122,29 +141,47 @@ public final class ActivityTambahOrangHilangBinding implements ViewBinding {
   public final TextView tvTambahOrangHilang;
 
   @NonNull
+  public final TextView tvTempatSeringTerlihat;
+
+  @NonNull
   public final TextView tvTinggiBadan;
 
   @NonNull
-  public final TextView tvUmur;
+  public final TextView tvUsia;
 
-  private ActivityTambahOrangHilangBinding(@NonNull ScrollView rootView, @NonNull Button btnCamera,
-      @NonNull Button btnCamera2, @NonNull Button btnSubmit, @NonNull EditText etBeratBadan,
-      @NonNull EditText etCiriFisik, @NonNull EditText etKota, @NonNull EditText etNama,
-      @NonNull EditText etNomorPemerintah, @NonNull EditText etTempatSeringTerlihat,
-      @NonNull EditText etTinggiBadan, @NonNull EditText etUmur, @NonNull RadioButton genderL,
-      @NonNull RadioButton genderP, @NonNull RadioGroup genderRadioGroup, @NonNull Group group,
-      @NonNull Group group2, @NonNull ImageView ivFoto, @NonNull ImageView ivFoto2,
+  private ActivityTambahOrangHilangBinding(@NonNull NestedScrollView rootView,
+      @NonNull Button btnCamera, @NonNull Button btnCamera2, @NonNull Button btnSubmit,
+      @NonNull TextInputLayout containerBerat, @NonNull TextInputLayout containerCiriFisik,
+      @NonNull CardView containerFormTambahLayout, @NonNull TextInputLayout containerKota,
+      @NonNull TextInputLayout containerNama, @NonNull TextInputLayout containerNomerPemerintah,
+      @NonNull TextInputLayout containerTempatSeringTerlihat,
+      @NonNull TextInputLayout containerTinggi, @NonNull TextInputLayout containerUsia,
+      @NonNull TextInputEditText etBeratBadan, @NonNull TextInputEditText etCiriFisik,
+      @NonNull TextInputEditText etKota, @NonNull TextInputEditText etNama,
+      @NonNull TextInputEditText etNomorPemerintah,
+      @NonNull TextInputEditText etTempatSeringTerlihat, @NonNull TextInputEditText etTinggiBadan,
+      @NonNull TextInputEditText etUmur, @NonNull RadioButton genderL, @NonNull RadioButton genderP,
+      @NonNull RadioGroup genderRadioGroup, @NonNull ImageView ivFoto, @NonNull ImageView ivFoto2,
       @NonNull RadioButton statusDitemukan, @NonNull RadioButton statusHilang,
       @NonNull RadioGroup statusRadioGroup, @NonNull TextView tvBeratBadan,
       @NonNull TextView tvCiriFisik, @NonNull TextView tvFoto, @NonNull TextView tvFoto2,
       @NonNull TextView tvJenisKelamin, @NonNull TextView tvKota, @NonNull TextView tvNama,
-      @NonNull TextView tvNomorPemerintah, @NonNull TextView tvSeringTerlihat,
-      @NonNull TextView tvStatus, @NonNull TextView tvTambahOrangHilang,
-      @NonNull TextView tvTinggiBadan, @NonNull TextView tvUmur) {
+      @NonNull TextView tvNomerPemerintah, @NonNull TextView tvStatus,
+      @NonNull TextView tvTambahOrangHilang, @NonNull TextView tvTempatSeringTerlihat,
+      @NonNull TextView tvTinggiBadan, @NonNull TextView tvUsia) {
     this.rootView = rootView;
     this.btnCamera = btnCamera;
     this.btnCamera2 = btnCamera2;
     this.btnSubmit = btnSubmit;
+    this.containerBerat = containerBerat;
+    this.containerCiriFisik = containerCiriFisik;
+    this.containerFormTambahLayout = containerFormTambahLayout;
+    this.containerKota = containerKota;
+    this.containerNama = containerNama;
+    this.containerNomerPemerintah = containerNomerPemerintah;
+    this.containerTempatSeringTerlihat = containerTempatSeringTerlihat;
+    this.containerTinggi = containerTinggi;
+    this.containerUsia = containerUsia;
     this.etBeratBadan = etBeratBadan;
     this.etCiriFisik = etCiriFisik;
     this.etKota = etKota;
@@ -156,8 +193,6 @@ public final class ActivityTambahOrangHilangBinding implements ViewBinding {
     this.genderL = genderL;
     this.genderP = genderP;
     this.genderRadioGroup = genderRadioGroup;
-    this.group = group;
-    this.group2 = group2;
     this.ivFoto = ivFoto;
     this.ivFoto2 = ivFoto2;
     this.statusDitemukan = statusDitemukan;
@@ -170,17 +205,17 @@ public final class ActivityTambahOrangHilangBinding implements ViewBinding {
     this.tvJenisKelamin = tvJenisKelamin;
     this.tvKota = tvKota;
     this.tvNama = tvNama;
-    this.tvNomorPemerintah = tvNomorPemerintah;
-    this.tvSeringTerlihat = tvSeringTerlihat;
+    this.tvNomerPemerintah = tvNomerPemerintah;
     this.tvStatus = tvStatus;
     this.tvTambahOrangHilang = tvTambahOrangHilang;
+    this.tvTempatSeringTerlihat = tvTempatSeringTerlihat;
     this.tvTinggiBadan = tvTinggiBadan;
-    this.tvUmur = tvUmur;
+    this.tvUsia = tvUsia;
   }
 
   @Override
   @NonNull
-  public ScrollView getRoot() {
+  public NestedScrollView getRoot() {
     return rootView;
   }
 
@@ -223,50 +258,104 @@ public final class ActivityTambahOrangHilangBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.container_berat;
+      TextInputLayout containerBerat = ViewBindings.findChildViewById(rootView, id);
+      if (containerBerat == null) {
+        break missingId;
+      }
+
+      id = R.id.container_ciri_fisik;
+      TextInputLayout containerCiriFisik = ViewBindings.findChildViewById(rootView, id);
+      if (containerCiriFisik == null) {
+        break missingId;
+      }
+
+      id = R.id.container_form_tambah_layout;
+      CardView containerFormTambahLayout = ViewBindings.findChildViewById(rootView, id);
+      if (containerFormTambahLayout == null) {
+        break missingId;
+      }
+
+      id = R.id.container_kota;
+      TextInputLayout containerKota = ViewBindings.findChildViewById(rootView, id);
+      if (containerKota == null) {
+        break missingId;
+      }
+
+      id = R.id.container_nama;
+      TextInputLayout containerNama = ViewBindings.findChildViewById(rootView, id);
+      if (containerNama == null) {
+        break missingId;
+      }
+
+      id = R.id.container_nomer_pemerintah;
+      TextInputLayout containerNomerPemerintah = ViewBindings.findChildViewById(rootView, id);
+      if (containerNomerPemerintah == null) {
+        break missingId;
+      }
+
+      id = R.id.container_tempat_sering_terlihat;
+      TextInputLayout containerTempatSeringTerlihat = ViewBindings.findChildViewById(rootView, id);
+      if (containerTempatSeringTerlihat == null) {
+        break missingId;
+      }
+
+      id = R.id.container_tinggi;
+      TextInputLayout containerTinggi = ViewBindings.findChildViewById(rootView, id);
+      if (containerTinggi == null) {
+        break missingId;
+      }
+
+      id = R.id.container_usia;
+      TextInputLayout containerUsia = ViewBindings.findChildViewById(rootView, id);
+      if (containerUsia == null) {
+        break missingId;
+      }
+
       id = R.id.et_berat_badan;
-      EditText etBeratBadan = ViewBindings.findChildViewById(rootView, id);
+      TextInputEditText etBeratBadan = ViewBindings.findChildViewById(rootView, id);
       if (etBeratBadan == null) {
         break missingId;
       }
 
       id = R.id.et_ciri_fisik;
-      EditText etCiriFisik = ViewBindings.findChildViewById(rootView, id);
+      TextInputEditText etCiriFisik = ViewBindings.findChildViewById(rootView, id);
       if (etCiriFisik == null) {
         break missingId;
       }
 
       id = R.id.et_kota;
-      EditText etKota = ViewBindings.findChildViewById(rootView, id);
+      TextInputEditText etKota = ViewBindings.findChildViewById(rootView, id);
       if (etKota == null) {
         break missingId;
       }
 
       id = R.id.et_nama;
-      EditText etNama = ViewBindings.findChildViewById(rootView, id);
+      TextInputEditText etNama = ViewBindings.findChildViewById(rootView, id);
       if (etNama == null) {
         break missingId;
       }
 
       id = R.id.et_nomor_pemerintah;
-      EditText etNomorPemerintah = ViewBindings.findChildViewById(rootView, id);
+      TextInputEditText etNomorPemerintah = ViewBindings.findChildViewById(rootView, id);
       if (etNomorPemerintah == null) {
         break missingId;
       }
 
       id = R.id.et_tempat_sering_terlihat;
-      EditText etTempatSeringTerlihat = ViewBindings.findChildViewById(rootView, id);
+      TextInputEditText etTempatSeringTerlihat = ViewBindings.findChildViewById(rootView, id);
       if (etTempatSeringTerlihat == null) {
         break missingId;
       }
 
       id = R.id.et_tinggi_badan;
-      EditText etTinggiBadan = ViewBindings.findChildViewById(rootView, id);
+      TextInputEditText etTinggiBadan = ViewBindings.findChildViewById(rootView, id);
       if (etTinggiBadan == null) {
         break missingId;
       }
 
       id = R.id.et_umur;
-      EditText etUmur = ViewBindings.findChildViewById(rootView, id);
+      TextInputEditText etUmur = ViewBindings.findChildViewById(rootView, id);
       if (etUmur == null) {
         break missingId;
       }
@@ -286,18 +375,6 @@ public final class ActivityTambahOrangHilangBinding implements ViewBinding {
       id = R.id.genderRadioGroup;
       RadioGroup genderRadioGroup = ViewBindings.findChildViewById(rootView, id);
       if (genderRadioGroup == null) {
-        break missingId;
-      }
-
-      id = R.id.group;
-      Group group = ViewBindings.findChildViewById(rootView, id);
-      if (group == null) {
-        break missingId;
-      }
-
-      id = R.id.group2;
-      Group group2 = ViewBindings.findChildViewById(rootView, id);
-      if (group2 == null) {
         break missingId;
       }
 
@@ -349,7 +426,7 @@ public final class ActivityTambahOrangHilangBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tv_foto2;
+      id = R.id.tv_foto_2;
       TextView tvFoto2 = ViewBindings.findChildViewById(rootView, id);
       if (tvFoto2 == null) {
         break missingId;
@@ -373,15 +450,9 @@ public final class ActivityTambahOrangHilangBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tv_nomor_pemerintah;
-      TextView tvNomorPemerintah = ViewBindings.findChildViewById(rootView, id);
-      if (tvNomorPemerintah == null) {
-        break missingId;
-      }
-
-      id = R.id.tv_sering_terlihat;
-      TextView tvSeringTerlihat = ViewBindings.findChildViewById(rootView, id);
-      if (tvSeringTerlihat == null) {
+      id = R.id.tv_nomer_pemerintah;
+      TextView tvNomerPemerintah = ViewBindings.findChildViewById(rootView, id);
+      if (tvNomerPemerintah == null) {
         break missingId;
       }
 
@@ -397,24 +468,33 @@ public final class ActivityTambahOrangHilangBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tv_tempat_sering_terlihat;
+      TextView tvTempatSeringTerlihat = ViewBindings.findChildViewById(rootView, id);
+      if (tvTempatSeringTerlihat == null) {
+        break missingId;
+      }
+
       id = R.id.tv_tinggi_badan;
       TextView tvTinggiBadan = ViewBindings.findChildViewById(rootView, id);
       if (tvTinggiBadan == null) {
         break missingId;
       }
 
-      id = R.id.tv_umur;
-      TextView tvUmur = ViewBindings.findChildViewById(rootView, id);
-      if (tvUmur == null) {
+      id = R.id.tv_usia;
+      TextView tvUsia = ViewBindings.findChildViewById(rootView, id);
+      if (tvUsia == null) {
         break missingId;
       }
 
-      return new ActivityTambahOrangHilangBinding((ScrollView) rootView, btnCamera, btnCamera2,
-          btnSubmit, etBeratBadan, etCiriFisik, etKota, etNama, etNomorPemerintah,
-          etTempatSeringTerlihat, etTinggiBadan, etUmur, genderL, genderP, genderRadioGroup, group,
-          group2, ivFoto, ivFoto2, statusDitemukan, statusHilang, statusRadioGroup, tvBeratBadan,
-          tvCiriFisik, tvFoto, tvFoto2, tvJenisKelamin, tvKota, tvNama, tvNomorPemerintah,
-          tvSeringTerlihat, tvStatus, tvTambahOrangHilang, tvTinggiBadan, tvUmur);
+      return new ActivityTambahOrangHilangBinding((NestedScrollView) rootView, btnCamera,
+          btnCamera2, btnSubmit, containerBerat, containerCiriFisik, containerFormTambahLayout,
+          containerKota, containerNama, containerNomerPemerintah, containerTempatSeringTerlihat,
+          containerTinggi, containerUsia, etBeratBadan, etCiriFisik, etKota, etNama,
+          etNomorPemerintah, etTempatSeringTerlihat, etTinggiBadan, etUmur, genderL, genderP,
+          genderRadioGroup, ivFoto, ivFoto2, statusDitemukan, statusHilang, statusRadioGroup,
+          tvBeratBadan, tvCiriFisik, tvFoto, tvFoto2, tvJenisKelamin, tvKota, tvNama,
+          tvNomerPemerintah, tvStatus, tvTambahOrangHilang, tvTempatSeringTerlihat, tvTinggiBadan,
+          tvUsia);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
