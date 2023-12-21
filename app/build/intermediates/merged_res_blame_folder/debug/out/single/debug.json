@@ -184,6 +184,10 @@
         "source": "com.example.lokala.app-main-73:/font/poppins_extralight.xml"
     },
     {
+        "merged": "com.example.lokala.app-merged_res-71:/font_rubik_medium.xml.flat",
+        "source": "com.example.lokala.app-main-73:/font/rubik_medium.xml"
+    },
+    {
         "merged": "com.example.lokala.app-merged_res-71:/font_josefin_sans.xml.flat",
         "source": "com.example.lokala.app-main-73:/font/josefin_sans.xml"
     },
