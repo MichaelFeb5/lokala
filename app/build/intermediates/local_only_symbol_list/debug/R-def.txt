@@ -38,6 +38,7 @@ drawable baseline_home_24
 drawable baseline_location_on_24
 drawable baseline_person_24
 drawable baseline_search_24
+drawable call
 drawable card_outline
 drawable container_card_note_foto
 drawable container_data_user
@@ -48,10 +49,12 @@ drawable ic_launcher_foreground
 drawable ic_logo_1
 drawable ic_logo_2
 drawable ic_place_holder
+drawable logos_whatsapp_icon
 drawable lokana_white_3
 drawable rounded_bottom_corner
 drawable rounded_up_corner
 drawable selected_circle
+drawable skill_icons_instagram
 drawable unselected_circle
 font inter_extrabold
 font josefin_sans
@@ -106,6 +109,7 @@ id container_form_foto_hasil
 id container_form_tambah_layout
 id container_form_user
 id container_foto_user
+id container_inform
 id container_kota
 id container_lokasi_terakhir
 id container_menu
@@ -256,6 +260,7 @@ string berat_badan
 string berat_kg
 string btn_find
 string build_since
+string call_center
 string camera
 string cari_orang
 string cari_orang_hilang

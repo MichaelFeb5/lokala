@@ -112,6 +112,7 @@ sesuai contoh </string>
     <string name="tambah_orang_hilang">Tambah Orang Hilang</string>
     <string name="foto_1">Foto 1</string>
     <string name="foto_2">Foto 2</string>
+    <string name="call_center">Call Center</string>
 
     <string-array name="choice_gender">
         <item>Laki-laki</item>

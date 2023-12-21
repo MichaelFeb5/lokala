@@ -24,6 +24,10 @@
         "source": "com.example.lokala.app-main-73:/xml/backup_rules.xml"
     },
     {
+        "merged": "com.example.lokala.app-merged_res-71:/drawable_call.xml.flat",
+        "source": "com.example.lokala.app-main-73:/drawable/call.xml"
+    },
+    {
         "merged": "com.example.lokala.app-merged_res-71:/drawable_baseline_location_on_24.xml.flat",
         "source": "com.example.lokala.app-main-73:/drawable/baseline_location_on_24.xml"
     },
@@ -46,6 +50,10 @@
     {
         "merged": "com.example.lokala.app-merged_res-71:/layout_orang_list_item.xml.flat",
         "source": "com.example.lokala.app-main-73:/layout/orang_list_item.xml"
+    },
+    {
+        "merged": "com.example.lokala.app-merged_res-71:/drawable_logos_whatsapp_icon.xml.flat",
+        "source": "com.example.lokala.app-main-73:/drawable/logos_whatsapp_icon.xml"
     },
     {
         "merged": "com.example.lokala.app-merged_res-71:/drawable_baseline_check_box_24.xml.flat",
@@ -94,6 +102,10 @@
     {
         "merged": "com.example.lokala.app-merged_res-71:/layout_fragment_guide.xml.flat",
         "source": "com.example.lokala.app-main-73:/layout/fragment_guide.xml"
+    },
+    {
+        "merged": "com.example.lokala.app-merged_res-71:/drawable_skill_icons_instagram.xml.flat",
+        "source": "com.example.lokala.app-main-73:/drawable/skill_icons_instagram.xml"
     },
     {
         "merged": "com.example.lokala.app-merged_res-71:/drawable_unselected_circle.xml.flat",
