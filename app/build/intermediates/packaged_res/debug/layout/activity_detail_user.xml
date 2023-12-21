@@ -167,7 +167,6 @@
                         android:inputType="none"
                         android:lines="4"
                         android:longClickable="false"
-
                         android:textAlignment="textStart"
                         android:textColor="@color/black"
                         android:textStyle="bold" />

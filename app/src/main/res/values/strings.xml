@@ -102,6 +102,16 @@ sesuai contoh </string>
     <string name="sering_ditemukan">Sering Ditemukan</string>
     <string name="jika_mencari_orang_ini_hubungi">Jika Mencari Orang Ini Hubungi</string>
     <string name="foto_profil">foto profil</string>
+    <string name="berat_badan">Berat Badan</string>
+    <string name="berat_kg">berat (Kg)</string>
+    <string name="tinggi_badan">Tinggi Badan</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="kota">Kota</string>
+    <string name="tempat_sering_terlihat">Tempat Sering Terlihat</string>
+    <string name="nomer_pemerintah">Nomer Pemerintah</string>
+    <string name="tambah_orang_hilang">Tambah Orang Hilang</string>
+    <string name="foto_1">Foto 1</string>
+    <string name="foto_2">Foto 2</string>
 
     <string-array name="choice_gender">
         <item>laki-laki</item>

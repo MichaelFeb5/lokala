@@ -33,6 +33,7 @@
         <item>@font/inter_extrabold</item>
         <item>@font/josefin_sans</item>
         <item>@font/poppins_extralight</item>
+        <item>@font/rubik_medium</item>
     </array>
     <string-array name="title_card_guide">
         <item>Temukan Orang Yang Anda Cari</item>
@@ -66,6 +67,8 @@
     <string name="back">Back</string>
     <string name="banner">banner</string>
     <string name="berat">berat</string>
+    <string name="berat_badan">Berat Badan</string>
+    <string name="berat_kg">berat (Kg)</string>
     <string name="btn_find">Find</string>
     <string name="build_since">2024 Lokana</string>
     <string name="camera">Camera</string>
@@ -84,6 +87,8 @@
     <string name="ed_login">Username</string>
     <string name="edit_nama_orang">Search</string>
     <string name="first_fragment_label">First Fragment</string>
+    <string name="foto_1">Foto 1</string>
+    <string name="foto_2">Foto 2</string>
     <string name="foto_orang">foto orang</string>
     <string name="foto_profil">foto profil</string>
     <string name="gallery">Gallery</string>
@@ -99,7 +104,9 @@
     <string name="isi_petunjuk">Foto wajah menghadap ke depan serta
 wajah harus terlihat jelas tidak blur
 sesuai contoh </string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
     <string name="jika_mencari_orang_ini_hubungi">Jika Mencari Orang Ini Hubungi</string>
+    <string name="kota">Kota</string>
     <string name="landing_page_1">Landing Page 1</string>
     <string name="location">location</string>
     <string name="lokasi_terakhir">Lokasi Terakhir</string>
@@ -143,6 +150,7 @@ sesuai contoh </string>
     <string name="nama">Nama</string>
     <string name="nama_orang">Nama Orang</string>
     <string name="next">Next</string>
+    <string name="nomer_pemerintah">Nomer Pemerintah</string>
     <string name="note">Note :</string>
     <string name="petunjuk">Petunjuk :</string>
     <string name="previous">Previous</string>
@@ -151,6 +159,9 @@ sesuai contoh </string>
     <string name="sering_ditemukan">Sering Ditemukan</string>
     <string name="status">Status</string>
     <string name="status_pencarian_orang">Status Pencarian Orang</string>
+    <string name="tambah_orang_hilang">Tambah Orang Hilang</string>
+    <string name="tempat_sering_terlihat">Tempat Sering Terlihat</string>
+    <string name="tinggi_badan">Tinggi Badan</string>
     <string name="title">Text</string>
     <string name="title_activity_detail">DetailActivity</string>
     <string name="title_choice">Anda Sebagai :</string>
