@@ -17,8 +17,8 @@
 <item>@id/cast_button_type_play_pause_toggle</item>
 </array>
     <string-array name="choice_gender">
-        <item>laki-laki</item>
-        <item>perempuan</item>
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
     </string-array>
     <array name="com_google_android_gms_fonts_certs">
         <item>@array/com_google_android_gms_fonts_certs_dev</item>

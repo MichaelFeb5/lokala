@@ -153,7 +153,6 @@ id layout_gender_choice
 id layout_location
 id progressBar
 id progressBar2
-id progressBar3
 id rv_orangHilang
 id rv_result_user_orang_hilang
 id rv_user_orang_hilang
