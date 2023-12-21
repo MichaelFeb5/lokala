@@ -31,16 +31,16 @@
 
         <ImageView
             android:id="@+id/circle_1_foto"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_margin="10dp"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_margin="5dp"
             android:contentDescription="@string/circle_1" />
 
         <ImageView
             android:id="@+id/circle_2_foto"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_margin="10dp"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_margin="5dp"
             android:contentDescription="@string/circle_2" />
 
 

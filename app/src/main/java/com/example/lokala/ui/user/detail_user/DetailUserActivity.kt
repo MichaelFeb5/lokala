@@ -4,6 +4,7 @@ import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.lokala.R
+import com.example.lokala.adapter.FotoViewPagerAdapter
 import com.example.lokala.data.response.OrangHilangItem
 import com.example.lokala.databinding.ActivityDetailUserBinding
 import com.example.lokala.utils.toEditable
@@ -11,6 +12,7 @@ import com.example.lokala.utils.toEditable
 class DetailUserActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityDetailUserBinding
+    private lateinit var fotoFragement: FotoUserFragment
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityDetailUserBinding.inflate(layoutInflater)
@@ -24,10 +26,15 @@ class DetailUserActivity : AppCompatActivity() {
 
         if (data != null) {
             initAction(data)
+            fotoAdapter(data)
         }
 
+    }
 
+    private fun fotoAdapter(data: OrangHilangItem) {
 
+        val adapter = FotoViewPagerAdapter(this,data.urlFoto)
+        binding.containerFotoUser.adapter = adapter
     }
 
     private fun initAction(data: OrangHilangItem) {
@@ -36,15 +43,15 @@ class DetailUserActivity : AppCompatActivity() {
             tvNamaUser.text = data.nama
             tvUserGender.text = data.gender
             tvUserBerat.text = "${data.beratBadan} Kg"
-            tvUserUsia.text= "${data.umur} Tahun"
+            tvUserUsia.text = "${data.umur} Tahun"
             tvLokasiUser.text = data.kota.toEditable()
             tvUserSeringDitemukan.text = data.seringDitemukanDi.toEditable()
-            tvUserCiriFisik.text= data.ciriFisik.toEditable()
+            tvUserCiriFisik.text = data.ciriFisik.toEditable()
 
         }
     }
 
-    private fun setStatus(data: OrangHilangItem){
+    private fun setStatus(data: OrangHilangItem) {
 
         var result: String
         with(binding) {
@@ -61,9 +68,7 @@ class DetailUserActivity : AppCompatActivity() {
         }
 
 
-
     }
-
 
 
     companion object {

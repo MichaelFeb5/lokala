@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.bumptech.glide.Glide
 import com.example.lokala.R
 import com.example.lokala.databinding.FragmentFotoUserBinding
 
@@ -13,6 +14,8 @@ class FotoUserFragment : Fragment() {
 
     private var _binding: FragmentFotoUserBinding? = null
     private val binding get() = _binding!!
+
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -27,6 +30,16 @@ class FotoUserFragment : Fragment() {
         with(binding) {
 
             val index = requireArguments().getInt(ARG_POSITION, 0)
+            val dataImage = requireArguments().getString(ARG_IMAGE)
+
+
+            if(dataImage != null ) {
+
+                Glide.with(requireContext())
+                    .load(dataImage)
+                    .into(imFotoUser)
+            }
+
             selectedCircle(index)
 
         }
