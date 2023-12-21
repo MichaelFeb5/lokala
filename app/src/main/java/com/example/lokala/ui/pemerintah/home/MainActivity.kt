@@ -7,6 +7,7 @@ import androidx.fragment.app.FragmentManager
 import com.etebarian.meowbottomnavigation.MeowBottomNavigation
 import com.example.lokala.R
 import com.example.lokala.databinding.ActivityMainBinding
+import com.example.lokala.ui.user.search.SearchUserFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -26,7 +27,7 @@ class MainActivity : AppCompatActivity() {
             bottomNavigation.setOnClickMenuListener {
                 when (it.id) {
                     1 -> navigation(HomeFragment(),false)
-//                    2 -> navigation(ScanFragment(),false)
+                    2 -> navigation(SearchUserFragment(),false)
 //                    3 -> navigation(EventFragment(),false)
                 }
             }
@@ -67,7 +68,7 @@ class MainActivity : AppCompatActivity() {
     private fun updateBottomNavigation(fragment: Fragment) {
         val selectedItem = when (fragment) {
             is HomeFragment -> 1
-//            is ScanFragment -> 2
+            is SearchUserFragment -> 2
 //            is EventFragment -> 3
             else -> return
         }

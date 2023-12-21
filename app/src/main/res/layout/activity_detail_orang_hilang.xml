@@ -12,6 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:fontFamily="@font/josefin_sans"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -38,9 +39,9 @@
 
     <TextView
         android:id="@+id/tv_nama"
-        style="@style/TextAppearance.MaterialComponents.Headline6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/josefin_sans"
         android:layout_marginStart="15dp"
         android:elevation="3dp"
         android:text="Nama Orang Hilang"
@@ -57,7 +58,7 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="15dp"
-        android:elevation="5dp"
+        android:elevation="5dp"        android:fontFamily="@font/josefin_sans"
 
         android:text="status"
         android:textColor="@color/black"
@@ -75,6 +76,7 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="15dp"
+        android:fontFamily="@font/josefin_sans"
 
         android:elevation="5dp"
         android:text="gender, berat dan umur"
@@ -94,7 +96,7 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="15dp"
-
+        android:fontFamily="@font/josefin_sans"
         android:elevation="5dp"
         android:text="Lokasi Terakhir"
         android:textColor="@color/black"
@@ -111,10 +113,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="15dp"
-
         android:elevation="5dp"
+
+        android:fontFamily="@font/josefin_sans"
         android:text="Sering Ditemukan"
         android:textColor="@color/black"
         android:textFontWeight="900"
@@ -131,7 +134,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
         android:layout_marginTop="10dp"
-        android:layout_marginEnd="15dp"
+        android:layout_marginEnd="15dp"        android:fontFamily="@font/josefin_sans"
 
         android:elevation="5dp"
         android:text="Sering Ditemukan"
@@ -145,8 +148,8 @@
 
     <EditText
         android:id="@+id/et_lokasi"
-        style="@style/TextAppearance.Material3.BodyMedium"
         android:layout_width="332dp"
+        android:fontFamily="@font/josefin_sans"
         android:layout_height="44dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="8dp"
@@ -167,10 +170,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="15dp"
-
         android:elevation="5dp"
+
+        android:fontFamily="@font/josefin_sans"
         android:text="Ciri Fisik : "
         android:textColor="@color/black"
         android:textFontWeight="900"
@@ -186,10 +190,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="15dp"
-
         android:elevation="5dp"
+
+        android:fontFamily="@font/josefin_sans"
         android:text="Rambut Kriting, Sao Matang, Dan lain lain"
         android:textColor="@color/black"
         android:textFontWeight="900"
@@ -211,15 +216,17 @@
         tools:ignore="MissingConstraints" />
 
 
-
     <Button
         android:id="@+id/btn_edit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
         android:layout_marginTop="96dp"
+
         android:backgroundTint="@android:color/holo_blue_light"
+        android:fontFamily="@font/josefin_sans"
         android:text="Edit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.232"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_ciri_fisik" />
 
@@ -230,24 +237,11 @@
         android:layout_marginStart="96dp"
         android:layout_marginTop="96dp"
         android:backgroundTint="@color/colorAccent"
+
+        android:fontFamily="@font/josefin_sans"
         android:text="Hapus"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/btn_edit"
         app:layout_constraintTop_toBottomOf="@+id/tv_ciri_fisik" />
-
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="54dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="102dp"
-        android:layout_marginTop="96dp"
-        android:layout_marginEnd="144dp"
-        android:backgroundTint="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/btn_hapus"
-        app:layout_constraintTop_toBottomOf="@+id/tv_ciri_fisik"
-        app:srcCompat="@drawable/baseline_check_box_24"
-        app:tint="@color/primarycolor"
-        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
