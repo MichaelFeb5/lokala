@@ -36,6 +36,9 @@ public final class ActivityDetailUserBinding implements ViewBinding {
   public final ViewPager2 containerFotoUser;
 
   @NonNull
+  public final LinearLayout containerInform;
+
+  @NonNull
   public final LinearLayout containerLokasiTerakhir;
 
   @NonNull
@@ -88,8 +91,9 @@ public final class ActivityDetailUserBinding implements ViewBinding {
 
   private ActivityDetailUserBinding(@NonNull NestedScrollView rootView,
       @NonNull LinearLayout containerDataUmur, @NonNull ConstraintLayout containerFormUser,
-      @NonNull ViewPager2 containerFotoUser, @NonNull LinearLayout containerLokasiTerakhir,
-      @NonNull CardView containerStatus, @NonNull TextInputLayout containerUserCiriFisik,
+      @NonNull ViewPager2 containerFotoUser, @NonNull LinearLayout containerInform,
+      @NonNull LinearLayout containerLokasiTerakhir, @NonNull CardView containerStatus,
+      @NonNull TextInputLayout containerUserCiriFisik,
       @NonNull TextInputLayout containerUserSeringDitemukan, @NonNull Guideline guidelineHorizontal,
       @NonNull TextView tvCallCenter, @NonNull TextView tvLokasiTerakhir,
       @NonNull TextInputEditText tvLokasiUser, @NonNull TextView tvNamaUser,
@@ -101,6 +105,7 @@ public final class ActivityDetailUserBinding implements ViewBinding {
     this.containerDataUmur = containerDataUmur;
     this.containerFormUser = containerFormUser;
     this.containerFotoUser = containerFotoUser;
+    this.containerInform = containerInform;
     this.containerLokasiTerakhir = containerLokasiTerakhir;
     this.containerStatus = containerStatus;
     this.containerUserCiriFisik = containerUserCiriFisik;
@@ -162,6 +167,12 @@ public final class ActivityDetailUserBinding implements ViewBinding {
       id = R.id.container_foto_user;
       ViewPager2 containerFotoUser = ViewBindings.findChildViewById(rootView, id);
       if (containerFotoUser == null) {
+        break missingId;
+      }
+
+      id = R.id.container_inform;
+      LinearLayout containerInform = ViewBindings.findChildViewById(rootView, id);
+      if (containerInform == null) {
         break missingId;
       }
 
@@ -268,11 +279,11 @@ public final class ActivityDetailUserBinding implements ViewBinding {
       }
 
       return new ActivityDetailUserBinding((NestedScrollView) rootView, containerDataUmur,
-          containerFormUser, containerFotoUser, containerLokasiTerakhir, containerStatus,
-          containerUserCiriFisik, containerUserSeringDitemukan, guidelineHorizontal, tvCallCenter,
-          tvLokasiTerakhir, tvLokasiUser, tvNamaUser, tvSeringDitemukan, tvTitleCiriFisik,
-          tvUserBerat, tvUserCiriFisik, tvUserGender, tvUserSeringDitemukan, tvUserStatus,
-          tvUserUsia);
+          containerFormUser, containerFotoUser, containerInform, containerLokasiTerakhir,
+          containerStatus, containerUserCiriFisik, containerUserSeringDitemukan,
+          guidelineHorizontal, tvCallCenter, tvLokasiTerakhir, tvLokasiUser, tvNamaUser,
+          tvSeringDitemukan, tvTitleCiriFisik, tvUserBerat, tvUserCiriFisik, tvUserGender,
+          tvUserSeringDitemukan, tvUserStatus, tvUserUsia);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
