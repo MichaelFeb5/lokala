@@ -5,13 +5,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.constraintlayout.widget.Guideline;
+import androidx.core.widget.NestedScrollView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import androidx.viewpager2.widget.ViewPager2;
@@ -24,7 +24,7 @@ import java.lang.String;
 
 public final class ActivityDetailUserBinding implements ViewBinding {
   @NonNull
-  private final ScrollView rootView;
+  private final NestedScrollView rootView;
 
   @NonNull
   public final LinearLayout containerDataUmur;
@@ -86,7 +86,7 @@ public final class ActivityDetailUserBinding implements ViewBinding {
   @NonNull
   public final TextView tvUserUsia;
 
-  private ActivityDetailUserBinding(@NonNull ScrollView rootView,
+  private ActivityDetailUserBinding(@NonNull NestedScrollView rootView,
       @NonNull LinearLayout containerDataUmur, @NonNull ConstraintLayout containerFormUser,
       @NonNull ViewPager2 containerFotoUser, @NonNull LinearLayout containerLokasiTerakhir,
       @NonNull CardView containerStatus, @NonNull TextInputLayout containerUserCiriFisik,
@@ -122,7 +122,7 @@ public final class ActivityDetailUserBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public ScrollView getRoot() {
+  public NestedScrollView getRoot() {
     return rootView;
   }
 
@@ -267,7 +267,7 @@ public final class ActivityDetailUserBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityDetailUserBinding((ScrollView) rootView, containerDataUmur,
+      return new ActivityDetailUserBinding((NestedScrollView) rootView, containerDataUmur,
           containerFormUser, containerFotoUser, containerLokasiTerakhir, containerStatus,
           containerUserCiriFisik, containerUserSeringDitemukan, guidelineHorizontal, tvCallCenter,
           tvLokasiTerakhir, tvLokasiUser, tvNamaUser, tvSeringDitemukan, tvTitleCiriFisik,

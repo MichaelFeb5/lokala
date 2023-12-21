@@ -160,10 +160,6 @@
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\layout\\activity_splash_screen.xml"
     },
     {
-        "merged": "com.example.lokala.app-merged_res-71:/drawable_container_data_user.xml.flat",
-        "source": "com.example.lokala.app-main-73:/drawable/container_data_user.xml"
-    },
-    {
         "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-merged_res-71:\\layout_fragment_home.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\daemon\\8.0\\com.example.lokala.app-main-73:\\layout\\fragment_home.xml"
     },

@@ -1,4 +1,4 @@
-#Thu Dec 21 06:58:15 WIB 2023
+#Thu Dec 21 07:07:57 WIB 2023
 base.0=D\:\\2. Dll\\PROGRAM\\ANDROID MOBILE DEVELOPMENT\\LOKANA\\lokala\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=D\:\\2. Dll\\PROGRAM\\ANDROID MOBILE DEVELOPMENT\\LOKANA\\lokala\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.10=D\:\\2. Dll\\PROGRAM\\ANDROID MOBILE DEVELOPMENT\\LOKANA\\lokala\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
