@@ -10,6 +10,7 @@
 
     <!--  Color Pattern  -->
     <color name="primarycolor">#FF9800</color>
+    <color name="primaryText">#543300</color>
     <color name="primary_background">#F8A90F</color>
     <color name="card_color">#FFD465</color>
     <color name="unselected_circle">#B6BDE8</color>

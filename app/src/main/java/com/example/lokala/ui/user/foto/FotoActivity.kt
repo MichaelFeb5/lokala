@@ -46,6 +46,10 @@ class FotoActivity : AppCompatActivity() {
                 launcherIntentCamera.launch(currentImageUri)
             }
 
+            btnBack.setOnClickListener {
+                onBackPressed();
+            }
+
             btnGalery.setOnClickListener {
                 launcherGallery.launch(PickVisualMediaRequest(ActivityResultContracts.PickVisualMedia.ImageOnly))
             }

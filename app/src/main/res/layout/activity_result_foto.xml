@@ -17,7 +17,7 @@
         android:fontFamily="@font/josefin_sans"
         android:text="@string/status_pencarian_orang"
         android:textAlignment="center"
-        android:textColor="@color/primarycolor"
+        android:textColor="@color/primaryText"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -81,7 +81,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/josefin_sans"
             android:text="@string/hasil"
-            android:textColor="@color/primarycolor"
+            android:textColor="@color/primaryText"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -92,7 +92,7 @@
             android:layout_marginTop="5dp"
             android:fontFamily="@font/josefin_sans"
             android:text="People Found : xxx"
-            android:textColor="@color/primarycolor"
+            android:textColor="@color/primaryText"
             android:textSize="12sp"
             android:textStyle="bold" />
 
@@ -131,7 +131,7 @@
             android:lines="2"
             android:text="@string/data_tidak_ditemukan"
             android:textAlignment="center"
-            android:textColor="@color/primarycolor"
+            android:textColor="@color/primaryText"
             android:textSize="30sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -147,7 +147,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:layout_marginBottom="11dp"
-        android:backgroundTint="@color/primarycolor"
+        android:backgroundTint="@color/primaryText"
         android:fontFamily="@font/josefin_sans"
         android:text="Kembali"
         android:textStyle="bold"

@@ -33,4 +33,36 @@ class TambahOrangHilangViewModel(private val orangHilangRepository: OrangHilangR
         gender,
         isFound
     )
+
+    fun editPeople(
+        id: String,
+        fotos: MultipartBody.Part,
+        fotos2: MultipartBody.Part,
+        nama: String,
+        umur: Int,
+        tinggi: Int,
+        berat_badan: Int,
+        ciri_fisik: String,
+        nomor_dihubungi: String,
+        sering_ditemukan_di: String,
+        kota: String,
+        gender: String,
+        isFound: Boolean
+    ) = orangHilangRepository.editPeople(
+        id,
+        fotos,
+        fotos2,
+        nama,
+        umur,
+        tinggi,
+        berat_badan,
+        ciri_fisik,
+        nomor_dihubungi,
+        sering_ditemukan_di,
+        kota,
+        gender,
+        isFound
+    )
+
+
 }
