@@ -65,7 +65,7 @@ class OrangHilangRepository(
         } catch (e: HttpException) {
             val errorBody = e.response()?.errorBody()?.string()
             val errorResponse = Gson().fromJson(errorBody, OrangHilangResponse::class.java)
-            emit(ResultState.Error(errorResponse.message))
+            emit(ResultState.Error(errorResponse.status))
         }
     }
 

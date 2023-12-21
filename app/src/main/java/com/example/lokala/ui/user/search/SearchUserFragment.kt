@@ -3,6 +3,7 @@ package com.example.lokala.ui.user.search
 import ResultState
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -42,7 +43,6 @@ class SearchUserFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        showLoading(false)
         showDataKosong(true)
         genderOption()
         setViewModelFactory()
@@ -65,6 +65,8 @@ class SearchUserFragment : Fragment() {
             val adjustedKota = if (isKotaEmpty) "" else kota
             val adjustedGender = if (isGenderEmpty) "" else gender
 
+            Log.d("Hasil", adjustedGender)
+
             viewModel.getOrangHilangByName(adjustedNama,adjustedKota,adjustedGender).observe(viewLifecycleOwner) { result ->
                 when (result) {
                     is ResultState.Loading -> {
@@ -86,9 +88,12 @@ class SearchUserFragment : Fragment() {
                     }
 
                     is ResultState.Error -> {
-                        // Handle error state
-                        showLoading(false)
-                        showToast("Server Error")
+                        showRvList(emptyList())
+                        loadingDialog.dismiss()
+                        binding.tvPeopleHasil.setText(
+                            "Orang Ditemukan : 0"
+                        )
+                        showToast("Data Tidak Ditemukan")
                     }
 
                     else -> {}
@@ -129,10 +134,6 @@ class SearchUserFragment : Fragment() {
         )
         binding.genderChoice.setAdapter(adapter)
 
-    }
-
-    private fun showLoading(isLoading: Boolean) {
-        binding.progressBar3.visibility = if (isLoading) View.VISIBLE else View.GONE
     }
 
     private fun showDataKosong(isLoading: Boolean) {
