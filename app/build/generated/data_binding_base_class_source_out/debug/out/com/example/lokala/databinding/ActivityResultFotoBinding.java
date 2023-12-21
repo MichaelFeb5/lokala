@@ -4,6 +4,7 @@ package com.example.lokala.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -25,6 +26,9 @@ public final class ActivityResultFotoBinding implements ViewBinding {
 
   @NonNull
   public final LinearLayout backgroundPhotoHasil;
+
+  @NonNull
+  public final Button btnKembali;
 
   @NonNull
   public final CardView containerFormFotoHasil;
@@ -54,13 +58,15 @@ public final class ActivityResultFotoBinding implements ViewBinding {
   public final LinearLayout tvTextHasil;
 
   private ActivityResultFotoBinding(@NonNull ConstraintLayout rootView,
-      @NonNull LinearLayout backgroundPhotoHasil, @NonNull CardView containerFormFotoHasil,
-      @NonNull ConstraintLayout containerRv, @NonNull ImageView imExampleFotoHasil,
-      @NonNull RecyclerView rvResultUserOrangHilang, @NonNull TextView tvHasil,
-      @NonNull TextView tvPeopleHasil, @NonNull TextView tvResultDataTidakDitemukan,
-      @NonNull TextView tvStatusHasil, @NonNull LinearLayout tvTextHasil) {
+      @NonNull LinearLayout backgroundPhotoHasil, @NonNull Button btnKembali,
+      @NonNull CardView containerFormFotoHasil, @NonNull ConstraintLayout containerRv,
+      @NonNull ImageView imExampleFotoHasil, @NonNull RecyclerView rvResultUserOrangHilang,
+      @NonNull TextView tvHasil, @NonNull TextView tvPeopleHasil,
+      @NonNull TextView tvResultDataTidakDitemukan, @NonNull TextView tvStatusHasil,
+      @NonNull LinearLayout tvTextHasil) {
     this.rootView = rootView;
     this.backgroundPhotoHasil = backgroundPhotoHasil;
+    this.btnKembali = btnKembali;
     this.containerFormFotoHasil = containerFormFotoHasil;
     this.containerRv = containerRv;
     this.imExampleFotoHasil = imExampleFotoHasil;
@@ -102,6 +108,12 @@ public final class ActivityResultFotoBinding implements ViewBinding {
       id = R.id.background_photo_hasil;
       LinearLayout backgroundPhotoHasil = ViewBindings.findChildViewById(rootView, id);
       if (backgroundPhotoHasil == null) {
+        break missingId;
+      }
+
+      id = R.id.btn_kembali;
+      Button btnKembali = ViewBindings.findChildViewById(rootView, id);
+      if (btnKembali == null) {
         break missingId;
       }
 
@@ -160,8 +172,9 @@ public final class ActivityResultFotoBinding implements ViewBinding {
       }
 
       return new ActivityResultFotoBinding((ConstraintLayout) rootView, backgroundPhotoHasil,
-          containerFormFotoHasil, containerRv, imExampleFotoHasil, rvResultUserOrangHilang, tvHasil,
-          tvPeopleHasil, tvResultDataTidakDitemukan, tvStatusHasil, tvTextHasil);
+          btnKembali, containerFormFotoHasil, containerRv, imExampleFotoHasil,
+          rvResultUserOrangHilang, tvHasil, tvPeopleHasil, tvResultDataTidakDitemukan,
+          tvStatusHasil, tvTextHasil);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

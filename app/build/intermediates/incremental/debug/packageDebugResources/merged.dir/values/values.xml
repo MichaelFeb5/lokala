@@ -8,8 +8,8 @@
         <item>https://ichef.bbci.co.uk/news/800/cpsprodpb/EFA1/production/_101654316_6f7902bd-fad2-4510-a8eb-6f7d520671cf.jpg</item>
     </string-array>
     <string-array name="choice_gender">
-        <item>Man</item>
-        <item>Woman</item>
+        <item>laki-laki</item>
+        <item>perempuan</item>
     </string-array>
     <array name="com_google_android_gms_fonts_certs">
         <item>@array/com_google_android_gms_fonts_certs_dev</item>
@@ -65,6 +65,7 @@
     <string name="app_name">LOKANA</string>
     <string name="back">Back</string>
     <string name="banner">banner</string>
+    <string name="berat">berat</string>
     <string name="btn_find">Find</string>
     <string name="build_since">2024 Lokana</string>
     <string name="camera">Camera</string>
@@ -75,6 +76,7 @@
     <string name="circle_3">circle 3</string>
     <string name="circle_4">circle 4</string>
     <string name="circle_5">circle 5</string>
+    <string name="ciri_fisik">Ciri Fisik</string>
     <string name="contact_admin">Contact Admin</string>
     <string name="data_tidak_ditemukan">Data Tidak Ditemukan</string>
     <string name="deskripsi">Deskripsi</string>
@@ -83,6 +85,7 @@
     <string name="edit_nama_orang">Search</string>
     <string name="first_fragment_label">First Fragment</string>
     <string name="foto_orang">foto orang</string>
+    <string name="foto_profil">foto profil</string>
     <string name="gallery">Gallery</string>
     <string name="gender">Gender</string>
     <string name="government">Pemerintah</string>
@@ -90,13 +93,16 @@
     <string name="hasil">Hasil</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hilang">Hilang</string>
+    <string name="icon_map">icon map</string>
     <string name="instagram">Instagram</string>
     <string name="isi_example_pencarian_orang">Mohon Perhatikan Foto Pencarian Orang Hilang dengan Detail Pencarian Orang Hilang</string>
     <string name="isi_petunjuk">Foto wajah menghadap ke depan serta
 wajah harus terlihat jelas tidak blur
 sesuai contoh </string>
+    <string name="jika_mencari_orang_ini_hubungi">Jika Mencari Orang Ini Hubungi</string>
     <string name="landing_page_1">Landing Page 1</string>
     <string name="location">location</string>
+    <string name="lokasi_terakhir">Lokasi Terakhir</string>
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
         volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
@@ -142,6 +148,7 @@ sesuai contoh </string>
     <string name="previous">Previous</string>
     <string name="search">Search</string>
     <string name="second_fragment_label">Second Fragment</string>
+    <string name="sering_ditemukan">Sering Ditemukan</string>
     <string name="status">Status</string>
     <string name="status_pencarian_orang">Status Pencarian Orang</string>
     <string name="title">Text</string>
@@ -153,6 +160,7 @@ sesuai contoh </string>
     <string name="tv_social_media">Our Social Media</string>
     <string name="user">User</string>
     <string name="user_choice">Icon User</string>
+    <string name="usia">Usia</string>
     <string name="welcome">Selamat Datang</string>
     <string name="whatsapp">Whatsapp</string>
     <style name="Base.Theme.AppCompat" parent="Theme.Material3.DayNight.NoActionBar">

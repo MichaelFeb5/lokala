@@ -15,11 +15,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lokala"
         tools:targetApi="31">
+
+
         <activity
-            android:name=".ui.user.detail.UserDetailOrangHilangActivity"
+            android:name=".ui.user.detail_user.DetailUserActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
+
         <activity
             android:name=".ui.user.foto.ResultFotoActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".ui.user.foto.FotoActivity"
@@ -42,6 +47,7 @@
             android:name=".ui.pemerintah.home.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.lokala"
+            android:screenOrientation="portrait"
             tools:targetApi="31" />
         <activity
             android:name=".ui.pemerintah.login.LoginActivity"
