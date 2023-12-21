@@ -16,8 +16,7 @@ import com.example.lokala.data.response.OrangHilangItem
 import com.example.lokala.databinding.FragmentSearchUserBinding
 import com.example.lokala.ui.factory.ViewModelFactory
 import com.example.lokala.ui.fragment_utils.LoadingDialogFragment
-import com.example.lokala.ui.pemerintah.orangHilang.detail.DetailOrangHilangActivity
-import com.example.lokala.ui.user.detail.UserDetailOrangHilangActivity
+import com.example.lokala.ui.user.detail_user.DetailUserActivity
 
 
 class SearchUserFragment : Fragment() {
@@ -112,9 +111,9 @@ class SearchUserFragment : Fragment() {
 
             adapter.setOnItemClickCallback(object : UserOrangHilangAdapter.OnItemClickCalback {
                 override fun onItemClicked(item: OrangHilangItem) {
-                    //detail activity
-                    val intent = Intent(requireContext(), UserDetailOrangHilangActivity::class.java)
-                    intent.putExtra("EXTRA_ORANG_HILANG", item)
+
+                    val intent = Intent(requireContext(), DetailUserActivity::class.java)
+                    intent.putExtra(DetailUserActivity.ARG_ORANG_HILANG, item)
                     startActivity(intent)
                 }
             })

@@ -72,6 +72,14 @@
         "source": "com.example.lokala.app-main-73:/layout/activity_tambah_orang_hilang.xml"
     },
     {
+        "merged": "com.example.lokala.app-mergeDebugResources-70:/layout/activity_detail_user.xml",
+        "source": "com.example.lokala.app-main-73:/layout/activity_detail_user.xml"
+    },
+    {
+        "merged": "com.example.lokala.app-mergeDebugResources-70:/layout/fragment_foto_user.xml",
+        "source": "com.example.lokala.app-main-73:/layout/fragment_foto_user.xml"
+    },
+    {
         "merged": "com.example.lokala.app-mergeDebugResources-70:/layout/fragment_loading.xml",
         "source": "com.example.lokala.app-main-73:/layout/fragment_loading.xml"
     }

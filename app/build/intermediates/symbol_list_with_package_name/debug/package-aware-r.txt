@@ -3346,6 +3346,7 @@ drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
 drawable container_card_note_foto
+drawable container_data_user
 drawable container_example_foto
 drawable container_foto
 drawable design_fab_background
@@ -3895,9 +3896,11 @@ id chronometer
 id circle_1
 id circle_1_banner
 id circle_1_choice_user
+id circle_1_foto
 id circle_2
 id circle_2_banner
 id circle_2_choice_user
+id circle_2_foto
 id circle_3
 id circle_3_banner
 id circle_3_choice_user
@@ -3917,14 +3920,21 @@ id constraint
 id container
 id container_all
 id container_current
+id container_data_umur
 id container_example_view
 id container_form_foto
 id container_form_foto_hasil
+id container_form_user
+id container_foto_user
+id container_lokasi_terakhir
 id container_menu
 id container_menu_foto
 id container_photo
 id container_rv
+id container_status
 id container_user
+id container_user_Sering_ditemukan
+id container_user_ciri_fisik
 id content
 id contentPanel
 id contiguous
@@ -4035,6 +4045,7 @@ id group2
 id group_divider
 id grouping
 id groups
+id guidelineHorizontal
 id header_title
 id hide_ime_id
 id hideable
@@ -4052,6 +4063,7 @@ id ignore
 id ignoreRequest
 id im_example_foto
 id im_example_foto_hasil
+id im_foto_user
 id im_user
 id image
 id imageButton4
@@ -4433,6 +4445,7 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tv_berat_badan
+id tv_call_center
 id tv_ciri_fisik
 id tv_count
 id tv_data_tidak_ditemukan
@@ -4445,8 +4458,11 @@ id tv_jenis_kelamin
 id tv_kota
 id tv_location
 id tv_login
+id tv_lokasi_terakhir
+id tv_lokasi_user
 id tv_nama
 id tv_nama_orang
+id tv_nama_user
 id tv_nomor_pemerintah
 id tv_orangHilang
 id tv_people_hasil
@@ -4469,11 +4485,18 @@ id tv_tinggi_badan
 id tv_title_card
 id tv_title_cari_foto
 id tv_title_choice
+id tv_title_ciri_fisik
 id tv_title_guide
 id tv_title_note_foto
 id tv_title_user_home
 id tv_umur
+id tv_user_berat
+id tv_user_ciri_fisik
+id tv_user_gender
 id tv_user_name
+id tv_user_sering_ditemukan
+id tv_user_status
+id tv_user_usia
 id unchecked
 id uniform
 id unlabeled
@@ -4626,6 +4649,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_detail_orang_hilang
+layout activity_detail_user
 layout activity_foto
 layout activity_guide
 layout activity_login
@@ -4659,6 +4683,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_banner
 layout fragment_choice_user
+layout fragment_foto_user
 layout fragment_guide
 layout fragment_home
 layout fragment_home_user
@@ -4790,6 +4815,7 @@ string app_name
 string appbar_scrolling_view_behavior
 string back
 string banner
+string berat
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
 string bottomsheet_action_expand
@@ -4861,6 +4887,7 @@ string circle_2
 string circle_3
 string circle_4
 string circle_5
+string ciri_fisik
 string clear_text_end_icon_content_description
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
@@ -4895,6 +4922,7 @@ string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string first_fragment_label
 string foto_orang
+string foto_profil
 string gallery
 string gender
 string government
@@ -4905,10 +4933,12 @@ string hide_bottom_view_on_scroll_behavior
 string hilang
 string ic_media_route_learn_more_accessibility
 string icon_content_description
+string icon_map
 string instagram
 string isi_example_pencarian_orang
 string isi_petunjuk
 string item_view_role_description
+string jika_mencari_orang_ini_hubungi
 string landing_page_1
 string library_roundedimageview_author
 string library_roundedimageview_authorWebsite
@@ -4920,6 +4950,7 @@ string library_roundedimageview_libraryWebsite
 string library_roundedimageview_licenseId
 string library_roundedimageview_repositoryLink
 string location
+string lokasi_terakhir
 string lorem_ipsum
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium
@@ -5076,6 +5107,7 @@ string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
 string searchview_navigation_content_description
 string second_fragment_label
+string sering_ditemukan
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status
@@ -5090,6 +5122,7 @@ string tv_password
 string tv_social_media
 string user
 string user_choice
+string usia
 string welcome
 string whatsapp
 style AlertDialog_AppCompat

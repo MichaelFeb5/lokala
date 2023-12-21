@@ -45,11 +45,13 @@
         android:testOnly="true"
         android:theme="@style/Theme.Lokala" >
         <activity
-            android:name="com.example.lokala.ui.user.detail.UserDetailOrangHilangActivity"
-            android:exported="false" />
+            android:name="com.example.lokala.ui.user.detail_user.DetailUserActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.example.lokala.ui.user.foto.ResultFotoActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.example.lokala.ui.user.foto.FotoActivity"
             android:exported="false"
@@ -70,6 +72,7 @@
         <activity
             android:name="com.example.lokala.ui.pemerintah.home.MainActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.lokala" />
         <activity
             android:name="com.example.lokala.ui.pemerintah.login.LoginActivity"
