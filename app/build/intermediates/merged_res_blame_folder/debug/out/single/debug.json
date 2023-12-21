@@ -124,6 +124,10 @@
         "source": "com.example.lokala.app-main-73:/drawable/baseline_arrow_forward_ios_24.xml"
     },
     {
+        "merged": "com.example.lokala.app-merged_res-71:/layout_fragment_loading.xml.flat",
+        "source": "com.example.lokala.app-main-73:/layout/fragment_loading.xml"
+    },
+    {
         "merged": "com.example.lokala.app-merged_res-71:/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "com.example.lokala.app-main-73:/mipmap-anydpi-v26/ic_launcher.xml"
     },
@@ -194,6 +198,10 @@
     {
         "merged": "com.example.lokala.app-merged_res-71:/mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "com.example.lokala.app-main-73:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.lokala.app-merged_res-71:/layout_activity_user_detail_orang_hilang.xml.flat",
+        "source": "com.example.lokala.app-main-73:/layout/activity_user_detail_orang_hilang.xml"
     },
     {
         "merged": "com.example.lokala.app-merged_res-71:/drawable_lokana_white_3.xml.flat",

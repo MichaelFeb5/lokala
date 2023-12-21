@@ -8,8 +8,8 @@
         <item>https://ichef.bbci.co.uk/news/800/cpsprodpb/EFA1/production/_101654316_6f7902bd-fad2-4510-a8eb-6f7d520671cf.jpg</item>
     </string-array>
     <string-array name="choice_gender">
-        <item>Man</item>
-        <item>Woman</item>
+        <item>laki-laki</item>
+        <item>perempuan</item>
     </string-array>
     <array name="com_google_android_gms_fonts_certs">
         <item>@array/com_google_android_gms_fonts_certs_dev</item>

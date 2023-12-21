@@ -3847,6 +3847,7 @@ id btn_find
 id btn_galery
 id btn_government
 id btn_hapus
+id btn_kembali
 id btn_login
 id btn_search_foto
 id btn_search_user
@@ -4394,6 +4395,8 @@ id terrain
 id text
 id text2
 id textEnd
+id textLoading
+id textLoadingMessage
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -4631,6 +4634,7 @@ layout activity_result_foto
 layout activity_splash_screen
 layout activity_tambah_orang_hilang
 layout activity_user
+layout activity_user_detail_orang_hilang
 layout cast_expanded_controller_activity
 layout cast_help_text
 layout cast_intro_overlay
@@ -4658,6 +4662,7 @@ layout fragment_choice_user
 layout fragment_guide
 layout fragment_home
 layout fragment_home_user
+layout fragment_loading
 layout fragment_search_user
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity

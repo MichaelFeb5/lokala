@@ -73,6 +73,7 @@ id btn_find
 id btn_galery
 id btn_government
 id btn_hapus
+id btn_kembali
 id btn_login
 id btn_search_foto
 id btn_search_user
@@ -149,6 +150,8 @@ id splash_screen_image
 id statusRadioGroup
 id status_ditemukan
 id status_hilang
+id textLoading
+id textLoadingMessage
 id tv_berat_badan
 id tv_ciri_fisik
 id tv_data_tidak_ditemukan
@@ -200,11 +203,13 @@ layout activity_result_foto
 layout activity_splash_screen
 layout activity_tambah_orang_hilang
 layout activity_user
+layout activity_user_detail_orang_hilang
 layout fragment_banner
 layout fragment_choice_user
 layout fragment_guide
 layout fragment_home
 layout fragment_home_user
+layout fragment_loading
 layout fragment_search_user
 layout orang_list_item
 layout user_orang_list_item
