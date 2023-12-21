@@ -319,8 +319,8 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="ic_logo" />
-                            <entry key="sourceFile" value="D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\testing image\ic_logo.svg" />
+                            <entry key="outputName" value="call" />
+                            <entry key="sourceFile" value="D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\testing image\LOGO\call.svg" />
                           </map>
                         </option>
                       </PersistentState>

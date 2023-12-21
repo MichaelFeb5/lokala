@@ -3269,6 +3269,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable call
 drawable card_outline
 drawable cast_abc_scrubber_control_off_mtrl_alpha
 drawable cast_abc_scrubber_control_to_pressed_mtrl_000
@@ -3562,6 +3563,7 @@ drawable ic_vol_type_speaker_light
 drawable ic_vol_type_tv_dark
 drawable ic_vol_type_tv_light
 drawable ic_vol_unmute
+drawable logos_whatsapp_icon
 drawable lokana_white_3
 drawable m3_appbar_background
 drawable m3_avd_hide_password
@@ -3711,6 +3713,7 @@ drawable rounded_bottom_corner
 drawable rounded_up_corner
 drawable selected_circle
 drawable selection_band_overlay
+drawable skill_icons_instagram
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -3930,6 +3933,7 @@ id container_form_foto_hasil
 id container_form_tambah_layout
 id container_form_user
 id container_foto_user
+id container_inform
 id container_kota
 id container_lokasi_terakhir
 id container_menu
@@ -4833,6 +4837,7 @@ string bottomsheet_drag_handle_clicked
 string bottomsheet_drag_handle_content_description
 string btn_find
 string build_since
+string call_center
 string call_notification_answer_action
 string call_notification_answer_video_action
 string call_notification_decline_action
