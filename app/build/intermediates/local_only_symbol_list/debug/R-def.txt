@@ -161,7 +161,6 @@ id iv_orang
 id iv_orangHilang
 id layout_circle
 id layout_ed_name
-id layout_gender_choice
 id layout_location
 id progressBar
 id progressBar2

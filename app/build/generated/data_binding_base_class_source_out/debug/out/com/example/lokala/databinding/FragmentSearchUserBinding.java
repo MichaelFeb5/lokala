@@ -4,7 +4,6 @@ package com.example.lokala.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AutoCompleteTextView;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -15,9 +14,9 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import com.chivorn.smartmaterialspinner.SmartMaterialSpinner;
 import com.example.lokala.R;
 import com.google.android.material.button.MaterialButton;
-import com.google.android.material.textfield.TextInputLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -46,13 +45,10 @@ public final class FragmentSearchUserBinding implements ViewBinding {
   public final EditText edSrcName;
 
   @NonNull
-  public final AutoCompleteTextView genderChoice;
+  public final SmartMaterialSpinner genderChoice;
 
   @NonNull
   public final AwesomeTextInputLayout layoutEdName;
-
-  @NonNull
-  public final TextInputLayout layoutGenderChoice;
 
   @NonNull
   public final AwesomeTextInputLayout layoutLocation;
@@ -78,11 +74,10 @@ public final class FragmentSearchUserBinding implements ViewBinding {
   private FragmentSearchUserBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView btnBack,
       @NonNull MaterialButton btnSearchUser, @NonNull LinearLayout containerMenu,
       @NonNull ConstraintLayout containerRv, @NonNull EditText edSrcLocation,
-      @NonNull EditText edSrcName, @NonNull AutoCompleteTextView genderChoice,
-      @NonNull AwesomeTextInputLayout layoutEdName, @NonNull TextInputLayout layoutGenderChoice,
-      @NonNull AwesomeTextInputLayout layoutLocation, @NonNull RecyclerView rvUserOrangHilang,
-      @NonNull TextView tvDataTidakDitemukan, @NonNull TextView tvHasil,
-      @NonNull TextView tvNamaOrang, @NonNull TextView tvPeopleHasil,
+      @NonNull EditText edSrcName, @NonNull SmartMaterialSpinner genderChoice,
+      @NonNull AwesomeTextInputLayout layoutEdName, @NonNull AwesomeTextInputLayout layoutLocation,
+      @NonNull RecyclerView rvUserOrangHilang, @NonNull TextView tvDataTidakDitemukan,
+      @NonNull TextView tvHasil, @NonNull TextView tvNamaOrang, @NonNull TextView tvPeopleHasil,
       @NonNull LinearLayout tvTextHasil) {
     this.rootView = rootView;
     this.btnBack = btnBack;
@@ -93,7 +88,6 @@ public final class FragmentSearchUserBinding implements ViewBinding {
     this.edSrcName = edSrcName;
     this.genderChoice = genderChoice;
     this.layoutEdName = layoutEdName;
-    this.layoutGenderChoice = layoutGenderChoice;
     this.layoutLocation = layoutLocation;
     this.rvUserOrangHilang = rvUserOrangHilang;
     this.tvDataTidakDitemukan = tvDataTidakDitemukan;
@@ -167,7 +161,7 @@ public final class FragmentSearchUserBinding implements ViewBinding {
       }
 
       id = R.id.gender_choice;
-      AutoCompleteTextView genderChoice = ViewBindings.findChildViewById(rootView, id);
+      SmartMaterialSpinner genderChoice = ViewBindings.findChildViewById(rootView, id);
       if (genderChoice == null) {
         break missingId;
       }
@@ -175,12 +169,6 @@ public final class FragmentSearchUserBinding implements ViewBinding {
       id = R.id.layout_ed_name;
       AwesomeTextInputLayout layoutEdName = ViewBindings.findChildViewById(rootView, id);
       if (layoutEdName == null) {
-        break missingId;
-      }
-
-      id = R.id.layout_gender_choice;
-      TextInputLayout layoutGenderChoice = ViewBindings.findChildViewById(rootView, id);
-      if (layoutGenderChoice == null) {
         break missingId;
       }
 
@@ -228,8 +216,8 @@ public final class FragmentSearchUserBinding implements ViewBinding {
 
       return new FragmentSearchUserBinding((ConstraintLayout) rootView, btnBack, btnSearchUser,
           containerMenu, containerRv, edSrcLocation, edSrcName, genderChoice, layoutEdName,
-          layoutGenderChoice, layoutLocation, rvUserOrangHilang, tvDataTidakDitemukan, tvHasil,
-          tvNamaOrang, tvPeopleHasil, tvTextHasil);
+          layoutLocation, rvUserOrangHilang, tvDataTidakDitemukan, tvHasil, tvNamaOrang,
+          tvPeopleHasil, tvTextHasil);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

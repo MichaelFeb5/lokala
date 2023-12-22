@@ -46,6 +46,7 @@ android {
     buildFeatures {
         viewBinding = true
     }
+
 }
 
 dependencies {
@@ -58,7 +59,7 @@ dependencies {
     implementation("androidx.room:room-common:2.6.1")
 
     implementation("androidx.appcompat:appcompat:1.6.1")
-    implementation("com.google.android.material:material:1.10.0")
+    implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("com.google.android.gms:play-services-cast-framework:21.4.0")
     implementation("org.tensorflow:tensorflow-lite-support:0.1.0")
@@ -89,21 +90,23 @@ dependencies {
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.1")
     implementation("com.github.bumptech.glide:glide:4.16.0")
     annotationProcessor("com.github.bumptech.glide:compiler:4.14.2")
-    implementation ("com.makeramen:roundedimageview:2.3.0")
-    implementation ("com.squareup.picasso:picasso:2.71828")
+    implementation("com.makeramen:roundedimageview:2.3.0")
+    implementation("com.squareup.picasso:picasso:2.71828")
 
     //textInputLayout
-    implementation ("ss.anoop:awesome-textinput-layout:1.0.0")
+    implementation("ss.anoop:awesome-textinput-layout:1.0.0")
 
+    //spinner
+    implementation ("com.github.chivorns:smartmaterialspinner:1.5.0")
 
     //viewpager
     implementation("androidx.viewpager2:viewpager2:1.0.0")
 
     //recycleview
-    implementation ("androidx.recyclerview:recyclerview:1.3.2")
-    implementation ("androidx.recyclerview:recyclerview-selection:1.1.0")
-    implementation ("androidx.lifecycle:lifecycle-viewmodel:2.6.2")
-    implementation ("androidx.lifecycle:lifecycle-livedata:2.6.2")
-    implementation ("androidx.lifecycle:lifecycle-common-java8:2.6.2")
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
+    implementation("androidx.recyclerview:recyclerview-selection:1.1.0")
+    implementation("androidx.lifecycle:lifecycle-viewmodel:2.6.2")
+    implementation("androidx.lifecycle:lifecycle-livedata:2.6.2")
+    implementation("androidx.lifecycle:lifecycle-common-java8:2.6.2")
 
 }

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.lokala.app-mergeDebugResources-70:/values-sw720dp-v13/values-sw720dp-v13.xml",
+            "outputFile": "com.example.lokala.app-mergeDebugResources-71:/values-sw720dp-v13/values-sw720dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\736ed0f83e3ef33163d4e5368bb6587c\\transformed\\mediarouter-1.6.0-beta01\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",

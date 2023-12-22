@@ -1,0 +1,48 @@
+<!-- res/layout/fragment_loading_dialog.xml -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <!-- Teks "Loading" -->
+
+    <!-- ProggresBar -->
+
+    <TextView
+        android:id="@+id/textLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/josefin_sans"
+        android:textStyle="bold"
+        android:textColor="@color/primarycolor"
+        android:text="Loading"
+        android:textSize="18sp" />
+
+    <!-- Teks "Aplikasi sedang memuat" -->
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textLoading"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:indeterminate="true" />
+
+    <TextView
+        android:id="@+id/textLoadingMessage"
+        android:textColor="@color/primarycolor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/josefin_sans"
+        android:textStyle="bold"
+        android:text="Data sedang memuat"
+        android:textSize="14sp"
+        android:layout_below="@id/progressBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+</RelativeLayout>

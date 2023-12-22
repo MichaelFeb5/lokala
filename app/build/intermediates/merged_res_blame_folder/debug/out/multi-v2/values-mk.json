@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.lokala.app-mergeDebugResources-70:/values-mk/values-mk.xml",
+            "outputFile": "com.example.lokala.app-mergeDebugResources-71:/values-mk/values-mk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\6910b074af9f58a9d17f8ee1adb565ba\\transformed\\jetified-play-services-cast-21.4.0\\res\\values-mk\\values.xml",
@@ -38,7 +38,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\ac73ef10f16d85db54e5bb64e6e254a4\\transformed\\material-1.10.0\\res\\values-mk\\values-mk.xml",
+                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\52c75227038662ee045bc776af3b2ece\\transformed\\navigation-ui-2.7.5\\res\\values-mk\\values-mk.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,160",
+                        "endColumns": "104,127",
+                        "endOffsets": "155,283"
+                    },
+                    "to": {
+                        "startLines": "204,205",
+                        "startColumns": "4,4",
+                        "startOffsets": "18825,18930",
+                        "endColumns": "104,127",
+                        "endOffsets": "18925,19053"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\2d7e5d6c3c0c6b610a7ae272a1a83ef0\\transformed\\material-1.11.0\\res\\values-mk\\values-mk.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -54,23 +71,6 @@
                         "endLines": "5,33,34,35,36,37,88,89,90,109,110,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,206",
                         "endColumns": "12,80,79,81,96,88,95,123,86,65,90,69,63,102,62,64,59,67,62,54,127,56,61,54,74,139,86,82,132,81,84,145,86,76,53,54,65,72,75,88,77,72,75,74,69,108,87,74,91,91,73,73,91,52,81,66,82,86,61,63,62,69,113,114,101,111,57,58,84",
                         "endOffsets": "316,3112,3192,3274,3371,3460,7460,7584,7671,9980,10071,10266,10330,10433,10496,10561,10621,10689,10752,10807,10935,10992,11054,11109,11184,11324,15455,15538,15671,15753,15838,15984,16071,16148,16202,16257,16323,16396,16472,16561,16639,16712,16788,16863,16933,17042,17130,17205,17297,17389,17463,17537,17629,17682,17764,17831,17914,18001,18063,18127,18190,18260,18374,18489,18591,18703,18761,18820,19138"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\52c75227038662ee045bc776af3b2ece\\transformed\\navigation-ui-2.7.5\\res\\values-mk\\values-mk.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,160",
-                        "endColumns": "104,127",
-                        "endOffsets": "155,283"
-                    },
-                    "to": {
-                        "startLines": "204,205",
-                        "startColumns": "4,4",
-                        "startOffsets": "18825,18930",
-                        "endColumns": "104,127",
-                        "endOffsets": "18925,19053"
                     }
                 },
                 {

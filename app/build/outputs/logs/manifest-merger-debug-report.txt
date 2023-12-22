@@ -19,10 +19,11 @@ MERGED from [androidx.navigation:navigation-fragment:2.7.5] C:\Users\lenovo\.gra
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.5] C:\Users\lenovo\.gradle\caches\transforms-3\b09e74544eaaa9ed75ba7db69ee61c0a\transformed\navigation-fragment-ktx-2.7.5\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.7.5] C:\Users\lenovo\.gradle\caches\transforms-3\e912177a95916191adc3c26b6e990df1\transformed\navigation-ui-ktx-2.7.5\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-ui:2.7.5] C:\Users\lenovo\.gradle\caches\transforms-3\52c75227038662ee045bc776af3b2ece\transformed\navigation-ui-2.7.5\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.material:material:1.10.0] C:\Users\lenovo\.gradle\caches\transforms-3\ac73ef10f16d85db54e5bb64e6e254a4\transformed\material-1.10.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\lenovo\.gradle\caches\transforms-3\2d7e5d6c3c0c6b610a7ae272a1a83ef0\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\lenovo\.gradle\caches\transforms-3\605404c63d6102ae70bdf9c24ebf9a4c\transformed\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\lenovo\.gradle\caches\transforms-3\df86c074ed03c67619ec37725ad7f589\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.gms:play-services-cast-framework:21.4.0] C:\Users\lenovo\.gradle\caches\transforms-3\17340512c496ffa6ce9177178b07a54b\transformed\jetified-play-services-cast-framework-21.4.0\AndroidManifest.xml:2:1-28:12
+MERGED from [com.github.chivorns:smartmaterialspinner:1.5.0] C:\Users\lenovo\.gradle\caches\transforms-3\d3c4b60704808b7dac68f3567ae5e152\transformed\jetified-smartmaterialspinner-1.5.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.gms:play-services-cast:21.4.0] C:\Users\lenovo\.gradle\caches\transforms-3\6910b074af9f58a9d17f8ee1adb565ba\transformed\jetified-play-services-cast-21.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.mediarouter:mediarouter:1.6.0-beta01] C:\Users\lenovo\.gradle\caches\transforms-3\736ed0f83e3ef33163d4e5368bb6587c\transformed\mediarouter-1.6.0-beta01\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\lenovo\.gradle\caches\transforms-3\f5a6e282311208c2e13aa3b0d05b35b1\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
@@ -136,8 +137,8 @@ application
 ADDED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src\main\AndroidManifest.xml:8:5-74:19
 MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\lenovo\.gradle\caches\transforms-3\83698ff00ae8fade1be565a73b457584\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
 MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\lenovo\.gradle\caches\transforms-3\83698ff00ae8fade1be565a73b457584\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
-MERGED from [com.google.android.material:material:1.10.0] C:\Users\lenovo\.gradle\caches\transforms-3\ac73ef10f16d85db54e5bb64e6e254a4\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.10.0] C:\Users\lenovo\.gradle\caches\transforms-3\ac73ef10f16d85db54e5bb64e6e254a4\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\lenovo\.gradle\caches\transforms-3\2d7e5d6c3c0c6b610a7ae272a1a83ef0\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\lenovo\.gradle\caches\transforms-3\2d7e5d6c3c0c6b610a7ae272a1a83ef0\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\lenovo\.gradle\caches\transforms-3\605404c63d6102ae70bdf9c24ebf9a4c\transformed\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\lenovo\.gradle\caches\transforms-3\605404c63d6102ae70bdf9c24ebf9a4c\transformed\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\lenovo\.gradle\caches\transforms-3\df86c074ed03c67619ec37725ad7f589\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -336,14 +337,16 @@ MERGED from [androidx.navigation:navigation-ui-ktx:2.7.5] C:\Users\lenovo\.gradl
 MERGED from [androidx.navigation:navigation-ui-ktx:2.7.5] C:\Users\lenovo\.gradle\caches\transforms-3\e912177a95916191adc3c26b6e990df1\transformed\navigation-ui-ktx-2.7.5\AndroidManifest.xml:5:5-44
 MERGED from [androidx.navigation:navigation-ui:2.7.5] C:\Users\lenovo\.gradle\caches\transforms-3\52c75227038662ee045bc776af3b2ece\transformed\navigation-ui-2.7.5\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-ui:2.7.5] C:\Users\lenovo\.gradle\caches\transforms-3\52c75227038662ee045bc776af3b2ece\transformed\navigation-ui-2.7.5\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.10.0] C:\Users\lenovo\.gradle\caches\transforms-3\ac73ef10f16d85db54e5bb64e6e254a4\transformed\material-1.10.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.10.0] C:\Users\lenovo\.gradle\caches\transforms-3\ac73ef10f16d85db54e5bb64e6e254a4\transformed\material-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\lenovo\.gradle\caches\transforms-3\2d7e5d6c3c0c6b610a7ae272a1a83ef0\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\lenovo\.gradle\caches\transforms-3\2d7e5d6c3c0c6b610a7ae272a1a83ef0\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\lenovo\.gradle\caches\transforms-3\605404c63d6102ae70bdf9c24ebf9a4c\transformed\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\lenovo\.gradle\caches\transforms-3\605404c63d6102ae70bdf9c24ebf9a4c\transformed\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\lenovo\.gradle\caches\transforms-3\df86c074ed03c67619ec37725ad7f589\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\lenovo\.gradle\caches\transforms-3\df86c074ed03c67619ec37725ad7f589\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-cast-framework:21.4.0] C:\Users\lenovo\.gradle\caches\transforms-3\17340512c496ffa6ce9177178b07a54b\transformed\jetified-play-services-cast-framework-21.4.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.android.gms:play-services-cast-framework:21.4.0] C:\Users\lenovo\.gradle\caches\transforms-3\17340512c496ffa6ce9177178b07a54b\transformed\jetified-play-services-cast-framework-21.4.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.chivorns:smartmaterialspinner:1.5.0] C:\Users\lenovo\.gradle\caches\transforms-3\d3c4b60704808b7dac68f3567ae5e152\transformed\jetified-smartmaterialspinner-1.5.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.chivorns:smartmaterialspinner:1.5.0] C:\Users\lenovo\.gradle\caches\transforms-3\d3c4b60704808b7dac68f3567ae5e152\transformed\jetified-smartmaterialspinner-1.5.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services-cast:21.4.0] C:\Users\lenovo\.gradle\caches\transforms-3\6910b074af9f58a9d17f8ee1adb565ba\transformed\jetified-play-services-cast-21.4.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-cast:21.4.0] C:\Users\lenovo\.gradle\caches\transforms-3\6910b074af9f58a9d17f8ee1adb565ba\transformed\jetified-play-services-cast-21.4.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.mediarouter:mediarouter:1.6.0-beta01] C:\Users\lenovo\.gradle\caches\transforms-3\736ed0f83e3ef33163d4e5368bb6587c\transformed\mediarouter-1.6.0-beta01\AndroidManifest.xml:5:5-44

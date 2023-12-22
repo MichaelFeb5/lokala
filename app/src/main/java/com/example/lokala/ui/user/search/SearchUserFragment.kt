@@ -53,7 +53,7 @@ class SearchUserFragment : Fragment() {
 
             val nama = binding.edSrcName.text.toString().trim()
             val kota = binding.edSrcLocation.text.toString().trim()
-            val gender = binding.genderChoice.text.toString().trim()
+            val gender = binding.genderChoice.toString().trim()
 
             // Memeriksa apakah nama, kota, atau gender kosong
             val isNamaEmpty = nama.isEmpty()
