@@ -7,6 +7,7 @@ INJECTED from D:\2. Dll\PROGRAM\ANDROID MOBILE DEVELOPMENT\LOKANA\lokala\app\src
 MERGED from [androidx.databinding:databinding-runtime:8.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\4c567f9508f1249506d65193312bd0d4\transformed\databinding-runtime-8.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:viewbinding:8.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\ceab77f1e28fe94345422ec9dd4847f2\transformed\jetified-viewbinding-8.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.etebarian:meow-bottom-navigation:1.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\8e0fe11ce9cb677a6337aa066b03e200\transformed\jetified-meow-bottom-navigation-1.2.0\AndroidManifest.xml:2:1-11:12
+MERGED from [ss.anoop:awesome-textinput-layout:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\85effed89b93994bd9c55df6048a6be5\transformed\jetified-awesome-textinput-layout-1.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\lenovo\.gradle\caches\transforms-3\83698ff00ae8fade1be565a73b457584\transformed\room-runtime-2.6.1\AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\lenovo\.gradle\caches\transforms-3\8004448d0d3f9660c750cfb5ab8a0176\transformed\jetified-room-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.room:room-paging:2.6.1] C:\Users\lenovo\.gradle\caches\transforms-3\803c31cc3d1e1d025cfd4a085b9e8fec\transformed\jetified-room-paging-2.6.1\AndroidManifest.xml:17:1-22:12
@@ -311,6 +312,8 @@ MERGED from [androidx.databinding:viewbinding:8.2.0] C:\Users\lenovo\.gradle\cac
 MERGED from [androidx.databinding:viewbinding:8.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\ceab77f1e28fe94345422ec9dd4847f2\transformed\jetified-viewbinding-8.2.0\AndroidManifest.xml:5:5-44
 MERGED from [com.etebarian:meow-bottom-navigation:1.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\8e0fe11ce9cb677a6337aa066b03e200\transformed\jetified-meow-bottom-navigation-1.2.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.etebarian:meow-bottom-navigation:1.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\8e0fe11ce9cb677a6337aa066b03e200\transformed\jetified-meow-bottom-navigation-1.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [ss.anoop:awesome-textinput-layout:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\85effed89b93994bd9c55df6048a6be5\transformed\jetified-awesome-textinput-layout-1.0.0\AndroidManifest.xml:7:5-44
+MERGED from [ss.anoop:awesome-textinput-layout:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\85effed89b93994bd9c55df6048a6be5\transformed\jetified-awesome-textinput-layout-1.0.0\AndroidManifest.xml:7:5-44
 MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\lenovo\.gradle\caches\transforms-3\83698ff00ae8fade1be565a73b457584\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
 MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\lenovo\.gradle\caches\transforms-3\83698ff00ae8fade1be565a73b457584\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
 MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\lenovo\.gradle\caches\transforms-3\8004448d0d3f9660c750cfb5ab8a0176\transformed\jetified-room-ktx-2.6.1\AndroidManifest.xml:20:5-44

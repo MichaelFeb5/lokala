@@ -153,6 +153,8 @@ int attr animateCircleAngleTo 0x7f040036
 int attr animateMenuItems 0x7f040037
 int attr animateNavigationIcon 0x7f040038
 int attr animateRelativeTo 0x7f040039
+int attr animatedTextSize 0x7f04057e
+int attr animationDuration 0x7f04057f
 int attr animationMode 0x7f04003a
 int attr appBarLayoutStyle 0x7f04003b
 int attr applyMotionScene 0x7f04003c
@@ -217,6 +219,7 @@ int attr behavior_saveFlags 0x7f040076
 int attr behavior_significantVelocityThreshold 0x7f040077
 int attr behavior_skipCollapsed 0x7f040078
 int attr blendSrc 0x7f040079
+int attr borderColor 0x7f040580
 int attr borderRound 0x7f04007a
 int attr borderRoundPercent 0x7f04007b
 int attr borderWidth 0x7f04007c
@@ -6565,6 +6568,12 @@ int styleable AppCompatTheme_windowFixedWidthMinor 123
 int styleable AppCompatTheme_windowMinWidthMajor 124
 int styleable AppCompatTheme_windowMinWidthMinor 125
 int styleable AppCompatTheme_windowNoTitle 126
+int[] styleable AwesomeTextInputLayout { 0x7f04007c, 0x7f040192, 0x7f04057e, 0x7f04057f, 0x7f040580 }
+int styleable AwesomeTextInputLayout_borderWidth 0
+int styleable AwesomeTextInputLayout_cornerRadius 1
+int styleable AwesomeTextInputLayout_animatedTextSize 2
+int styleable AwesomeTextInputLayout_animationDuration 3
+int styleable AwesomeTextInputLayout_borderColor 4
 int[] styleable Badge { 0x7f040042, 0x7f04004e, 0x7f040058, 0x7f040059, 0x7f04005a, 0x7f04005b, 0x7f04005c, 0x7f04005e, 0x7f04005f, 0x7f040060, 0x7f040061, 0x7f040062, 0x7f040063, 0x7f040064, 0x7f040065, 0x7f040066, 0x7f040067, 0x7f040068, 0x7f04026e, 0x7f04026f, 0x7f0402b5, 0x7f040359, 0x7f04035d, 0x7f0403ce, 0x7f0403d0, 0x7f040560, 0x7f040561 }
 int styleable Badge_autoAdjustToWithinGrandparentBounds 0
 int styleable Badge_backgroundColor 1

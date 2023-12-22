@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.lokala.app-mergeDebugResources-69:/values-nb/values-nb.xml",
+            "outputFile": "com.example.lokala.app-mergeDebugResources-70:/values-nb/values-nb.xml",
             "map": [
                 {
                     "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\0c12dd30a8820219c9e7639402553971\\transformed\\jetified-play-services-base-18.1.0\\res\\values-nb\\values.xml",

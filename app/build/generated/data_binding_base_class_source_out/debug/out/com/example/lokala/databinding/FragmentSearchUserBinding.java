@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AutoCompleteTextView;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -16,11 +17,11 @@ import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.lokala.R;
 import com.google.android.material.button.MaterialButton;
-import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
+import ss.anoop.awesometextinputlayout.AwesomeTextInputLayout;
 
 public final class FragmentSearchUserBinding implements ViewBinding {
   @NonNull
@@ -39,22 +40,22 @@ public final class FragmentSearchUserBinding implements ViewBinding {
   public final ConstraintLayout containerRv;
 
   @NonNull
-  public final TextInputEditText edSrcLocation;
+  public final EditText edSrcLocation;
 
   @NonNull
-  public final TextInputEditText edSrcName;
+  public final EditText edSrcName;
 
   @NonNull
   public final AutoCompleteTextView genderChoice;
 
   @NonNull
-  public final TextInputLayout layoutEdName;
+  public final AwesomeTextInputLayout layoutEdName;
 
   @NonNull
   public final TextInputLayout layoutGenderChoice;
 
   @NonNull
-  public final TextInputLayout layoutLocation;
+  public final AwesomeTextInputLayout layoutLocation;
 
   @NonNull
   public final RecyclerView rvUserOrangHilang;
@@ -76,10 +77,10 @@ public final class FragmentSearchUserBinding implements ViewBinding {
 
   private FragmentSearchUserBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView btnBack,
       @NonNull MaterialButton btnSearchUser, @NonNull LinearLayout containerMenu,
-      @NonNull ConstraintLayout containerRv, @NonNull TextInputEditText edSrcLocation,
-      @NonNull TextInputEditText edSrcName, @NonNull AutoCompleteTextView genderChoice,
-      @NonNull TextInputLayout layoutEdName, @NonNull TextInputLayout layoutGenderChoice,
-      @NonNull TextInputLayout layoutLocation, @NonNull RecyclerView rvUserOrangHilang,
+      @NonNull ConstraintLayout containerRv, @NonNull EditText edSrcLocation,
+      @NonNull EditText edSrcName, @NonNull AutoCompleteTextView genderChoice,
+      @NonNull AwesomeTextInputLayout layoutEdName, @NonNull TextInputLayout layoutGenderChoice,
+      @NonNull AwesomeTextInputLayout layoutLocation, @NonNull RecyclerView rvUserOrangHilang,
       @NonNull TextView tvDataTidakDitemukan, @NonNull TextView tvHasil,
       @NonNull TextView tvNamaOrang, @NonNull TextView tvPeopleHasil,
       @NonNull LinearLayout tvTextHasil) {
@@ -154,13 +155,13 @@ public final class FragmentSearchUserBinding implements ViewBinding {
       }
 
       id = R.id.ed_src_location;
-      TextInputEditText edSrcLocation = ViewBindings.findChildViewById(rootView, id);
+      EditText edSrcLocation = ViewBindings.findChildViewById(rootView, id);
       if (edSrcLocation == null) {
         break missingId;
       }
 
       id = R.id.ed_src_name;
-      TextInputEditText edSrcName = ViewBindings.findChildViewById(rootView, id);
+      EditText edSrcName = ViewBindings.findChildViewById(rootView, id);
       if (edSrcName == null) {
         break missingId;
       }
@@ -172,7 +173,7 @@ public final class FragmentSearchUserBinding implements ViewBinding {
       }
 
       id = R.id.layout_ed_name;
-      TextInputLayout layoutEdName = ViewBindings.findChildViewById(rootView, id);
+      AwesomeTextInputLayout layoutEdName = ViewBindings.findChildViewById(rootView, id);
       if (layoutEdName == null) {
         break missingId;
       }
@@ -184,7 +185,7 @@ public final class FragmentSearchUserBinding implements ViewBinding {
       }
 
       id = R.id.layout_location;
-      TextInputLayout layoutLocation = ViewBindings.findChildViewById(rootView, id);
+      AwesomeTextInputLayout layoutLocation = ViewBindings.findChildViewById(rootView, id);
       if (layoutLocation == null) {
         break missingId;
       }
